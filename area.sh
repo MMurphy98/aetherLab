@@ -1,7 +1,7 @@
 #!/bin/bash
 
-CAL_FLAG="calc"
-filename_IWAVE='/home/murphy/aetherlab/iwave.log'
+filename_NETLIST="Three_OTA_NMC_100MHz_TB_config_STB.netlist"
+
 i=0
 while read line
 do
