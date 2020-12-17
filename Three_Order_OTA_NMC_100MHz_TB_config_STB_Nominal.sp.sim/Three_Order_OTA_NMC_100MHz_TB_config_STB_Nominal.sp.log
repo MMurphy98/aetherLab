@@ -1,0 +1,1467 @@
+
+                         Empyrean ALPS SPICE Simulator                          
+               Version 2019.12.test, Build on 20:03:24 06/05/2020               
+                              For [linux26-x86_64]                              
+                            Copyright (c) 2009-2020                             
+                        Huada Empyrean Software Co.,Ltd                         
+                              ALL RIGHTS RESERVED                               
+
+
+Note: User       = majinge
+      Host       = edu-srv
+      PID        = 178217
+      CPU        = Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz
+      Processors = 64
+      RealCores  = 32
+      Loadavg    = 0.09%(1 minutes)  0.16%(5 minutes)  0.05%(15 minutes)
+      Memory     = 295.95/315.06 GB(Available/Physical)
+      Exe        = /opt/EDA/empyrean_202005/tools/alps/platform/linux26-x86_64/bin/alps
+      Pwd        = /home/postgrad21/majinge/simulation/majinge/Three_Order_OTA_NMC_100MHz_TB_config_STB_ALPS
+      Cmd        = -mde /home/postgrad21/majinge/simulation/majinge/Three_Order_OTA_NMC_100MHz_TB_config_STB_ALPS/Three_Order_OTA_NMC_100MHz_TB_config_STB_Nominal.sp 
+
+Note: Input netlist `/home/postgrad21/majinge/simulation/majinge/Three_Order_OTA_NMC_100MHz_TB_config_STB_ALPS/Three_Order_OTA_NMC_100MHz_TB_config_STB_Nominal.sp'.
+
+Note: Output directory `Three_Order_OTA_NMC_100MHz_TB_config_STB_Nominal.sp.sim'.
+
+
+================================================================================
+2020-12-16 18:12 : Parser Started
+================================================================================
+
+Note: Simulation starts at 18:12:46, Wed Dec 16, 2020.
+
+Note: Start to load input file, memory usage 0 KB.
+Note: Total thread number = 1.
+
+Note: Using license file `59001@edu-cloud-srv'.
+Checkout 1 ALPS_AS_EDU.
+
+Note: Using license file `59001@edu-cloud-srv'.
+Checkout 1 ALPS_SMS.
+
+
+================================================================================
+2020-12-16 18:12 : Parser Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 92732 KB
+================================================================================
+
+
+================================================================================
+2020-12-16 18:12 : DB Elaboration Started
+================================================================================
+
+############################## circuit statistics ##############################
+vsource   : 3          isource   : 1          resistor  : 1          
+capacitor : 4          inductor  : 1          mosfet    : 23         
+
+
+############################ model type statistics #############################
+Category        Total Quantity  Model Type                    Quantity        
+vsource         3               vsourceDc                     2               
+                                vsourceSin                    1               
+isource         1               isourceDc                     1               
+resistor        1               resistorLevel0                1               
+capacitor       4               capacitorLevel1               4               
+inductor        1               inductorLevel1                1               
+mosfet          23              mosfetLevel49                 23              
+
+
+############################ model card statistics #############################
+Category        Total Quantity  Model Name                    Quantity        
+mosfet          23              n18                           10              
+                                p18                           13              
+
+
+================================================================================
+2020-12-16 18:12 : DB Elaboration Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 130580 KB
+================================================================================
+
+
+================================================================================
+2020-12-16 18:12 : DB Partition Started
+================================================================================
+
+########################## matching output wildcard ############################
+wildcard            depth               quantity  
+i(*)                                    33        
+iall(*)                                 33        
+isub(*)                                 7         
+v(*)                                    20        
+
+########################## matching output summary #############################
+Type                quantity  
+voltage             21        
+current             178       
+others              7         
+
+
+================================================================================
+2020-12-16 18:12 : DB Partition Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 130740 KB
+================================================================================
+
+
+================================================================================
+2020-12-16 18:12 : Simulation Engine Started
+================================================================================
+
+Note: Start to setup equation, memory usage 130748 KB.
+Note: Threads number can be reset in file '/home/postgrad21/majinge/simulation/majinge/Three_Order_OTA_NMC_100MHz_TB_config_STB_ALPS/Three_Order_OTA_NMC_100MHz_TB_config_STB_Nominal.sp.sim/178217.thread'
+
+########################### global option statistics ###########################
+reltol    = 1e-05      absi      = 1e-09      absv      = 5e-06      
+itl1      = 200        itl4      = 8          gmin      = 1e-12      
+runlvl    = 3          rabsshort = 0.001      scale     = 1          
+scalm     = 1          
+
+######################## user specified option statistics ######################
+reltol    = 1e-05      absv      = 5e-06      absi      = 1e-09      
+scale     = 1          scalm     = 1          search    = /home/postgrad21/majinge/Aether
+tnom      = 27         gmin      = 1e-12      itl1      = 200        
+itl4      = 8          post      = 1          posttop   = 0          
+postlvl   = 0          probe     = 1          ingold    = 0          
+
+
+Note: op iterated 80 steps.
+
+###################### operating point information begin #######################
+format: all
+   time         = 0.0000         temp         = 27.0000        tnom         = 27.0000     
+
+
+
+#### vsourceDc:
+hierarchy                                          
+device           0:vv1            0:vv0            
+i                0.0000           -6.7075m         
+v                1.2000           1.8000           
+pwr              0.0000           12.0736m         
+
+
+
+#### vsourceSin:
+hierarchy                         
+device           0:vv4            
+i                0.0000           
+v                900.0000m        
+pwr              0.0000           
+
+
+
+#### isourceDc:
+hierarchy                         
+device           0:ii3            
+v                1.1433           
+i                314.0000u        
+pwr              -359.0092u       
+
+
+
+#### resistorLevel0:
+hierarchy        xi0              
+device           1:rr0            
+i                -314.0000u       
+pwr              19.7192u         
+res              200.0000         
+v                -62.8000m        
+
+
+
+#### capacitorLevel1:
+hierarchy                         xi0              xi0              
+device           0:cc0            1:cc0            1:cc1            
+cap              10.0000p         2.5000p          1.0000p          
+v                899.9988m        260.5201m        -84.5061m        
+
+
+
+#### capacitorLevel2:
+hierarchy                         
+device           0:cc1            
+cap              1.0000x          
+v                899.9988m        
+
+
+
+#### inductorLevel1:
+hierarchy                         
+device           0:ll0            
+ind              1.0000x          
+i                7.2128e-23       
+
+
+
+#### mosfetLevel49:
+hierarchy        xi0              xi0              xi0              xi0              xi0              
+device           1:mnm5           1:mnm6           1:mnm7           1:mnm8           1:mnm9           
+region           Saturati         Saturati         Saturati         Saturati         Saturati         
+id               4.4940m          314.0000u        317.9336u        320.8853u        153.7334u        
+ibs              -3.0790a         -1.1033e-19      -1.1171e-19      -1.1275e-19      -6.3216a         
+ibd              -44.3491p        -104.8305a       -6.6891p         -675.8491p       -41.4147f        
+vgs              815.4928m        593.8587m        593.8587m        593.8587m        739.8381m        
+vds              899.9988m        593.8587m        885.8714m        1.1524           700.5261m        
+vbs              0.0000           0.0000           0.0000           0.0000           -460.1619m       
+vth              474.2559m        412.6407m        412.6377m        412.6350m        582.0128m        
+vdsat            238.4034m        178.4411m        178.4427m        178.4442m        152.7558m        
+vod              341.2369m        181.2180m        181.2210m        181.2238m        157.8253m        
+gm               19.8178m         2.9975m          3.0302m          3.0515m          1.4106m          
+gds              598.3119u        16.0293u         11.8316u         10.5169u         42.7706u         
+gmb              5.0734m          887.5363u        897.0849u        903.2528u        276.5752u        
+cdtot            44.2401f         51.2577f         48.5317f         46.7254f         5.7995f          
+cgtot            101.4326f        389.7592f        389.5279f        389.4646f        10.8251f         
+cstot            125.5895f        438.1363f        438.2670f        438.3095f        13.0092f         
+cbtot            88.7137f         206.2040f        203.7495f        201.9965f        10.3050f         
+cgs              75.3395f         324.6225f        324.4579f        324.4036f        7.8908f          
+cgd              18.3682f         20.6457f         20.5118f         20.4840f         1.9702f          
+i1               4.4940m          314.0000u        317.9336u        320.8860u        153.7334u        
+i2               0.0000           0.0000           0.0000           0.0000           0.0000           
+i3               -4.4940m         -314.0000u       -317.9336u       -320.8853u       -153.7334u       
+i4               -47.9490p        -4.7510p         -13.7760p        -685.0684p       -1.6623p         
+
+hierarchy        xi0              xi0              xi0              xi0              xi0              
+device           1:mpm0           1:mpm1           1:mnm3           1:mnm2           1:mpm4           
+region           Saturati         Saturati         Saturati         Saturati         Saturati         
+id               -315.5985u       -157.7984u       316.6513u        153.7349u        -321.0298u       
+ibs              1.0260e-19       2.1094e-20       -1.3220e-19      -6.3216a         1.0436e-19       
+ibd              46.9174a         8.1128f          -404.2613a       -41.1508f        47.3670a         
+vgs              -647.5884m       -639.7733m       614.1193m        739.8432m        -647.5884m       
+vds              -260.2267m       -1.0796          614.1193m        700.3621m        -387.4284m       
+vbs              0.0000           0.0000           0.0000           -460.1568m       0.0000           
+vth              -425.1582m       -443.4676m       435.8054m        582.0143m        -425.1584m       
+vdsat            -211.4013m       -193.9835m       173.4357m        152.7578m        -211.4004m       
+vod              -222.4302m       -196.3057m       178.3139m        157.8288m        -222.4300m       
+gm               2.4936m          1.4145m          2.9655m          1.4106m          2.5900m          
+gds              97.5285u         7.1319u          25.2348u         42.7760u         20.5000u         
+gmb              805.7266u        449.9086u        876.8221u        276.5770u        835.3597u        
+cdtot            265.0742f        54.8924f         25.4137f         5.7997f          228.8280f        
+cgtot            1.4147p          215.8454f        108.4568f        10.8251f         1.4037p          
+cstot            1.6100p          254.4093f        126.3582f        13.0093f         1.6114p          
+cbtot            747.4011f        139.2485f        71.0088f         10.3052f         738.7948f        
+cgs              1.2180p          177.8143f        87.4287f         7.8908f          1.2163p          
+cgd              100.1228f        23.3737f         10.2338f         1.9702f          87.6056f         
+i1               -315.5985u       -157.7984u       316.6513u        153.7349u        -321.0298u       
+i2               0.0000           0.0000           0.0000           0.0000           0.0000           
+i3               315.5985u        157.7984u        -316.6513u       -153.7349u       321.0298u        
+i4               2.6023p          8.6450p          -2.4569p         -1.6618p         3.8743p          
+
+hierarchy        xi0              xi0              xi0              xi0              xi0              
+device           1:mpm2           1:mpm11          1:mpm10          1:mnm0           1:mpm7           
+region           Saturati         Saturati         Saturati         Saturati         Saturati         
+id               -316.6513u       -153.7334u       -157.8000u       311.5334u        -317.9336u       
+ibs              1.7453e-19       2.0551e-20       2.1094e-20       -1.0947e-19      4.4528e-20       
+ibd              277.3440f        14.3791a         8.1114f          -32.2547a        7.8621a          
+vgs              -639.4811m       -639.3120m       -639.7745m       593.8587m        -914.1286m       
+vds              -1.1859          -639.3120m       -1.0796          460.1568m        -914.1286m       
+vbs              0.0000           0.0000           0.0000           0.0000           0.0000           
+vth              -443.6099m       -443.5285m       -443.4676m       412.6420m        -443.4950m       
+vdsat            -193.8861m       -193.5726m       -193.9845m       178.4406m        -408.3775m       
+vod              -195.8712m       -195.7835m       -196.3069m       181.2167m        -470.6336m       
+gm               2.8431m          1.3849m          1.4145m          2.9727m          1.1892m          
+gds              13.9101u         8.8190u          7.1319u          21.7697u         13.8035u         
+gmb              906.6361u        440.3128u        449.9109u        880.3136u        392.3487u        
+cdtot            108.2038f        58.8289f         54.8925f         53.2044f         24.1579f         
+cgtot            432.4747f        215.8915f        215.8455f        390.1091f        96.4243f         
+cstot            519.2946f        254.2975f        254.4094f        437.9778f        115.6471f        
+cbtot            285.0021f        143.0773f        139.2485f        207.6204f        61.4721f         
+cgs              357.0668f        177.8249f        177.8144f        324.8203f        81.9195f         
+cgd              46.9515f         23.4253f         23.3737f         20.8986f         10.0388f         
+i1               -316.6513u       -153.7334u       -157.8000u       311.5334u        -317.9336u       
+i2               0.0000           0.0000           0.0000           0.0000           0.0000           
+i3               316.6513u        153.7334u        157.8000u        -311.5334u       317.9336u        
+i4               5.0209p          5.1145p          8.6450p          -3.6813p         3.6565p          
+
+
+Please refer to the file Three_Order_OTA_NMC_100MHz_TB_config_STB_Nominal.sp.sim/Three_Order_OTA_NMC_100MHz_TB_config_STB_Nominal.sp.op for more information.
+
+
+####################### operating point information end ########################
+
+
+2020-12-16 18:12 : AC OP Started
+
+Note: op iterated 80 steps.
+
+###################### operating point information begin #######################
+format: all
+   time         = 0.0000         temp         = 27.0000        tnom         = 27.0000     
+
+
+
+#### vsourceDc:
+hierarchy                                          
+device           0:vv1            0:vv0            
+i                0.0000           -6.7075m         
+v                1.2000           1.8000           
+pwr              0.0000           12.0736m         
+
+
+
+#### vsourceSin:
+hierarchy                         
+device           0:vv4            
+i                0.0000           
+v                900.0000m        
+pwr              0.0000           
+
+
+
+#### isourceDc:
+hierarchy                         
+device           0:ii3            
+v                1.1433           
+i                314.0000u        
+pwr              -359.0092u       
+
+
+
+#### resistorLevel0:
+hierarchy        xi0              
+device           1:rr0            
+i                -314.0000u       
+pwr              19.7192u         
+res              200.0000         
+v                -62.8000m        
+
+
+
+#### capacitorLevel1:
+hierarchy                         xi0              xi0              
+device           0:cc0            1:cc0            1:cc1            
+cap              10.0000p         2.5000p          1.0000p          
+v                899.9988m        260.5201m        -84.5061m        
+
+
+
+#### capacitorLevel2:
+hierarchy                         
+device           0:cc1            
+cap              1.0000x          
+v                899.9988m        
+
+
+
+#### inductorLevel1:
+hierarchy                         
+device           0:ll0            
+ind              1.0000x          
+i                7.2128e-23       
+
+
+
+#### mosfetLevel49:
+hierarchy        xi0              xi0              xi0              xi0              xi0              
+device           1:mnm5           1:mnm6           1:mnm7           1:mnm8           1:mnm9           
+region           Saturati         Saturati         Saturati         Saturati         Saturati         
+id               4.4940m          314.0000u        317.9336u        320.8853u        153.7334u        
+ibs              -3.0790a         -1.1033e-19      -1.1171e-19      -1.1275e-19      -6.3216a         
+ibd              -44.3491p        -104.8305a       -6.6891p         -675.8491p       -41.4147f        
+vgs              815.4928m        593.8587m        593.8587m        593.8587m        739.8381m        
+vds              899.9988m        593.8587m        885.8714m        1.1524           700.5261m        
+vbs              0.0000           0.0000           0.0000           0.0000           -460.1619m       
+vth              474.2559m        412.6407m        412.6377m        412.6350m        582.0128m        
+vdsat            238.4034m        178.4411m        178.4427m        178.4442m        152.7558m        
+vod              341.2369m        181.2180m        181.2210m        181.2238m        157.8253m        
+gm               19.8178m         2.9975m          3.0302m          3.0515m          1.4106m          
+gds              598.3119u        16.0293u         11.8316u         10.5169u         42.7706u         
+gmb              5.0734m          887.5363u        897.0849u        903.2528u        276.5752u        
+cdtot            44.2401f         51.2577f         48.5317f         46.7254f         5.7995f          
+cgtot            101.4326f        389.7592f        389.5279f        389.4646f        10.8251f         
+cstot            125.5895f        438.1363f        438.2670f        438.3095f        13.0092f         
+cbtot            88.7137f         206.2040f        203.7495f        201.9965f        10.3050f         
+cgs              75.3395f         324.6225f        324.4579f        324.4036f        7.8908f          
+cgd              18.3682f         20.6457f         20.5118f         20.4840f         1.9702f          
+i1               4.4940m          314.0000u        317.9336u        320.8860u        153.7334u        
+i2               0.0000           0.0000           0.0000           0.0000           0.0000           
+i3               -4.4940m         -314.0000u       -317.9336u       -320.8853u       -153.7334u       
+i4               -47.9490p        -4.7510p         -13.7760p        -685.0684p       -1.6623p         
+
+hierarchy        xi0              xi0              xi0              xi0              xi0              
+device           1:mpm0           1:mpm1           1:mnm3           1:mnm2           1:mpm4           
+region           Saturati         Saturati         Saturati         Saturati         Saturati         
+id               -315.5985u       -157.7984u       316.6513u        153.7349u        -321.0298u       
+ibs              1.0260e-19       2.1094e-20       -1.3220e-19      -6.3216a         1.0436e-19       
+ibd              46.9174a         8.1128f          -404.2613a       -41.1508f        47.3670a         
+vgs              -647.5884m       -639.7733m       614.1193m        739.8432m        -647.5884m       
+vds              -260.2267m       -1.0796          614.1193m        700.3621m        -387.4284m       
+vbs              0.0000           0.0000           0.0000           -460.1568m       0.0000           
+vth              -425.1582m       -443.4676m       435.8054m        582.0143m        -425.1584m       
+vdsat            -211.4013m       -193.9835m       173.4357m        152.7578m        -211.4004m       
+vod              -222.4302m       -196.3057m       178.3139m        157.8288m        -222.4300m       
+gm               2.4936m          1.4145m          2.9655m          1.4106m          2.5900m          
+gds              97.5285u         7.1319u          25.2348u         42.7760u         20.5000u         
+gmb              805.7266u        449.9086u        876.8221u        276.5770u        835.3597u        
+cdtot            265.0742f        54.8924f         25.4137f         5.7997f          228.8280f        
+cgtot            1.4147p          215.8454f        108.4568f        10.8251f         1.4037p          
+cstot            1.6100p          254.4093f        126.3582f        13.0093f         1.6114p          
+cbtot            747.4011f        139.2485f        71.0088f         10.3052f         738.7948f        
+cgs              1.2180p          177.8143f        87.4287f         7.8908f          1.2163p          
+cgd              100.1228f        23.3737f         10.2338f         1.9702f          87.6056f         
+i1               -315.5985u       -157.7984u       316.6513u        153.7349u        -321.0298u       
+i2               0.0000           0.0000           0.0000           0.0000           0.0000           
+i3               315.5985u        157.7984u        -316.6513u       -153.7349u       321.0298u        
+i4               2.6023p          8.6450p          -2.4569p         -1.6618p         3.8743p          
+
+hierarchy        xi0              xi0              xi0              xi0              xi0              
+device           1:mpm2           1:mpm11          1:mpm10          1:mnm0           1:mpm7           
+region           Saturati         Saturati         Saturati         Saturati         Saturati         
+id               -316.6513u       -153.7334u       -157.8000u       311.5334u        -317.9336u       
+ibs              1.7453e-19       2.0551e-20       2.1094e-20       -1.0947e-19      4.4528e-20       
+ibd              277.3440f        14.3791a         8.1114f          -32.2547a        7.8621a          
+vgs              -639.4811m       -639.3120m       -639.7745m       593.8587m        -914.1286m       
+vds              -1.1859          -639.3120m       -1.0796          460.1568m        -914.1286m       
+vbs              0.0000           0.0000           0.0000           0.0000           0.0000           
+vth              -443.6099m       -443.5285m       -443.4676m       412.6420m        -443.4950m       
+vdsat            -193.8861m       -193.5726m       -193.9845m       178.4406m        -408.3775m       
+vod              -195.8712m       -195.7835m       -196.3069m       181.2167m        -470.6336m       
+gm               2.8431m          1.3849m          1.4145m          2.9727m          1.1892m          
+gds              13.9101u         8.8190u          7.1319u          21.7697u         13.8035u         
+gmb              906.6361u        440.3128u        449.9109u        880.3136u        392.3487u        
+cdtot            108.2038f        58.8289f         54.8925f         53.2044f         24.1579f         
+cgtot            432.4747f        215.8915f        215.8455f        390.1091f        96.4243f         
+cstot            519.2946f        254.2975f        254.4094f        437.9778f        115.6471f        
+cbtot            285.0021f        143.0773f        139.2485f        207.6204f        61.4721f         
+cgs              357.0668f        177.8249f        177.8144f        324.8203f        81.9195f         
+cgd              46.9515f         23.4253f         23.3737f         20.8986f         10.0388f         
+i1               -316.6513u       -153.7334u       -157.8000u       311.5334u        -317.9336u       
+i2               0.0000           0.0000           0.0000           0.0000           0.0000           
+i3               316.6513u        153.7334u        157.8000u        -311.5334u       317.9336u        
+i4               5.0209p          5.1145p          8.6450p          -3.6813p         3.6565p          
+
+
+Please refer to the file Three_Order_OTA_NMC_100MHz_TB_config_STB_Nominal.sp.sim/Three_Order_OTA_NMC_100MHz_TB_config_STB_Nominal.sp.acOp for more information.
+
+
+####################### operating point information end ########################
+
+Note: AC analysis 1.0000hz -> 10.0000ghz at temperature = 27C.
+
+2020-12-16 18:12 : AC OP Completed
+
+Note: Sweep trial 1. Sweep values: current frequency = 1.
+Note: Sweep trial 2. Sweep values: current frequency = 1.02329.
+Note: Sweep trial 3. Sweep values: current frequency = 1.04713.
+Note: Sweep trial 4. Sweep values: current frequency = 1.07152.
+Note: Sweep trial 5. Sweep values: current frequency = 1.09648.
+Note: Sweep trial 6. Sweep values: current frequency = 1.12202.
+Note: Sweep trial 7. Sweep values: current frequency = 1.14815.
+Note: Sweep trial 8. Sweep values: current frequency = 1.1749.
+Note: Sweep trial 9. Sweep values: current frequency = 1.20226.
+Note: Sweep trial 10. Sweep values: current frequency = 1.23027.
+Note: Sweep trial 11. Sweep values: current frequency = 1.25893.
+Note: Sweep trial 12. Sweep values: current frequency = 1.28825.
+Note: Sweep trial 13. Sweep values: current frequency = 1.31826.
+Note: Sweep trial 14. Sweep values: current frequency = 1.34896.
+Note: Sweep trial 15. Sweep values: current frequency = 1.38038.
+Note: Sweep trial 16. Sweep values: current frequency = 1.41254.
+Note: Sweep trial 17. Sweep values: current frequency = 1.44544.
+Note: Sweep trial 18. Sweep values: current frequency = 1.47911.
+Note: Sweep trial 19. Sweep values: current frequency = 1.51356.
+Note: Sweep trial 20. Sweep values: current frequency = 1.54882.
+Note: Sweep trial 21. Sweep values: current frequency = 1.58489.
+Note: Sweep trial 22. Sweep values: current frequency = 1.62181.
+Note: Sweep trial 23. Sweep values: current frequency = 1.65959.
+Note: Sweep trial 24. Sweep values: current frequency = 1.69824.
+Note: Sweep trial 25. Sweep values: current frequency = 1.7378.
+Note: Sweep trial 26. Sweep values: current frequency = 1.77828.
+Note: Sweep trial 27. Sweep values: current frequency = 1.8197.
+Note: Sweep trial 28. Sweep values: current frequency = 1.86209.
+Note: Sweep trial 29. Sweep values: current frequency = 1.90546.
+Note: Sweep trial 30. Sweep values: current frequency = 1.94984.
+Note: Sweep trial 31. Sweep values: current frequency = 1.99526.
+Note: Sweep trial 32. Sweep values: current frequency = 2.04174.
+Note: Sweep trial 33. Sweep values: current frequency = 2.0893.
+Note: Sweep trial 34. Sweep values: current frequency = 2.13796.
+Note: Sweep trial 35. Sweep values: current frequency = 2.18776.
+Note: Sweep trial 36. Sweep values: current frequency = 2.23872.
+Note: Sweep trial 37. Sweep values: current frequency = 2.29087.
+Note: Sweep trial 38. Sweep values: current frequency = 2.34423.
+Note: Sweep trial 39. Sweep values: current frequency = 2.39883.
+Note: Sweep trial 40. Sweep values: current frequency = 2.45471.
+Note: Sweep trial 41. Sweep values: current frequency = 2.51189.
+Note: Sweep trial 42. Sweep values: current frequency = 2.5704.
+Note: Sweep trial 43. Sweep values: current frequency = 2.63027.
+Note: Sweep trial 44. Sweep values: current frequency = 2.69153.
+Note: Sweep trial 45. Sweep values: current frequency = 2.75423.
+Note: Sweep trial 46. Sweep values: current frequency = 2.81838.
+Note: Sweep trial 47. Sweep values: current frequency = 2.88403.
+Note: Sweep trial 48. Sweep values: current frequency = 2.95121.
+Note: Sweep trial 49. Sweep values: current frequency = 3.01995.
+Note: Sweep trial 50. Sweep values: current frequency = 3.0903.
+Note: Sweep trial 51. Sweep values: current frequency = 3.16228.
+Note: Sweep trial 52. Sweep values: current frequency = 3.23594.
+Note: Sweep trial 53. Sweep values: current frequency = 3.31131.
+Note: Sweep trial 54. Sweep values: current frequency = 3.38844.
+Note: Sweep trial 55. Sweep values: current frequency = 3.46737.
+Note: Sweep trial 56. Sweep values: current frequency = 3.54813.
+Note: Sweep trial 57. Sweep values: current frequency = 3.63078.
+Note: Sweep trial 58. Sweep values: current frequency = 3.71535.
+Note: Sweep trial 59. Sweep values: current frequency = 3.80189.
+Note: Sweep trial 60. Sweep values: current frequency = 3.89045.
+Note: Sweep trial 61. Sweep values: current frequency = 3.98107.
+Note: Sweep trial 62. Sweep values: current frequency = 4.0738.
+Note: Sweep trial 63. Sweep values: current frequency = 4.16869.
+Note: Sweep trial 64. Sweep values: current frequency = 4.2658.
+Note: Sweep trial 65. Sweep values: current frequency = 4.36516.
+Note: Sweep trial 66. Sweep values: current frequency = 4.46684.
+Note: Sweep trial 67. Sweep values: current frequency = 4.57088.
+Note: Sweep trial 68. Sweep values: current frequency = 4.67735.
+Note: Sweep trial 69. Sweep values: current frequency = 4.7863.
+Note: Sweep trial 70. Sweep values: current frequency = 4.89779.
+Note: Sweep trial 71. Sweep values: current frequency = 5.01187.
+Note: Sweep trial 72. Sweep values: current frequency = 5.12861.
+Note: Sweep trial 73. Sweep values: current frequency = 5.24807.
+Note: Sweep trial 74. Sweep values: current frequency = 5.37032.
+Note: Sweep trial 75. Sweep values: current frequency = 5.49541.
+Note: Sweep trial 76. Sweep values: current frequency = 5.62341.
+Note: Sweep trial 77. Sweep values: current frequency = 5.7544.
+Note: Sweep trial 78. Sweep values: current frequency = 5.88844.
+Note: Sweep trial 79. Sweep values: current frequency = 6.0256.
+Note: Sweep trial 80. Sweep values: current frequency = 6.16595.
+Note: Sweep trial 81. Sweep values: current frequency = 6.30957.
+Note: Sweep trial 82. Sweep values: current frequency = 6.45654.
+Note: Sweep trial 83. Sweep values: current frequency = 6.60693.
+Note: Sweep trial 84. Sweep values: current frequency = 6.76083.
+Note: Sweep trial 85. Sweep values: current frequency = 6.91831.
+Note: Sweep trial 86. Sweep values: current frequency = 7.07946.
+Note: Sweep trial 87. Sweep values: current frequency = 7.24436.
+Note: Sweep trial 88. Sweep values: current frequency = 7.4131.
+Note: Sweep trial 89. Sweep values: current frequency = 7.58578.
+Note: Sweep trial 90. Sweep values: current frequency = 7.76247.
+Note: Sweep trial 91. Sweep values: current frequency = 7.94328.
+Note: Sweep trial 92. Sweep values: current frequency = 8.12831.
+Note: Sweep trial 93. Sweep values: current frequency = 8.31764.
+Note: Sweep trial 94. Sweep values: current frequency = 8.51138.
+Note: Sweep trial 95. Sweep values: current frequency = 8.70964.
+Note: Sweep trial 96. Sweep values: current frequency = 8.91251.
+Note: Sweep trial 97. Sweep values: current frequency = 9.12011.
+Note: Sweep trial 98. Sweep values: current frequency = 9.33254.
+Note: Sweep trial 99. Sweep values: current frequency = 9.54993.
+Note: Sweep trial 100. Sweep values: current frequency = 9.77237.
+Note: Sweep trial 101. Sweep values: current frequency = 10.
+Note: Sweep trial 102. Sweep values: current frequency = 10.2329.
+Note: Sweep trial 103. Sweep values: current frequency = 10.4713.
+Note: Sweep trial 104. Sweep values: current frequency = 10.7152.
+Note: Sweep trial 105. Sweep values: current frequency = 10.9648.
+Note: Sweep trial 106. Sweep values: current frequency = 11.2202.
+Note: Sweep trial 107. Sweep values: current frequency = 11.4815.
+Note: Sweep trial 108. Sweep values: current frequency = 11.749.
+Note: Sweep trial 109. Sweep values: current frequency = 12.0226.
+Note: Sweep trial 110. Sweep values: current frequency = 12.3027.
+Note: Sweep trial 111. Sweep values: current frequency = 12.5893.
+Note: Sweep trial 112. Sweep values: current frequency = 12.8825.
+Note: Sweep trial 113. Sweep values: current frequency = 13.1826.
+Note: Sweep trial 114. Sweep values: current frequency = 13.4896.
+Note: Sweep trial 115. Sweep values: current frequency = 13.8038.
+Note: Sweep trial 116. Sweep values: current frequency = 14.1254.
+Note: Sweep trial 117. Sweep values: current frequency = 14.4544.
+Note: Sweep trial 118. Sweep values: current frequency = 14.7911.
+Note: Sweep trial 119. Sweep values: current frequency = 15.1356.
+Note: Sweep trial 120. Sweep values: current frequency = 15.4882.
+Note: Sweep trial 121. Sweep values: current frequency = 15.8489.
+Note: Sweep trial 122. Sweep values: current frequency = 16.2181.
+Note: Sweep trial 123. Sweep values: current frequency = 16.5959.
+Note: Sweep trial 124. Sweep values: current frequency = 16.9824.
+Note: Sweep trial 125. Sweep values: current frequency = 17.378.
+Note: Sweep trial 126. Sweep values: current frequency = 17.7828.
+Note: Sweep trial 127. Sweep values: current frequency = 18.197.
+Note: Sweep trial 128. Sweep values: current frequency = 18.6209.
+Note: Sweep trial 129. Sweep values: current frequency = 19.0546.
+Note: Sweep trial 130. Sweep values: current frequency = 19.4984.
+Note: Sweep trial 131. Sweep values: current frequency = 19.9526.
+Note: Sweep trial 132. Sweep values: current frequency = 20.4174.
+Note: Sweep trial 133. Sweep values: current frequency = 20.893.
+Note: Sweep trial 134. Sweep values: current frequency = 21.3796.
+Note: Sweep trial 135. Sweep values: current frequency = 21.8776.
+Note: Sweep trial 136. Sweep values: current frequency = 22.3872.
+Note: Sweep trial 137. Sweep values: current frequency = 22.9087.
+Note: Sweep trial 138. Sweep values: current frequency = 23.4423.
+Note: Sweep trial 139. Sweep values: current frequency = 23.9883.
+Note: Sweep trial 140. Sweep values: current frequency = 24.5471.
+Note: Sweep trial 141. Sweep values: current frequency = 25.1189.
+Note: Sweep trial 142. Sweep values: current frequency = 25.704.
+Note: Sweep trial 143. Sweep values: current frequency = 26.3027.
+Note: Sweep trial 144. Sweep values: current frequency = 26.9153.
+Note: Sweep trial 145. Sweep values: current frequency = 27.5423.
+Note: Sweep trial 146. Sweep values: current frequency = 28.1838.
+Note: Sweep trial 147. Sweep values: current frequency = 28.8403.
+Note: Sweep trial 148. Sweep values: current frequency = 29.5121.
+Note: Sweep trial 149. Sweep values: current frequency = 30.1995.
+Note: Sweep trial 150. Sweep values: current frequency = 30.903.
+Note: Sweep trial 151. Sweep values: current frequency = 31.6228.
+Note: Sweep trial 152. Sweep values: current frequency = 32.3594.
+Note: Sweep trial 153. Sweep values: current frequency = 33.1131.
+Note: Sweep trial 154. Sweep values: current frequency = 33.8844.
+Note: Sweep trial 155. Sweep values: current frequency = 34.6737.
+Note: Sweep trial 156. Sweep values: current frequency = 35.4813.
+Note: Sweep trial 157. Sweep values: current frequency = 36.3078.
+Note: Sweep trial 158. Sweep values: current frequency = 37.1535.
+Note: Sweep trial 159. Sweep values: current frequency = 38.0189.
+Note: Sweep trial 160. Sweep values: current frequency = 38.9045.
+Note: Sweep trial 161. Sweep values: current frequency = 39.8107.
+Note: Sweep trial 162. Sweep values: current frequency = 40.738.
+Note: Sweep trial 163. Sweep values: current frequency = 41.6869.
+Note: Sweep trial 164. Sweep values: current frequency = 42.658.
+Note: Sweep trial 165. Sweep values: current frequency = 43.6516.
+Note: Sweep trial 166. Sweep values: current frequency = 44.6684.
+Note: Sweep trial 167. Sweep values: current frequency = 45.7088.
+Note: Sweep trial 168. Sweep values: current frequency = 46.7735.
+Note: Sweep trial 169. Sweep values: current frequency = 47.863.
+Note: Sweep trial 170. Sweep values: current frequency = 48.9779.
+Note: Sweep trial 171. Sweep values: current frequency = 50.1187.
+Note: Sweep trial 172. Sweep values: current frequency = 51.2861.
+Note: Sweep trial 173. Sweep values: current frequency = 52.4807.
+Note: Sweep trial 174. Sweep values: current frequency = 53.7032.
+Note: Sweep trial 175. Sweep values: current frequency = 54.9541.
+Note: Sweep trial 176. Sweep values: current frequency = 56.2341.
+Note: Sweep trial 177. Sweep values: current frequency = 57.544.
+Note: Sweep trial 178. Sweep values: current frequency = 58.8844.
+Note: Sweep trial 179. Sweep values: current frequency = 60.256.
+Note: Sweep trial 180. Sweep values: current frequency = 61.6595.
+Note: Sweep trial 181. Sweep values: current frequency = 63.0957.
+Note: Sweep trial 182. Sweep values: current frequency = 64.5654.
+Note: Sweep trial 183. Sweep values: current frequency = 66.0693.
+Note: Sweep trial 184. Sweep values: current frequency = 67.6083.
+Note: Sweep trial 185. Sweep values: current frequency = 69.1831.
+Note: Sweep trial 186. Sweep values: current frequency = 70.7946.
+Note: Sweep trial 187. Sweep values: current frequency = 72.4436.
+Note: Sweep trial 188. Sweep values: current frequency = 74.131.
+Note: Sweep trial 189. Sweep values: current frequency = 75.8578.
+Note: Sweep trial 190. Sweep values: current frequency = 77.6247.
+Note: Sweep trial 191. Sweep values: current frequency = 79.4328.
+Note: Sweep trial 192. Sweep values: current frequency = 81.2831.
+Note: Sweep trial 193. Sweep values: current frequency = 83.1764.
+Note: Sweep trial 194. Sweep values: current frequency = 85.1138.
+Note: Sweep trial 195. Sweep values: current frequency = 87.0964.
+Note: Sweep trial 196. Sweep values: current frequency = 89.1251.
+Note: Sweep trial 197. Sweep values: current frequency = 91.2011.
+Note: Sweep trial 198. Sweep values: current frequency = 93.3254.
+Note: Sweep trial 199. Sweep values: current frequency = 95.4993.
+Note: Sweep trial 200. Sweep values: current frequency = 97.7237.
+Note: Sweep trial 201. Sweep values: current frequency = 100.
+Note: Sweep trial 202. Sweep values: current frequency = 102.329.
+Note: Sweep trial 203. Sweep values: current frequency = 104.713.
+Note: Sweep trial 204. Sweep values: current frequency = 107.152.
+Note: Sweep trial 205. Sweep values: current frequency = 109.648.
+Note: Sweep trial 206. Sweep values: current frequency = 112.202.
+Note: Sweep trial 207. Sweep values: current frequency = 114.815.
+Note: Sweep trial 208. Sweep values: current frequency = 117.49.
+Note: Sweep trial 209. Sweep values: current frequency = 120.226.
+Note: Sweep trial 210. Sweep values: current frequency = 123.027.
+Note: Sweep trial 211. Sweep values: current frequency = 125.893.
+Note: Sweep trial 212. Sweep values: current frequency = 128.825.
+Note: Sweep trial 213. Sweep values: current frequency = 131.826.
+Note: Sweep trial 214. Sweep values: current frequency = 134.896.
+Note: Sweep trial 215. Sweep values: current frequency = 138.038.
+Note: Sweep trial 216. Sweep values: current frequency = 141.254.
+Note: Sweep trial 217. Sweep values: current frequency = 144.544.
+Note: Sweep trial 218. Sweep values: current frequency = 147.911.
+Note: Sweep trial 219. Sweep values: current frequency = 151.356.
+Note: Sweep trial 220. Sweep values: current frequency = 154.882.
+Note: Sweep trial 221. Sweep values: current frequency = 158.489.
+Note: Sweep trial 222. Sweep values: current frequency = 162.181.
+Note: Sweep trial 223. Sweep values: current frequency = 165.959.
+Note: Sweep trial 224. Sweep values: current frequency = 169.824.
+Note: Sweep trial 225. Sweep values: current frequency = 173.78.
+Note: Sweep trial 226. Sweep values: current frequency = 177.828.
+Note: Sweep trial 227. Sweep values: current frequency = 181.97.
+Note: Sweep trial 228. Sweep values: current frequency = 186.209.
+Note: Sweep trial 229. Sweep values: current frequency = 190.546.
+Note: Sweep trial 230. Sweep values: current frequency = 194.984.
+Note: Sweep trial 231. Sweep values: current frequency = 199.526.
+Note: Sweep trial 232. Sweep values: current frequency = 204.174.
+Note: Sweep trial 233. Sweep values: current frequency = 208.93.
+Note: Sweep trial 234. Sweep values: current frequency = 213.796.
+Note: Sweep trial 235. Sweep values: current frequency = 218.776.
+Note: Sweep trial 236. Sweep values: current frequency = 223.872.
+Note: Sweep trial 237. Sweep values: current frequency = 229.087.
+Note: Sweep trial 238. Sweep values: current frequency = 234.423.
+Note: Sweep trial 239. Sweep values: current frequency = 239.883.
+Note: Sweep trial 240. Sweep values: current frequency = 245.471.
+Note: Sweep trial 241. Sweep values: current frequency = 251.189.
+Note: Sweep trial 242. Sweep values: current frequency = 257.04.
+Note: Sweep trial 243. Sweep values: current frequency = 263.027.
+Note: Sweep trial 244. Sweep values: current frequency = 269.153.
+Note: Sweep trial 245. Sweep values: current frequency = 275.423.
+Note: Sweep trial 246. Sweep values: current frequency = 281.838.
+Note: Sweep trial 247. Sweep values: current frequency = 288.403.
+Note: Sweep trial 248. Sweep values: current frequency = 295.121.
+Note: Sweep trial 249. Sweep values: current frequency = 301.995.
+Note: Sweep trial 250. Sweep values: current frequency = 309.03.
+Note: Sweep trial 251. Sweep values: current frequency = 316.228.
+Note: Sweep trial 252. Sweep values: current frequency = 323.594.
+Note: Sweep trial 253. Sweep values: current frequency = 331.131.
+Note: Sweep trial 254. Sweep values: current frequency = 338.844.
+Note: Sweep trial 255. Sweep values: current frequency = 346.737.
+Note: Sweep trial 256. Sweep values: current frequency = 354.813.
+Note: Sweep trial 257. Sweep values: current frequency = 363.078.
+Note: Sweep trial 258. Sweep values: current frequency = 371.535.
+Note: Sweep trial 259. Sweep values: current frequency = 380.189.
+Note: Sweep trial 260. Sweep values: current frequency = 389.045.
+Note: Sweep trial 261. Sweep values: current frequency = 398.107.
+Note: Sweep trial 262. Sweep values: current frequency = 407.38.
+Note: Sweep trial 263. Sweep values: current frequency = 416.869.
+Note: Sweep trial 264. Sweep values: current frequency = 426.58.
+Note: Sweep trial 265. Sweep values: current frequency = 436.516.
+Note: Sweep trial 266. Sweep values: current frequency = 446.684.
+Note: Sweep trial 267. Sweep values: current frequency = 457.088.
+Note: Sweep trial 268. Sweep values: current frequency = 467.735.
+Note: Sweep trial 269. Sweep values: current frequency = 478.63.
+Note: Sweep trial 270. Sweep values: current frequency = 489.779.
+Note: Sweep trial 271. Sweep values: current frequency = 501.187.
+Note: Sweep trial 272. Sweep values: current frequency = 512.861.
+Note: Sweep trial 273. Sweep values: current frequency = 524.807.
+Note: Sweep trial 274. Sweep values: current frequency = 537.032.
+Note: Sweep trial 275. Sweep values: current frequency = 549.541.
+Note: Sweep trial 276. Sweep values: current frequency = 562.341.
+Note: Sweep trial 277. Sweep values: current frequency = 575.44.
+Note: Sweep trial 278. Sweep values: current frequency = 588.844.
+Note: Sweep trial 279. Sweep values: current frequency = 602.56.
+Note: Sweep trial 280. Sweep values: current frequency = 616.595.
+Note: Sweep trial 281. Sweep values: current frequency = 630.957.
+Note: Sweep trial 282. Sweep values: current frequency = 645.654.
+Note: Sweep trial 283. Sweep values: current frequency = 660.693.
+Note: Sweep trial 284. Sweep values: current frequency = 676.083.
+Note: Sweep trial 285. Sweep values: current frequency = 691.831.
+Note: Sweep trial 286. Sweep values: current frequency = 707.946.
+Note: Sweep trial 287. Sweep values: current frequency = 724.436.
+Note: Sweep trial 288. Sweep values: current frequency = 741.31.
+Note: Sweep trial 289. Sweep values: current frequency = 758.578.
+Note: Sweep trial 290. Sweep values: current frequency = 776.247.
+Note: Sweep trial 291. Sweep values: current frequency = 794.328.
+Note: Sweep trial 292. Sweep values: current frequency = 812.831.
+Note: Sweep trial 293. Sweep values: current frequency = 831.764.
+Note: Sweep trial 294. Sweep values: current frequency = 851.138.
+Note: Sweep trial 295. Sweep values: current frequency = 870.964.
+Note: Sweep trial 296. Sweep values: current frequency = 891.251.
+Note: Sweep trial 297. Sweep values: current frequency = 912.011.
+Note: Sweep trial 298. Sweep values: current frequency = 933.254.
+Note: Sweep trial 299. Sweep values: current frequency = 954.993.
+Note: Sweep trial 300. Sweep values: current frequency = 977.237.
+Note: Sweep trial 301. Sweep values: current frequency = 1000.
+Note: Sweep trial 302. Sweep values: current frequency = 1023.29.
+Note: Sweep trial 303. Sweep values: current frequency = 1047.13.
+Note: Sweep trial 304. Sweep values: current frequency = 1071.52.
+Note: Sweep trial 305. Sweep values: current frequency = 1096.48.
+Note: Sweep trial 306. Sweep values: current frequency = 1122.02.
+Note: Sweep trial 307. Sweep values: current frequency = 1148.15.
+Note: Sweep trial 308. Sweep values: current frequency = 1174.9.
+Note: Sweep trial 309. Sweep values: current frequency = 1202.26.
+Note: Sweep trial 310. Sweep values: current frequency = 1230.27.
+Note: Sweep trial 311. Sweep values: current frequency = 1258.93.
+Note: Sweep trial 312. Sweep values: current frequency = 1288.25.
+Note: Sweep trial 313. Sweep values: current frequency = 1318.26.
+Note: Sweep trial 314. Sweep values: current frequency = 1348.96.
+Note: Sweep trial 315. Sweep values: current frequency = 1380.38.
+Note: Sweep trial 316. Sweep values: current frequency = 1412.54.
+Note: Sweep trial 317. Sweep values: current frequency = 1445.44.
+Note: Sweep trial 318. Sweep values: current frequency = 1479.11.
+Note: Sweep trial 319. Sweep values: current frequency = 1513.56.
+Note: Sweep trial 320. Sweep values: current frequency = 1548.82.
+Note: Sweep trial 321. Sweep values: current frequency = 1584.89.
+Note: Sweep trial 322. Sweep values: current frequency = 1621.81.
+Note: Sweep trial 323. Sweep values: current frequency = 1659.59.
+Note: Sweep trial 324. Sweep values: current frequency = 1698.24.
+Note: Sweep trial 325. Sweep values: current frequency = 1737.8.
+Note: Sweep trial 326. Sweep values: current frequency = 1778.28.
+Note: Sweep trial 327. Sweep values: current frequency = 1819.7.
+Note: Sweep trial 328. Sweep values: current frequency = 1862.09.
+Note: Sweep trial 329. Sweep values: current frequency = 1905.46.
+Note: Sweep trial 330. Sweep values: current frequency = 1949.84.
+Note: Sweep trial 331. Sweep values: current frequency = 1995.26.
+Note: Sweep trial 332. Sweep values: current frequency = 2041.74.
+Note: Sweep trial 333. Sweep values: current frequency = 2089.3.
+Note: Sweep trial 334. Sweep values: current frequency = 2137.96.
+Note: Sweep trial 335. Sweep values: current frequency = 2187.76.
+Note: Sweep trial 336. Sweep values: current frequency = 2238.72.
+Note: Sweep trial 337. Sweep values: current frequency = 2290.87.
+Note: Sweep trial 338. Sweep values: current frequency = 2344.23.
+Note: Sweep trial 339. Sweep values: current frequency = 2398.83.
+Note: Sweep trial 340. Sweep values: current frequency = 2454.71.
+Note: Sweep trial 341. Sweep values: current frequency = 2511.89.
+Note: Sweep trial 342. Sweep values: current frequency = 2570.4.
+Note: Sweep trial 343. Sweep values: current frequency = 2630.27.
+Note: Sweep trial 344. Sweep values: current frequency = 2691.53.
+Note: Sweep trial 345. Sweep values: current frequency = 2754.23.
+Note: Sweep trial 346. Sweep values: current frequency = 2818.38.
+Note: Sweep trial 347. Sweep values: current frequency = 2884.03.
+Note: Sweep trial 348. Sweep values: current frequency = 2951.21.
+Note: Sweep trial 349. Sweep values: current frequency = 3019.95.
+Note: Sweep trial 350. Sweep values: current frequency = 3090.3.
+Note: Sweep trial 351. Sweep values: current frequency = 3162.28.
+Note: Sweep trial 352. Sweep values: current frequency = 3235.94.
+Note: Sweep trial 353. Sweep values: current frequency = 3311.31.
+Note: Sweep trial 354. Sweep values: current frequency = 3388.44.
+Note: Sweep trial 355. Sweep values: current frequency = 3467.37.
+Note: Sweep trial 356. Sweep values: current frequency = 3548.13.
+Note: Sweep trial 357. Sweep values: current frequency = 3630.78.
+Note: Sweep trial 358. Sweep values: current frequency = 3715.35.
+Note: Sweep trial 359. Sweep values: current frequency = 3801.89.
+Note: Sweep trial 360. Sweep values: current frequency = 3890.45.
+Note: Sweep trial 361. Sweep values: current frequency = 3981.07.
+Note: Sweep trial 362. Sweep values: current frequency = 4073.8.
+Note: Sweep trial 363. Sweep values: current frequency = 4168.69.
+Note: Sweep trial 364. Sweep values: current frequency = 4265.8.
+Note: Sweep trial 365. Sweep values: current frequency = 4365.16.
+Note: Sweep trial 366. Sweep values: current frequency = 4466.84.
+Note: Sweep trial 367. Sweep values: current frequency = 4570.88.
+Note: Sweep trial 368. Sweep values: current frequency = 4677.35.
+Note: Sweep trial 369. Sweep values: current frequency = 4786.3.
+Note: Sweep trial 370. Sweep values: current frequency = 4897.79.
+Note: Sweep trial 371. Sweep values: current frequency = 5011.87.
+Note: Sweep trial 372. Sweep values: current frequency = 5128.61.
+Note: Sweep trial 373. Sweep values: current frequency = 5248.07.
+Note: Sweep trial 374. Sweep values: current frequency = 5370.32.
+Note: Sweep trial 375. Sweep values: current frequency = 5495.41.
+Note: Sweep trial 376. Sweep values: current frequency = 5623.41.
+Note: Sweep trial 377. Sweep values: current frequency = 5754.4.
+Note: Sweep trial 378. Sweep values: current frequency = 5888.44.
+Note: Sweep trial 379. Sweep values: current frequency = 6025.6.
+Note: Sweep trial 380. Sweep values: current frequency = 6165.95.
+Note: Sweep trial 381. Sweep values: current frequency = 6309.57.
+Note: Sweep trial 382. Sweep values: current frequency = 6456.54.
+Note: Sweep trial 383. Sweep values: current frequency = 6606.93.
+Note: Sweep trial 384. Sweep values: current frequency = 6760.83.
+Note: Sweep trial 385. Sweep values: current frequency = 6918.31.
+Note: Sweep trial 386. Sweep values: current frequency = 7079.46.
+Note: Sweep trial 387. Sweep values: current frequency = 7244.36.
+Note: Sweep trial 388. Sweep values: current frequency = 7413.1.
+Note: Sweep trial 389. Sweep values: current frequency = 7585.78.
+Note: Sweep trial 390. Sweep values: current frequency = 7762.47.
+Note: Sweep trial 391. Sweep values: current frequency = 7943.28.
+Note: Sweep trial 392. Sweep values: current frequency = 8128.31.
+Note: Sweep trial 393. Sweep values: current frequency = 8317.64.
+Note: Sweep trial 394. Sweep values: current frequency = 8511.38.
+Note: Sweep trial 395. Sweep values: current frequency = 8709.64.
+Note: Sweep trial 396. Sweep values: current frequency = 8912.51.
+Note: Sweep trial 397. Sweep values: current frequency = 9120.11.
+Note: Sweep trial 398. Sweep values: current frequency = 9332.54.
+Note: Sweep trial 399. Sweep values: current frequency = 9549.93.
+Note: Sweep trial 400. Sweep values: current frequency = 9772.37.
+Note: Sweep trial 401. Sweep values: current frequency = 10000.
+Note: Sweep trial 402. Sweep values: current frequency = 10232.9.
+Note: Sweep trial 403. Sweep values: current frequency = 10471.3.
+Note: Sweep trial 404. Sweep values: current frequency = 10715.2.
+Note: Sweep trial 405. Sweep values: current frequency = 10964.8.
+Note: Sweep trial 406. Sweep values: current frequency = 11220.2.
+Note: Sweep trial 407. Sweep values: current frequency = 11481.5.
+Note: Sweep trial 408. Sweep values: current frequency = 11749.
+Note: Sweep trial 409. Sweep values: current frequency = 12022.6.
+Note: Sweep trial 410. Sweep values: current frequency = 12302.7.
+Note: Sweep trial 411. Sweep values: current frequency = 12589.3.
+Note: Sweep trial 412. Sweep values: current frequency = 12882.5.
+Note: Sweep trial 413. Sweep values: current frequency = 13182.6.
+Note: Sweep trial 414. Sweep values: current frequency = 13489.6.
+Note: Sweep trial 415. Sweep values: current frequency = 13803.8.
+Note: Sweep trial 416. Sweep values: current frequency = 14125.4.
+Note: Sweep trial 417. Sweep values: current frequency = 14454.4.
+Note: Sweep trial 418. Sweep values: current frequency = 14791.1.
+Note: Sweep trial 419. Sweep values: current frequency = 15135.6.
+Note: Sweep trial 420. Sweep values: current frequency = 15488.2.
+Note: Sweep trial 421. Sweep values: current frequency = 15848.9.
+Note: Sweep trial 422. Sweep values: current frequency = 16218.1.
+Note: Sweep trial 423. Sweep values: current frequency = 16595.9.
+Note: Sweep trial 424. Sweep values: current frequency = 16982.4.
+Note: Sweep trial 425. Sweep values: current frequency = 17378.
+Note: Sweep trial 426. Sweep values: current frequency = 17782.8.
+Note: Sweep trial 427. Sweep values: current frequency = 18197.
+Note: Sweep trial 428. Sweep values: current frequency = 18620.9.
+Note: Sweep trial 429. Sweep values: current frequency = 19054.6.
+Note: Sweep trial 430. Sweep values: current frequency = 19498.4.
+Note: Sweep trial 431. Sweep values: current frequency = 19952.6.
+Note: Sweep trial 432. Sweep values: current frequency = 20417.4.
+Note: Sweep trial 433. Sweep values: current frequency = 20893.
+Note: Sweep trial 434. Sweep values: current frequency = 21379.6.
+Note: Sweep trial 435. Sweep values: current frequency = 21877.6.
+Note: Sweep trial 436. Sweep values: current frequency = 22387.2.
+Note: Sweep trial 437. Sweep values: current frequency = 22908.7.
+Note: Sweep trial 438. Sweep values: current frequency = 23442.3.
+Note: Sweep trial 439. Sweep values: current frequency = 23988.3.
+Note: Sweep trial 440. Sweep values: current frequency = 24547.1.
+Note: Sweep trial 441. Sweep values: current frequency = 25118.9.
+Note: Sweep trial 442. Sweep values: current frequency = 25704.
+Note: Sweep trial 443. Sweep values: current frequency = 26302.7.
+Note: Sweep trial 444. Sweep values: current frequency = 26915.3.
+Note: Sweep trial 445. Sweep values: current frequency = 27542.3.
+Note: Sweep trial 446. Sweep values: current frequency = 28183.8.
+Note: Sweep trial 447. Sweep values: current frequency = 28840.3.
+Note: Sweep trial 448. Sweep values: current frequency = 29512.1.
+Note: Sweep trial 449. Sweep values: current frequency = 30199.5.
+Note: Sweep trial 450. Sweep values: current frequency = 30903.
+Note: Sweep trial 451. Sweep values: current frequency = 31622.8.
+Note: Sweep trial 452. Sweep values: current frequency = 32359.4.
+Note: Sweep trial 453. Sweep values: current frequency = 33113.1.
+Note: Sweep trial 454. Sweep values: current frequency = 33884.4.
+Note: Sweep trial 455. Sweep values: current frequency = 34673.7.
+Note: Sweep trial 456. Sweep values: current frequency = 35481.3.
+Note: Sweep trial 457. Sweep values: current frequency = 36307.8.
+Note: Sweep trial 458. Sweep values: current frequency = 37153.5.
+Note: Sweep trial 459. Sweep values: current frequency = 38018.9.
+Note: Sweep trial 460. Sweep values: current frequency = 38904.5.
+Note: Sweep trial 461. Sweep values: current frequency = 39810.7.
+Note: Sweep trial 462. Sweep values: current frequency = 40738.
+Note: Sweep trial 463. Sweep values: current frequency = 41686.9.
+Note: Sweep trial 464. Sweep values: current frequency = 42658.
+Note: Sweep trial 465. Sweep values: current frequency = 43651.6.
+Note: Sweep trial 466. Sweep values: current frequency = 44668.4.
+Note: Sweep trial 467. Sweep values: current frequency = 45708.8.
+Note: Sweep trial 468. Sweep values: current frequency = 46773.5.
+Note: Sweep trial 469. Sweep values: current frequency = 47863.
+Note: Sweep trial 470. Sweep values: current frequency = 48977.9.
+Note: Sweep trial 471. Sweep values: current frequency = 50118.7.
+Note: Sweep trial 472. Sweep values: current frequency = 51286.1.
+Note: Sweep trial 473. Sweep values: current frequency = 52480.7.
+Note: Sweep trial 474. Sweep values: current frequency = 53703.2.
+Note: Sweep trial 475. Sweep values: current frequency = 54954.1.
+Note: Sweep trial 476. Sweep values: current frequency = 56234.1.
+Note: Sweep trial 477. Sweep values: current frequency = 57544.
+Note: Sweep trial 478. Sweep values: current frequency = 58884.4.
+Note: Sweep trial 479. Sweep values: current frequency = 60256.
+Note: Sweep trial 480. Sweep values: current frequency = 61659.5.
+Note: Sweep trial 481. Sweep values: current frequency = 63095.7.
+Note: Sweep trial 482. Sweep values: current frequency = 64565.4.
+Note: Sweep trial 483. Sweep values: current frequency = 66069.3.
+Note: Sweep trial 484. Sweep values: current frequency = 67608.3.
+Note: Sweep trial 485. Sweep values: current frequency = 69183.1.
+Note: Sweep trial 486. Sweep values: current frequency = 70794.6.
+Note: Sweep trial 487. Sweep values: current frequency = 72443.6.
+Note: Sweep trial 488. Sweep values: current frequency = 74131.
+Note: Sweep trial 489. Sweep values: current frequency = 75857.8.
+Note: Sweep trial 490. Sweep values: current frequency = 77624.7.
+Note: Sweep trial 491. Sweep values: current frequency = 79432.8.
+Note: Sweep trial 492. Sweep values: current frequency = 81283.1.
+Note: Sweep trial 493. Sweep values: current frequency = 83176.4.
+Note: Sweep trial 494. Sweep values: current frequency = 85113.8.
+Note: Sweep trial 495. Sweep values: current frequency = 87096.4.
+Note: Sweep trial 496. Sweep values: current frequency = 89125.1.
+Note: Sweep trial 497. Sweep values: current frequency = 91201.1.
+Note: Sweep trial 498. Sweep values: current frequency = 93325.4.
+Note: Sweep trial 499. Sweep values: current frequency = 95499.3.
+Note: Sweep trial 500. Sweep values: current frequency = 97723.7.
+Note: Sweep trial 501. Sweep values: current frequency = 100000.
+Note: Sweep trial 502. Sweep values: current frequency = 102329.
+Note: Sweep trial 503. Sweep values: current frequency = 104713.
+Note: Sweep trial 504. Sweep values: current frequency = 107152.
+Note: Sweep trial 505. Sweep values: current frequency = 109648.
+Note: Sweep trial 506. Sweep values: current frequency = 112202.
+Note: Sweep trial 507. Sweep values: current frequency = 114815.
+Note: Sweep trial 508. Sweep values: current frequency = 117490.
+Note: Sweep trial 509. Sweep values: current frequency = 120226.
+Note: Sweep trial 510. Sweep values: current frequency = 123027.
+Note: Sweep trial 511. Sweep values: current frequency = 125893.
+Note: Sweep trial 512. Sweep values: current frequency = 128825.
+Note: Sweep trial 513. Sweep values: current frequency = 131826.
+Note: Sweep trial 514. Sweep values: current frequency = 134896.
+Note: Sweep trial 515. Sweep values: current frequency = 138038.
+Note: Sweep trial 516. Sweep values: current frequency = 141254.
+Note: Sweep trial 517. Sweep values: current frequency = 144544.
+Note: Sweep trial 518. Sweep values: current frequency = 147911.
+Note: Sweep trial 519. Sweep values: current frequency = 151356.
+Note: Sweep trial 520. Sweep values: current frequency = 154882.
+Note: Sweep trial 521. Sweep values: current frequency = 158489.
+Note: Sweep trial 522. Sweep values: current frequency = 162181.
+Note: Sweep trial 523. Sweep values: current frequency = 165959.
+Note: Sweep trial 524. Sweep values: current frequency = 169824.
+Note: Sweep trial 525. Sweep values: current frequency = 173780.
+Note: Sweep trial 526. Sweep values: current frequency = 177828.
+Note: Sweep trial 527. Sweep values: current frequency = 181970.
+Note: Sweep trial 528. Sweep values: current frequency = 186209.
+Note: Sweep trial 529. Sweep values: current frequency = 190546.
+Note: Sweep trial 530. Sweep values: current frequency = 194984.
+Note: Sweep trial 531. Sweep values: current frequency = 199526.
+Note: Sweep trial 532. Sweep values: current frequency = 204174.
+Note: Sweep trial 533. Sweep values: current frequency = 208930.
+Note: Sweep trial 534. Sweep values: current frequency = 213796.
+Note: Sweep trial 535. Sweep values: current frequency = 218776.
+Note: Sweep trial 536. Sweep values: current frequency = 223872.
+Note: Sweep trial 537. Sweep values: current frequency = 229087.
+Note: Sweep trial 538. Sweep values: current frequency = 234423.
+Note: Sweep trial 539. Sweep values: current frequency = 239883.
+Note: Sweep trial 540. Sweep values: current frequency = 245471.
+Note: Sweep trial 541. Sweep values: current frequency = 251189.
+Note: Sweep trial 542. Sweep values: current frequency = 257040.
+Note: Sweep trial 543. Sweep values: current frequency = 263027.
+Note: Sweep trial 544. Sweep values: current frequency = 269153.
+Note: Sweep trial 545. Sweep values: current frequency = 275423.
+Note: Sweep trial 546. Sweep values: current frequency = 281838.
+Note: Sweep trial 547. Sweep values: current frequency = 288403.
+Note: Sweep trial 548. Sweep values: current frequency = 295121.
+Note: Sweep trial 549. Sweep values: current frequency = 301995.
+Note: Sweep trial 550. Sweep values: current frequency = 309030.
+Note: Sweep trial 551. Sweep values: current frequency = 316228.
+Note: Sweep trial 552. Sweep values: current frequency = 323594.
+Note: Sweep trial 553. Sweep values: current frequency = 331131.
+Note: Sweep trial 554. Sweep values: current frequency = 338844.
+Note: Sweep trial 555. Sweep values: current frequency = 346737.
+Note: Sweep trial 556. Sweep values: current frequency = 354813.
+Note: Sweep trial 557. Sweep values: current frequency = 363078.
+Note: Sweep trial 558. Sweep values: current frequency = 371535.
+Note: Sweep trial 559. Sweep values: current frequency = 380189.
+Note: Sweep trial 560. Sweep values: current frequency = 389045.
+Note: Sweep trial 561. Sweep values: current frequency = 398107.
+Note: Sweep trial 562. Sweep values: current frequency = 407380.
+Note: Sweep trial 563. Sweep values: current frequency = 416869.
+Note: Sweep trial 564. Sweep values: current frequency = 426580.
+Note: Sweep trial 565. Sweep values: current frequency = 436516.
+Note: Sweep trial 566. Sweep values: current frequency = 446684.
+Note: Sweep trial 567. Sweep values: current frequency = 457088.
+Note: Sweep trial 568. Sweep values: current frequency = 467735.
+Note: Sweep trial 569. Sweep values: current frequency = 478630.
+Note: Sweep trial 570. Sweep values: current frequency = 489779.
+Note: Sweep trial 571. Sweep values: current frequency = 501187.
+Note: Sweep trial 572. Sweep values: current frequency = 512861.
+Note: Sweep trial 573. Sweep values: current frequency = 524807.
+Note: Sweep trial 574. Sweep values: current frequency = 537032.
+Note: Sweep trial 575. Sweep values: current frequency = 549541.
+Note: Sweep trial 576. Sweep values: current frequency = 562341.
+Note: Sweep trial 577. Sweep values: current frequency = 575440.
+Note: Sweep trial 578. Sweep values: current frequency = 588844.
+Note: Sweep trial 579. Sweep values: current frequency = 602560.
+Note: Sweep trial 580. Sweep values: current frequency = 616595.
+Note: Sweep trial 581. Sweep values: current frequency = 630957.
+Note: Sweep trial 582. Sweep values: current frequency = 645654.
+Note: Sweep trial 583. Sweep values: current frequency = 660693.
+Note: Sweep trial 584. Sweep values: current frequency = 676083.
+Note: Sweep trial 585. Sweep values: current frequency = 691831.
+Note: Sweep trial 586. Sweep values: current frequency = 707946.
+Note: Sweep trial 587. Sweep values: current frequency = 724436.
+Note: Sweep trial 588. Sweep values: current frequency = 741310.
+Note: Sweep trial 589. Sweep values: current frequency = 758578.
+Note: Sweep trial 590. Sweep values: current frequency = 776247.
+Note: Sweep trial 591. Sweep values: current frequency = 794328.
+Note: Sweep trial 592. Sweep values: current frequency = 812831.
+Note: Sweep trial 593. Sweep values: current frequency = 831764.
+Note: Sweep trial 594. Sweep values: current frequency = 851138.
+Note: Sweep trial 595. Sweep values: current frequency = 870964.
+Note: Sweep trial 596. Sweep values: current frequency = 891251.
+Note: Sweep trial 597. Sweep values: current frequency = 912011.
+Note: Sweep trial 598. Sweep values: current frequency = 933254.
+Note: Sweep trial 599. Sweep values: current frequency = 954993.
+Note: Sweep trial 600. Sweep values: current frequency = 977237.
+Note: Sweep trial 601. Sweep values: current frequency = 1e+06.
+Note: Sweep trial 602. Sweep values: current frequency = 1.02329e+06.
+Note: Sweep trial 603. Sweep values: current frequency = 1.04713e+06.
+Note: Sweep trial 604. Sweep values: current frequency = 1.07152e+06.
+Note: Sweep trial 605. Sweep values: current frequency = 1.09648e+06.
+Note: Sweep trial 606. Sweep values: current frequency = 1.12202e+06.
+Note: Sweep trial 607. Sweep values: current frequency = 1.14815e+06.
+Note: Sweep trial 608. Sweep values: current frequency = 1.1749e+06.
+Note: Sweep trial 609. Sweep values: current frequency = 1.20226e+06.
+Note: Sweep trial 610. Sweep values: current frequency = 1.23027e+06.
+Note: Sweep trial 611. Sweep values: current frequency = 1.25893e+06.
+Note: Sweep trial 612. Sweep values: current frequency = 1.28825e+06.
+Note: Sweep trial 613. Sweep values: current frequency = 1.31826e+06.
+Note: Sweep trial 614. Sweep values: current frequency = 1.34896e+06.
+Note: Sweep trial 615. Sweep values: current frequency = 1.38038e+06.
+Note: Sweep trial 616. Sweep values: current frequency = 1.41254e+06.
+Note: Sweep trial 617. Sweep values: current frequency = 1.44544e+06.
+Note: Sweep trial 618. Sweep values: current frequency = 1.47911e+06.
+Note: Sweep trial 619. Sweep values: current frequency = 1.51356e+06.
+Note: Sweep trial 620. Sweep values: current frequency = 1.54882e+06.
+Note: Sweep trial 621. Sweep values: current frequency = 1.58489e+06.
+Note: Sweep trial 622. Sweep values: current frequency = 1.62181e+06.
+Note: Sweep trial 623. Sweep values: current frequency = 1.65959e+06.
+Note: Sweep trial 624. Sweep values: current frequency = 1.69824e+06.
+Note: Sweep trial 625. Sweep values: current frequency = 1.7378e+06.
+Note: Sweep trial 626. Sweep values: current frequency = 1.77828e+06.
+Note: Sweep trial 627. Sweep values: current frequency = 1.8197e+06.
+Note: Sweep trial 628. Sweep values: current frequency = 1.86209e+06.
+Note: Sweep trial 629. Sweep values: current frequency = 1.90546e+06.
+Note: Sweep trial 630. Sweep values: current frequency = 1.94984e+06.
+Note: Sweep trial 631. Sweep values: current frequency = 1.99526e+06.
+Note: Sweep trial 632. Sweep values: current frequency = 2.04174e+06.
+Note: Sweep trial 633. Sweep values: current frequency = 2.0893e+06.
+Note: Sweep trial 634. Sweep values: current frequency = 2.13796e+06.
+Note: Sweep trial 635. Sweep values: current frequency = 2.18776e+06.
+Note: Sweep trial 636. Sweep values: current frequency = 2.23872e+06.
+Note: Sweep trial 637. Sweep values: current frequency = 2.29087e+06.
+Note: Sweep trial 638. Sweep values: current frequency = 2.34423e+06.
+Note: Sweep trial 639. Sweep values: current frequency = 2.39883e+06.
+Note: Sweep trial 640. Sweep values: current frequency = 2.45471e+06.
+Note: Sweep trial 641. Sweep values: current frequency = 2.51189e+06.
+Note: Sweep trial 642. Sweep values: current frequency = 2.5704e+06.
+Note: Sweep trial 643. Sweep values: current frequency = 2.63027e+06.
+Note: Sweep trial 644. Sweep values: current frequency = 2.69153e+06.
+Note: Sweep trial 645. Sweep values: current frequency = 2.75423e+06.
+Note: Sweep trial 646. Sweep values: current frequency = 2.81838e+06.
+Note: Sweep trial 647. Sweep values: current frequency = 2.88403e+06.
+Note: Sweep trial 648. Sweep values: current frequency = 2.95121e+06.
+Note: Sweep trial 649. Sweep values: current frequency = 3.01995e+06.
+Note: Sweep trial 650. Sweep values: current frequency = 3.0903e+06.
+Note: Sweep trial 651. Sweep values: current frequency = 3.16228e+06.
+Note: Sweep trial 652. Sweep values: current frequency = 3.23594e+06.
+Note: Sweep trial 653. Sweep values: current frequency = 3.31131e+06.
+Note: Sweep trial 654. Sweep values: current frequency = 3.38844e+06.
+Note: Sweep trial 655. Sweep values: current frequency = 3.46737e+06.
+Note: Sweep trial 656. Sweep values: current frequency = 3.54813e+06.
+Note: Sweep trial 657. Sweep values: current frequency = 3.63078e+06.
+Note: Sweep trial 658. Sweep values: current frequency = 3.71535e+06.
+Note: Sweep trial 659. Sweep values: current frequency = 3.80189e+06.
+Note: Sweep trial 660. Sweep values: current frequency = 3.89045e+06.
+Note: Sweep trial 661. Sweep values: current frequency = 3.98107e+06.
+Note: Sweep trial 662. Sweep values: current frequency = 4.0738e+06.
+Note: Sweep trial 663. Sweep values: current frequency = 4.16869e+06.
+Note: Sweep trial 664. Sweep values: current frequency = 4.2658e+06.
+Note: Sweep trial 665. Sweep values: current frequency = 4.36516e+06.
+Note: Sweep trial 666. Sweep values: current frequency = 4.46684e+06.
+Note: Sweep trial 667. Sweep values: current frequency = 4.57088e+06.
+Note: Sweep trial 668. Sweep values: current frequency = 4.67735e+06.
+Note: Sweep trial 669. Sweep values: current frequency = 4.7863e+06.
+Note: Sweep trial 670. Sweep values: current frequency = 4.89779e+06.
+Note: Sweep trial 671. Sweep values: current frequency = 5.01187e+06.
+Note: Sweep trial 672. Sweep values: current frequency = 5.12861e+06.
+Note: Sweep trial 673. Sweep values: current frequency = 5.24807e+06.
+Note: Sweep trial 674. Sweep values: current frequency = 5.37032e+06.
+Note: Sweep trial 675. Sweep values: current frequency = 5.49541e+06.
+Note: Sweep trial 676. Sweep values: current frequency = 5.62341e+06.
+Note: Sweep trial 677. Sweep values: current frequency = 5.7544e+06.
+Note: Sweep trial 678. Sweep values: current frequency = 5.88844e+06.
+Note: Sweep trial 679. Sweep values: current frequency = 6.0256e+06.
+Note: Sweep trial 680. Sweep values: current frequency = 6.16595e+06.
+Note: Sweep trial 681. Sweep values: current frequency = 6.30957e+06.
+Note: Sweep trial 682. Sweep values: current frequency = 6.45654e+06.
+Note: Sweep trial 683. Sweep values: current frequency = 6.60693e+06.
+Note: Sweep trial 684. Sweep values: current frequency = 6.76083e+06.
+Note: Sweep trial 685. Sweep values: current frequency = 6.91831e+06.
+Note: Sweep trial 686. Sweep values: current frequency = 7.07946e+06.
+Note: Sweep trial 687. Sweep values: current frequency = 7.24436e+06.
+Note: Sweep trial 688. Sweep values: current frequency = 7.4131e+06.
+Note: Sweep trial 689. Sweep values: current frequency = 7.58578e+06.
+Note: Sweep trial 690. Sweep values: current frequency = 7.76247e+06.
+Note: Sweep trial 691. Sweep values: current frequency = 7.94328e+06.
+Note: Sweep trial 692. Sweep values: current frequency = 8.12831e+06.
+Note: Sweep trial 693. Sweep values: current frequency = 8.31764e+06.
+Note: Sweep trial 694. Sweep values: current frequency = 8.51138e+06.
+Note: Sweep trial 695. Sweep values: current frequency = 8.70964e+06.
+Note: Sweep trial 696. Sweep values: current frequency = 8.91251e+06.
+Note: Sweep trial 697. Sweep values: current frequency = 9.12011e+06.
+Note: Sweep trial 698. Sweep values: current frequency = 9.33254e+06.
+Note: Sweep trial 699. Sweep values: current frequency = 9.54993e+06.
+Note: Sweep trial 700. Sweep values: current frequency = 9.77237e+06.
+Note: Sweep trial 701. Sweep values: current frequency = 1e+07.
+Note: Sweep trial 702. Sweep values: current frequency = 1.02329e+07.
+Note: Sweep trial 703. Sweep values: current frequency = 1.04713e+07.
+Note: Sweep trial 704. Sweep values: current frequency = 1.07152e+07.
+Note: Sweep trial 705. Sweep values: current frequency = 1.09648e+07.
+Note: Sweep trial 706. Sweep values: current frequency = 1.12202e+07.
+Note: Sweep trial 707. Sweep values: current frequency = 1.14815e+07.
+Note: Sweep trial 708. Sweep values: current frequency = 1.1749e+07.
+Note: Sweep trial 709. Sweep values: current frequency = 1.20226e+07.
+Note: Sweep trial 710. Sweep values: current frequency = 1.23027e+07.
+Note: Sweep trial 711. Sweep values: current frequency = 1.25893e+07.
+Note: Sweep trial 712. Sweep values: current frequency = 1.28825e+07.
+Note: Sweep trial 713. Sweep values: current frequency = 1.31826e+07.
+Note: Sweep trial 714. Sweep values: current frequency = 1.34896e+07.
+Note: Sweep trial 715. Sweep values: current frequency = 1.38038e+07.
+Note: Sweep trial 716. Sweep values: current frequency = 1.41254e+07.
+Note: Sweep trial 717. Sweep values: current frequency = 1.44544e+07.
+Note: Sweep trial 718. Sweep values: current frequency = 1.47911e+07.
+Note: Sweep trial 719. Sweep values: current frequency = 1.51356e+07.
+Note: Sweep trial 720. Sweep values: current frequency = 1.54882e+07.
+Note: Sweep trial 721. Sweep values: current frequency = 1.58489e+07.
+Note: Sweep trial 722. Sweep values: current frequency = 1.62181e+07.
+Note: Sweep trial 723. Sweep values: current frequency = 1.65959e+07.
+Note: Sweep trial 724. Sweep values: current frequency = 1.69824e+07.
+Note: Sweep trial 725. Sweep values: current frequency = 1.7378e+07.
+Note: Sweep trial 726. Sweep values: current frequency = 1.77828e+07.
+Note: Sweep trial 727. Sweep values: current frequency = 1.8197e+07.
+Note: Sweep trial 728. Sweep values: current frequency = 1.86209e+07.
+Note: Sweep trial 729. Sweep values: current frequency = 1.90546e+07.
+Note: Sweep trial 730. Sweep values: current frequency = 1.94984e+07.
+Note: Sweep trial 731. Sweep values: current frequency = 1.99526e+07.
+Note: Sweep trial 732. Sweep values: current frequency = 2.04174e+07.
+Note: Sweep trial 733. Sweep values: current frequency = 2.0893e+07.
+Note: Sweep trial 734. Sweep values: current frequency = 2.13796e+07.
+Note: Sweep trial 735. Sweep values: current frequency = 2.18776e+07.
+Note: Sweep trial 736. Sweep values: current frequency = 2.23872e+07.
+Note: Sweep trial 737. Sweep values: current frequency = 2.29087e+07.
+Note: Sweep trial 738. Sweep values: current frequency = 2.34423e+07.
+Note: Sweep trial 739. Sweep values: current frequency = 2.39883e+07.
+Note: Sweep trial 740. Sweep values: current frequency = 2.45471e+07.
+Note: Sweep trial 741. Sweep values: current frequency = 2.51189e+07.
+Note: Sweep trial 742. Sweep values: current frequency = 2.5704e+07.
+Note: Sweep trial 743. Sweep values: current frequency = 2.63027e+07.
+Note: Sweep trial 744. Sweep values: current frequency = 2.69153e+07.
+Note: Sweep trial 745. Sweep values: current frequency = 2.75423e+07.
+Note: Sweep trial 746. Sweep values: current frequency = 2.81838e+07.
+Note: Sweep trial 747. Sweep values: current frequency = 2.88403e+07.
+Note: Sweep trial 748. Sweep values: current frequency = 2.95121e+07.
+Note: Sweep trial 749. Sweep values: current frequency = 3.01995e+07.
+Note: Sweep trial 750. Sweep values: current frequency = 3.0903e+07.
+Note: Sweep trial 751. Sweep values: current frequency = 3.16228e+07.
+Note: Sweep trial 752. Sweep values: current frequency = 3.23594e+07.
+Note: Sweep trial 753. Sweep values: current frequency = 3.31131e+07.
+Note: Sweep trial 754. Sweep values: current frequency = 3.38844e+07.
+Note: Sweep trial 755. Sweep values: current frequency = 3.46737e+07.
+Note: Sweep trial 756. Sweep values: current frequency = 3.54813e+07.
+Note: Sweep trial 757. Sweep values: current frequency = 3.63078e+07.
+Note: Sweep trial 758. Sweep values: current frequency = 3.71535e+07.
+Note: Sweep trial 759. Sweep values: current frequency = 3.80189e+07.
+Note: Sweep trial 760. Sweep values: current frequency = 3.89045e+07.
+Note: Sweep trial 761. Sweep values: current frequency = 3.98107e+07.
+Note: Sweep trial 762. Sweep values: current frequency = 4.0738e+07.
+Note: Sweep trial 763. Sweep values: current frequency = 4.16869e+07.
+Note: Sweep trial 764. Sweep values: current frequency = 4.2658e+07.
+Note: Sweep trial 765. Sweep values: current frequency = 4.36516e+07.
+Note: Sweep trial 766. Sweep values: current frequency = 4.46684e+07.
+Note: Sweep trial 767. Sweep values: current frequency = 4.57088e+07.
+Note: Sweep trial 768. Sweep values: current frequency = 4.67735e+07.
+Note: Sweep trial 769. Sweep values: current frequency = 4.7863e+07.
+Note: Sweep trial 770. Sweep values: current frequency = 4.89779e+07.
+Note: Sweep trial 771. Sweep values: current frequency = 5.01187e+07.
+Note: Sweep trial 772. Sweep values: current frequency = 5.12861e+07.
+Note: Sweep trial 773. Sweep values: current frequency = 5.24807e+07.
+Note: Sweep trial 774. Sweep values: current frequency = 5.37032e+07.
+Note: Sweep trial 775. Sweep values: current frequency = 5.49541e+07.
+Note: Sweep trial 776. Sweep values: current frequency = 5.62341e+07.
+Note: Sweep trial 777. Sweep values: current frequency = 5.7544e+07.
+Note: Sweep trial 778. Sweep values: current frequency = 5.88844e+07.
+Note: Sweep trial 779. Sweep values: current frequency = 6.0256e+07.
+Note: Sweep trial 780. Sweep values: current frequency = 6.16595e+07.
+Note: Sweep trial 781. Sweep values: current frequency = 6.30957e+07.
+Note: Sweep trial 782. Sweep values: current frequency = 6.45654e+07.
+Note: Sweep trial 783. Sweep values: current frequency = 6.60693e+07.
+Note: Sweep trial 784. Sweep values: current frequency = 6.76083e+07.
+Note: Sweep trial 785. Sweep values: current frequency = 6.91831e+07.
+Note: Sweep trial 786. Sweep values: current frequency = 7.07946e+07.
+Note: Sweep trial 787. Sweep values: current frequency = 7.24436e+07.
+Note: Sweep trial 788. Sweep values: current frequency = 7.4131e+07.
+Note: Sweep trial 789. Sweep values: current frequency = 7.58578e+07.
+Note: Sweep trial 790. Sweep values: current frequency = 7.76247e+07.
+Note: Sweep trial 791. Sweep values: current frequency = 7.94328e+07.
+Note: Sweep trial 792. Sweep values: current frequency = 8.12831e+07.
+Note: Sweep trial 793. Sweep values: current frequency = 8.31764e+07.
+Note: Sweep trial 794. Sweep values: current frequency = 8.51138e+07.
+Note: Sweep trial 795. Sweep values: current frequency = 8.70964e+07.
+Note: Sweep trial 796. Sweep values: current frequency = 8.91251e+07.
+Note: Sweep trial 797. Sweep values: current frequency = 9.12011e+07.
+Note: Sweep trial 798. Sweep values: current frequency = 9.33254e+07.
+Note: Sweep trial 799. Sweep values: current frequency = 9.54993e+07.
+Note: Sweep trial 800. Sweep values: current frequency = 9.77237e+07.
+Note: Sweep trial 801. Sweep values: current frequency = 1e+08.
+Note: Sweep trial 802. Sweep values: current frequency = 1.02329e+08.
+Note: Sweep trial 803. Sweep values: current frequency = 1.04713e+08.
+Note: Sweep trial 804. Sweep values: current frequency = 1.07152e+08.
+Note: Sweep trial 805. Sweep values: current frequency = 1.09648e+08.
+Note: Sweep trial 806. Sweep values: current frequency = 1.12202e+08.
+Note: Sweep trial 807. Sweep values: current frequency = 1.14815e+08.
+Note: Sweep trial 808. Sweep values: current frequency = 1.1749e+08.
+Note: Sweep trial 809. Sweep values: current frequency = 1.20226e+08.
+Note: Sweep trial 810. Sweep values: current frequency = 1.23027e+08.
+Note: Sweep trial 811. Sweep values: current frequency = 1.25893e+08.
+Note: Sweep trial 812. Sweep values: current frequency = 1.28825e+08.
+Note: Sweep trial 813. Sweep values: current frequency = 1.31826e+08.
+Note: Sweep trial 814. Sweep values: current frequency = 1.34896e+08.
+Note: Sweep trial 815. Sweep values: current frequency = 1.38038e+08.
+Note: Sweep trial 816. Sweep values: current frequency = 1.41254e+08.
+Note: Sweep trial 817. Sweep values: current frequency = 1.44544e+08.
+Note: Sweep trial 818. Sweep values: current frequency = 1.47911e+08.
+Note: Sweep trial 819. Sweep values: current frequency = 1.51356e+08.
+Note: Sweep trial 820. Sweep values: current frequency = 1.54882e+08.
+Note: Sweep trial 821. Sweep values: current frequency = 1.58489e+08.
+Note: Sweep trial 822. Sweep values: current frequency = 1.62181e+08.
+Note: Sweep trial 823. Sweep values: current frequency = 1.65959e+08.
+Note: Sweep trial 824. Sweep values: current frequency = 1.69824e+08.
+Note: Sweep trial 825. Sweep values: current frequency = 1.7378e+08.
+Note: Sweep trial 826. Sweep values: current frequency = 1.77828e+08.
+Note: Sweep trial 827. Sweep values: current frequency = 1.8197e+08.
+Note: Sweep trial 828. Sweep values: current frequency = 1.86209e+08.
+Note: Sweep trial 829. Sweep values: current frequency = 1.90546e+08.
+Note: Sweep trial 830. Sweep values: current frequency = 1.94984e+08.
+Note: Sweep trial 831. Sweep values: current frequency = 1.99526e+08.
+Note: Sweep trial 832. Sweep values: current frequency = 2.04174e+08.
+Note: Sweep trial 833. Sweep values: current frequency = 2.0893e+08.
+Note: Sweep trial 834. Sweep values: current frequency = 2.13796e+08.
+Note: Sweep trial 835. Sweep values: current frequency = 2.18776e+08.
+Note: Sweep trial 836. Sweep values: current frequency = 2.23872e+08.
+Note: Sweep trial 837. Sweep values: current frequency = 2.29087e+08.
+Note: Sweep trial 838. Sweep values: current frequency = 2.34423e+08.
+Note: Sweep trial 839. Sweep values: current frequency = 2.39883e+08.
+Note: Sweep trial 840. Sweep values: current frequency = 2.45471e+08.
+Note: Sweep trial 841. Sweep values: current frequency = 2.51189e+08.
+Note: Sweep trial 842. Sweep values: current frequency = 2.5704e+08.
+Note: Sweep trial 843. Sweep values: current frequency = 2.63027e+08.
+Note: Sweep trial 844. Sweep values: current frequency = 2.69153e+08.
+Note: Sweep trial 845. Sweep values: current frequency = 2.75423e+08.
+Note: Sweep trial 846. Sweep values: current frequency = 2.81838e+08.
+Note: Sweep trial 847. Sweep values: current frequency = 2.88403e+08.
+Note: Sweep trial 848. Sweep values: current frequency = 2.95121e+08.
+Note: Sweep trial 849. Sweep values: current frequency = 3.01995e+08.
+Note: Sweep trial 850. Sweep values: current frequency = 3.0903e+08.
+Note: Sweep trial 851. Sweep values: current frequency = 3.16228e+08.
+Note: Sweep trial 852. Sweep values: current frequency = 3.23594e+08.
+Note: Sweep trial 853. Sweep values: current frequency = 3.31131e+08.
+Note: Sweep trial 854. Sweep values: current frequency = 3.38844e+08.
+Note: Sweep trial 855. Sweep values: current frequency = 3.46737e+08.
+Note: Sweep trial 856. Sweep values: current frequency = 3.54813e+08.
+Note: Sweep trial 857. Sweep values: current frequency = 3.63078e+08.
+Note: Sweep trial 858. Sweep values: current frequency = 3.71535e+08.
+Note: Sweep trial 859. Sweep values: current frequency = 3.80189e+08.
+Note: Sweep trial 860. Sweep values: current frequency = 3.89045e+08.
+Note: Sweep trial 861. Sweep values: current frequency = 3.98107e+08.
+Note: Sweep trial 862. Sweep values: current frequency = 4.0738e+08.
+Note: Sweep trial 863. Sweep values: current frequency = 4.16869e+08.
+Note: Sweep trial 864. Sweep values: current frequency = 4.2658e+08.
+Note: Sweep trial 865. Sweep values: current frequency = 4.36516e+08.
+Note: Sweep trial 866. Sweep values: current frequency = 4.46684e+08.
+Note: Sweep trial 867. Sweep values: current frequency = 4.57088e+08.
+Note: Sweep trial 868. Sweep values: current frequency = 4.67735e+08.
+Note: Sweep trial 869. Sweep values: current frequency = 4.7863e+08.
+Note: Sweep trial 870. Sweep values: current frequency = 4.89779e+08.
+Note: Sweep trial 871. Sweep values: current frequency = 5.01187e+08.
+Note: Sweep trial 872. Sweep values: current frequency = 5.12861e+08.
+Note: Sweep trial 873. Sweep values: current frequency = 5.24807e+08.
+Note: Sweep trial 874. Sweep values: current frequency = 5.37032e+08.
+Note: Sweep trial 875. Sweep values: current frequency = 5.49541e+08.
+Note: Sweep trial 876. Sweep values: current frequency = 5.62341e+08.
+Note: Sweep trial 877. Sweep values: current frequency = 5.7544e+08.
+Note: Sweep trial 878. Sweep values: current frequency = 5.88844e+08.
+Note: Sweep trial 879. Sweep values: current frequency = 6.0256e+08.
+Note: Sweep trial 880. Sweep values: current frequency = 6.16595e+08.
+Note: Sweep trial 881. Sweep values: current frequency = 6.30957e+08.
+Note: Sweep trial 882. Sweep values: current frequency = 6.45654e+08.
+Note: Sweep trial 883. Sweep values: current frequency = 6.60693e+08.
+Note: Sweep trial 884. Sweep values: current frequency = 6.76083e+08.
+Note: Sweep trial 885. Sweep values: current frequency = 6.91831e+08.
+Note: Sweep trial 886. Sweep values: current frequency = 7.07946e+08.
+Note: Sweep trial 887. Sweep values: current frequency = 7.24436e+08.
+Note: Sweep trial 888. Sweep values: current frequency = 7.4131e+08.
+Note: Sweep trial 889. Sweep values: current frequency = 7.58578e+08.
+Note: Sweep trial 890. Sweep values: current frequency = 7.76247e+08.
+Note: Sweep trial 891. Sweep values: current frequency = 7.94328e+08.
+Note: Sweep trial 892. Sweep values: current frequency = 8.12831e+08.
+Note: Sweep trial 893. Sweep values: current frequency = 8.31764e+08.
+Note: Sweep trial 894. Sweep values: current frequency = 8.51138e+08.
+Note: Sweep trial 895. Sweep values: current frequency = 8.70964e+08.
+Note: Sweep trial 896. Sweep values: current frequency = 8.91251e+08.
+Note: Sweep trial 897. Sweep values: current frequency = 9.12011e+08.
+Note: Sweep trial 898. Sweep values: current frequency = 9.33254e+08.
+Note: Sweep trial 899. Sweep values: current frequency = 9.54993e+08.
+Note: Sweep trial 900. Sweep values: current frequency = 9.77237e+08.
+Note: Sweep trial 901. Sweep values: current frequency = 1e+09.
+Note: Sweep trial 902. Sweep values: current frequency = 1.02329e+09.
+Note: Sweep trial 903. Sweep values: current frequency = 1.04713e+09.
+Note: Sweep trial 904. Sweep values: current frequency = 1.07152e+09.
+Note: Sweep trial 905. Sweep values: current frequency = 1.09648e+09.
+Note: Sweep trial 906. Sweep values: current frequency = 1.12202e+09.
+Note: Sweep trial 907. Sweep values: current frequency = 1.14815e+09.
+Note: Sweep trial 908. Sweep values: current frequency = 1.1749e+09.
+Note: Sweep trial 909. Sweep values: current frequency = 1.20226e+09.
+Note: Sweep trial 910. Sweep values: current frequency = 1.23027e+09.
+Note: Sweep trial 911. Sweep values: current frequency = 1.25893e+09.
+Note: Sweep trial 912. Sweep values: current frequency = 1.28825e+09.
+Note: Sweep trial 913. Sweep values: current frequency = 1.31826e+09.
+Note: Sweep trial 914. Sweep values: current frequency = 1.34896e+09.
+Note: Sweep trial 915. Sweep values: current frequency = 1.38038e+09.
+Note: Sweep trial 916. Sweep values: current frequency = 1.41254e+09.
+Note: Sweep trial 917. Sweep values: current frequency = 1.44544e+09.
+Note: Sweep trial 918. Sweep values: current frequency = 1.47911e+09.
+Note: Sweep trial 919. Sweep values: current frequency = 1.51356e+09.
+Note: Sweep trial 920. Sweep values: current frequency = 1.54882e+09.
+Note: Sweep trial 921. Sweep values: current frequency = 1.58489e+09.
+Note: Sweep trial 922. Sweep values: current frequency = 1.62181e+09.
+Note: Sweep trial 923. Sweep values: current frequency = 1.65959e+09.
+Note: Sweep trial 924. Sweep values: current frequency = 1.69824e+09.
+Note: Sweep trial 925. Sweep values: current frequency = 1.7378e+09.
+Note: Sweep trial 926. Sweep values: current frequency = 1.77828e+09.
+Note: Sweep trial 927. Sweep values: current frequency = 1.8197e+09.
+Note: Sweep trial 928. Sweep values: current frequency = 1.86209e+09.
+Note: Sweep trial 929. Sweep values: current frequency = 1.90546e+09.
+Note: Sweep trial 930. Sweep values: current frequency = 1.94984e+09.
+Note: Sweep trial 931. Sweep values: current frequency = 1.99526e+09.
+Note: Sweep trial 932. Sweep values: current frequency = 2.04174e+09.
+Note: Sweep trial 933. Sweep values: current frequency = 2.0893e+09.
+Note: Sweep trial 934. Sweep values: current frequency = 2.13796e+09.
+Note: Sweep trial 935. Sweep values: current frequency = 2.18776e+09.
+Note: Sweep trial 936. Sweep values: current frequency = 2.23872e+09.
+Note: Sweep trial 937. Sweep values: current frequency = 2.29087e+09.
+Note: Sweep trial 938. Sweep values: current frequency = 2.34423e+09.
+Note: Sweep trial 939. Sweep values: current frequency = 2.39883e+09.
+Note: Sweep trial 940. Sweep values: current frequency = 2.45471e+09.
+Note: Sweep trial 941. Sweep values: current frequency = 2.51189e+09.
+Note: Sweep trial 942. Sweep values: current frequency = 2.5704e+09.
+Note: Sweep trial 943. Sweep values: current frequency = 2.63027e+09.
+Note: Sweep trial 944. Sweep values: current frequency = 2.69153e+09.
+Note: Sweep trial 945. Sweep values: current frequency = 2.75423e+09.
+Note: Sweep trial 946. Sweep values: current frequency = 2.81838e+09.
+Note: Sweep trial 947. Sweep values: current frequency = 2.88403e+09.
+Note: Sweep trial 948. Sweep values: current frequency = 2.95121e+09.
+Note: Sweep trial 949. Sweep values: current frequency = 3.01995e+09.
+Note: Sweep trial 950. Sweep values: current frequency = 3.0903e+09.
+Note: Sweep trial 951. Sweep values: current frequency = 3.16228e+09.
+Note: Sweep trial 952. Sweep values: current frequency = 3.23594e+09.
+Note: Sweep trial 953. Sweep values: current frequency = 3.31131e+09.
+Note: Sweep trial 954. Sweep values: current frequency = 3.38844e+09.
+Note: Sweep trial 955. Sweep values: current frequency = 3.46737e+09.
+Note: Sweep trial 956. Sweep values: current frequency = 3.54813e+09.
+Note: Sweep trial 957. Sweep values: current frequency = 3.63078e+09.
+Note: Sweep trial 958. Sweep values: current frequency = 3.71535e+09.
+Note: Sweep trial 959. Sweep values: current frequency = 3.80189e+09.
+Note: Sweep trial 960. Sweep values: current frequency = 3.89045e+09.
+Note: Sweep trial 961. Sweep values: current frequency = 3.98107e+09.
+Note: Sweep trial 962. Sweep values: current frequency = 4.0738e+09.
+Note: Sweep trial 963. Sweep values: current frequency = 4.16869e+09.
+Note: Sweep trial 964. Sweep values: current frequency = 4.2658e+09.
+Note: Sweep trial 965. Sweep values: current frequency = 4.36516e+09.
+Note: Sweep trial 966. Sweep values: current frequency = 4.46684e+09.
+Note: Sweep trial 967. Sweep values: current frequency = 4.57088e+09.
+Note: Sweep trial 968. Sweep values: current frequency = 4.67735e+09.
+Note: Sweep trial 969. Sweep values: current frequency = 4.7863e+09.
+Note: Sweep trial 970. Sweep values: current frequency = 4.89779e+09.
+Note: Sweep trial 971. Sweep values: current frequency = 5.01187e+09.
+Note: Sweep trial 972. Sweep values: current frequency = 5.12861e+09.
+Note: Sweep trial 973. Sweep values: current frequency = 5.24807e+09.
+Note: Sweep trial 974. Sweep values: current frequency = 5.37032e+09.
+Note: Sweep trial 975. Sweep values: current frequency = 5.49541e+09.
+Note: Sweep trial 976. Sweep values: current frequency = 5.62341e+09.
+Note: Sweep trial 977. Sweep values: current frequency = 5.7544e+09.
+Note: Sweep trial 978. Sweep values: current frequency = 5.88844e+09.
+Note: Sweep trial 979. Sweep values: current frequency = 6.0256e+09.
+Note: Sweep trial 980. Sweep values: current frequency = 6.16595e+09.
+Note: Sweep trial 981. Sweep values: current frequency = 6.30957e+09.
+Note: Sweep trial 982. Sweep values: current frequency = 6.45654e+09.
+Note: Sweep trial 983. Sweep values: current frequency = 6.60693e+09.
+Note: Sweep trial 984. Sweep values: current frequency = 6.76083e+09.
+Note: Sweep trial 985. Sweep values: current frequency = 6.91831e+09.
+Note: Sweep trial 986. Sweep values: current frequency = 7.07946e+09.
+Note: Sweep trial 987. Sweep values: current frequency = 7.24436e+09.
+Note: Sweep trial 988. Sweep values: current frequency = 7.4131e+09.
+Note: Sweep trial 989. Sweep values: current frequency = 7.58578e+09.
+Note: Sweep trial 990. Sweep values: current frequency = 7.76247e+09.
+Note: Sweep trial 991. Sweep values: current frequency = 7.94328e+09.
+Note: Sweep trial 992. Sweep values: current frequency = 8.12831e+09.
+Note: Sweep trial 993. Sweep values: current frequency = 8.31764e+09.
+Note: Sweep trial 994. Sweep values: current frequency = 8.51138e+09.
+Note: Sweep trial 995. Sweep values: current frequency = 8.70964e+09.
+Note: Sweep trial 996. Sweep values: current frequency = 8.91251e+09.
+Note: Sweep trial 997. Sweep values: current frequency = 9.12011e+09.
+Note: Sweep trial 998. Sweep values: current frequency = 9.33254e+09.
+Note: Sweep trial 999. Sweep values: current frequency = 9.54993e+09.
+Note: Sweep trial 1000. Sweep values: current frequency = 9.77237e+09.
+Note: Sweep trial 1001. Sweep values: current frequency = 1e+10.
+
+================================================================================
+2020-12-16 18:12 : Simulation Engine Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 133412 KB
+================================================================================
+
+Note: Average threads: 1.
+
+############################### time statistics ################################
+
+       scope       wall time        cpu time            step
+       parse            0.02            0.27
+        elab            0.08             0.1
+          op               0               0             160
+          ac            0.12            0.11            1001
+       total            0.52             0.6
+
+Note: peak memory = 133412 KB
+
+Note: Simulation starts at 18:12:45, Wed Dec 16, 2020.
+
+Note: Simulation finishes at 18:12:46, Wed Dec 16, 2020.
+
+Note: Total elapsed time 1s.
+
+Simulation completes with 0 error(s), 0 warning(s), and 12 notice(s).
