@@ -2,7 +2,7 @@
 
 NAME_LIST="/home/murphy/aetherlab/Namelist.txt"
 
-while read line
+while read name
 do
-    echo ${line} ${#line}
+    echo ${name} ${#name}
 done < ${NAME_LIST}
