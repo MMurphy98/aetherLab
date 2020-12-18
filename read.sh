@@ -1,11 +1,10 @@
 #!/bin/bash
 
-CAL_FLAG="calc"
 filename_IWAVE='/home/murphy/aetherlab/iwave.log'
 i=0
 while read line
 do
-    if [[ ${line:0:4} == ${CAL_FLAG} ]]
+    if [[ ${line:0:4} == "calc" ]]
     then
         line_pro=${line#* }
         case ${line_pro%%(*} in

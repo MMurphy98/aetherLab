@@ -1,4 +1,5 @@
 #!/bin/bash
+
 var=`bc << EOF
 scale=4
 a=5
