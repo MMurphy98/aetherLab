@@ -1,11 +1,13 @@
-###1: open_file /home/postgrad21/majinge/simulation/majinge/Three_Order_OTA_NMC_100MHz_TB_config_STB_ALPS/Three_Order_OTA_NMC_100MHz_TB_config_STB_Nominal.sp.sim/Three_Order_OTA_NMC_100MHz_TB_config_STB_Nominal.sp.ac0
-open_file Three_Order_OTA_NMC_100MHz_TB_config_STB_Nominal.sp.ac0: OK
+###1: open_file /home/postgrad21/majinge/Aether/Three_Order.sp.sim/Three_Order.sp.ac0
+open_file Three_Order.sp.ac0: OK
 dialog_status -calc {visible: 1}
 ###2: calc max(db(mag(&f<0>::s<v(vout)>@0#&)))
-calc max(db(mag("f<0>::s<v(vout)>[0]"))) :116.83422
-###3: calc gain1_f(mag(&f<0>::s<v(vout)>@0#&))
-calc gain1_f(mag("f<0>::s<v(vout)>[0]")) :108.39673M
-###4: calc phase_m(&f<0>::s<v(vout)>@0#&)
-calc phase_m("f<0>::s<v(vout)>[0]") :62.863199
-###5: exit
+calc max(db(mag("f<0>::s<v(vout)>[0]"))) :133.90701
+###3: calc max(mag(&f<0>::s<v(vout)>@0#&))
+calc max(mag("f<0>::s<v(vout)>[0]")) :4.9585011M
+###4: calc gain1_f(mag(&f<0>::s<v(vout)>@0#&))
+calc gain1_f(mag("f<0>::s<v(vout)>[0]")) :83.533691M
+###5: calc phase_m(&f<0>::s<v(vout)>@0#&)
+calc phase_m("f<0>::s<v(vout)>[0]") :54.71804
+###6: exit
 exit

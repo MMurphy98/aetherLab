@@ -22,6 +22,13 @@ MUL_FLAG=0
 SUBCKT_SEARCH=0
 AREA_TOTAL=0
 
+DC_GAIN_DB=0
+DC_GAIN=0
+GWB=0
+PM=0
+NOISE_INPUT=0
+Power=0
+
 #### Function Definition ####
 function updateconfig {
     echo ${1}
@@ -39,13 +46,31 @@ do
         line_pro=${line#* }
         case ${line_pro%%(*} in
             "max")
-                echo "DC_GAIN: ${line##*:} dB" > result.txt
+                if [[ ${line_pro:5:2} == "db" ]]
+                then
+                    DC_GAIN_DB=${line##*:}
+                    echo "DC_GAIN_DB: ${DC_GAIN_DB} dB" >> result.txt
+                else
+                    DC_GAIN=${line##*:}
+                    case ${DC_GAIN: -1} in
+                        "M")
+                            DC_GAIN=`echo "scale=4;${DC_GAIN%*M}*1000000" |bc`
+                            ;;
+                        "k")
+                            DC_GAIN=`echo "scale=4;${DC_GAIN%*k}*1000" |bc`
+                            ;;
+                    esac
+                    echo "DC_GAIN: ${DC_GAIN} " >> result.txt
+                    
+                fi
                 ;;
             "gain1_f")
-                echo "GBW: ${line##*:} Hz" >> result.txt
+                GBW=${line##*:}
+                echo "GBW: ${GBW} Hz" >> result.txt
                 ;;                
             "phase_m")
-                echo "PHASE_MARGIN: ${line##*:} deg" >> result.txt
+                PM=${line##*:}
+                echo "PHASE_MARGIN: ${PM} deg" >> result.txt
                 ;;
         esac
     fi
@@ -85,7 +110,22 @@ do
     then 
         if [[ ${line#*output} != ${line} ]]
         then   
-            NOISE=${line#* = };NOISE=${NOISE%% *}
+            NOISE_OUTPUT=${line#* = };NOISE_OUTPUT=${NOISE_OUTPUT%% *}
+            case ${NOISE_OUTPUT: -1} in
+                "m")
+                    NOISE_OUTPUT=`echo "scale=4;${NOISE_OUTPUT%*m}*1000000" |bc`
+                    ;;
+                "u")
+                    NOISE_OUTPUT=`echo "scale=4;${NOISE_OUTPUT%*u}*1000" |bc`
+                    ;;
+                "n")
+                    NOISE_OUTPUT=${NOISE_OUTPUT%*n}
+                    ;;
+                *)
+                    NOISE_OUTPUT=`echo "scale=4;${NOISE_OUTPUT}*1000000000" |bc`
+                    ;;
+            esac
+            NOISE_INPUT=`echo "scale=9;${NOISE_OUTPUT}/${DC_GAIN}" |bc`
             let NOISE_SEARCH_TAG++
         fi
     else
@@ -101,7 +141,7 @@ done < ${SPLOG_FILE}
 let Power_SEARCH_TAG=0
 let NOISE_SEARCH_TAG=0
 echo Vdc=1.8V Idc=${Idc}mA Power=${Power}mW >> result.txt
-echo NOISE: ${NOISE} >> result.txt
+echo NOISE: ${NOISE_INPUT}n Vrms >> result.txt
 
 #### Area ####
 
