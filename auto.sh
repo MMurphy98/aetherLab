@@ -6,6 +6,8 @@ CELLNAME="Three_Order_OTA_NMC_100MHz_TB_config_STB"
 IWAVE_FILE=${pwd}"iwave.log"
 NETLIST_FILE=${pwd}${CELLNAME}".netlist"
 SPLOG_FILE=${pwd}${CELLNAME}".sp.log"
+config_FILE="/home/murphy/aetherlab/mmsim_tmp.ini"
+output_FILE="/home/murphy/aetherlab/mmsim.ini"
 
 #### PARAMETERS DEFINITION ####
 NOISE_TAG="integral value of noise from 1.0000hz to 10.0000ghz"
@@ -19,6 +21,15 @@ PMOS_FLAG="MPM"
 MUL_FLAG=0
 SUBCKT_SEARCH=0
 AREA_TOTAL=0
+
+#### Function Definition ####
+function updateconfig {
+    echo ${1}
+    cat ${config_FILE} > ${output_FILE}
+    echo "Three_Order_OTA\\NMC_100MHz=\"${1};;\"" >> ${output_FILE}
+    cat ${output_FILE}
+}
+
 
 #### GBW PM DC_GAIN ####
 while read line
