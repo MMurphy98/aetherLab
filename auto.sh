@@ -1,24 +1,29 @@
 #!/bin/bash
   
 #### PATH DEDINITION ####
-pwd="/home/murphy/aetherlab/"
-LIBNAME="Three_Order_OTA"
-CELLNAME="NMC_100MHz_TB"
-CELLVIEWNAME="config_STB"
-IWAVE_FILE=${pwd}"iwave.log"
-NETLIST_FILE="${pwd}${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}.netlist"
-NETLIST_MAPPING_FILE="${pwd}${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}.netlist.map"
-SP_FILE="${pwd}${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}.sp"
-SPLOG_FILE="${pwd}${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}.sp.log"
-TCL_FILE="${pwd}tclfile"
-config_FILE="/home/murphy/aetherlab/mmsim_tmp.ini"
-output_FILE="/home/murphy/aetherlab/mmsim.ini"
-NAME_LIST=${pwd}"Namelist.txt"
+pwd="/home/postgrad21/majinge/Aether/Aether_exam"
+LIBNAME="final"
+CELLNAME="Exam_1"
+CELLVIEWNAME="config"
 
+IWAVE_FILE="${pwd}/iwave.log"
+TCL_FILE="${pwd}/iwave_tcl.tcl"
+
+DIR_RESULT="${pwd}/Simulation/${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}_ALPS"
+NETLIST_FILE="${DIR_RESULT}/${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}.netlist"
+NETLIST_MAPPING_FILE="${DIR_RESULT}/${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}.netlist.map"
+SP_FILE="${pwd}/${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}_Nominal.sp"
+SPLOG_FILE="${pwd}/${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}_Nominal.sp.log"
+
+config_temp_FILE="${pwd}/${LIBNAME}/${CELLNAME}/${CELLVIEWNAME}/mmsim_tmp.ini"
+config_FILE="${pwd}/${LIBNAME}/${CELLNAME}/${CELLVIEWNAME}/mmsim.ini"
+NAME_LIST="${pwd}/Namelist.txt"
+
+RESULT_FILE="${pwd}/result.csv"
 
 
 #### PARAMETERS DEFINITION ####
-NOISE_TAG="integral value of noise from 1.0000hz to 10.0000ghz"
+NOISE_TAG="integral value of noise from 1.0000hz to 1.0000ghz"
 NOISE_SEARCH_TAG=0
 NOISE_VOLTAGE_NOISE=0
 
@@ -38,18 +43,19 @@ NOISE_INPUT=0
 Power=0
 
 i=0
+
+
 #### Function Definition ####
 function updateconfig {
     echo ${1}
-    cat ${config_FILE} > ${output_FILE}
-    echo "Three_Order_OTA\\NMC_100MHz=\"${1};;\"" >> ${output_FILE}
-
-    ## [TODO] 
-
-    cat ${output_FILE}
+    cat ${config_temp_FILE} > ${config_FILE}
+    echo "${LIBNAME}\\Miller-OTA=\"schematic_${1};;\"" >> ${config_FILE} # change the config
+	
+    # cat ${output_FILE}
 }
 
 
+echo "Name, DC_GAIN(dB), GBW(MHz), Phase_Margin(deg), Power(uW), Noise(nVrms), Area(um2)" >> ${RESULT_FILE}
 
 while read name 
     do
@@ -60,33 +66,35 @@ while read name
     updateconfig ${USR}
 
     let i++
-    echo "${i}: ${USR}" >> result.txt
 
-    #### generate netlist [TODO]
+    #### generate netlist 
     oa2netlist ${LIBNAME} ${CELLNAME} ${CELLVIEWNAME} -t mhspice -o ${NETLIST_FILE} \
         -mf ${NETLIST_MAPPING_FILE} -hier -disp -name keep -max 80 \
         -ntlviewlist hspiceText hspiceD spice schematic veriloga -ntlstoplist hspiceText hspiceD spice \
         -glo -as0 -ael -suf -noexclam -pow "VDD! VCC! VEE! vdd! vcc!" -gnd "GND! GROUND! gnd! vss!" -end \
         -cir : -quo single -del '<' -exprquo quotation -gsub -printMFactor -mdeparam "R vbn2 vbp2 Ib Cc" 
 
-    #### run simulation
+
+    #### run simulation with ALPS
     alps -mde  ${SP_FILE}
 
     #### run calculator in iwave
     iwave -tcl ${TCL_FILE}
 
     #### GBW PM DC_GAIN ####
-    while read line
+    while read line 
+	# Open iwave.log to get the result of calculations
+
     do
         if [[ ${line:0:4} == "calc" ]]
         then
             line_pro=${line#* }
             case ${line_pro%%(*} in
                 "max")
-                    if [[ ${line_pro:5:2} == "db" ]]
+                    if [[ ${line_pro:4:2} == "db" ]]
                     then
                         DC_GAIN_DB=${line##*:}
-                        echo "DC_GAIN_DB: ${DC_GAIN_DB} dB" >> result.txt
+                        # echo "DC_GAIN_DB: ${DC_GAIN_DB} dB" >> result.txt
                     else
                         DC_GAIN=${line##*:}
                         case ${DC_GAIN: -1} in
@@ -97,17 +105,18 @@ while read name
                                 DC_GAIN=`echo "scale=4;${DC_GAIN%*k}*1000" |bc`
                                 ;;
                         esac
-                        echo "DC_GAIN: ${DC_GAIN} " >> result.txt
+                        # echo "DC_GAIN: ${DC_GAIN} " >> result.txt
                         
                     fi
                     ;;
                 "gain1_f")
                     GBW=${line##*:}
-                    echo "GBW: ${GBW} Hz" >> result.txt
+
+                    # echo "GBW: ${GBW} Hz" >> result.txt
                     ;;                
                 "phase_m")
                     PM=${line##*:}
-                    echo "PHASE_MARGIN: ${PM} deg" >> result.txt
+                    # echo "PHASE_MARGIN: ${PM} deg" >> result.txt
                     ;;
             esac
         fi
@@ -116,6 +125,7 @@ while read name
     #### Power Noise ####
 
     while read line
+	# open .sp.log to get the results of OP and Noise analysis
     do
 
         if [[ ${Power_SEARCH_TAG} -eq 1 ]]
@@ -125,13 +135,13 @@ while read name
             if [[ ${line:0:1} == "i" ]]
             then
                 echo "find idc"
-                Idc=${line%m*}; Idc=${Idc##* }
+                Idc=${line%u*}; Idc=${Idc##* }
             fi
 
             if [[ ${line:0:3} == "pwr" ]]
             then
                 echo "find pwr"
-                Power=${line%m*}; Power=${Power##* }
+                Power=${line%u*}; Power=${Power##* }
                 let Power_SEARCH_TAG++
             fi
         else
@@ -163,6 +173,7 @@ while read name
                         ;;
                 esac
                 NOISE_INPUT=`echo "scale=9;${NOISE_OUTPUT}/${DC_GAIN}" |bc`
+		echo "OUTPUT_NOISE: ${NOISE_OUTPUT} INPUT_NOISE: ${NOISE_INPUT} DC_GAIN: ${DC_GAIN}"
                 let NOISE_SEARCH_TAG++
             fi
         else
@@ -175,22 +186,23 @@ while read name
 
     done < ${SPLOG_FILE}
 
-    let Power_SEARCH_TAG=0
     let NOISE_SEARCH_TAG=0
-    echo Vdc=1.8V Idc=${Idc}mA Power=${Power}mW >> result.txt
-    echo NOISE: ${NOISE_INPUT}n Vrms >> result.txt
+    let Power_SEARCH_TAG=0
+    # echo Vdc=1.8V Idc=${Idc}mA Power=${Power}uW >> result.txt
+    # echo NOISE: ${NOISE_INPUT}n Vrms >> result.txt
 
     #### Area ####
 
     while read line
+	# Open the .netlist to get the parameters of the MOSFET
     do
         if [[ $MUL_FLAG -ne 0 ]]
         then 
             MUL_NUM=${line#*M=}
             AREA_MOS=`echo "scale=4;${AREA_Single}*${MUL_NUM}" |bc`
             MUL_FLAG=0
-            #echo MUL_HEAD:$MUL_FLAG
-            echo $i : L=${LENGTH_NUM} W=${WIDTH_NUM} M=${MUL_NUM} AREA=${AREA_MOS}
+            # echo MUL_HEAD:$MUL_FLAG
+            # echo $i : L=${LENGTH_NUM} W=${WIDTH_NUM} M=${MUL_NUM} AREA=${AREA_MOS}
             AREA_TOTAL=`echo "scale=4;${AREA_TOTAL}+${AREA_MOS}" |bc`
         else
             if [[ ${line:0:3} == ${PMOS_FLAG} || ${line:0:3} == ${NMOS_FLAG} ]]
@@ -223,7 +235,7 @@ while read name
                         #echo ${WIDTH_NUM}   
                         ;;
                     esac
-                let "i++"
+                # let "i++"
                 AREA_Single=`echo "scale=4;${WIDTH_NUM}*${LENGTH_NUM}" |bc`
                 
                 #GET Multiplier
@@ -232,8 +244,8 @@ while read name
                     MUL_NUM=${line#* M=}
                     AREA_MOS=`echo "scale=4;${AREA_Single}*${MUL_NUM}" |bc`
                     MUL_FLAG=0
-                    #echo $MUL_FLAG
-                    echo $i : L=${LENGTH_NUM} W=${WIDTH_NUM} M=${MUL_NUM} AREA=${AREA_MOS}
+                    # echo $MUL_FLAG
+                    # echo $i : L=${LENGTH_NUM} W=${WIDTH_NUM} M=${MUL_NUM} AREA=${AREA_MOS}
                     AREA_TOTAL=`echo "scale=4;${AREA_TOTAL}+${AREA_MOS}" |bc`
                 else
                     #echo MUL:$MUL_FLAG
@@ -242,10 +254,25 @@ while read name
             fi
         fi
     done < ${NETLIST_FILE}
+    
+    # echo AREA_TOTAL: ${AREA_TOTAL} um2 >> result.txt
+    # echo "*****************************" >> result.txt
 
-    echo AREA_TOTAL: ${AREA_TOTAL} um2 >> result.txt
+	GBW_NUM=${GBW%*M}
+    echo "${USR}, ${DC_GAIN_DB}, ${GBW_NUM}, ${PM}, ${Power}, ${NOISE_INPUT}, ${AREA_TOTAL}" >> result.csv
 
-
+	# refresh the result
+    let NOISE_INPUT=0
+    let NOISE_OUTPUT=0
+    let Power=0
+    let Idc=0
+    let AREA_TOTAL=0
+    let AREA_MOS=0
+	let GBW=0
+	let DC_GAIN_DB=0
+	let DC_GAIN=0
+	let PM=0
+    
 done < ${NAME_LIST}
 
 echo "ALL DONE"
