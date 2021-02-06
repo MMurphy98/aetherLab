@@ -1,6 +1,5 @@
 #!/bin/bash
-
-filename_IWAVE='/home/murphy/aetherlab/iwave.log'
+filename_IWAVE='/home/key/aetherlab/iwave.log'
 i=0
 while read line
 do
