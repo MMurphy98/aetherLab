@@ -1,0 +1,8 @@
+#!/bin/bash
+
+head="/home/key/aetherlab/temp"
+tail="/home/key/aetherlab/temp2"
+
+cat ${head} > a.sp
+echo "update 222sp" >> a.sp
+cat ${tail} >> a.sp

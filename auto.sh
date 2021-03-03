@@ -18,35 +18,25 @@ SP_FILE="${DIR_RESULT}/${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}_Nominal.sp"
 SP_FILE_temp_head="${DIR_RESULT}/${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}_Nominal_temp_head.sp"
 SP_FILE_temp_tail="${DIR_RESULT}/${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}_Nominal_temp_tail.sp"
 
-OP_FILE = "${SP_FILE}.sim/${SP_FILE}.op"
-VGS_list="${pwd}/VGS.txt"
+OP_FILE="/home/postgrad20/zhangxiuli/Desktop/huike/${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}_Nominal.sp.sim/${LIBNAME}_${CELLNAME}_${CELLVIEWNAME}_Nominal.sp.op"
+VGS_list="${DIR_RESULT}/VGS.txt"
 
-RESULT_FILE="${pwd}/result.csv"
+RESULT_FILE="${DIR_RESULT}/result.csv"
 
 
 #### PARAMETERS DEFINITION ####
-NOISE_TAG="integral value of noise from 1.0000hz to 1.0000ghz"
-NOISE_SEARCH_TAG=0
-NOISE_VOLTAGE_NOISE=0
 
-Power_SEARCH_FLAG=0
-
-NMOS_FLAG="MNM"
-PMOS_FLAG="MPM"
-MUL_FLAG=0
-SUBCKT_SEARCH=0
-AREA_TOTAL=0
-
-Cgs = 0
-gds = 0
-Id = 0
+Cgs=0
+gds=0
+Id=0
+gm=0
 
 #### Function Definition ####
 function updatespice {
     echo ${1}
     cat ${SP_FILE_temp_head} > ${SP_FILE}
     # echo "${LIBNAME}\\Miller-OTA=\"schematic_${1};;\"" >> ${config_FILE} # change the config
-    echo ".param vin=\'${1}\'" >> ${SP_FILE}
+    echo ".param vin='${1}'" >> ${SP_FILE}
     cat ${SP_FILE_temp_tail} >> ${SP_FILE}
 
     # cat ${output_FILE}
@@ -54,7 +44,7 @@ function updatespice {
 
 
 # echo "Name, DC_GAIN(dB), GBW(MHz), Phase_Margin(deg), Power(uW), Noise(nVrms), Area(um2)" >> ${RESULT_FILE}
-echo "Vgs, Cgs, gds, Id" >> ${RESULT_FILE}
+echo "Vgs, gm, Cgs, gds, Id" > ${RESULT_FILE}
 
 while read data 
     do
@@ -82,49 +72,41 @@ while read data
 	# Open xxxx.sp.op to check operation point
 
     do
-        if [[ ${line:0:4} == "calc" ]]
-        then
-            line_pro=${line#* }
-            case ${line_pro%%(*} in
-                "max")
-                    if [[ ${line_pro:4:2} == "db" ]]
-                    then
-                        DC_GAIN_DB=${line##*:}
-                        # echo "DC_GAIN_DB: ${DC_GAIN_DB} dB" >> result.txt
-                    else
-                        DC_GAIN=${line##*:}
-                        case ${DC_GAIN: -1} in
-                            "M")
-                                DC_GAIN=`echo "scale=4;${DC_GAIN%*M}*1000000" |bc`
-                                ;;
-                            "k")
-                                DC_GAIN=`echo "scale=4;${DC_GAIN%*k}*1000" |bc`
-                                ;;
-                        esac
-                        # echo "DC_GAIN: ${DC_GAIN} " >> result.txt
-                        
-                    fi
-                    ;;
-                "gain1_f")
-                    GBW=${line##*:}
-
-                    # echo "GBW: ${GBW} Hz" >> result.txt
-                    ;;                
-                "phase_m")
-                    PM=${line##*:}
-                    # echo "PHASE_MARGIN: ${PM} deg" >> result.txt
-                    ;;
-            esac
+        if [[ ${line:0:2} == "id" ]]
+        then 
+            echo "find id"
+            Id=${line%z*}; Id=${Id##* }
         fi
+
+
+        if [[ ${line:0:2} == "gm" && ${line:0:3} != "gmb" ]]
+        then 
+            echo "find gm"
+            gm=${line%z*}; gm=${gm##* }
+        fi
+
+        if [[ ${line:0:3} == "gds" ]]
+        then 
+            echo "find gds"
+            gds=${line%z*}; gds=${gds##* }
+        fi
+
+        if [[ ${line:0:3} == "cgs" ]]
+        then 
+            echo "find Cgs"
+            Cgs=${line%z*}; Cgs=${Cgs##* }
+        fi
+
     done < ${OP_FILE}
 
     
-    echo "${Vgs}, ${Cgs}, ${gds}, ${Id}" >> ${RESULT_FILE}
+    echo "${Vgs}, ${gm}, ${Cgs}, ${gds}, ${Id}" >> ${RESULT_FILE}
 
 	# refresh the result
-    let Cgs = 0
-    let gds = 0
-    let Id = 0
+    let Cgs=0
+    let gds=0
+    let Id=0
+    let gm=0
 
     
 done < ${VGS_list}

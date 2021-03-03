@@ -6,7 +6,6 @@ gds=0
 gm=0
 Id=0
 Vgs=0
-
 while read line
 do 
     
@@ -22,7 +21,7 @@ do
         Vgs=${line%z*}; Vgs=${Vgs##* }
     fi
 
-    if [[ ${line:0:2} == "gm" ]]
+    if [[ ${line:0:2} == "gm" && {line:0:3 != "gmb"} ]]
     then 
         echo "find gm"
         gm=${line%z*}; gm=${gm##* }
