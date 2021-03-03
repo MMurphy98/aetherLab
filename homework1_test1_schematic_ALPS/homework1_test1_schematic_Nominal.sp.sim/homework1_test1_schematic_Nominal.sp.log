@@ -1,0 +1,456 @@
+
+                         Empyrean ALPS SPICE Simulator                          
+               Version 2019.12.test, Build on 20:03:24 06/05/2020               
+                              For [linux26-x86_64]                              
+                            Copyright (c) 2009-2020                             
+                        Huada Empyrean Software Co.,Ltd                         
+                              ALL RIGHTS RESERVED                               
+
+
+Note: User       = yuanqi
+      Host       = localhost.localdomain
+      PID        = 8588
+      CPU        = Intel(R) Xeon(R) Silver 4214 CPU @ 2.20GHz
+      Processors = 16
+      RealCores  = 16
+      Loadavg    = 11.31%(1 minutes)  7.81%(5 minutes)  3.88%(15 minutes)
+      Memory     = 24.10/31.26 GB(Available/Physical)
+      Exe        = /opt/EDA/empyrean/tools/alps/platform/linux26-x86_64/bin/alps
+      Pwd        = /home/teacher/yuanqi/simulation/yuanqi/homework1_test1_schematic_ALPS
+      Cmd        = -mde /home/teacher/yuanqi/simulation/yuanqi/homework1_test1_schematic_ALPS/homework1_test1_schematic_Nominal.sp 
+
+Note: Input netlist `/home/teacher/yuanqi/simulation/yuanqi/homework1_test1_schematic_ALPS/homework1_test1_schematic_Nominal.sp'.
+
+Note: Output directory `homework1_test1_schematic_Nominal.sp.sim'.
+
+
+================================================================================
+2020-09-25 09:00 : Parser Started
+================================================================================
+
+Note: Simulation starts at 09:00:38, Fri Sep 25, 2020.
+
+Note: Start to load input file, memory usage 0 KB.
+Note: Total thread number = 1.
+
+Note: Using license file `59001@localhost'.
+Checkout 1 ALPS_AS_EDU.
+
+Note: Using license file `59001@localhost'.
+Checkout 1 ALPS_SMS.
+
+
+================================================================================
+2020-09-25 09:00 : Parser Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 91504 KB
+================================================================================
+
+
+================================================================================
+2020-09-25 09:00 : DB Elaboration Started
+================================================================================
+
+############################## circuit statistics ##############################
+vsource   : 2          isource   : 1          mosfet    : 1          
+
+
+############################ model type statistics #############################
+Category        Total Quantity  Model Type                    Quantity        
+vsource         2               vsourceDc                     2               
+isource         1               isourceDc                     1               
+mosfet          1               mosfetLevel49                 1               
+
+
+############################ model card statistics #############################
+Category        Total Quantity  Model Name                    Quantity        
+mosfet          1               n18                           1               
+
+
+================================================================================
+2020-09-25 09:00 : DB Elaboration Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 127720 KB
+================================================================================
+
+
+================================================================================
+2020-09-25 09:00 : DB Partition Started
+================================================================================
+
+########################## matching default output summary #####################
+Type                quantity  
+voltage             4         
+current             2         
+
+
+================================================================================
+2020-09-25 09:00 : DB Partition Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 128040 KB
+================================================================================
+
+
+================================================================================
+2020-09-25 09:00 : Simulation Engine Started
+================================================================================
+
+Note: Start to setup equation, memory usage 128040 KB.
+Note: Threads number can be reset in file '/home/teacher/yuanqi/simulation/yuanqi/homework1_test1_schematic_ALPS/homework1_test1_schematic_Nominal.sp.sim/8588.thread'
+
+########################### global option statistics ###########################
+reltol    = 0.001      absi      = 1e-09      absv      = 5e-06      
+itl1      = 200        itl4      = 8          gmin      = 1e-12      
+runlvl    = 3          rabsshort = 0          scale     = 1          
+scalm     = 1          
+
+######################## user specified option statistics ######################
+reltol    = 0.001      absv      = 5e-06      absi      = 1e-09      
+scale     = 1          scalm     = 1          search    = /home/teacher/yuanqi/Aether/Demo
+tnom      = 27         gmin      = 1e-12      itl1      = 200        
+itl4      = 8          post      = 1          posttop   = 0          
+postlvl   = 0          probe     = 1          ingold    = 0          
+
+
+Note: op iterated 5 steps.
+
+###################### operating point information begin #######################
+format: all
+   time         = 0.0000         temp         = 27.0000        tnom         = 27.0000     
+
+
+
+#### vsourceDc:
+hierarchy                                          
+device           0:vv0            0:vv1            
+i                0.0000           -9.3000u         
+v                650.0000m        1.8000           
+pwr              0.0000           16.7400u         
+
+
+
+#### isourceDc:
+hierarchy                         
+device           0:ii0            
+v                127.6281m        
+i                9.3000u          
+pwr              -1.1869u         
+
+
+
+#### mosfetLevel49:
+hierarchy                         
+device           0:mnm0           
+region           Saturati         
+id               9.2988u          
+ibs              -1.5670e-21      
+ibd              -1.2222n         
+vgs              650.0000m        
+vds              1.6724           
+vbs              0.0000           
+vth              404.6595m        
+vdsat            225.1116m        
+vod              245.3405m        
+gm               67.2987u         
+gds              240.9514n        
+gmb              19.4695u         
+cdtot            990.8754a        
+cgtot            7.3151f          
+cstot            7.7600f          
+cbtot            4.5508f          
+cgs              5.5975f          
+cgd              343.3341a        
+i1               9.3000u          
+i2               0.0000           
+i3               -9.2988u         
+i4               -1.2239n         
+
+
+####################### operating point information end ########################
+
+
+2020-09-25 09:00 : AC OP Started
+
+Note: op iterated 5 steps.
+
+###################### operating point information begin #######################
+format: all
+   time         = 0.0000         temp         = 27.0000        tnom         = 27.0000     
+
+
+
+#### vsourceDc:
+hierarchy                                          
+device           0:vv0            0:vv1            
+i                0.0000           -9.3000u         
+v                650.0000m        1.8000           
+pwr              0.0000           16.7400u         
+
+
+
+#### isourceDc:
+hierarchy                         
+device           0:ii0            
+v                127.6281m        
+i                9.3000u          
+pwr              -1.1869u         
+
+
+
+#### mosfetLevel49:
+hierarchy                         
+device           0:mnm0           
+region           Saturati         
+id               9.2988u          
+ibs              -1.5670e-21      
+ibd              -1.2222n         
+vgs              650.0000m        
+vds              1.6724           
+vbs              0.0000           
+vth              404.6595m        
+vdsat            225.1116m        
+vod              245.3405m        
+gm               67.2987u         
+gds              240.9514n        
+gmb              19.4695u         
+cdtot            990.8754a        
+cgtot            7.3151f          
+cstot            7.7600f          
+cbtot            4.5508f          
+cgs              5.5975f          
+cgd              343.3341a        
+i1               9.3000u          
+i2               0.0000           
+i3               -9.2988u         
+i4               -1.2239n         
+
+
+####################### operating point information end ########################
+
+
+2020-09-25 09:00 : AC OP Completed
+
+Note: Noise analysis 1.0000hz -> 1.0000ghz at temperature = 27C.
+
+########## noise analysis result at frequency 1.0000 ##########
+hierarchy                         
+device           0:mnm0           
+rd              5.1650e-20       
+rs              6.3427f          
+id              11.1079p         
+rx              3.9601x          
+fn              5.0683u          
+total           5.0683u          
+
+#### output noise voltage                        = 5.0683u volt^2/hz
+#### output rms noise                            = 2.2513m volt/hz^(1/2)
+#### equivalent input noise at vv0               = 8.3066u /hz^(1/2)
+#### transfer function v(vout)/vv0               = 271.0235
+
+#### integral value of noise from 1.0000hz to 1.0000hz
+#### total output noise voltage                  = 0.0000 volt
+#### total input noise at vv0                    = 0.0000 volt
+
+
+########## noise analysis result at frequency 10.0000 ##########
+hierarchy                         
+device           0:mnm0           
+rd              5.1650e-20       
+rs              6.3427f          
+id              11.1079p         
+rx              3.6401x          
+fn              770.6604n        
+total           770.6715n        
+
+#### output noise voltage                        = 770.6715n volt^2/hz
+#### output rms noise                            = 877.8790u volt/hz^(1/2)
+#### equivalent input noise at vv0               = 3.2391u /hz^(1/2)
+#### transfer function v(vout)/vv0               = 271.0235
+
+#### integral value of noise from 1.0000hz to 10.0000hz
+#### total output noise voltage                  = 3.8199m volt
+#### total input noise at vv0                    = 14.0944u volt
+
+
+########## noise analysis result at frequency 100.0000 ##########
+hierarchy                         
+device           0:mnm0           
+rd              5.1650e-20       
+rs              6.3427f          
+id              11.1079p         
+rx              2.5612x          
+fn              117.1826n        
+total           117.1937n        
+
+#### output noise voltage                        = 117.1937n volt^2/hz
+#### output rms noise                            = 342.3356u volt/hz^(1/2)
+#### equivalent input noise at vv0               = 1.2631u /hz^(1/2)
+#### transfer function v(vout)/vv0               = 271.0235
+
+#### integral value of noise from 1.0000hz to 100.0000hz
+#### total output noise voltage                  = 6.0646m volt
+#### total input noise at vv0                    = 22.3768u volt
+
+
+########## noise analysis result at frequency 1.0000k ##########
+hierarchy                         
+device           0:mnm0           
+rd              5.1650e-20       
+rs              6.3427f          
+id              11.1079p         
+rx              1.2324x          
+fn              17.8182n         
+total           17.8293n         
+
+#### output noise voltage                        = 17.8293n volt^2/hz
+#### output rms noise                            = 133.5263u volt/hz^(1/2)
+#### equivalent input noise at vv0               = 492.6744n /hz^(1/2)
+#### transfer function v(vout)/vv0               = 271.0235
+
+#### integral value of noise from 1.0000hz to 1.0000khz
+#### total output noise voltage                  = 8.3980m volt
+#### total input noise at vv0                    = 30.9863u volt
+
+
+########## noise analysis result at frequency 10.0000k ##########
+hierarchy                         
+device           0:mnm0           
+rd              5.1650e-20       
+rs              6.3427f          
+id              11.1079p         
+rx              501.7307k        
+fn              2.7093n          
+total           2.7205n          
+
+#### output noise voltage                        = 2.7205n volt^2/hz
+#### output rms noise                            = 52.1579u volt/hz^(1/2)
+#### equivalent input noise at vv0               = 192.4481n /hz^(1/2)
+#### transfer function v(vout)/vv0               = 271.0235
+
+#### integral value of noise from 1.0000hz to 10.0000khz
+#### total output noise voltage                  = 11.0420m volt
+#### total input noise at vv0                    = 40.7417u volt
+
+
+########## noise analysis result at frequency 100.0000k ##########
+hierarchy                         
+device           0:mnm0           
+rd              5.1650e-20       
+rs              6.3427f          
+id              11.1078p         
+rx              199.1712k        
+fn              411.9650p        
+total           423.0791p        
+
+#### output noise voltage                        = 423.0791p volt^2/hz
+#### output rms noise                            = 20.5689u volt/hz^(1/2)
+#### equivalent input noise at vv0               = 75.8936n /hz^(1/2)
+#### transfer function v(vout)/vv0               = 271.0227
+
+#### integral value of noise from 1.0000hz to 100.0000khz
+#### total output noise voltage                  = 14.1748m volt
+#### total input noise at vv0                    = 52.3012u volt
+
+
+########## noise analysis result at frequency 1.0000x ##########
+hierarchy                         
+device           0:mnm0           
+rd              5.1650e-20       
+rs              6.3387f          
+id              11.1009p         
+rx              83.2178k         
+fn              62.6023p         
+total           73.7095p         
+
+#### output noise voltage                        = 73.7095p volt^2/hz
+#### output rms noise                            = 8.5854u volt/hz^(1/2)
+#### equivalent input noise at vv0               = 31.6877n /hz^(1/2)
+#### transfer function v(vout)/vv0               = 270.9383
+
+#### integral value of noise from 1.0000hz to 1.0000xhz
+#### total output noise voltage                  = 18.1525m volt
+#### total input noise at vv0                    = 66.9797u volt
+
+
+########## noise analysis result at frequency 10.0000x ##########
+hierarchy                         
+device           0:mnm0           
+rd              5.1650e-20       
+rs              5.9674f          
+id              10.4506p         
+rx              42.7192k         
+fn              8.9614p          
+total           19.4180p         
+
+#### output noise voltage                        = 19.4180p volt^2/hz
+#### output rms noise                            = 4.4066u volt/hz^(1/2)
+#### equivalent input noise at vv0               = 16.7625n /hz^(1/2)
+#### transfer function v(vout)/vv0               = 262.8831
+
+#### integral value of noise from 1.0000hz to 10.0000xhz
+#### total output noise voltage                  = 24.5964m volt
+#### total input noise at vv0                    = 91.1223u volt
+
+
+########## noise analysis result at frequency 100.0000x ##########
+hierarchy                         
+device           0:mnm0           
+rd              5.1650e-20       
+rs              870.1629a        
+id              1.5239p          
+rx              12.7272k         
+fn              198.6958f        
+total           1.7235p          
+
+#### output noise voltage                        = 1.7235p volt^2/hz
+#### output rms noise                            = 1.3128u volt/hz^(1/2)
+#### equivalent input noise at vv0               = 13.0776n /hz^(1/2)
+#### transfer function v(vout)/vv0               = 100.3857
+
+#### integral value of noise from 1.0000hz to 100.0000xhz
+#### total output noise voltage                  = 34.3261m volt
+#### total input noise at vv0                    = 160.1695u volt
+
+
+########## noise analysis result at frequency 1.0000g ##########
+hierarchy                         
+device           0:mnm0           
+rd              5.1650e-20       
+rs              10.0692a         
+id              17.6340f         
+rx              1.3005k          
+fn              349.6102a        
+total           17.9938f         
+
+#### output noise voltage                        = 17.9938f volt^2/hz
+#### output rms noise                            = 134.1408n volt/hz^(1/2)
+#### equivalent input noise at vv0               = 12.4156n /hz^(1/2)
+#### transfer function v(vout)/vv0               = 10.8042
+
+#### integral value of noise from 1.0000hz to 1.0000ghz
+#### total output noise voltage                  = 36.6663m volt
+#### total input noise at vv0                    = 409.2122u volt
+
+
+================================================================================
+2020-09-25 09:00 : Simulation Engine Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 130300 KB
+================================================================================
+
+Note: Average threads: 1.
+
+############################### time statistics ################################
+
+       scope       wall time        cpu time            step
+       parse            0.01            0.13
+        elab            0.07            0.06
+          op            0.01               0              10
+       noise            0.01            0.01              91
+       total            0.16            0.22
+
+Note: peak memory = 130300 KB
+
+Note: Simulation starts at 09:00:39, Fri Sep 25, 2020.
+
+Note: Simulation finishes at 09:00:39, Fri Sep 25, 2020.
+
+Note: Total elapsed time 0s.
+
+Simulation completes with 0 error(s), 0 warning(s), and 12 notice(s).

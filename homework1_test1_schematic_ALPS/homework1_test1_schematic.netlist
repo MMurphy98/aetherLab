@@ -1,0 +1,23 @@
+*test1
+****************************************
+* Type     : hspice
+* Tool     : AETHER-SE
+* Date     : Fri Sep 25 08:57:31 2020
+* User     : yuanqi
+* Top Design : homework1/test1/schematic
+****************************************
+
+.GLOBAL
+
+****************************************
+* Library : homework1
+* Cell    : test1
+* View    : schematic
+****************************************
+
+**TopDesStart
+MNM0 vout net4 0 0 n18 L=1u W=1u AD=480f AS=480f PD=2.96u PS=2.96u M=1
+II0 net0 vout DC 9.3u
+VV1 net0 0 DC 1.8
+VV0 net4 0 DC vin AC 1
+**TopDesEnd

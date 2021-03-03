@@ -1,0 +1,2 @@
+open_file /home/teacher/yuanqi/simulation/yuanqi/homework1_test1_schematic_ALPS/homework1_test1_schematic_Nominal.sp.sim/homework1_test1_schematic_Nominal.sp.sim/homework1_test1_schematic_Nominal.sp.ac0
+

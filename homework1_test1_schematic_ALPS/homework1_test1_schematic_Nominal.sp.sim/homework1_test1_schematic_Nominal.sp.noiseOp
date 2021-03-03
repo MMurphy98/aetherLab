@@ -1,0 +1,56 @@
+
+###################### operating point information begin #######################
+format: all
+   time         = 0.0000         temp         = 27.0000        tnom         = 27.0000     
+
+0 :net0         = 1.8000      0 :net4         = 650.0000m   0 :vout         = 1.6724      
+
+
+#### vsourceDc:
+hierarchy                                          
+device           0:vv0            0:vv1            
+i                0.0000           -9.3000u         
+v                650.0000m        1.8000           
+pwr              0.0000           16.7400u         
+
+
+
+#### isourceDc:
+hierarchy                         
+device           0:ii0            
+v                127.6281m        
+i                9.3000u          
+pwr              -1.1869u         
+
+
+
+#### mosfetLevel49:
+hierarchy                         
+device           0:mnm0           
+region           Saturati         
+id               9.2988u          
+ibs              -1.5670e-21      
+ibd              -1.2222n         
+vgs              650.0000m        
+vds              1.6724           
+vbs              0.0000           
+vth              404.6595m        
+vdsat            225.1116m        
+vod              245.3405m        
+gm               67.2987u         
+gds              240.9514n        
+gmb              19.4695u         
+cdtot            990.8754a        
+cgtot            7.3151f          
+cstot            7.7600f          
+cbtot            4.5508f          
+cgs              5.5975f          
+cgd              343.3341a        
+i1               9.3000u          
+i2               0.0000           
+i3               -9.2988u         
+i4               -1.2239n         
+
+
+####################### operating point information end ########################
+
