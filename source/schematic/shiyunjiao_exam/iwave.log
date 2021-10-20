@@ -1,0 +1,21 @@
+###1: cross_probe -file /tmp/plotEybt0l
+cross_probe -file /tmp/plotEybt0l OK
+###2: open_file /home/undergrad19_exam/shiyunjiao_exam/simulation/shiyunjiao_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+open_file competition_testbench_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###4: add_panel -1
+add_panel :0
+###5: calc &f<0>::s<isub(xi0.vdda)>@0#&*&f<0>::s<v(vdda)>@0#&
+calc "f<0>::s<isub(xi0.vdda)>[0]"*"f<0>::s<v(vdda)>[0]" :121
+###6: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+###7: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###8: chaxis -plot 1 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###9: open_wave -group Doc_Not_Found,0,_calc_wfs_\(1\)
+"f<0>::s<isub(xi0.vdda)>[0]"*"f<0>::s<v(vdda)>[0]"     Power_Consumption   Nominal datas:
+###10: chaxis -plot 3 -axis 0 Linear
+"f<0>::s<isub(xi0.vdda)>[0]"*"f<0>::s<v(vdda)>[0]"     Power_Consumption   Nominal datas:
+###11: exit
+exit

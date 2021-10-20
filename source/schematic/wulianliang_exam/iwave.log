@@ -1,0 +1,31 @@
+###1: cross_probe -file /tmp/plotiJLj3V
+cross_probe -file /tmp/plotiJLj3V OK
+###2: open_file /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+open_file competition_testbench_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###4: add_panel -1
+add_panel :0
+###5: open_wave -group /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0,0,i1\(xi0.mnm5\)
+###6: chaxis Log10
+competition_testbench_schematic_Nominal.sp.ac0     i1(xi0.mnm5)   Nominal datas:
+###7: chaxis -plot 1 -axis 0 Linear
+competition_testbench_schematic_Nominal.sp.ac0     i1(xi0.mnm5)   Nominal datas:
+###8: open_wave -group /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0,0,i2\(xi0.mnm5\)
+competition_testbench_schematic_Nominal.sp.ac0     i2(xi0.mnm5)   Nominal datas:
+###9: chaxis -plot 3 -axis 0 Linear
+competition_testbench_schematic_Nominal.sp.ac0     i2(xi0.mnm5)   Nominal datas:
+###10: open_wave -group /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0,0,i4\(xi0.mnm5\)
+competition_testbench_schematic_Nominal.sp.ac0     i4(xi0.mnm5)   Nominal datas:
+###11: chaxis -plot 5 -axis 0 Linear
+competition_testbench_schematic_Nominal.sp.ac0     i4(xi0.mnm5)   Nominal datas:
+###12: open_wave -group /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0,0,i3\(xi0.mnm5\)
+competition_testbench_schematic_Nominal.sp.ac0     i3(xi0.mnm5)   Nominal datas:
+###13: chaxis -plot 7 -axis 0 Linear
+competition_testbench_schematic_Nominal.sp.ac0     i3(xi0.mnm5)   Nominal datas:
+###14: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###15: chaxis -plot 9 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###16: exit
+exit
