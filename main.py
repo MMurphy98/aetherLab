@@ -1,4 +1,5 @@
 import os
+from posixpath import split
 import shutil
 
 
@@ -28,6 +29,18 @@ def get_schematic(pwd, sorted_pwd):
     return int(file_count)
         
 
+def get_namelist(pwd):
+    doc = os.listdir(pwd)
+    fid = open("Namelist.txt", 'w+')
+
+    for i in doc:
+        name = str(i).split('_')[0]
+
+        fid.write(name + '\n')
+    
+    fid.close()
+
+    
 
 
 
@@ -37,5 +50,6 @@ if __name__ == '__main__':
     # doc = os.listdir()
     # for i in doc:
     #     print(i)
-    getschematic('./source/schematic', './source/schematic/Miller#2dOTA')
+    # getschematic('./source/schematic', './source/schematic/Miller#2dOTA')
+    get_namelist('./source/schematic')
     print("hello world")
