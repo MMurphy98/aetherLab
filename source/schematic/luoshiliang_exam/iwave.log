@@ -1,0 +1,256 @@
+###1: cross_probe -file /tmp/plotyuRMBV
+cross_probe -file /tmp/plotyuRMBV OK
+###2: open_file /home/undergrad19_exam/luoshiliang_exam/simulation/luoshiliang_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+open_file competition_testbench_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###4: add_panel -1
+add_panel :0
+###5: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+###6: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###7: chaxis -plot 1 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###8: chaxis -plot 1 -axis 0 DB20
+###9: add_meter -DataXY
+add_meter -DataXY, new ID: 0, meter num: 0 -> 1
+###10: set_meter -id 0 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###11: mv_mark -id 2 -plotindex 1 3.087921E+05 1.261829E+02
+mv_mark -id 2 -plotindex 1 3.087921E+05 1.261829E+02 result X:0.31M Y:1.3e+02
+###12: mv_mark -id 2 -plotindex 1 3.087921E+05 1.298939E+02
+mv_mark -id 2 -plotindex 1 3.087921E+05 1.298939E+02 result X:0.31M Y:1.3e+02
+###13: mv_mark -id 2 -plotindex 1 3.087921E+05 1.317494E+02
+mv_mark -id 2 -plotindex 1 3.087921E+05 1.317494E+02 result X:0.31M Y:1.3e+02
+###14: mv_mark -id 2 -plotindex 1 3.087921E+05 1.336049E+02
+mv_mark -id 2 -plotindex 1 3.087921E+05 1.336049E+02 result X:0.31M Y:1.3e+02
+###15: mv_mark -id 2 -plotindex 1 2.955209E+05 1.391714E+02
+mv_mark -id 2 -plotindex 1 2.955209E+05 1.391714E+02 result X:0.31M Y:1.3e+02
+###16: mv_mark -id 2 -plotindex 1 2.955209E+05 1.447379E+02
+mv_mark -id 2 -plotindex 1 2.955209E+05 1.447379E+02 result X:0.31M Y:1.3e+02
+###17: mv_mark -id 2 -plotindex 1 2.955209E+05 1.521599E+02
+mv_mark -id 2 -plotindex 1 2.955209E+05 1.521599E+02 result X:0.32M Y:1.3e+02
+###18: mv_mark -id 2 -plotindex 1 2.891008E+05 1.595819E+02
+mv_mark -id 2 -plotindex 1 2.891008E+05 1.595819E+02 result X:0.32M Y:1.3e+02
+###19: mv_mark -id 2 -plotindex 0 2.766759E+05 3.527516E-02
+mv_mark -id 2 -plotindex 0 2.766759E+05 3.527516E-02 result X:0.4M Y:48.964474db
+###20: mv_mark -id 2 -plotindex 0 2.706652E+05 5.223114E-02
+mv_mark -id 2 -plotindex 0 2.706652E+05 5.223114E-02 result X:0.4M Y:48.964474db
+###21: mv_mark -id 2 -plotindex 0 2.534052E+05 6.785312E-02
+mv_mark -id 2 -plotindex 0 2.534052E+05 6.785312E-02 result X:0.37M Y:49.184272db
+###22: mv_mark -id 2 -plotindex 0 2.320918E+05 1.222533E-01
+mv_mark -id 2 -plotindex 0 2.320918E+05 1.222533E-01 result X:0.35M Y:49.411092db
+###23: mv_mark -id 2 -plotindex 0 2.172916E+05 1.695552E-01
+mv_mark -id 2 -plotindex 0 2.172916E+05 1.695552E-01 result X:0.32M Y:49.74632db
+###24: mv_mark -id 2 -plotindex 0 1.904624E+05 3.054935E-01
+mv_mark -id 2 -plotindex 0 1.904624E+05 3.054935E-01 result X:0.29M Y:50.258717db
+###25: mv_mark -id 2 -plotindex 0 1.597709E+05 5.876285E-01
+mv_mark -id 2 -plotindex 0 1.597709E+05 5.876285E-01 result X:0.25M Y:50.980054db
+###26: mv_mark -id 2 -plotindex 0 1.370014E+05 9.289097E-01
+mv_mark -id 2 -plotindex 0 1.370014E+05 9.289097E-01 result X:0.22M Y:51.726701db
+###27: mv_mark -id 2 -plotindex 0 1.200857E+05 1.567668E+00
+mv_mark -id 2 -plotindex 0 1.200857E+05 1.567668E+00 result X:0.19M Y:52.566542db
+###28: mv_mark -id 2 -plotindex 0 9.854639E+04 2.824522E+00
+mv_mark -id 2 -plotindex 0 9.854639E+04 2.824522E+00 result X:0.16M Y:53.857018db
+###29: mv_mark -id 2 -plotindex 0 8.266641E+04 5.433078E+00
+mv_mark -id 2 -plotindex 0 8.266641E+04 5.433078E+00 result X:0.13M Y:55.314848db
+###30: mv_mark -id 2 -plotindex 0 6.636507E+04 1.045074E+01
+mv_mark -id 2 -plotindex 0 6.636507E+04 1.045074E+01 result X:0.1M Y:57.153997db
+###31: mv_mark -id 2 -plotindex 0 5.817091E+04 1.547417E+01
+mv_mark -id 2 -plotindex 0 5.817091E+04 1.547417E+01 result X:88k Y:58.298091db
+###32: mv_mark -id 2 -plotindex 0 5.098849E+04 2.291226E+01
+mv_mark -id 2 -plotindex 0 5.098849E+04 2.291226E+01 result X:76k Y:59.545799db
+###33: mv_mark -id 2 -plotindex 0 4.277210E+04 3.392567E+01
+mv_mark -id 2 -plotindex 0 4.277210E+04 3.392567E+01 result X:63k Y:61.130411db
+###34: mv_mark -id 2 -plotindex 0 3.667650E+04 4.407262E+01
+mv_mark -id 2 -plotindex 0 3.667650E+04 4.407262E+01 result X:53k Y:62.498438db
+###35: mv_mark -id 2 -plotindex 0 3.214802E+04 6.112506E+01
+mv_mark -id 2 -plotindex 0 3.214802E+04 6.112506E+01 result X:46k Y:63.767787db
+###36: mv_mark -id 2 -plotindex 0 2.756650E+04 7.940716E+01
+mv_mark -id 2 -plotindex 0 2.756650E+04 7.940716E+01 result X:39k Y:65.153552db
+###37: mv_mark -id 2 -plotindex 0 2.363790E+04 1.031573E+02
+mv_mark -id 2 -plotindex 0 2.363790E+04 1.031573E+02 result X:33k Y:66.558148db
+###38: mv_mark -id 2 -plotindex 0 1.939806E+04 1.527427E+02
+mv_mark -id 2 -plotindex 0 1.939806E+04 1.527427E+02 result X:27k Y:68.41843db
+###39: mv_mark -id 2 -plotindex 0 1.557288E+04 1.984271E+02
+mv_mark -id 2 -plotindex 0 1.557288E+04 1.984271E+02 result X:21k Y:70.343787db
+###40: mv_mark -id 2 -plotindex 0 1.335353E+04 2.261628E+02
+mv_mark -id 2 -plotindex 0 1.335353E+04 2.261628E+02 result X:18k Y:71.647721db
+###41: mv_mark -id 2 -plotindex 0 1.196469E+04 2.752019E+02
+mv_mark -id 2 -plotindex 0 1.196469E+04 2.752019E+02 result X:16k Y:72.668305db
+###42: mv_mark -id 2 -plotindex 0 1.048740E+04 3.575129E+02
+mv_mark -id 2 -plotindex 0 1.048740E+04 3.575129E+02 result X:14k Y:73.920293db
+###43: mv_mark -id 2 -plotindex 0 9.192508E+03 4.074853E+02
+mv_mark -id 2 -plotindex 0 9.192508E+03 4.074853E+02 result X:12k Y:75.053148db
+###44: mv_mark -id 2 -plotindex 0 7.711208E+03 5.293614E+02
+mv_mark -id 2 -plotindex 0 7.711208E+03 5.293614E+02 result X:10k Y:76.628247db
+###45: mv_mark -id 2 -plotindex 0 7.379799E+03 5.293614E+02
+mv_mark -id 2 -plotindex 0 7.379799E+03 5.293614E+02 result X:9.8k Y:76.976756db
+###46: mv_mark -id 2 -plotindex 0 6.328079E+03 5.651482E+02
+mv_mark -id 2 -plotindex 0 6.328079E+03 5.651482E+02 result X:8.4k Y:78.212984db
+###47: mv_mark -id 2 -plotindex 0 5.924545E+03 6.441434E+02
+mv_mark -id 2 -plotindex 0 5.924545E+03 6.441434E+02 result X:7.8k Y:78.837454db
+###48: mv_mark -id 2 -plotindex 0 5.193036E+03 7.838137E+02
+mv_mark -id 2 -plotindex 0 5.193036E+03 7.838137E+02 result X:6.8k Y:80.00195db
+###49: mv_mark -id 2 -plotindex 0 5.080218E+03 8.368024E+02
+mv_mark -id 2 -plotindex 0 5.080218E+03 8.368024E+02 result X:6.6k Y:80.215403db
+###50: mv_mark -id 2 -plotindex 0 4.551846E+03 9.537688E+02
+mv_mark -id 2 -plotindex 0 4.551846E+03 9.537688E+02 result X:5.9k Y:81.152783db
+###51: mv_mark -id 2 -plotindex 0 4.168999E+03 9.537688E+02
+mv_mark -id 2 -plotindex 0 4.168999E+03 9.537688E+02 result X:5.4k Y:81.827021db
+###52: mv_mark -id 2 -plotindex 0 3.735399E+03 1.018247E+03
+mv_mark -id 2 -plotindex 0 3.735399E+03 1.018247E+03 result X:4.8k Y:82.702916db
+###53: mv_mark -id 2 -plotindex 0 3.735399E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 3.735399E+03 1.087084E+03 result X:4.8k Y:82.748489db
+###54: mv_mark -id 2 -plotindex 0 3.654249E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 3.654249E+03 1.087084E+03 result X:4.7k Y:82.902821db
+###55: mv_mark -id 2 -plotindex 0 3.421222E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 3.421222E+03 1.087084E+03 result X:4.4k Y:83.417408db
+###56: mv_mark -id 2 -plotindex 0 3.346897E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 3.346897E+03 1.087084E+03 result X:4.3k Y:83.567803db
+###57: mv_mark -id 2 -plotindex 0 3.133469E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 3.133469E+03 1.087084E+03 result X:4.1k Y:84.018989db
+###58: mv_mark -id 2 -plotindex 0 3.065395E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 3.065395E+03 1.087084E+03 result X:3.9k Y:84.231886db
+###59: mv_mark -id 2 -plotindex 0 2.933652E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.933652E+03 1.087084E+03 result X:3.8k Y:84.523262db
+###60: mv_mark -id 2 -plotindex 0 2.869919E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.869919E+03 1.087084E+03 result X:3.7k Y:84.66895db
+###61: mv_mark -id 2 -plotindex 0 2.807571E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.807571E+03 1.087084E+03 result X:3.6k Y:84.814638db
+###62: mv_mark -id 2 -plotindex 0 2.746577E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.746577E+03 1.087084E+03 result X:3.5k Y:85.033629db
+###63: mv_mark -id 2 -plotindex 0 2.571431E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.571431E+03 1.087084E+03 result X:3.3k Y:85.454015db
+###64: mv_mark -id 2 -plotindex 0 2.515567E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.515567E+03 1.087084E+03 result X:3.2k Y:85.594144db
+###65: mv_mark -id 2 -plotindex 0 2.460917E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.460917E+03 1.087084E+03 result X:3.1k Y:85.817175db
+###66: mv_mark -id 2 -plotindex 0 2.355153E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.355153E+03 1.087084E+03 result X:3k Y:86.084497db
+###67: mv_mark -id 2 -plotindex 0 2.303988E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.303988E+03 1.087084E+03 result X:2.9k Y:86.218158db
+###68: mv_mark -id 2 -plotindex 0 2.253934E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.253934E+03 1.087084E+03 result X:2.9k Y:86.351819db
+###69: mv_mark -id 2 -plotindex 0 2.204968E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.204968E+03 1.087084E+03 result X:2.8k Y:86.575466db
+###70: mv_mark -id 2 -plotindex 0 2.110203E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.110203E+03 1.087084E+03 result X:2.7k Y:86.828002db
+###71: mv_mark -id 2 -plotindex 0 2.064360E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.064360E+03 1.087084E+03 result X:2.6k Y:86.954269db
+###72: mv_mark -id 2 -plotindex 0 2.019512E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 2.019512E+03 1.087084E+03 result X:2.6k Y:87.080537db
+###73: mv_mark -id 2 -plotindex 0 1.975638E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.975638E+03 1.087084E+03 result X:2.5k Y:87.300037db
+###74: mv_mark -id 2 -plotindex 0 1.849655E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.849655E+03 1.087084E+03 result X:2.3k Y:87.653997db
+###75: mv_mark -id 2 -plotindex 0 1.809471E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.809471E+03 1.087084E+03 result X:2.3k Y:87.771984db
+###76: mv_mark -id 2 -plotindex 0 1.770161E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.770161E+03 1.087084E+03 result X:2.2k Y:87.981589db
+###77: mv_mark -id 2 -plotindex 0 1.694084E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.694084E+03 1.087084E+03 result X:2.1k Y:88.199436db
+###78: mv_mark -id 2 -plotindex 0 1.657280E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.657280E+03 1.087084E+03 result X:2k Y:88.30836db
+###79: mv_mark -id 2 -plotindex 0 1.621276E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.621276E+03 1.087084E+03 result X:2k Y:88.511708db
+###80: mv_mark -id 2 -plotindex 0 1.586054E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.586054E+03 1.087084E+03 result X:1.9k Y:88.610962db
+###81: mv_mark -id 2 -plotindex 0 1.517889E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.517889E+03 1.087084E+03 result X:1.8k Y:88.80947db
+###82: mv_mark -id 2 -plotindex 0 1.484913E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.484913E+03 1.087084E+03 result X:1.8k Y:88.908724db
+###83: mv_mark -id 2 -plotindex 0 1.360020E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.360020E+03 1.087084E+03 result X:1.6k Y:89.358765db
+###84: mv_mark -id 2 -plotindex 0 1.273293E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.273293E+03 1.087084E+03 result X:1.5k Y:89.684376db
+###85: mv_mark -id 2 -plotindex 0 1.245631E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.245631E+03 1.087084E+03 result X:1.5k Y:89.763458db
+###86: mv_mark -id 2 -plotindex 0 1.192097E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.192097E+03 1.087084E+03 result X:1.4k Y:89.982704db
+###87: mv_mark -id 2 -plotindex 0 1.166199E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.166199E+03 1.087084E+03 result X:1.3k Y:90.051848db
+###88: mv_mark -id 2 -plotindex 0 1.140864E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.140864E+03 1.087084E+03 result X:1.3k Y:90.120992db
+###89: mv_mark -id 2 -plotindex 0 1.044908E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.044908E+03 1.087084E+03 result X:1.2k Y:90.431838db
+###90: mv_mark -id 2 -plotindex 0 1.022207E+03 1.087084E+03
+mv_mark -id 2 -plotindex 0 1.022207E+03 1.087084E+03 result X:1.2k Y:90.491502db
+###91: mv_mark -id 2 -plotindex 0 9.782752E+02 1.087084E+03
+mv_mark -id 2 -plotindex 0 9.782752E+02 1.087084E+03 result X:1.1k Y:90.64761db
+###92: mv_mark -id 2 -plotindex 0 9.570224E+02 1.087084E+03
+mv_mark -id 2 -plotindex 0 9.570224E+02 1.087084E+03 result X:1.1k Y:90.698466db
+###93: mv_mark -id 2 -plotindex 0 9.362313E+02 1.087084E+03
+mv_mark -id 2 -plotindex 0 9.362313E+02 1.087084E+03 result X:1k Y:90.749322db
+###94: mv_mark -id 2 -plotindex 0 8.959943E+02 1.087084E+03
+mv_mark -id 2 -plotindex 0 8.959943E+02 1.087084E+03 result X:1k Y:90.839962db
+###95: move_cursor -id 0 0 nan
+###96: move_cursor -id 1 nan 0
+###97: move_cursor -id 1 1.29681e+08 12.9977
+###98: move_cursor -id 1 1.29681e+08 20.4197
+###99: move_cursor -id 1 1.29681e+08 29.6972
+###100: move_cursor -id 1 1.29681e+08 35.2636
+###101: move_cursor -id 1 1.29681e+08 42.6856
+###102: move_cursor -id 1 1.29681e+08 48.2521
+###103: move_cursor -id 1 1.29681e+08 50.1076
+###104: move_cursor -id 1 1.29681e+08 51.9631
+###105: move_cursor -id 1 1.29681e+08 55.6741
+###106: move_cursor -id 1 1.29681e+08 57.5296
+###107: move_cursor -id 1 1.29681e+08 59.3851
+###108: move_cursor -id 1 1.29681e+08 63.0961
+###109: move_cursor -id 1 1.29681e+08 64.9516
+###110: move_cursor -id 1 1.29681e+08 66.8071
+###111: move_cursor -id 1 1.29681e+08 68.6626
+###112: move_cursor -id 1 1.29681e+08 74.2291
+###113: move_cursor -id 1 1.29681e+08 76.0846
+###114: move_cursor -id 1 1.29681e+08 77.9401
+###115: move_cursor -id 1 1.29681e+08 83.5065
+###116: move_cursor -id 1 1.29681e+08 87.2175
+###117: move_cursor -id 1 1.29681e+08 92.784
+###118: move_cursor -id 1 1.29681e+08 96.495
+###119: move_cursor -id 1 1.29681e+08 98.3505
+###120: move_cursor -id 1 1.29681e+08 100.206
+###121: move_cursor -id 1 1.29681e+08 103.917
+###122: move_cursor -id 1 1.29681e+08 105.772
+###123: move_cursor -id 1 1.29681e+08 107.628
+###124: move_cursor -id 1 1.29681e+08 109.483
+###125: move_cursor -id 1 1.32561e+08 113.194
+###126: move_cursor -id 1 1.32561e+08 118.761
+###127: move_cursor -id 1 1.38514e+08 126.183
+###128: move_cursor -id 1 1.44735e+08 131.749
+###129: move_cursor -id 1 1.51234e+08 142.882
+###130: move_cursor -id 1 1.51234e+08 150.304
+###131: move_cursor -id 1 1.54593e+08 155.871
+###132: move_cursor -id 1 1.61535e+08 167.004
+###133: move_cursor -id 1 1.61535e+08 174.426
+###134: move_cursor -id 1 1.68789e+08 178.137
+###135: move_cursor -id 1 1.68789e+08 179.992
+###136: move_cursor -id 1 1.68789e+08 181.848
+###137: move_cursor -id 1 1.68789e+08 183.703
+###138: move_cursor -id 1 1.72538e+08 189.27
+###139: move_cursor -id 1 1.8429e+08 198.547
+###140: move_cursor -id 1 1.8429e+08 0.122253
+###141: move_cursor -id 1 1.8429e+08 0.148762
+###142: move_cursor -id 1 1.8429e+08 0.181018
+###143: move_cursor -id 1 1.8429e+08 0.220268
+###144: move_cursor -id 1 1.8429e+08 0.251057
+###145: move_cursor -id 1 1.8429e+08 0.268029
+###146: move_cursor -id 1 1.8429e+08 0.286149
+###147: move_cursor -id 1 1.8429e+08 0.326146
+###148: move_cursor -id 1 1.8429e+08 0.348195
+###149: move_cursor -id 1 1.8429e+08 0.371734
+###150: move_cursor -id 1 1.8429e+08 0.423694
+###151: move_cursor -id 1 1.8429e+08 0.452337
+###152: move_cursor -id 1 1.8429e+08 0.482917
+###153: move_cursor -id 1 1.8429e+08 0.515564
+###154: move_cursor -id 1 1.8429e+08 0.627354
+###155: move_cursor -id 1 1.8429e+08 0.669766
+###156: move_cursor -id 1 1.8429e+08 0.715045
+###157: move_cursor -id 1 1.76369e+08 0.763384
+###158: move_cursor -id 1 1.72538e+08 0.763384
+###159: move_cursor -id 1 1.72538e+08 0.870088
+###160: move_cursor -id 1 1.72538e+08 0.92891
+###161: move_cursor -id 1 1.72538e+08 0.991707
+###162: move_cursor -id 1 1.72538e+08 1.05875
+###163: move_cursor -id 1 1.72538e+08 0.991707
+###164: exit
+exit

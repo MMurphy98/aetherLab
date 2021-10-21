@@ -1,0 +1,7 @@
+INCLUDE ${PANDA_HOME}/lib/lib.defs
+DEFINE 018um_PDK /opt/EDA/empyrean_202005/labs/input_files/018um_PDK
+ASSIGN 018um_PDK libMode shared
+DEFINE competition ./competition
+ASSIGN competition libMode shared
+DEFINE ks1019 /home/undergrad19_exam/zhanghongrui_exam/Aether/ks1019
+ASSIGN ks1019 libMode shared

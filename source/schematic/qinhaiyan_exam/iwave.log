@@ -1,0 +1,2593 @@
+###1: cross_probe -file /tmp/plotxMWugh
+cross_probe -file /tmp/plotxMWugh OK
+###2: open_file /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+open_file competition_testbench_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###4: add_panel -1
+add_panel :0
+###5: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+###6: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###7: chaxis -plot 1 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###8: chaxis -plot 1 -axis 0 DB20
+###9: select_plot 0
+select_plot :1
+###10: add_meter -DataXY
+add_meter -DataXY, new ID: 0, meter num: 0 -> 1
+###11: set_meter -id 0 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###12: mv_mark -id 2 -plotindex 0 4.897609E+05 9.911238E+01
+mv_mark -id 2 -plotindex 0 4.897609E+05 9.911238E+01 result X:0.49M Y:40.505965db
+###13: mv_mark -id 2 -plotindex 0 4.585295E+05 9.911238E+01
+mv_mark -id 2 -plotindex 0 4.585295E+05 9.911238E+01 result X:0.46M Y:41.022311db
+###14: mv_mark -id 2 -plotindex 0 4.019144E+05 9.911238E+01
+mv_mark -id 2 -plotindex 0 4.019144E+05 9.911238E+01 result X:0.41M Y:42.054995db
+###15: mv_mark -id 2 -plotindex 0 3.601130E+05 9.911238E+01
+mv_mark -id 2 -plotindex 0 3.601130E+05 9.911238E+01 result X:0.37M Y:42.915556db
+###16: mv_mark -id 2 -plotindex 0 2.891008E+05 9.911238E+01
+mv_mark -id 2 -plotindex 0 2.891008E+05 9.911238E+01 result X:0.31M Y:44.636653db
+###17: mv_mark -id 2 -plotindex 0 2.479001E+05 1.210708E+02
+mv_mark -id 2 -plotindex 0 2.479001E+05 1.210708E+02 result X:0.26M Y:46.011363db
+###18: mv_mark -id 2 -plotindex 0 2.125710E+05 1.210708E+02
+mv_mark -id 2 -plotindex 0 2.125710E+05 1.210708E+02 result X:0.23M Y:47.216055db
+###19: mv_mark -id 2 -plotindex 0 1.822768E+05 1.383504E+02
+mv_mark -id 2 -plotindex 0 1.822768E+05 1.383504E+02 result X:0.2M Y:48.534028db
+###20: mv_mark -id 2 -plotindex 0 1.529043E+05 1.383504E+02
+mv_mark -id 2 -plotindex 0 1.529043E+05 1.383504E+02 result X:0.17M Y:49.910684db
+###21: mv_mark -id 2 -plotindex 0 1.282650E+05 1.580962E+02
+mv_mark -id 2 -plotindex 0 1.282650E+05 1.580962E+02 result X:0.14M Y:51.400578db
+###22: mv_mark -id 2 -plotindex 0 1.099855E+05 1.580962E+02
+mv_mark -id 2 -plotindex 0 1.099855E+05 1.580962E+02 result X:0.12M Y:52.604956db
+###23: mv_mark -id 2 -plotindex 0 9.025783E+04 1.806602E+02
+mv_mark -id 2 -plotindex 0 9.025783E+04 1.806602E+02 result X:0.1M Y:54.266358db
+###24: mv_mark -id 2 -plotindex 0 7.571349E+04 2.064445E+02
+mv_mark -id 2 -plotindex 0 7.571349E+04 2.064445E+02 result X:85k Y:55.755573db
+###25: mv_mark -id 2 -plotindex 0 5.817091E+04 2.359089E+02
+mv_mark -id 2 -plotindex 0 5.817091E+04 2.359089E+02 result X:66k Y:57.931796db
+###26: mv_mark -id 2 -plotindex 0 4.469289E+04 3.080536E+02
+mv_mark -id 2 -plotindex 0 4.469289E+04 3.080536E+02 result X:51k Y:60.219067db
+###27: mv_mark -id 2 -plotindex 0 3.214802E+04 4.022614E+02
+mv_mark -id 2 -plotindex 0 3.214802E+04 4.022614E+02 result X:37k Y:63.017626db
+###28: mv_mark -id 2 -plotindex 0 2.312437E+04 5.615143E+02
+mv_mark -id 2 -plotindex 0 2.312437E+04 5.615143E+02 result X:26k Y:65.863051db
+###29: mv_mark -id 2 -plotindex 0 1.700296E+04 6.416553E+02
+mv_mark -id 2 -plotindex 0 1.700296E+04 6.416553E+02 result X:20k Y:68.360339db
+###30: mv_mark -id 2 -plotindex 0 1.306343E+04 7.838145E+02
+mv_mark -id 2 -plotindex 0 1.306343E+04 7.838145E+02 result X:15k Y:70.548734db
+###31: mv_mark -id 2 -plotindex 0 1.003667E+04 8.956829E+02
+mv_mark -id 2 -plotindex 0 1.003667E+04 8.956829E+02 result X:12k Y:72.654714db
+###32: mv_mark -id 2 -plotindex 0 7.711208E+03 1.250279E+03
+mv_mark -id 2 -plotindex 0 7.711208E+03 1.250279E+03 result X:8.9k Y:74.879481db
+###33: mv_mark -id 2 -plotindex 0 6.468608E+03 1.250279E+03
+mv_mark -id 2 -plotindex 0 6.468608E+03 1.250279E+03 result X:7.5k Y:76.135797db
+###34: mv_mark -id 2 -plotindex 0 5.546744E+03 1.428722E+03
+mv_mark -id 2 -plotindex 0 5.546744E+03 1.428722E+03 result X:6.4k Y:77.284406db
+###35: mv_mark -id 2 -plotindex 0 5.426243E+03 1.428722E+03
+mv_mark -id 2 -plotindex 0 5.426243E+03 1.428722E+03 result X:6.2k Y:77.470333db
+###36: mv_mark -id 2 -plotindex 0 5.080218E+03 1.527279E+03
+mv_mark -id 2 -plotindex 0 5.080218E+03 1.527279E+03 result X:5.8k Y:77.924999db
+###37: mv_mark -id 2 -plotindex 0 4.756259E+03 1.527279E+03
+mv_mark -id 2 -plotindex 0 4.756259E+03 1.527279E+03 result X:5.4k Y:78.381838db
+###38: mv_mark -id 2 -plotindex 0 4.356219E+03 1.632634E+03
+mv_mark -id 2 -plotindex 0 4.356219E+03 1.632634E+03 result X:4.9k Y:78.99306db
+###39: mv_mark -id 2 -plotindex 0 4.168999E+03 1.865648E+03
+mv_mark -id 2 -plotindex 0 4.168999E+03 1.865648E+03 result X:4.7k Y:79.300867db
+###40: mv_mark -id 2 -plotindex 0 3.903147E+03 1.865648E+03
+mv_mark -id 2 -plotindex 0 3.903147E+03 1.865648E+03 result X:4.4k Y:79.720372db
+###41: mv_mark -id 2 -plotindex 0 3.818352E+03 1.865648E+03
+mv_mark -id 2 -plotindex 0 3.818352E+03 1.865648E+03 result X:4.3k Y:79.83729db
+###42: mv_mark -id 2 -plotindex 0 3.735399E+03 1.865648E+03
+mv_mark -id 2 -plotindex 0 3.735399E+03 1.865648E+03 result X:4.2k Y:79.954208db
+###43: mv_mark -id 2 -plotindex 0 3.574861E+03 1.994345E+03
+mv_mark -id 2 -plotindex 0 3.574861E+03 1.994345E+03 result X:4k Y:80.212686db
+###44: mv_mark -id 2 -plotindex 0 3.497198E+03 1.994345E+03
+mv_mark -id 2 -plotindex 0 3.497198E+03 1.994345E+03 result X:3.9k Y:80.370544db
+###45: mv_mark -id 2 -plotindex 0 3.346897E+03 1.994345E+03
+mv_mark -id 2 -plotindex 0 3.346897E+03 1.994345E+03 result X:3.7k Y:80.585961db
+###46: mv_mark -id 2 -plotindex 0 3.203055E+03 1.994345E+03
+mv_mark -id 2 -plotindex 0 3.203055E+03 1.994345E+03 result X:3.6k Y:80.801378db
+###47: mv_mark -id 2 -plotindex 0 2.998800E+03 1.994345E+03
+mv_mark -id 2 -plotindex 0 2.998800E+03 1.994345E+03 result X:3.3k Y:81.144683db
+###48: mv_mark -id 2 -plotindex 0 2.807571E+03 1.994345E+03
+mv_mark -id 2 -plotindex 0 2.807571E+03 1.994345E+03 result X:3.1k Y:81.474439db
+###49: mv_mark -id 2 -plotindex 0 2.407454E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 2.407454E+03 2.278984E+03 result X:2.6k Y:82.120292db
+###50: mv_mark -id 2 -plotindex 0 2.064360E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 2.064360E+03 2.278984E+03 result X:2.2k Y:82.663687db
+###51: mv_mark -id 2 -plotindex 0 1.694084E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 1.694084E+03 2.278984E+03 result X:1.8k Y:83.186421db
+###52: mv_mark -id 2 -plotindex 0 1.517889E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 1.517889E+03 2.278984E+03 result X:1.6k Y:83.407703db
+###53: mv_mark -id 2 -plotindex 0 1.421095E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 1.421095E+03 2.278984E+03 result X:1.5k Y:83.512189db
+###54: mv_mark -id 2 -plotindex 0 1.301570E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 1.301570E+03 2.278984E+03 result X:1.3k Y:83.647918db
+###55: mv_mark -id 2 -plotindex 0 1.273293E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 1.273293E+03 2.278984E+03 result X:1.3k Y:83.676703db
+###56: mv_mark -id 2 -plotindex 0 1.218570E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 1.218570E+03 2.278984E+03 result X:1.3k Y:83.740034db
+###57: mv_mark -id 2 -plotindex 0 1.192097E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 1.192097E+03 2.278984E+03 result X:1.2k Y:83.763655db
+###58: mv_mark -id 2 -plotindex 0 1.166199E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 1.166199E+03 2.278984E+03 result X:1.2k Y:83.787276db
+###59: mv_mark -id 2 -plotindex 0 1.140864E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 1.140864E+03 2.278984E+03 result X:1.2k Y:83.810896db
+###60: mv_mark -id 2 -plotindex 0 1.091832E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 1.091832E+03 2.278984E+03 result X:1.1k Y:83.862048db
+###61: mv_mark -id 2 -plotindex 0 1.068112E+03 2.278984E+03
+mv_mark -id 2 -plotindex 0 1.068112E+03 2.278984E+03 result X:1.1k Y:83.881314db
+###62: move_cursor -id 0 nan 1
+###63: cross_probe -file /tmp/plotjy27sB
+cross_probe -file /tmp/plotjy27sB OK
+###64: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###65: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###66: open_wave -group Doc_Not_Found,0,_calc_wfs_\(2\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###67: chaxis -plot 3 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###68: select_plot 2
+select_plot :1
+###69: chaxis -plot 3 -axis 0 DB20
+###70: add_meter -DataXY
+add_meter -DataXY, new ID: 11, meter num: 1 -> 2
+###71: set_meter -id 11 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###72: mv_mark -id 13 -plotindex 2 4.791209E+05 1.167408E+02
+mv_mark -id 13 -plotindex 2 4.791209E+05 1.167408E+02 result X:0.48M Y:40.754564db
+###73: mv_mark -id 13 -plotindex 2 4.292896E+05 1.167408E+02
+mv_mark -id 13 -plotindex 2 4.292896E+05 1.167408E+02 result X:0.43M Y:41.668094db
+###74: mv_mark -id 13 -plotindex 2 3.371490E+05 1.167408E+02
+mv_mark -id 13 -plotindex 2 3.371490E+05 1.167408E+02 result X:0.34M Y:43.677785db
+###75: mv_mark -id 13 -plotindex 2 2.647851E+05 1.167408E+02
+mv_mark -id 13 -plotindex 2 2.647851E+05 1.167408E+02 result X:0.27M Y:45.687337db
+###76: mv_mark -id 13 -plotindex 2 1.904624E+05 1.167408E+02
+mv_mark -id 13 -plotindex 2 1.904624E+05 1.167408E+02 result X:0.2M Y:48.427295db
+###77: mv_mark -id 13 -plotindex 2 1.463328E+05 1.167408E+02
+mv_mark -id 13 -plotindex 2 1.463328E+05 1.167408E+02 result X:0.15M Y:50.618752db
+###78: mv_mark -id 13 -plotindex 2 1.052586E+05 1.167408E+02
+mv_mark -id 13 -plotindex 2 1.052586E+05 1.167408E+02 result X:0.11M Y:53.357121db
+###79: mv_mark -id 13 -plotindex 2 7.911361E+04 1.167408E+02
+mv_mark -id 13 -plotindex 2 7.911361E+04 1.167408E+02 result X:85k Y:55.728571db
+###80: mv_mark -id 13 -plotindex 2 6.213306E+04 1.167408E+02
+mv_mark -id 13 -plotindex 2 6.213306E+04 1.167408E+02 result X:68k Y:57.733321db
+###81: mv_mark -id 13 -plotindex 2 5.327827E+04 1.167408E+02
+mv_mark -id 13 -plotindex 2 5.327827E+04 1.167408E+02 result X:58k Y:59.007449db
+###82: mv_mark -id 13 -plotindex 2 5.212081E+04 1.167408E+02
+mv_mark -id 13 -plotindex 2 5.212081E+04 1.167408E+02 result X:57k Y:59.189272db
+###83: mv_mark -id 13 -plotindex 2 4.773702E+04 1.167408E+02
+mv_mark -id 13 -plotindex 2 4.773702E+04 1.167408E+02 result X:52k Y:59.916832db
+###84: mv_mark -id 13 -plotindex 2 4.669995E+04 1.167408E+02
+mv_mark -id 13 -plotindex 2 4.669995E+04 1.167408E+02 result X:51k Y:60.098423db
+###85: mv_mark -id 13 -plotindex 2 4.277210E+04 1.438991E+02
+mv_mark -id 13 -plotindex 2 4.277210E+04 1.438991E+02 result X:47k Y:60.900845db
+###86: mv_mark -id 13 -plotindex 2 4.093386E+04 1.438991E+02
+mv_mark -id 13 -plotindex 2 4.093386E+04 1.438991E+02 result X:45k Y:61.263448db
+###87: mv_mark -id 13 -plotindex 2 3.510023E+04 1.438991E+02
+mv_mark -id 13 -plotindex 2 3.510023E+04 1.438991E+02 result X:39k Y:62.533274db
+###88: mv_mark -id 13 -plotindex 2 3.076637E+04 1.773756E+02
+mv_mark -id 13 -plotindex 2 3.076637E+04 1.773756E+02 result X:34k Y:63.692229db
+###89: mv_mark -id 13 -plotindex 2 2.524793E+04 1.773756E+02
+mv_mark -id 13 -plotindex 2 2.524793E+04 1.773756E+02 result X:28k Y:65.314678db
+###90: mv_mark -id 13 -plotindex 2 1.982884E+04 1.773756E+02
+mv_mark -id 13 -plotindex 2 1.982884E+04 1.773756E+02 result X:22k Y:67.281729db
+###91: mv_mark -id 13 -plotindex 2 1.557288E+04 1.773756E+02
+mv_mark -id 13 -plotindex 2 1.557288E+04 1.773756E+02 result X:17k Y:69.224946db
+###92: mv_mark -id 13 -plotindex 2 1.145048E+04 2.427434E+02
+mv_mark -id 13 -plotindex 2 1.145048E+04 2.427434E+02 result X:13k Y:71.724078db
+###93: mv_mark -id 13 -plotindex 2 8.992803E+03 2.427434E+02
+mv_mark -id 13 -plotindex 2 8.992803E+03 2.427434E+02 result X:10k Y:73.535688db
+###94: mv_mark -id 13 -plotindex 2 7.543684E+03 2.992148E+02
+mv_mark -id 13 -plotindex 2 7.543684E+03 2.992148E+02 result X:8.3k Y:74.850929db
+###95: mv_mark -id 13 -plotindex 2 6.759098E+03 2.992148E+02
+mv_mark -id 13 -plotindex 2 6.759098E+03 2.992148E+02 result X:7.5k Y:75.596654db
+###96: mv_mark -id 13 -plotindex 2 6.328079E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 6.328079E+03 3.322010E+02 result X:6.9k Y:76.065149db
+###97: mv_mark -id 13 -plotindex 2 5.924545E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 5.924545E+03 3.322010E+02 result X:6.5k Y:76.457636db
+###98: mv_mark -id 13 -plotindex 2 5.795836E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 5.795836E+03 3.322010E+02 result X:6.4k Y:76.588465db
+###99: mv_mark -id 13 -plotindex 2 5.669922E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 5.669922E+03 3.322010E+02 result X:6.2k Y:76.75084db
+###100: mv_mark -id 13 -plotindex 2 5.426243E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 5.426243E+03 3.322010E+02 result X:5.9k Y:76.994407db
+###101: mv_mark -id 13 -plotindex 2 5.308359E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 5.308359E+03 3.322010E+02 result X:5.8k Y:77.116191db
+###102: mv_mark -id 13 -plotindex 2 5.193036E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 5.193036E+03 3.322010E+02 result X:5.7k Y:77.237975db
+###103: mv_mark -id 13 -plotindex 2 5.080218E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 5.080218E+03 3.322010E+02 result X:5.5k Y:77.391546db
+###104: mv_mark -id 13 -plotindex 2 4.756259E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 4.756259E+03 3.322010E+02 result X:5.2k Y:77.72757db
+###105: mv_mark -id 13 -plotindex 2 4.356219E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 4.356219E+03 3.322010E+02 result X:4.7k Y:78.185227db
+###106: mv_mark -id 13 -plotindex 2 4.168999E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 4.168999E+03 3.322010E+02 result X:4.5k Y:78.388633db
+###107: mv_mark -id 13 -plotindex 2 3.903147E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 3.903147E+03 3.322010E+02 result X:4.2k Y:78.699604db
+###108: mv_mark -id 13 -plotindex 2 3.654249E+03 3.322010E+02
+mv_mark -id 13 -plotindex 2 3.654249E+03 3.322010E+02 result X:3.9k Y:78.99554db
+###109: mv_mark -id 13 -plotindex 2 3.346897E+03 4.094838E+02
+mv_mark -id 13 -plotindex 2 3.346897E+03 4.094838E+02 result X:3.5k Y:79.356437db
+###110: mv_mark -id 13 -plotindex 2 3.274186E+03 4.094838E+02
+mv_mark -id 13 -plotindex 2 3.274186E+03 4.094838E+02 result X:3.4k Y:79.426703db
+###111: mv_mark -id 13 -plotindex 2 3.203055E+03 4.094838E+02
+mv_mark -id 13 -plotindex 2 3.203055E+03 4.094838E+02 result X:3.4k Y:79.496969db
+###112: mv_mark -id 13 -plotindex 2 2.933652E+03 4.546263E+02
+mv_mark -id 13 -plotindex 2 2.933652E+03 4.546263E+02 result X:3.1k Y:79.791651db
+###113: mv_mark -id 13 -plotindex 2 2.628535E+03 4.546263E+02
+mv_mark -id 13 -plotindex 2 2.628535E+03 4.546263E+02 result X:2.7k Y:80.098785db
+###114: mv_mark -id 13 -plotindex 2 2.157065E+03 6.907580E+02
+mv_mark -id 13 -plotindex 2 2.157065E+03 6.907580E+02 result X:2.2k Y:80.54426db
+###115: mv_mark -id 13 -plotindex 2 1.890730E+03 6.907580E+02
+mv_mark -id 13 -plotindex 2 1.890730E+03 6.907580E+02 result X:1.9k Y:80.758081db
+###116: mv_mark -id 13 -plotindex 2 1.694084E+03 6.907580E+02
+mv_mark -id 13 -plotindex 2 1.694084E+03 6.907580E+02 result X:1.7k Y:80.904452db
+###117: mv_mark -id 13 -plotindex 2 1.586054E+03 6.907580E+02
+mv_mark -id 13 -plotindex 2 1.586054E+03 6.907580E+02 result X:1.6k Y:80.978194db
+###118: mv_mark -id 13 -plotindex 2 1.551597E+03 7.669089E+02
+mv_mark -id 13 -plotindex 2 1.551597E+03 7.669089E+02 result X:1.6k Y:81.004776db
+###119: mv_mark -id 13 -plotindex 2 1.517889E+03 7.669089E+02
+mv_mark -id 13 -plotindex 2 1.517889E+03 7.669089E+02 result X:1.5k Y:81.02484db
+###120: mv_mark -id 13 -plotindex 2 1.484913E+03 7.669089E+02
+mv_mark -id 13 -plotindex 2 1.484913E+03 7.669089E+02 result X:1.5k Y:81.044904db
+###121: mv_mark -id 13 -plotindex 2 1.452654E+03 7.669089E+02
+mv_mark -id 13 -plotindex 2 1.452654E+03 7.669089E+02 result X:1.5k Y:81.064968db
+###122: mv_mark -id 13 -plotindex 2 1.390222E+03 7.669089E+02
+mv_mark -id 13 -plotindex 2 1.390222E+03 7.669089E+02 result X:1.4k Y:81.106254db
+###123: mv_mark -id 13 -plotindex 2 1.330474E+03 7.669089E+02
+mv_mark -id 13 -plotindex 2 1.330474E+03 7.669089E+02 result X:1.3k Y:81.138841db
+###124: mv_mark -id 13 -plotindex 2 1.301570E+03 7.669089E+02
+mv_mark -id 13 -plotindex 2 1.301570E+03 7.669089E+02 result X:1.3k Y:81.155135db
+###125: move_cursor -id 0 nan 1
+###126: cross_probe -file /tmp/plotJR7G1t
+cross_probe -file /tmp/plotJR7G1t OK
+###127: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###128: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###129: open_wave -group Doc_Not_Found,0,_calc_wfs_\(5\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###130: chaxis -plot 5 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###131: select_plot 4
+select_plot :1
+###132: chaxis -plot 5 -axis 0 DB20
+###133: add_meter -DataXY
+add_meter -DataXY, new ID: 18, meter num: 2 -> 3
+###134: set_meter -id 18 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###135: mv_mark -id 20 -plotindex 4 5.231196E+05 7.252089E+01
+mv_mark -id 20 -plotindex 4 5.231196E+05 7.252089E+01 result X:0.53M Y:39.973354db
+###136: mv_mark -id 20 -plotindex 4 4.687121E+05 7.252089E+01
+mv_mark -id 20 -plotindex 4 4.687121E+05 7.252089E+01 result X:0.48M Y:40.891222db
+###137: mv_mark -id 20 -plotindex 4 3.762848E+05 7.252089E+01
+mv_mark -id 20 -plotindex 4 3.762848E+05 7.252089E+01 result X:0.39M Y:42.726898db
+###138: mv_mark -id 20 -plotindex 4 2.891008E+05 7.252089E+01
+mv_mark -id 20 -plotindex 4 2.891008E+05 7.252089E+01 result X:0.3M Y:44.929554db
+###139: mv_mark -id 20 -plotindex 4 1.990156E+05 7.252089E+01
+mv_mark -id 20 -plotindex 4 1.990156E+05 7.252089E+01 result X:0.21M Y:48.04952db
+###140: mv_mark -id 20 -plotindex 4 1.052586E+05 7.252089E+01
+mv_mark -id 20 -plotindex 4 1.052586E+05 7.252089E+01 result X:0.11M Y:53.368948db
+###141: mv_mark -id 20 -plotindex 4 5.567087E+04 7.252089E+01
+mv_mark -id 20 -plotindex 4 5.567087E+04 7.252089E+01 result X:61k Y:58.678825db
+###142: mv_mark -id 20 -plotindex 4 2.944411E+04 7.252089E+01
+mv_mark -id 20 -plotindex 4 2.944411E+04 7.252089E+01 result X:33k Y:63.955612db
+###143: mv_mark -id 20 -plotindex 4 1.738055E+04 7.252089E+01
+mv_mark -id 20 -plotindex 4 1.738055E+04 7.252089E+01 result X:20k Y:68.26019db
+###144: mv_mark -id 20 -plotindex 4 1.170476E+04 7.252089E+01
+mv_mark -id 20 -plotindex 4 1.170476E+04 7.252089E+01 result X:13k Y:71.37051db
+###145: mv_mark -id 20 -plotindex 4 9.605322E+03 7.252089E+01
+mv_mark -id 20 -plotindex 4 9.605322E+03 7.252089E+01 result X:11k Y:72.874408db
+###146: mv_mark -id 20 -plotindex 4 7.882453E+03 1.011675E+02
+mv_mark -id 20 -plotindex 4 7.882453E+03 1.011675E+02 result X:8.9k Y:74.376658db
+###147: mv_mark -id 20 -plotindex 4 7.711208E+03 1.011675E+02
+mv_mark -id 20 -plotindex 4 7.711208E+03 1.011675E+02 result X:8.7k Y:74.516921db
+###148: mv_mark -id 20 -plotindex 4 7.219474E+03 1.130403E+02
+mv_mark -id 20 -plotindex 4 7.219474E+03 1.130403E+02 result X:8.1k Y:74.958573db
+###149: mv_mark -id 20 -plotindex 4 7.219474E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 7.219474E+03 1.263066E+02 result X:8.1k Y:74.979437db
+###150: mv_mark -id 20 -plotindex 4 7.062633E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 7.062633E+03 1.263066E+02 result X:7.8k Y:75.158388db
+###151: mv_mark -id 20 -plotindex 4 6.759098E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 6.759098E+03 1.263066E+02 result X:7.5k Y:75.42264db
+###152: mv_mark -id 20 -plotindex 4 6.612258E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 6.612258E+03 1.263066E+02 result X:7.4k Y:75.554765db
+###153: mv_mark -id 20 -plotindex 4 6.468608E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 6.468608E+03 1.263066E+02 result X:7.2k Y:75.686891db
+###154: mv_mark -id 20 -plotindex 4 6.056113E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 6.056113E+03 1.263066E+02 result X:6.7k Y:76.105905db
+###155: mv_mark -id 20 -plotindex 4 5.924545E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 5.924545E+03 1.263066E+02 result X:6.6k Y:76.229017db
+###156: mv_mark -id 20 -plotindex 4 5.795836E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 5.795836E+03 1.263066E+02 result X:6.4k Y:76.35213db
+###157: mv_mark -id 20 -plotindex 4 5.426243E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 5.426243E+03 1.263066E+02 result X:6k Y:76.742651db
+###158: mv_mark -id 20 -plotindex 4 5.308359E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 5.308359E+03 1.263066E+02 result X:5.8k Y:76.856006db
+###159: mv_mark -id 20 -plotindex 4 4.969851E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 4.969851E+03 1.263066E+02 result X:5.4k Y:77.224382db
+###160: mv_mark -id 20 -plotindex 4 4.756259E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 4.756259E+03 1.263066E+02 result X:5.2k Y:77.430477db
+###161: mv_mark -id 20 -plotindex 4 4.652930E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 4.652930E+03 1.263066E+02 result X:5.1k Y:77.533525db
+###162: mv_mark -id 20 -plotindex 4 4.452959E+03 1.263066E+02
+mv_mark -id 20 -plotindex 4 4.452959E+03 1.263066E+02 result X:4.8k Y:77.763592db
+###163: mv_mark -id 20 -plotindex 4 4.261581E+03 1.411298E+02
+mv_mark -id 20 -plotindex 4 4.261581E+03 1.411298E+02 result X:4.6k Y:77.957427db
+###164: mv_mark -id 20 -plotindex 4 4.168999E+03 1.411298E+02
+mv_mark -id 20 -plotindex 4 4.168999E+03 1.411298E+02 result X:4.5k Y:78.04987db
+###165: mv_mark -id 20 -plotindex 4 4.078428E+03 1.411298E+02
+mv_mark -id 20 -plotindex 4 4.078428E+03 1.411298E+02 result X:4.4k Y:78.169417db
+###166: mv_mark -id 20 -plotindex 4 3.989825E+03 1.411298E+02
+mv_mark -id 20 -plotindex 4 3.989825E+03 1.411298E+02 result X:4.3k Y:78.251238db
+###167: mv_mark -id 20 -plotindex 4 3.818352E+03 1.761991E+02
+mv_mark -id 20 -plotindex 4 3.818352E+03 1.761991E+02 result X:4.1k Y:78.428874db
+###168: mv_mark -id 20 -plotindex 4 3.735399E+03 1.761991E+02
+mv_mark -id 20 -plotindex 4 3.735399E+03 1.761991E+02 result X:4k Y:78.538813db
+###169: mv_mark -id 20 -plotindex 4 3.654249E+03 1.761991E+02
+mv_mark -id 20 -plotindex 4 3.654249E+03 1.761991E+02 result X:3.9k Y:78.61028db
+###170: mv_mark -id 20 -plotindex 4 3.497198E+03 1.761991E+02
+mv_mark -id 20 -plotindex 4 3.497198E+03 1.761991E+02 result X:3.7k Y:78.753212db
+###171: mv_mark -id 20 -plotindex 4 3.203055E+03 1.968776E+02
+mv_mark -id 20 -plotindex 4 3.203055E+03 1.968776E+02 result X:3.4k Y:79.045556db
+###172: mv_mark -id 20 -plotindex 4 3.133469E+03 1.968776E+02
+mv_mark -id 20 -plotindex 4 3.133469E+03 1.968776E+02 result X:3.3k Y:79.107189db
+###173: mv_mark -id 20 -plotindex 4 3.065395E+03 1.968776E+02
+mv_mark -id 20 -plotindex 4 3.065395E+03 1.968776E+02 result X:3.2k Y:79.168821db
+###174: mv_mark -id 20 -plotindex 4 2.933652E+03 1.968776E+02
+mv_mark -id 20 -plotindex 4 2.933652E+03 1.968776E+02 result X:3.1k Y:79.298542db
+###175: mv_mark -id 20 -plotindex 4 2.746577E+03 1.968776E+02
+mv_mark -id 20 -plotindex 4 2.746577E+03 1.968776E+02 result X:2.9k Y:79.456113db
+###176: mv_mark -id 20 -plotindex 4 2.686908E+03 1.968776E+02
+mv_mark -id 20 -plotindex 4 2.686908E+03 1.968776E+02 result X:2.8k Y:79.519728db
+###177: mv_mark -id 20 -plotindex 4 2.628535E+03 1.968776E+02
+mv_mark -id 20 -plotindex 4 2.628535E+03 1.968776E+02 result X:2.7k Y:79.564006db
+###178: mv_mark -id 20 -plotindex 4 2.571431E+03 1.968776E+02
+mv_mark -id 20 -plotindex 4 2.571431E+03 1.968776E+02 result X:2.7k Y:79.608284db
+###179: mv_mark -id 20 -plotindex 4 2.303988E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 2.303988E+03 2.457998E+02 result X:2.4k Y:79.825474db
+###180: mv_mark -id 20 -plotindex 4 2.253934E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 2.253934E+03 2.457998E+02 result X:2.3k Y:79.862441db
+###181: mv_mark -id 20 -plotindex 4 2.204968E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 2.204968E+03 2.457998E+02 result X:2.3k Y:79.899409db
+###182: mv_mark -id 20 -plotindex 4 2.157065E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 2.157065E+03 2.457998E+02 result X:2.2k Y:79.94051db
+###183: mv_mark -id 20 -plotindex 4 2.064360E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 2.064360E+03 2.457998E+02 result X:2.1k Y:80.001715db
+###184: mv_mark -id 20 -plotindex 4 1.932718E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 1.932718E+03 2.457998E+02 result X:2k Y:80.096195db
+###185: mv_mark -id 20 -plotindex 4 1.890730E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 1.890730E+03 2.457998E+02 result X:1.9k Y:80.121345db
+###186: mv_mark -id 20 -plotindex 4 1.731704E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 1.731704E+03 2.457998E+02 result X:1.8k Y:80.223728db
+###187: mv_mark -id 20 -plotindex 4 1.657280E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 1.657280E+03 2.457998E+02 result X:1.7k Y:80.26481db
+###188: mv_mark -id 20 -plotindex 4 1.586054E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 1.586054E+03 2.457998E+02 result X:1.6k Y:80.305892db
+###189: mv_mark -id 20 -plotindex 4 1.484913E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 1.484913E+03 2.457998E+02 result X:1.5k Y:80.361111db
+###190: mv_mark -id 20 -plotindex 4 1.452654E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 1.452654E+03 2.457998E+02 result X:1.5k Y:80.377801db
+###191: mv_mark -id 20 -plotindex 4 1.390222E+03 2.457998E+02
+mv_mark -id 20 -plotindex 4 1.390222E+03 2.457998E+02 result X:1.4k Y:80.412249db
+###192: move_cursor -id 0 nan 1
+###193: cross_probe -file /tmp/plotfUpYlL
+cross_probe -file /tmp/plotfUpYlL OK
+###194: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###195: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###196: open_wave -group Doc_Not_Found,0,_calc_wfs_\(9\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###197: chaxis -plot 7 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###198: chaxis -plot 7 -axis 0 DB10
+###199: chaxis -plot 7 -axis 0 DB20
+###200: select_plot 6
+select_plot :1
+###201: add_meter -DataXY
+add_meter -DataXY, new ID: 25, meter num: 3 -> 4
+###202: set_meter -id 25 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###203: mv_mark -id 27 -plotindex 6 5.466116E+05 1.537471E+02
+mv_mark -id 27 -plotindex 6 5.466116E+05 1.537471E+02 result X:0.54M Y:40.621373db
+###204: mv_mark -id 27 -plotindex 6 5.117549E+05 1.537471E+02
+mv_mark -id 27 -plotindex 6 5.117549E+05 1.537471E+02 result X:0.51M Y:41.17212db
+###205: mv_mark -id 27 -plotindex 6 4.687121E+05 1.537471E+02
+mv_mark -id 27 -plotindex 6 4.687121E+05 1.537471E+02 result X:0.46M Y:41.906426db
+###206: mv_mark -id 27 -plotindex 6 3.931829E+05 1.537471E+02
+mv_mark -id 27 -plotindex 6 3.931829E+05 1.537471E+02 result X:0.39M Y:43.374985db
+###207: mv_mark -id 27 -plotindex 6 3.522896E+05 1.537471E+02
+mv_mark -id 27 -plotindex 6 3.522896E+05 1.537471E+02 result X:0.35M Y:44.292784db
+###208: mv_mark -id 27 -plotindex 6 2.766759E+05 1.537471E+02
+mv_mark -id 27 -plotindex 6 2.766759E+05 1.537471E+02 result X:0.28M Y:46.311741db
+###209: mv_mark -id 27 -plotindex 6 2.221170E+05 1.537471E+02
+mv_mark -id 27 -plotindex 6 2.221170E+05 1.537471E+02 result X:0.23M Y:48.146802db
+###210: mv_mark -id 27 -plotindex 6 1.904624E+05 1.537471E+02
+mv_mark -id 27 -plotindex 6 1.904624E+05 1.537471E+02 result X:0.2M Y:49.431099db
+###211: mv_mark -id 27 -plotindex 6 1.529043E+05 1.537471E+02
+mv_mark -id 27 -plotindex 6 1.529043E+05 1.537471E+02 result X:0.16M Y:51.265269db
+###212: mv_mark -id 27 -plotindex 6 1.282650E+05 1.537471E+02
+mv_mark -id 27 -plotindex 6 1.282650E+05 1.537471E+02 result X:0.13M Y:52.731797db
+###213: mv_mark -id 27 -plotindex 6 1.052586E+05 1.537471E+02
+mv_mark -id 27 -plotindex 6 1.052586E+05 1.537471E+02 result X:0.11M Y:54.380853db
+###214: mv_mark -id 27 -plotindex 6 8.087050E+04 1.537471E+02
+mv_mark -id 27 -plotindex 6 8.087050E+04 1.537471E+02 result X:86k Y:56.576843db
+###215: mv_mark -id 27 -plotindex 6 6.636507E+04 1.537471E+02
+mv_mark -id 27 -plotindex 6 6.636507E+04 1.537471E+02 result X:71k Y:58.220733db
+###216: mv_mark -id 27 -plotindex 6 5.327827E+04 1.537471E+02
+mv_mark -id 27 -plotindex 6 5.327827E+04 1.537471E+02 result X:57k Y:60.043243db
+###217: mv_mark -id 27 -plotindex 6 4.093386E+04 1.537471E+02
+mv_mark -id 27 -plotindex 6 4.093386E+04 1.537471E+02 result X:44k Y:62.223515db
+###218: mv_mark -id 27 -plotindex 6 3.144961E+04 1.537471E+02
+mv_mark -id 27 -plotindex 6 3.144961E+04 1.537471E+02 result X:34k Y:64.385823db
+###219: mv_mark -id 27 -plotindex 6 2.469942E+04 1.537471E+02
+mv_mark -id 27 -plotindex 6 2.469942E+04 1.537471E+02 result X:27k Y:66.347098db
+###220: mv_mark -id 27 -plotindex 6 1.816107E+04 1.537471E+02
+mv_mark -id 27 -plotindex 6 1.816107E+04 1.537471E+02 result X:20k Y:68.78704db
+###221: mv_mark -id 27 -plotindex 6 1.490359E+04 1.537471E+02
+mv_mark -id 27 -plotindex 6 1.490359E+04 1.537471E+02 result X:17k Y:70.316811db
+###222: mv_mark -id 27 -plotindex 6 1.196469E+04 1.537471E+02
+mv_mark -id 27 -plotindex 6 1.196469E+04 1.537471E+02 result X:13k Y:71.951673db
+###223: mv_mark -id 27 -plotindex 6 9.818630E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 9.818630E+03 1.537471E+02 result X:11k Y:73.349854db
+###224: mv_mark -id 27 -plotindex 6 8.236435E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 8.236435E+03 1.537471E+02 result X:9.1k Y:74.474707db
+###225: mv_mark -id 27 -plotindex 6 7.379799E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 7.379799E+03 1.537471E+02 result X:8.1k Y:75.136789db
+###226: mv_mark -id 27 -plotindex 6 6.056113E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 6.056113E+03 1.537471E+02 result X:6.6k Y:76.210155db
+###227: mv_mark -id 27 -plotindex 6 5.426243E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 5.426243E+03 1.537471E+02 result X:5.8k Y:76.726618db
+###228: mv_mark -id 27 -plotindex 6 4.756259E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 4.756259E+03 1.537471E+02 result X:5.1k Y:77.267029db
+###229: mv_mark -id 27 -plotindex 6 3.903147E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 3.903147E+03 1.537471E+02 result X:4.1k Y:77.930939db
+###230: mv_mark -id 27 -plotindex 6 3.497198E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 3.497198E+03 1.537471E+02 result X:3.7k Y:78.223727db
+###231: mv_mark -id 27 -plotindex 6 2.869919E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 2.869919E+03 1.537471E+02 result X:3k Y:78.636269db
+###232: mv_mark -id 27 -plotindex 6 2.460917E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 2.460917E+03 1.537471E+02 result X:2.5k Y:78.87177db
+###233: mv_mark -id 27 -plotindex 6 2.064360E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 2.064360E+03 1.537471E+02 result X:2.1k Y:79.070191db
+###234: mv_mark -id 27 -plotindex 6 1.932718E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 1.932718E+03 1.537471E+02 result X:2k Y:79.131634db
+###235: mv_mark -id 27 -plotindex 6 1.770161E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 1.770161E+03 1.537471E+02 result X:1.8k Y:79.198346db
+###236: mv_mark -id 27 -plotindex 6 1.731704E+03 1.537471E+02
+mv_mark -id 27 -plotindex 6 1.731704E+03 1.537471E+02 result X:1.8k Y:79.214837db
+###237: move_cursor -id 0 nan 1
+###238: cross_probe -file /tmp/plotFDlmrt
+cross_probe -file /tmp/plotFDlmrt OK
+###239: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###240: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###241: open_wave -group Doc_Not_Found,0,_calc_wfs_\(14\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###242: chaxis -plot 9 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###243: chaxis -plot 9 -axis 0 DB20
+###244: select_plot 8
+select_plot :1
+###245: add_meter -DataXY
+add_meter -DataXY, new ID: 32, meter num: 4 -> 5
+###246: set_meter -id 32 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###247: mv_mark -id 34 -plotindex 8 5.006371E+05 1.566613E+02
+mv_mark -id 34 -plotindex 8 5.006371E+05 1.566613E+02 result X:0.5M Y:41.379449db
+###248: mv_mark -id 34 -plotindex 8 4.292896E+05 1.566613E+02
+mv_mark -id 34 -plotindex 8 4.292896E+05 1.566613E+02 result X:0.43M Y:42.665184db
+###249: mv_mark -id 34 -plotindex 8 3.156495E+05 1.566613E+02
+mv_mark -id 34 -plotindex 8 3.156495E+05 1.566613E+02 result X:0.32M Y:45.236487db
+###250: mv_mark -id 34 -plotindex 8 2.172916E+05 1.566613E+02
+mv_mark -id 34 -plotindex 8 2.172916E+05 1.566613E+02 result X:0.22M Y:48.358272db
+###251: mv_mark -id 34 -plotindex 8 1.431538E+05 1.566613E+02
+mv_mark -id 34 -plotindex 8 1.431538E+05 1.566613E+02 result X:0.15M Y:51.845949db
+###252: mv_mark -id 34 -plotindex 8 8.450221E+04 1.566613E+02
+mv_mark -id 34 -plotindex 8 8.450221E+04 1.566613E+02 result X:89k Y:56.246791db
+###253: mv_mark -id 34 -plotindex 8 5.446143E+04 1.566613E+02
+mv_mark -id 34 -plotindex 8 5.446143E+04 1.566613E+02 result X:58k Y:59.904989db
+###254: mv_mark -id 34 -plotindex 8 4.093386E+04 1.566613E+02
+mv_mark -id 34 -plotindex 8 4.093386E+04 1.566613E+02 result X:44k Y:62.274927db
+###255: mv_mark -id 34 -plotindex 8 3.144961E+04 1.566613E+02
+mv_mark -id 34 -plotindex 8 3.144961E+04 1.566613E+02 result X:34k Y:64.449337db
+###256: mv_mark -id 34 -plotindex 8 2.696762E+04 1.566613E+02
+mv_mark -id 34 -plotindex 8 2.696762E+04 1.566613E+02 result X:30k Y:65.708711db
+###257: mv_mark -id 34 -plotindex 8 2.416283E+04 1.566613E+02
+mv_mark -id 34 -plotindex 8 2.416283E+04 1.566613E+02 result X:27k Y:66.604709db
+###258: mv_mark -id 34 -plotindex 8 2.164976E+04 1.752056E+02
+mv_mark -id 34 -plotindex 8 2.164976E+04 1.752056E+02 result X:24k Y:67.528852db
+###259: mv_mark -id 34 -plotindex 8 1.856438E+04 1.752056E+02
+mv_mark -id 34 -plotindex 8 1.856438E+04 1.752056E+02 result X:21k Y:68.761405db
+###260: mv_mark -id 34 -plotindex 8 1.738055E+04 1.752056E+02
+mv_mark -id 34 -plotindex 8 1.738055E+04 1.752056E+02 result X:19k Y:69.290785db
+###261: mv_mark -id 34 -plotindex 8 1.591871E+04 1.752056E+02
+mv_mark -id 34 -plotindex 8 1.591871E+04 1.752056E+02 result X:18k Y:69.990504db
+###262: mv_mark -id 34 -plotindex 8 1.335353E+04 1.752056E+02
+mv_mark -id 34 -plotindex 8 1.335353E+04 1.752056E+02 result X:15k Y:71.34731db
+###263: mv_mark -id 34 -plotindex 8 1.223039E+04 1.752056E+02
+mv_mark -id 34 -plotindex 8 1.223039E+04 1.752056E+02 result X:14k Y:72.02212db
+###264: mv_mark -id 34 -plotindex 8 1.048740E+04 1.752056E+02
+mv_mark -id 34 -plotindex 8 1.048740E+04 1.752056E+02 result X:12k Y:73.157014db
+###265: mv_mark -id 34 -plotindex 8 9.192508E+03 1.959450E+02
+mv_mark -id 34 -plotindex 8 9.192508E+03 1.959450E+02 result X:10k Y:74.120953db
+###266: mv_mark -id 34 -plotindex 8 7.543684E+03 1.959450E+02
+mv_mark -id 34 -plotindex 8 7.543684E+03 1.959450E+02 result X:8.3k Y:75.458623db
+###267: mv_mark -id 34 -plotindex 8 6.328079E+03 1.959450E+02
+mv_mark -id 34 -plotindex 8 6.328079E+03 1.959450E+02 result X:6.9k Y:76.556969db
+###268: mv_mark -id 34 -plotindex 8 5.080218E+03 3.428192E+02
+mv_mark -id 34 -plotindex 8 5.080218E+03 3.428192E+02 result X:5.4k Y:77.781727db
+###269: mv_mark -id 34 -plotindex 8 3.989825E+03 3.428192E+02
+mv_mark -id 34 -plotindex 8 3.989825E+03 3.428192E+02 result X:4.2k Y:78.789383db
+###270: mv_mark -id 34 -plotindex 8 3.133469E+03 3.833993E+02
+mv_mark -id 34 -plotindex 8 3.133469E+03 3.833993E+02 result X:3.2k Y:79.538729db
+###271: mv_mark -id 34 -plotindex 8 2.686908E+03 4.795388E+02
+mv_mark -id 34 -plotindex 8 2.686908E+03 4.795388E+02 result X:2.8k Y:79.900574db
+###272: mv_mark -id 34 -plotindex 8 2.355153E+03 5.997858E+02
+mv_mark -id 34 -plotindex 8 2.355153E+03 5.997858E+02 result X:2.4k Y:80.135505db
+###273: mv_mark -id 34 -plotindex 8 2.064360E+03 5.997858E+02
+mv_mark -id 34 -plotindex 8 2.064360E+03 5.997858E+02 result X:2.1k Y:80.321442db
+###274: mv_mark -id 34 -plotindex 8 2.019512E+03 5.997858E+02
+mv_mark -id 34 -plotindex 8 2.019512E+03 5.997858E+02 result X:2.1k Y:80.348668db
+###275: mv_mark -id 34 -plotindex 8 1.975638E+03 5.997858E+02
+mv_mark -id 34 -plotindex 8 1.975638E+03 5.997858E+02 result X:2k Y:80.375893db
+###276: mv_mark -id 34 -plotindex 7 1.932718E+03 -1.575923E+02
+mv_mark -id 34 -plotindex 7 1.932718E+03 -1.575923E+02 result X:3.5k Y:1.5e+02
+###277: mv_mark -id 34 -plotindex 7 1.809471E+03 -1.601444E+02
+mv_mark -id 34 -plotindex 7 1.809471E+03 -1.601444E+02 result X:3.3k Y:1.5e+02
+###278: mv_mark -id 34 -plotindex 7 1.770161E+03 -1.601444E+02
+mv_mark -id 34 -plotindex 7 1.770161E+03 -1.601444E+02 result X:3.2k Y:1.5e+02
+###279: mv_mark -id 34 -plotindex 7 1.694084E+03 -1.652486E+02
+mv_mark -id 34 -plotindex 7 1.694084E+03 -1.652486E+02 result X:3k Y:1.5e+02
+###280: mv_mark -id 34 -plotindex 7 1.586054E+03 -1.678007E+02
+mv_mark -id 34 -plotindex 7 1.586054E+03 -1.678007E+02 result X:2.8k Y:1.5e+02
+###281: mv_mark -id 34 -plotindex 7 1.517889E+03 -1.703528E+02
+mv_mark -id 34 -plotindex 7 1.517889E+03 -1.703528E+02 result X:2.7k Y:1.5e+02
+###282: mv_mark -id 34 -plotindex 7 1.484913E+03 -1.729049E+02
+mv_mark -id 34 -plotindex 7 1.484913E+03 -1.729049E+02 result X:2.6k Y:1.5e+02
+###283: mv_mark -id 34 -plotindex 7 1.452654E+03 -1.729049E+02
+mv_mark -id 34 -plotindex 7 1.452654E+03 -1.729049E+02 result X:2.5k Y:1.5e+02
+###284: mv_mark -id 34 -plotindex 8 1.421095E+03 9.832213E+03
+mv_mark -id 34 -plotindex 8 1.421095E+03 9.832213E+03 result X:1.4k Y:80.668035db
+###285: mv_mark -id 34 -plotindex 8 1.390222E+03 9.832213E+03
+mv_mark -id 34 -plotindex 8 1.390222E+03 9.832213E+03 result X:1.4k Y:80.68075db
+###286: mv_mark -id 34 -plotindex 8 1.330474E+03 5.619792E+03
+mv_mark -id 34 -plotindex 8 1.330474E+03 5.619792E+03 result X:1.3k Y:80.703764db
+###287: mv_mark -id 34 -plotindex 8 1.273293E+03 4.017553E+03
+mv_mark -id 34 -plotindex 8 1.273293E+03 4.017553E+03 result X:1.3k Y:80.727067db
+###288: mv_mark -id 34 -plotindex 8 1.273293E+03 3.212101E+03
+mv_mark -id 34 -plotindex 8 1.273293E+03 3.212101E+03 result X:1.3k Y:80.726777db
+###289: mv_mark -id 34 -plotindex 8 1.273293E+03 2.872123E+03
+mv_mark -id 34 -plotindex 8 1.273293E+03 2.872123E+03 result X:1.3k Y:80.726632db
+###290: move_cursor -id 0 nan 1
+###291: cross_probe -file /tmp/plotvf7ePG
+cross_probe -file /tmp/plotvf7ePG OK
+###292: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###293: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###294: open_wave -group Doc_Not_Found,0,_calc_wfs_\(20\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###295: chaxis -plot 11 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###296: cross_probe -file /tmp/plotdUpGZD
+cross_probe -file /tmp/plotdUpGZD OK
+###297: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###298: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###299: open_wave -group Doc_Not_Found,0,_calc_wfs_\(27\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###300: chaxis -plot 13 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###301: cross_probe -file /tmp/plot5BNLJl
+cross_probe -file /tmp/plot5BNLJl OK
+###302: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###303: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###304: open_wave -group Doc_Not_Found,0,_calc_wfs_\(35\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###305: chaxis -plot 15 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###306: cross_probe -file /tmp/plotz1QQmP
+cross_probe -file /tmp/plotz1QQmP OK
+###307: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###308: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###309: open_wave -group Doc_Not_Found,0,_calc_wfs_\(44\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###310: chaxis -plot 17 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###311: chaxis -plot 17 -axis 0 DB20
+###312: select_plot 16
+select_plot :1
+###313: add_meter -DataXY
+add_meter -DataXY, new ID: 51, meter num: 5 -> 6
+###314: set_meter -id 51 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###315: mv_mark -id 53 -plotindex 16 4.292896E+05 1.507561E+02
+mv_mark -id 53 -plotindex 16 4.292896E+05 1.507561E+02 result X:0.43M Y:42.658312db
+###316: mv_mark -id 53 -plotindex 16 3.371490E+05 1.507561E+02
+mv_mark -id 53 -plotindex 16 3.371490E+05 1.507561E+02 result X:0.34M Y:44.687428db
+###317: mv_mark -id 53 -plotindex 16 2.766759E+05 1.507561E+02
+mv_mark -id 53 -plotindex 16 2.766759E+05 1.507561E+02 result X:0.28M Y:46.347504db
+###318: mv_mark -id 53 -plotindex 16 2.125710E+05 1.507561E+02
+mv_mark -id 53 -plotindex 16 2.125710E+05 1.507561E+02 result X:0.22M Y:48.560673db
+###319: mv_mark -id 53 -plotindex 16 1.562999E+05 1.507561E+02
+mv_mark -id 53 -plotindex 16 1.562999E+05 1.507561E+02 result X:0.16M Y:51.142105db
+###320: mv_mark -id 53 -plotindex 16 1.149247E+05 1.507561E+02
+mv_mark -id 53 -plotindex 16 1.149247E+05 1.507561E+02 result X:0.12M Y:53.722455db
+###321: mv_mark -id 53 -plotindex 16 7.911361E+04 1.507561E+02
+mv_mark -id 53 -plotindex 16 7.911361E+04 1.507561E+02 result X:83k Y:56.852951db
+###322: mv_mark -id 53 -plotindex 16 5.327827E+04 1.507561E+02
+mv_mark -id 53 -plotindex 16 5.327827E+04 1.507561E+02 result X:57k Y:60.161019db
+###323: mv_mark -id 53 -plotindex 16 3.832356E+04 1.507561E+02
+mv_mark -id 53 -plotindex 16 3.832356E+04 1.507561E+02 result X:41k Y:62.907928db
+###324: mv_mark -id 53 -plotindex 16 2.880444E+04 1.507561E+02
+mv_mark -id 53 -plotindex 16 2.880444E+04 1.507561E+02 result X:31k Y:65.277352db
+###325: mv_mark -id 53 -plotindex 16 2.213054E+04 1.507561E+02
+mv_mark -id 53 -plotindex 16 2.213054E+04 1.507561E+02 result X:24k Y:67.443162db
+###326: mv_mark -id 53 -plotindex 16 1.816107E+04 1.507561E+02
+mv_mark -id 53 -plotindex 16 1.816107E+04 1.507561E+02 result X:20k Y:69.045312db
+###327: mv_mark -id 53 -plotindex 16 1.490359E+04 1.507561E+02
+mv_mark -id 53 -plotindex 16 1.490359E+04 1.507561E+02 result X:16k Y:70.628758db
+###328: mv_mark -id 53 -plotindex 16 1.250200E+04 1.507561E+02
+mv_mark -id 53 -plotindex 16 1.250200E+04 1.507561E+02 result X:14k Y:72.016015db
+###329: mv_mark -id 53 -plotindex 16 1.072029E+04 1.507561E+02
+mv_mark -id 53 -plotindex 16 1.072029E+04 1.507561E+02 result X:12k Y:73.1858db
+###330: mv_mark -id 53 -plotindex 16 8.992803E+03 1.507561E+02
+mv_mark -id 53 -plotindex 16 8.992803E+03 1.507561E+02 result X:9.9k Y:74.501619db
+###331: mv_mark -id 53 -plotindex 16 7.062633E+03 1.698015E+02
+mv_mark -id 53 -plotindex 16 7.062633E+03 1.698015E+02 result X:7.7k Y:76.193333db
+###332: mv_mark -id 53 -plotindex 16 5.193036E+03 2.426283E+02
+mv_mark -id 53 -plotindex 16 5.193036E+03 2.426283E+02 result X:5.6k Y:78.103803db
+###333: mv_mark -id 53 -plotindex 16 3.989825E+03 2.426283E+02
+mv_mark -id 53 -plotindex 16 3.989825E+03 2.426283E+02 result X:4.2k Y:79.350789db
+###334: mv_mark -id 53 -plotindex 16 2.869919E+03 3.078043E+02
+mv_mark -id 53 -plotindex 16 2.869919E+03 3.078043E+02 result X:3k Y:80.484193db
+###335: mv_mark -id 53 -plotindex 16 2.253934E+03 3.078043E+02
+mv_mark -id 53 -plotindex 16 2.253934E+03 3.078043E+02 result X:2.3k Y:81.021649db
+###336: mv_mark -id 53 -plotindex 16 1.975638E+03 3.078043E+02
+mv_mark -id 53 -plotindex 16 1.975638E+03 3.078043E+02 result X:2k Y:81.236621db
+###337: mv_mark -id 53 -plotindex 16 1.809471E+03 3.078043E+02
+mv_mark -id 53 -plotindex 16 1.809471E+03 3.078043E+02 result X:1.8k Y:81.353385db
+###338: mv_mark -id 53 -plotindex 16 1.770161E+03 3.078043E+02
+mv_mark -id 53 -plotindex 16 1.770161E+03 3.078043E+02 result X:1.8k Y:81.380639db
+###339: move_cursor -id 0 nan 1
+###340: cross_probe -file /tmp/plotNBSQOz
+cross_probe -file /tmp/plotNBSQOz OK
+###341: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###342: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###343: open_wave -group Doc_Not_Found,0,_calc_wfs_\(54\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###344: chaxis -plot 19 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###345: chaxis -plot 19 -axis 0 DB20
+###346: select_plot 18
+select_plot :1
+###347: add_meter -DataXY
+add_meter -DataXY, new ID: 58, meter num: 6 -> 7
+###348: set_meter -id 58 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###349: mv_mark -id 60 -plotindex 18 4.292896E+05 2.401581E+02
+mv_mark -id 60 -plotindex 18 4.292896E+05 2.401581E+02 result X:0.42M Y:42.708065db
+###350: mv_mark -id 60 -plotindex 18 3.446362E+05 2.401581E+02
+mv_mark -id 60 -plotindex 18 3.446362E+05 2.401581E+02 result X:0.34M Y:44.54218db
+###351: mv_mark -id 60 -plotindex 18 2.534052E+05 2.680133E+02
+mv_mark -id 60 -plotindex 18 2.534052E+05 2.680133E+02 result X:0.25M Y:47.146464db
+###352: mv_mark -id 60 -plotindex 18 2.034352E+05 3.337911E+02
+mv_mark -id 60 -plotindex 18 2.034352E+05 3.337911E+02 result X:0.2M Y:49.053612db
+###353: mv_mark -id 60 -plotindex 18 1.495825E+05 4.157126E+02
+mv_mark -id 60 -plotindex 18 1.495825E+05 4.157126E+02 result X:0.15M Y:51.693694db
+###354: mv_mark -id 60 -plotindex 18 1.174769E+05 4.157126E+02
+mv_mark -id 60 -plotindex 18 1.174769E+05 4.157126E+02 result X:0.12M Y:53.70973db
+###355: mv_mark -id 60 -plotindex 18 9.640549E+04 5.177398E+02
+mv_mark -id 60 -plotindex 18 9.640549E+04 5.177398E+02 result X:97k Y:55.43173db
+###356: mv_mark -id 60 -plotindex 18 8.266641E+04 6.448073E+02
+mv_mark -id 60 -plotindex 18 8.266641E+04 6.448073E+02 result X:83k Y:56.78653db
+###357: mv_mark -id 60 -plotindex 18 7.406863E+04 7.195967E+02
+mv_mark -id 60 -plotindex 18 7.406863E+04 7.195967E+02 result X:74k Y:57.73802db
+###358: mv_mark -id 60 -plotindex 18 6.351286E+04 8.962054E+02
+mv_mark -id 60 -plotindex 18 6.351286E+04 8.962054E+02 result X:64k Y:59.091045db
+###359: mv_mark -id 60 -plotindex 18 5.946273E+04 1.116159E+03
+mv_mark -id 60 -plotindex 18 5.946273E+04 1.116159E+03 result X:59k Y:59.711908db
+###360: mv_mark -id 60 -plotindex 18 5.567087E+04 1.116159E+03
+mv_mark -id 60 -plotindex 18 5.567087E+04 1.116159E+03 result X:55k Y:60.259765db
+###361: mv_mark -id 60 -plotindex 18 5.212081E+04 1.116159E+03
+mv_mark -id 60 -plotindex 18 5.212081E+04 1.116159E+03 result X:52k Y:60.807192db
+###362: mv_mark -id 60 -plotindex 18 4.773702E+04 1.116159E+03
+mv_mark -id 60 -plotindex 18 4.773702E+04 1.116159E+03 result X:48k Y:61.536571db
+###363: mv_mark -id 60 -plotindex 18 4.093386E+04 1.245619E+03
+mv_mark -id 60 -plotindex 18 4.093386E+04 1.245619E+03 result X:41k Y:62.847202db
+###364: mv_mark -id 60 -plotindex 18 3.286194E+04 1.245619E+03
+mv_mark -id 60 -plotindex 18 3.286194E+04 1.245619E+03 result X:33k Y:64.662014db
+###365: mv_mark -id 60 -plotindex 18 2.580862E+04 1.245619E+03
+mv_mark -id 60 -plotindex 18 2.580862E+04 1.245619E+03 result X:26k Y:66.647102db
+###366: mv_mark -id 60 -plotindex 18 2.026918E+04 1.245619E+03
+mv_mark -id 60 -plotindex 18 2.026918E+04 1.245619E+03 result X:21k Y:68.614195db
+###367: mv_mark -id 60 -plotindex 18 1.457981E+04 1.245619E+03
+mv_mark -id 60 -plotindex 18 1.457981E+04 1.245619E+03 result X:15k Y:71.250516db
+###368: mv_mark -id 60 -plotindex 18 1.072029E+04 1.245619E+03
+mv_mark -id 60 -plotindex 18 1.072029E+04 1.245619E+03 result X:11k Y:73.626089db
+###369: mv_mark -id 60 -plotindex 18 7.882453E+03 1.245619E+03
+mv_mark -id 60 -plotindex 18 7.882453E+03 1.245619E+03 result X:8.3k Y:75.870878db
+###370: mv_mark -id 60 -plotindex 18 6.056113E+03 1.245619E+03
+mv_mark -id 60 -plotindex 18 6.056113E+03 1.245619E+03 result X:6.4k Y:77.62514db
+###371: mv_mark -id 60 -plotindex 18 4.969851E+03 1.245619E+03
+mv_mark -id 60 -plotindex 18 4.969851E+03 1.245619E+03 result X:5.2k Y:78.803649db
+###372: mv_mark -id 60 -plotindex 18 3.989825E+03 1.245619E+03
+mv_mark -id 60 -plotindex 18 3.989825E+03 1.245619E+03 result X:4.2k Y:79.933423db
+###373: mv_mark -id 60 -plotindex 18 3.654249E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 3.654249E+03 1.551328E+03 result X:3.8k Y:80.347613db
+###374: mv_mark -id 60 -plotindex 18 3.346897E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 3.346897E+03 1.551328E+03 result X:3.5k Y:80.708091db
+###375: mv_mark -id 60 -plotindex 18 3.274186E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 3.274186E+03 1.551328E+03 result X:3.4k Y:80.786384db
+###376: mv_mark -id 60 -plotindex 18 3.203055E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 3.203055E+03 1.551328E+03 result X:3.3k Y:80.864676db
+###377: mv_mark -id 60 -plotindex 18 3.065395E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 3.065395E+03 1.551328E+03 result X:3.2k Y:81.035443db
+###378: mv_mark -id 60 -plotindex 18 2.933652E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 2.933652E+03 1.551328E+03 result X:3k Y:81.171623db
+###379: mv_mark -id 60 -plotindex 18 2.746577E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 2.746577E+03 1.551328E+03 result X:2.8k Y:81.375894db
+###380: mv_mark -id 60 -plotindex 18 2.571431E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 2.571431E+03 1.551328E+03 result X:2.6k Y:81.563783db
+###381: mv_mark -id 60 -plotindex 18 2.204968E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 2.204968E+03 1.551328E+03 result X:2.3k Y:81.939687db
+###382: mv_mark -id 60 -plotindex 18 1.975638E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 1.975638E+03 1.551328E+03 result X:2k Y:82.157332db
+###383: mv_mark -id 60 -plotindex 18 1.809471E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 1.809471E+03 1.551328E+03 result X:1.8k Y:82.303926db
+###384: mv_mark -id 60 -plotindex 18 1.621276E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 1.621276E+03 1.551328E+03 result X:1.6k Y:82.459936db
+###385: mv_mark -id 60 -plotindex 18 1.452654E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 1.452654E+03 1.551328E+03 result X:1.5k Y:82.588385db
+###386: mv_mark -id 60 -plotindex 18 1.245631E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 1.245631E+03 1.551328E+03 result X:1.3k Y:82.732819db
+###387: mv_mark -id 60 -plotindex 18 1.218570E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 1.218570E+03 1.551328E+03 result X:1.2k Y:82.74837db
+###388: mv_mark -id 60 -plotindex 18 1.192097E+03 1.551328E+03
+mv_mark -id 60 -plotindex 18 1.192097E+03 1.551328E+03 result X:1.2k Y:82.763921db
+###389: move_cursor -id 0 nan 1
+###390: cross_probe -file /tmp/plot9EHaoh
+cross_probe -file /tmp/plot9EHaoh OK
+###391: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###392: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###393: open_wave -group Doc_Not_Found,0,_calc_wfs_\(65\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###394: chaxis -plot 21 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###395: chaxis -plot 21 -axis 0 DB20
+###396: select_plot 20
+select_plot :1
+###397: add_meter -DataXY
+add_meter -DataXY, new ID: 65, meter num: 7 -> 8
+###398: set_meter -id 65 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###399: mv_mark -id 67 -plotindex 20 5.231196E+05 1.371388E+02
+mv_mark -id 67 -plotindex 20 5.231196E+05 1.371388E+02 result X:0.52M Y:40.111729db
+###400: mv_mark -id 67 -plotindex 20 4.485680E+05 1.371388E+02
+mv_mark -id 67 -plotindex 20 4.485680E+05 1.371388E+02 result X:0.45M Y:41.391617db
+###401: mv_mark -id 67 -plotindex 20 3.681101E+05 1.371388E+02
+mv_mark -id 67 -plotindex 20 3.681101E+05 1.371388E+02 result X:0.37M Y:43.037152db
+###402: mv_mark -id 67 -plotindex 20 2.828201E+05 1.371388E+02
+mv_mark -id 67 -plotindex 20 2.828201E+05 1.371388E+02 result X:0.29M Y:45.231126db
+###403: mv_mark -id 67 -plotindex 20 2.172916E+05 1.371388E+02
+mv_mark -id 67 -plotindex 20 2.172916E+05 1.371388E+02 result X:0.22M Y:47.424981db
+###404: mv_mark -id 67 -plotindex 20 1.529043E+05 1.881666E+02
+mv_mark -id 67 -plotindex 20 1.529043E+05 1.881666E+02 result X:0.16M Y:50.463972db
+###405: mv_mark -id 67 -plotindex 20 1.227525E+05 1.881666E+02
+mv_mark -id 67 -plotindex 20 1.227525E+05 1.881666E+02 result X:0.13M Y:52.29161db
+###406: mv_mark -id 67 -plotindex 20 9.431110E+04 2.323437E+02
+mv_mark -id 67 -plotindex 20 9.431110E+04 2.323437E+02 result X:98k Y:54.560327db
+###407: mv_mark -id 67 -plotindex 20 7.406863E+04 2.868925E+02
+mv_mark -id 67 -plotindex 20 7.406863E+04 2.868925E+02 result X:77k Y:56.645316db
+###408: mv_mark -id 67 -plotindex 20 5.946273E+04 2.868925E+02
+mv_mark -id 67 -plotindex 20 5.946273E+04 2.868925E+02 result X:62k Y:58.470639db
+###409: mv_mark -id 67 -plotindex 20 4.988078E+04 3.542481E+02
+mv_mark -id 67 -plotindex 20 4.988078E+04 3.542481E+02 result X:52k Y:60.005208db
+###410: mv_mark -id 67 -plotindex 20 4.469289E+04 3.542481E+02
+mv_mark -id 67 -plotindex 20 4.469289E+04 3.542481E+02 result X:47k Y:60.916346db
+###411: mv_mark -id 67 -plotindex 20 3.917462E+04 4.374172E+02
+mv_mark -id 67 -plotindex 20 3.917462E+04 4.374172E+02 result X:41k Y:62.084087db
+###412: mv_mark -id 67 -plotindex 20 3.359171E+04 4.374172E+02
+mv_mark -id 67 -plotindex 20 3.359171E+04 4.374172E+02 result X:35k Y:63.357395db
+###413: mv_mark -id 67 -plotindex 20 3.009798E+04 4.374172E+02
+mv_mark -id 67 -plotindex 20 3.009798E+04 4.374172E+02 result X:32k Y:64.264197db
+###414: mv_mark -id 67 -plotindex 20 2.580862E+04 5.401124E+02
+mv_mark -id 67 -plotindex 20 2.580862E+04 5.401124E+02 result X:27k Y:65.607293db
+###415: mv_mark -id 67 -plotindex 20 2.312437E+04 5.401124E+02
+mv_mark -id 67 -plotindex 20 2.312437E+04 5.401124E+02 result X:25k Y:66.510809db
+###416: mv_mark -id 67 -plotindex 20 1.939806E+04 5.401124E+02
+mv_mark -id 67 -plotindex 20 1.939806E+04 5.401124E+02 result X:21k Y:67.949568db
+###417: mv_mark -id 67 -plotindex 20 1.776653E+04 5.401124E+02
+mv_mark -id 67 -plotindex 20 1.776653E+04 5.401124E+02 result X:19k Y:68.667149db
+###418: mv_mark -id 67 -plotindex 20 1.591871E+04 5.401124E+02
+mv_mark -id 67 -plotindex 20 1.591871E+04 5.401124E+02 result X:17k Y:69.560211db
+###419: mv_mark -id 67 -plotindex 20 1.365008E+04 5.401124E+02
+mv_mark -id 67 -plotindex 20 1.365008E+04 5.401124E+02 result X:15k Y:70.800094db
+###420: mv_mark -id 67 -plotindex 20 1.277963E+04 5.401124E+02
+mv_mark -id 67 -plotindex 20 1.277963E+04 5.401124E+02 result X:14k Y:71.33211db
+###421: mv_mark -id 67 -plotindex 20 1.072029E+04 5.401124E+02
+mv_mark -id 67 -plotindex 20 1.072029E+04 5.401124E+02 result X:12k Y:72.723869db
+###422: mv_mark -id 67 -plotindex 20 9.605322E+03 6.669179E+02
+mv_mark -id 67 -plotindex 20 9.605322E+03 6.669179E+02 result X:10k Y:73.649371db
+###423: mv_mark -id 67 -plotindex 20 8.236435E+03 6.669179E+02
+mv_mark -id 67 -plotindex 20 8.236435E+03 6.669179E+02 result X:8.9k Y:74.827761db
+###424: mv_mark -id 67 -plotindex 20 6.909198E+03 6.669179E+02
+mv_mark -id 67 -plotindex 20 6.909198E+03 6.669179E+02 result X:7.5k Y:76.144789db
+###425: mv_mark -id 67 -plotindex 20 5.924545E+03 6.669179E+02
+mv_mark -id 67 -plotindex 20 5.924545E+03 6.669179E+02 result X:6.4k Y:77.242636db
+###426: mv_mark -id 67 -plotindex 20 5.308359E+03 6.669179E+02
+mv_mark -id 67 -plotindex 20 5.308359E+03 6.669179E+02 result X:5.8k Y:77.999634db
+###427: mv_mark -id 67 -plotindex 20 5.193036E+03 6.669179E+02
+mv_mark -id 67 -plotindex 20 5.193036E+03 6.669179E+02 result X:5.7k Y:78.144616db
+###428: mv_mark -id 67 -plotindex 20 4.861882E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 4.861882E+03 8.234945E+02 result X:5.2k Y:78.62971db
+###429: mv_mark -id 67 -plotindex 20 4.652930E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 4.652930E+03 8.234945E+02 result X:5k Y:78.933776db
+###430: mv_mark -id 67 -plotindex 20 4.261581E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 4.261581E+03 8.234945E+02 result X:4.6k Y:79.450505db
+###431: mv_mark -id 67 -plotindex 20 4.168999E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 4.168999E+03 8.234945E+02 result X:4.5k Y:79.579687db
+###432: mv_mark -id 67 -plotindex 20 4.078428E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 4.078428E+03 8.234945E+02 result X:4.4k Y:79.731257db
+###433: mv_mark -id 67 -plotindex 20 3.903147E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 3.903147E+03 8.234945E+02 result X:4.2k Y:79.971204db
+###434: mv_mark -id 67 -plotindex 20 3.818352E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 3.818352E+03 8.234945E+02 result X:4.1k Y:80.091178db
+###435: mv_mark -id 67 -plotindex 20 3.574861E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 3.574861E+03 8.234945E+02 result X:3.8k Y:80.46412db
+###436: mv_mark -id 67 -plotindex 20 3.274186E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 3.274186E+03 8.234945E+02 result X:3.5k Y:80.926487db
+###437: mv_mark -id 67 -plotindex 20 3.203055E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 3.203055E+03 8.234945E+02 result X:3.4k Y:81.02617db
+###438: mv_mark -id 67 -plotindex 20 2.998800E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 2.998800E+03 8.234945E+02 result X:3.2k Y:81.32522db
+###439: mv_mark -id 67 -plotindex 20 2.807571E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 2.807571E+03 8.234945E+02 result X:3k Y:81.623037db
+###440: mv_mark -id 67 -plotindex 20 2.746577E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 2.746577E+03 8.234945E+02 result X:2.9k Y:81.712113db
+###441: mv_mark -id 67 -plotindex 20 2.571431E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 2.571431E+03 8.234945E+02 result X:2.7k Y:81.985723db
+###442: mv_mark -id 67 -plotindex 20 2.355153E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 2.355153E+03 8.234945E+02 result X:2.5k Y:82.313242db
+###443: mv_mark -id 67 -plotindex 20 2.204968E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 2.204968E+03 8.234945E+02 result X:2.3k Y:82.518241db
+###444: mv_mark -id 67 -plotindex 20 2.019512E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 2.019512E+03 8.234945E+02 result X:2.1k Y:82.782189db
+###445: mv_mark -id 67 -plotindex 20 1.770161E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 1.770161E+03 8.234945E+02 result X:1.8k Y:83.114661db
+###446: mv_mark -id 67 -plotindex 20 1.657280E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 1.657280E+03 8.234945E+02 result X:1.7k Y:83.260509db
+###447: mv_mark -id 67 -plotindex 20 1.621276E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 1.621276E+03 8.234945E+02 result X:1.7k Y:83.302425db
+###448: mv_mark -id 67 -plotindex 20 1.517889E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 1.517889E+03 8.234945E+02 result X:1.6k Y:83.430548db
+###449: mv_mark -id 67 -plotindex 20 1.484913E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 1.484913E+03 8.234945E+02 result X:1.5k Y:83.46545db
+###450: mv_mark -id 67 -plotindex 20 1.452654E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 1.452654E+03 8.234945E+02 result X:1.5k Y:83.500351db
+###451: mv_mark -id 67 -plotindex 20 1.421095E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 1.421095E+03 8.234945E+02 result X:1.5k Y:83.535252db
+###452: mv_mark -id 67 -plotindex 20 1.390222E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 1.390222E+03 8.234945E+02 result X:1.4k Y:83.570154db
+###453: mv_mark -id 67 -plotindex 20 1.330474E+03 8.234945E+02
+mv_mark -id 67 -plotindex 20 1.330474E+03 8.234945E+02 result X:1.4k Y:83.635091db
+###454: mv_mark -id 67 -plotindex 20 1.273293E+03 6.669179E+02
+mv_mark -id 67 -plotindex 20 1.273293E+03 6.669179E+02 result X:1.3k Y:83.690926db
+###455: mv_meter -id 65 -plotindex 20 6.96E+05 6.44E+00
+mv_meter -id 65 -plotindex 20 6.96E+05 6.44E+00 result X:1.3k Y:83.690926db
+###456: mv_meter -id 65 -plotindex 20 5.97E+05 6.44E+00
+mv_meter -id 65 -plotindex 20 5.97E+05 6.44E+00 result X:1.3k Y:83.690926db
+###457: mv_meter -id 65 -plotindex 20 5.59E+05 6.44E+00
+mv_meter -id 65 -plotindex 20 5.59E+05 6.44E+00 result X:1.3k Y:83.690926db
+###458: mv_meter -id 65 -plotindex 20 5.01E+05 5.80E+00
+mv_meter -id 65 -plotindex 20 5.01E+05 5.80E+00 result X:1.3k Y:83.690926db
+###459: mv_meter -id 65 -plotindex 20 4.69E+05 5.80E+00
+mv_meter -id 65 -plotindex 20 4.69E+05 5.80E+00 result X:1.3k Y:83.690926db
+###460: mv_meter -id 65 -plotindex 20 4.39E+05 5.22E+00
+mv_meter -id 65 -plotindex 20 4.39E+05 5.22E+00 result X:1.3k Y:83.690926db
+###461: mv_meter -id 65 -plotindex 20 3.76E+05 4.23E+00
+mv_meter -id 65 -plotindex 20 3.76E+05 4.23E+00 result X:1.3k Y:83.690926db
+###462: mv_meter -id 65 -plotindex 20 3.52E+05 4.23E+00
+mv_meter -id 65 -plotindex 20 3.52E+05 4.23E+00 result X:1.3k Y:83.690926db
+###463: mv_meter -id 65 -plotindex 20 3.30E+05 4.23E+00
+mv_meter -id 65 -plotindex 20 3.30E+05 4.23E+00 result X:1.3k Y:83.690926db
+###464: mv_meter -id 65 -plotindex 20 3.23E+05 3.42E+00
+mv_meter -id 65 -plotindex 20 3.23E+05 3.42E+00 result X:1.3k Y:83.690926db
+###465: mv_meter -id 65 -plotindex 20 3.16E+05 3.42E+00
+mv_meter -id 65 -plotindex 20 3.16E+05 3.42E+00 result X:1.3k Y:83.690926db
+###466: mv_meter -id 65 -plotindex 20 2.96E+05 3.42E+00
+mv_meter -id 65 -plotindex 20 2.96E+05 3.42E+00 result X:1.3k Y:83.690926db
+###467: mv_meter -id 65 -plotindex 20 2.89E+05 3.08E+00
+mv_meter -id 65 -plotindex 20 2.89E+05 3.08E+00 result X:1.3k Y:83.690926db
+###468: mv_meter -id 65 -plotindex 20 2.83E+05 3.08E+00
+mv_meter -id 65 -plotindex 20 2.83E+05 3.08E+00 result X:1.3k Y:83.690926db
+###469: mv_meter -id 65 -plotindex 20 2.77E+05 3.08E+00
+mv_meter -id 65 -plotindex 20 2.77E+05 3.08E+00 result X:1.3k Y:83.690926db
+###470: mv_meter -id 65 -plotindex 20 2.53E+05 3.08E+00
+mv_meter -id 65 -plotindex 20 2.53E+05 3.08E+00 result X:1.3k Y:83.690926db
+###471: mv_meter -id 65 -plotindex 20 2.43E+05 3.08E+00
+mv_meter -id 65 -plotindex 20 2.43E+05 3.08E+00 result X:1.3k Y:83.690926db
+###472: mv_meter -id 65 -plotindex 20 2.22E+05 2.77E+00
+mv_meter -id 65 -plotindex 20 2.22E+05 2.77E+00 result X:1.3k Y:83.690926db
+###473: mv_meter -id 65 -plotindex 20 2.13E+05 2.77E+00
+mv_meter -id 65 -plotindex 20 2.13E+05 2.77E+00 result X:1.3k Y:83.690926db
+###474: mv_meter -id 65 -plotindex 20 2.08E+05 2.77E+00
+mv_meter -id 65 -plotindex 20 2.08E+05 2.77E+00 result X:1.3k Y:83.690926db
+###475: mv_meter -id 65 -plotindex 20 2.03E+05 2.77E+00
+mv_meter -id 65 -plotindex 20 2.03E+05 2.77E+00 result X:1.3k Y:83.690926db
+###476: mv_meter -id 65 -plotindex 20 1.90E+05 2.77E+00
+mv_meter -id 65 -plotindex 20 1.90E+05 2.77E+00 result X:1.3k Y:83.690926db
+###477: mv_meter -id 65 -plotindex 20 1.82E+05 2.77E+00
+mv_meter -id 65 -plotindex 20 1.82E+05 2.77E+00 result X:1.3k Y:83.690926db
+###478: mv_meter -id 65 -plotindex 20 1.63E+05 2.49E+00
+mv_meter -id 65 -plotindex 20 1.63E+05 2.49E+00 result X:1.3k Y:83.690926db
+###479: mv_meter -id 65 -plotindex 20 1.63E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.63E+05 2.02E+00 result X:1.3k Y:83.690926db
+###480: mv_meter -id 65 -plotindex 20 1.60E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.60E+05 2.02E+00 result X:1.3k Y:83.690926db
+###481: mv_meter -id 65 -plotindex 20 1.53E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.53E+05 2.02E+00 result X:1.3k Y:83.690926db
+###482: mv_meter -id 65 -plotindex 20 1.50E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.50E+05 2.02E+00 result X:1.3k Y:83.690926db
+###483: mv_meter -id 65 -plotindex 20 1.46E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.46E+05 2.02E+00 result X:1.3k Y:83.690926db
+###484: mv_meter -id 65 -plotindex 20 1.40E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.40E+05 2.02E+00 result X:1.3k Y:83.690926db
+###485: mv_meter -id 65 -plotindex 20 1.34E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.34E+05 2.02E+00 result X:1.3k Y:83.690926db
+###486: mv_meter -id 65 -plotindex 20 1.28E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.28E+05 2.02E+00 result X:1.3k Y:83.690926db
+###487: mv_meter -id 65 -plotindex 20 1.17E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.17E+05 2.02E+00 result X:1.3k Y:83.690926db
+###488: mv_meter -id 65 -plotindex 20 1.15E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.15E+05 2.02E+00 result X:1.3k Y:83.690926db
+###489: mv_meter -id 65 -plotindex 20 1.12E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.12E+05 2.02E+00 result X:1.3k Y:83.690926db
+###490: mv_meter -id 65 -plotindex 20 1.08E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.08E+05 2.02E+00 result X:1.3k Y:83.690926db
+###491: mv_meter -id 65 -plotindex 20 1.03E+05 2.02E+00
+mv_meter -id 65 -plotindex 20 1.03E+05 2.02E+00 result X:1.3k Y:83.690926db
+###492: mv_meter -id 65 -plotindex 20 9.85E+04 2.49E+00
+mv_meter -id 65 -plotindex 20 9.85E+04 2.49E+00 result X:1.3k Y:83.690926db
+###493: mv_meter -id 65 -plotindex 20 9.03E+04 2.49E+00
+mv_meter -id 65 -plotindex 20 9.03E+04 2.49E+00 result X:1.3k Y:83.690926db
+###494: mv_meter -id 65 -plotindex 20 8.45E+04 2.49E+00
+mv_meter -id 65 -plotindex 20 8.45E+04 2.49E+00 result X:1.3k Y:83.690926db
+###495: mv_meter -id 65 -plotindex 20 7.74E+04 2.77E+00
+mv_meter -id 65 -plotindex 20 7.74E+04 2.77E+00 result X:1.3k Y:83.690926db
+###496: mv_meter -id 65 -plotindex 20 6.78E+04 2.77E+00
+mv_meter -id 65 -plotindex 20 6.78E+04 2.77E+00 result X:1.3k Y:83.690926db
+###497: mv_meter -id 65 -plotindex 20 6.35E+04 2.77E+00
+mv_meter -id 65 -plotindex 20 6.35E+04 2.77E+00 result X:1.3k Y:83.690926db
+###498: mv_meter -id 65 -plotindex 20 6.21E+04 2.77E+00
+mv_meter -id 65 -plotindex 20 6.21E+04 2.77E+00 result X:1.3k Y:83.690926db
+###499: mv_meter -id 65 -plotindex 20 6.08E+04 2.77E+00
+mv_meter -id 65 -plotindex 20 6.08E+04 2.77E+00 result X:1.3k Y:83.690926db
+###500: mv_meter -id 65 -plotindex 20 5.82E+04 3.42E+00
+mv_meter -id 65 -plotindex 20 5.82E+04 3.42E+00 result X:1.3k Y:83.690926db
+###501: mv_meter -id 65 -plotindex 20 5.69E+04 3.42E+00
+mv_meter -id 65 -plotindex 20 5.69E+04 3.42E+00 result X:1.3k Y:83.690926db
+###502: move_cursor -id 0 nan 1
+###503: cross_probe -file /tmp/plot3qpzl3
+cross_probe -file /tmp/plot3qpzl3 OK
+###504: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###505: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###506: open_wave -group Doc_Not_Found,0,_calc_wfs_\(77\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###507: chaxis -plot 23 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###508: chaxis -plot 23 -axis 0 DB20
+###509: select_plot 22
+select_plot :1
+###510: add_meter -DataXY
+add_meter -DataXY, new ID: 72, meter num: 8 -> 9
+###511: set_meter -id 72 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###512: mv_mark -id 74 -plotindex 22 4.897609E+05 4.404123E+01
+mv_mark -id 74 -plotindex 22 4.897609E+05 4.404123E+01 result X:0.5M Y:35.225365db
+###513: mv_mark -id 74 -plotindex 22 4.485680E+05 4.404123E+01
+mv_mark -id 74 -plotindex 22 4.485680E+05 4.404123E+01 result X:0.46M Y:35.957685db
+###514: mv_mark -id 74 -plotindex 22 3.601130E+05 4.404123E+01
+mv_mark -id 74 -plotindex 22 3.601130E+05 4.404123E+01 result X:0.37M Y:37.788476db
+###515: mv_mark -id 74 -plotindex 22 2.647851E+05 4.404123E+01
+mv_mark -id 74 -plotindex 22 2.647851E+05 4.404123E+01 result X:0.27M Y:40.351553db
+###516: mv_mark -id 74 -plotindex 22 1.863246E+05 4.404123E+01
+mv_mark -id 74 -plotindex 22 1.863246E+05 4.404123E+01 result X:0.2M Y:43.280717db
+###517: mv_mark -id 74 -plotindex 22 1.340251E+05 4.404123E+01
+mv_mark -id 74 -plotindex 22 1.340251E+05 4.404123E+01 result X:0.14M Y:46.026684db
+###518: mv_mark -id 74 -plotindex 22 1.029719E+05 4.404123E+01
+mv_mark -id 74 -plotindex 22 1.029719E+05 4.404123E+01 result X:0.11M Y:48.223348db
+###519: mv_mark -id 74 -plotindex 22 8.266641E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 8.266641E+04 4.404123E+01 result X:90k Y:50.053695db
+###520: mv_mark -id 74 -plotindex 22 7.088534E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 7.088534E+04 4.404123E+01 result X:78k Y:51.334889db
+###521: mv_mark -id 74 -plotindex 22 5.817091E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 5.817091E+04 4.404123E+01 result X:64k Y:52.98181db
+###522: mv_mark -id 74 -plotindex 22 5.446143E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 5.446143E+04 4.404123E+01 result X:60k Y:53.530791db
+###523: mv_mark -id 74 -plotindex 22 4.988078E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 4.988078E+04 4.404123E+01 result X:55k Y:54.262705db
+###524: mv_mark -id 74 -plotindex 22 4.669995E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 4.669995E+04 4.404123E+01 result X:52k Y:54.811412db
+###525: mv_mark -id 74 -plotindex 22 4.372195E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 4.372195E+04 4.404123E+01 result X:49k Y:55.360304db
+###526: mv_mark -id 74 -plotindex 22 4.277210E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 4.277210E+04 4.404123E+01 result X:48k Y:55.54316db
+###527: mv_mark -id 74 -plotindex 22 4.004458E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 4.004458E+04 4.404123E+01 result X:45k Y:56.091729db
+###528: mv_mark -id 74 -plotindex 22 3.510023E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 3.510023E+04 4.404123E+01 result X:39k Y:57.189243db
+###529: mv_mark -id 74 -plotindex 22 3.286194E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 3.286194E+04 4.404123E+01 result X:37k Y:57.737418db
+###530: mv_mark -id 74 -plotindex 22 2.696762E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 2.696762E+04 4.404123E+01 result X:31k Y:59.382412db
+###531: mv_mark -id 74 -plotindex 22 2.524793E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 2.524793E+04 4.404123E+01 result X:29k Y:59.929964db
+###532: mv_mark -id 74 -plotindex 22 2.262200E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 2.262200E+04 4.404123E+01 result X:26k Y:60.84291db
+###533: mv_mark -id 74 -plotindex 22 1.982884E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 1.982884E+04 4.404123E+01 result X:23k Y:61.937536db
+###534: mv_mark -id 74 -plotindex 22 1.939806E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 1.939806E+04 4.404123E+01 result X:22k Y:62.121294db
+###535: mv_mark -id 74 -plotindex 22 1.816107E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 1.816107E+04 4.404123E+01 result X:21k Y:62.667173db
+###536: mv_mark -id 74 -plotindex 22 1.700296E+04 4.404123E+01
+mv_mark -id 74 -plotindex 22 1.700296E+04 4.404123E+01 result X:20k Y:63.214927db
+###537: mv_mark -id 74 -plotindex 22 1.557288E+04 4.902059E+01
+mv_mark -id 74 -plotindex 22 1.557288E+04 4.902059E+01 result X:18k Y:63.978554db
+###538: mv_mark -id 74 -plotindex 22 1.426307E+04 6.073188E+01
+mv_mark -id 74 -plotindex 22 1.426307E+04 6.073188E+01 result X:16k Y:64.780171db
+###539: mv_mark -id 74 -plotindex 22 1.335353E+04 6.073188E+01
+mv_mark -id 74 -plotindex 22 1.335353E+04 6.073188E+01 result X:15k Y:65.326619db
+###540: mv_mark -id 74 -plotindex 22 1.196469E+04 6.073188E+01
+mv_mark -id 74 -plotindex 22 1.196469E+04 6.073188E+01 result X:14k Y:66.234421db
+###541: mv_mark -id 74 -plotindex 22 1.025956E+04 7.524107E+01
+mv_mark -id 74 -plotindex 22 1.025956E+04 7.524107E+01 result X:12k Y:67.571992db
+###542: mv_mark -id 74 -plotindex 22 8.606314E+03 9.321658E+01
+mv_mark -id 74 -plotindex 22 8.606314E+03 9.321658E+01 result X:9.9k Y:69.088442db
+###543: mv_mark -id 74 -plotindex 22 7.062633E+03 9.321658E+01
+mv_mark -id 74 -plotindex 22 7.062633E+03 9.321658E+01 result X:8.2k Y:70.690762db
+###544: mv_mark -id 74 -plotindex 22 5.669922E+03 9.321658E+01
+mv_mark -id 74 -plotindex 22 5.669922E+03 9.321658E+01 result X:6.6k Y:72.458537db
+###545: mv_mark -id 74 -plotindex 22 4.452959E+03 1.154865E+02
+mv_mark -id 74 -plotindex 22 4.452959E+03 1.154865E+02 result X:5.1k Y:74.424438db
+###546: mv_mark -id 74 -plotindex 22 3.735399E+03 1.592534E+02
+mv_mark -id 74 -plotindex 22 3.735399E+03 1.592534E+02 result X:4.3k Y:75.867138db
+###547: mv_mark -id 74 -plotindex 22 2.933652E+03 1.592534E+02
+mv_mark -id 74 -plotindex 22 2.933652E+03 1.592534E+02 result X:3.3k Y:77.623306db
+###548: mv_mark -id 74 -plotindex 22 2.355153E+03 1.972999E+02
+mv_mark -id 74 -plotindex 22 2.355153E+03 1.972999E+02 result X:2.6k Y:79.143325db
+###549: mv_mark -id 74 -plotindex 22 1.890730E+03 1.972999E+02
+mv_mark -id 74 -plotindex 22 1.890730E+03 1.972999E+02 result X:2.1k Y:80.451486db
+###550: mv_mark -id 74 -plotindex 22 1.517889E+03 2.444359E+02
+mv_mark -id 74 -plotindex 22 1.517889E+03 2.444359E+02 result X:1.6k Y:81.568512db
+###551: mv_mark -id 74 -plotindex 22 1.390222E+03 2.444359E+02
+mv_mark -id 74 -plotindex 22 1.390222E+03 2.444359E+02 result X:1.5k Y:81.945289db
+###552: mv_mark -id 74 -plotindex 22 1.301570E+03 3.028331E+02
+mv_mark -id 74 -plotindex 22 1.301570E+03 3.028331E+02 result X:1.4k Y:82.224191db
+###553: mv_mark -id 74 -plotindex 22 1.245631E+03 3.028331E+02
+mv_mark -id 74 -plotindex 22 1.245631E+03 3.028331E+02 result X:1.3k Y:82.36581db
+###554: move_cursor -id 0 nan 1
+###555: cross_probe -file /tmp/plotFSHutF
+cross_probe -file /tmp/plotFSHutF OK
+###556: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###557: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###558: open_wave -group Doc_Not_Found,0,_calc_wfs_\(90\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###559: chaxis -plot 25 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###560: chaxis -plot 25 -axis 0 DB20
+###561: select_plot 24
+select_plot :1
+###562: add_meter -DataXY
+add_meter -DataXY, new ID: 79, meter num: 9 -> 10
+###563: set_meter -id 79 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###564: mv_mark -id 81 -plotindex 24 5.117549E+05 1.082562E+02
+mv_mark -id 81 -plotindex 24 5.117549E+05 1.082562E+02 result X:0.52M Y:44.664272db
+###565: mv_mark -id 81 -plotindex 24 3.931829E+05 1.082562E+02
+mv_mark -id 81 -plotindex 24 3.931829E+05 1.082562E+02 result X:0.41M Y:46.856427db
+###566: mv_mark -id 81 -plotindex 24 2.766759E+05 1.333995E+02
+mv_mark -id 81 -plotindex 24 2.766759E+05 1.333995E+02 result X:0.29M Y:49.855798db
+###567: mv_mark -id 81 -plotindex 24 1.904624E+05 1.333995E+02
+mv_mark -id 81 -plotindex 24 1.904624E+05 1.333995E+02 result X:0.2M Y:52.960314db
+###568: mv_mark -id 81 -plotindex 24 1.282650E+05 1.333995E+02
+mv_mark -id 81 -plotindex 24 1.282650E+05 1.333995E+02 result X:0.14M Y:56.246097db
+###569: mv_mark -id 81 -plotindex 24 9.431110E+04 1.333995E+02
+mv_mark -id 81 -plotindex 24 9.431110E+04 1.333995E+02 result X:0.1M Y:58.799535db
+###570: mv_mark -id 81 -plotindex 24 7.406863E+04 1.333995E+02
+mv_mark -id 81 -plotindex 24 7.406863E+04 1.333995E+02 result X:81k Y:60.80378db
+###571: mv_mark -id 81 -plotindex 24 5.817091E+04 1.333995E+02
+mv_mark -id 81 -plotindex 24 5.817091E+04 1.333995E+02 result X:64k Y:62.805041db
+###572: mv_mark -id 81 -plotindex 24 4.988078E+04 1.643825E+02
+mv_mark -id 81 -plotindex 24 4.988078E+04 1.643825E+02 result X:55k Y:64.15312db
+###573: mv_mark -id 81 -plotindex 24 4.184289E+04 1.643825E+02
+mv_mark -id 81 -plotindex 24 4.184289E+04 1.643825E+02 result X:47k Y:65.601676db
+###574: mv_mark -id 81 -plotindex 24 4.093386E+04 2.248576E+02
+mv_mark -id 81 -plotindex 24 4.093386E+04 2.248576E+02 result X:45k Y:65.894666db
+###575: mv_mark -id 81 -plotindex 24 3.832356E+04 2.248576E+02
+mv_mark -id 81 -plotindex 24 3.832356E+04 2.248576E+02 result X:42k Y:66.437413db
+###576: mv_mark -id 81 -plotindex 24 3.359171E+04 2.248576E+02
+mv_mark -id 81 -plotindex 24 3.359171E+04 2.248576E+02 result X:37k Y:67.518523db
+###577: mv_mark -id 81 -plotindex 24 3.144961E+04 2.248576E+02
+mv_mark -id 81 -plotindex 24 3.144961E+04 2.248576E+02 result X:35k Y:68.060192db
+###578: mv_mark -id 81 -plotindex 24 2.944411E+04 2.496078E+02
+mv_mark -id 81 -plotindex 24 2.944411E+04 2.496078E+02 result X:33k Y:68.632078db
+###579: mv_mark -id 81 -plotindex 24 2.416283E+04 2.496078E+02
+mv_mark -id 81 -plotindex 24 2.416283E+04 2.496078E+02 result X:27k Y:70.239714db
+###580: mv_mark -id 81 -plotindex 24 2.117942E+04 3.075810E+02
+mv_mark -id 81 -plotindex 24 2.117942E+04 3.075810E+02 result X:24k Y:71.370253db
+###581: mv_mark -id 81 -plotindex 24 1.627222E+04 3.075810E+02
+mv_mark -id 81 -plotindex 24 1.627222E+04 3.075810E+02 result X:18k Y:73.456259db
+###582: mv_mark -id 81 -plotindex 24 1.335353E+04 3.790189E+02
+mv_mark -id 81 -plotindex 24 1.335353E+04 3.790189E+02 result X:15k Y:75.048475db
+###583: mv_mark -id 81 -plotindex 24 9.818630E+03 5.184571E+02
+mv_mark -id 81 -plotindex 24 9.818630E+03 5.184571E+02 result X:11k Y:77.393068db
+###584: mv_mark -id 81 -plotindex 24 7.062633E+03 6.388725E+02
+mv_mark -id 81 -plotindex 24 7.062633E+03 6.388725E+02 result X:7.6k Y:79.593081db
+###585: mv_mark -id 81 -plotindex 24 5.193036E+03 8.739089E+02
+mv_mark -id 81 -plotindex 24 5.193036E+03 8.739089E+02 result X:5.5k Y:81.28318db
+###586: mv_mark -id 81 -plotindex 24 3.989825E+03 8.739089E+02
+mv_mark -id 81 -plotindex 24 3.989825E+03 8.739089E+02 result X:4.2k Y:82.331236db
+###587: mv_mark -id 81 -plotindex 24 3.346897E+03 9.701007E+02
+mv_mark -id 81 -plotindex 24 3.346897E+03 9.701007E+02 result X:3.5k Y:82.875952db
+###588: mv_mark -id 81 -plotindex 24 3.203055E+03 1.076880E+03
+mv_mark -id 81 -plotindex 24 3.203055E+03 1.076880E+03 result X:3.3k Y:82.98474db
+###589: mv_mark -id 81 -plotindex 24 3.133469E+03 1.076880E+03
+mv_mark -id 81 -plotindex 24 3.133469E+03 1.076880E+03 result X:3.2k Y:83.037589db
+###590: mv_mark -id 81 -plotindex 24 3.065395E+03 1.076880E+03
+mv_mark -id 81 -plotindex 24 3.065395E+03 1.076880E+03 result X:3.1k Y:83.100841db
+###591: mv_mark -id 81 -plotindex 24 2.933652E+03 1.076880E+03
+mv_mark -id 81 -plotindex 24 2.933652E+03 1.076880E+03 result X:3k Y:83.189993db
+###592: mv_mark -id 81 -plotindex 24 2.869919E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 2.869919E+03 1.195414E+03 result X:2.9k Y:83.236764db
+###593: mv_mark -id 81 -plotindex 24 2.686908E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 2.686908E+03 1.195414E+03 result X:2.7k Y:83.370487db
+###594: mv_mark -id 81 -plotindex 24 2.460917E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 2.460917E+03 1.195414E+03 result X:2.5k Y:83.525108db
+###595: mv_mark -id 81 -plotindex 24 2.303988E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 2.303988E+03 1.195414E+03 result X:2.3k Y:83.617609db
+###596: mv_mark -id 81 -plotindex 24 2.157065E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 2.157065E+03 1.195414E+03 result X:2.2k Y:83.709138db
+###597: mv_mark -id 81 -plotindex 24 2.019512E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 2.019512E+03 1.195414E+03 result X:2.1k Y:83.785181db
+###598: mv_mark -id 81 -plotindex 24 1.890730E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 1.890730E+03 1.195414E+03 result X:1.9k Y:83.855647db
+###599: mv_mark -id 81 -plotindex 24 1.809471E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 1.809471E+03 1.195414E+03 result X:1.8k Y:83.897062db
+###600: mv_mark -id 81 -plotindex 24 1.731704E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 1.731704E+03 1.195414E+03 result X:1.7k Y:83.937754db
+###601: mv_mark -id 81 -plotindex 24 1.694084E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 1.694084E+03 1.195414E+03 result X:1.7k Y:83.954583db
+###602: mv_mark -id 81 -plotindex 24 1.657280E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 1.657280E+03 1.195414E+03 result X:1.7k Y:83.971412db
+###603: mv_mark -id 81 -plotindex 24 1.621276E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 1.621276E+03 1.195414E+03 result X:1.6k Y:83.988241db
+###604: mv_mark -id 81 -plotindex 24 1.551597E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 1.551597E+03 1.195414E+03 result X:1.6k Y:84.021465db
+###605: mv_mark -id 81 -plotindex 24 1.517889E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 1.517889E+03 1.195414E+03 result X:1.5k Y:84.035083db
+###606: mv_mark -id 81 -plotindex 24 1.484913E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 1.484913E+03 1.195414E+03 result X:1.5k Y:84.0487db
+###607: mv_mark -id 81 -plotindex 24 1.421095E+03 1.195414E+03
+mv_mark -id 81 -plotindex 24 1.421095E+03 1.195414E+03 result X:1.4k Y:84.075935db
+###608: mv_meter -id 79 -plotindex 24 6.96E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 6.96E+05 5.82E+00 result X:1.4k Y:84.075935db
+###609: mv_meter -id 79 -plotindex 24 6.81E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 6.81E+05 5.82E+00 result X:1.4k Y:84.075935db
+###610: mv_meter -id 79 -plotindex 24 6.37E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 6.37E+05 5.82E+00 result X:1.4k Y:84.075935db
+###611: mv_meter -id 79 -plotindex 24 6.10E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 6.10E+05 5.82E+00 result X:1.4k Y:84.075935db
+###612: mv_meter -id 79 -plotindex 24 5.84E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 5.84E+05 5.82E+00 result X:1.4k Y:84.075935db
+###613: mv_meter -id 79 -plotindex 24 5.35E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 5.35E+05 5.82E+00 result X:1.4k Y:84.075935db
+###614: mv_meter -id 79 -plotindex 24 5.23E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 5.23E+05 5.82E+00 result X:1.4k Y:84.075935db
+###615: mv_meter -id 79 -plotindex 24 4.59E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 4.59E+05 5.82E+00 result X:1.4k Y:84.075935db
+###616: mv_meter -id 79 -plotindex 24 4.02E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 4.02E+05 5.82E+00 result X:1.4k Y:84.075935db
+###617: mv_meter -id 79 -plotindex 24 3.37E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 3.37E+05 5.82E+00 result X:1.4k Y:84.075935db
+###618: mv_meter -id 79 -plotindex 24 2.96E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 2.96E+05 5.82E+00 result X:1.4k Y:84.075935db
+###619: mv_meter -id 79 -plotindex 24 2.37E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 2.37E+05 5.82E+00 result X:1.4k Y:84.075935db
+###620: mv_meter -id 79 -plotindex 24 1.90E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 1.90E+05 5.82E+00 result X:1.4k Y:84.075935db
+###621: mv_meter -id 79 -plotindex 24 1.56E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 1.56E+05 5.82E+00 result X:1.4k Y:84.075935db
+###622: mv_meter -id 79 -plotindex 24 1.20E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 1.20E+05 5.82E+00 result X:1.4k Y:84.075935db
+###623: mv_meter -id 79 -plotindex 24 1.08E+05 5.82E+00
+mv_meter -id 79 -plotindex 24 1.08E+05 5.82E+00 result X:1.4k Y:84.075935db
+###624: mv_meter -id 79 -plotindex 24 8.83E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 8.83E+04 5.82E+00 result X:1.4k Y:84.075935db
+###625: mv_meter -id 79 -plotindex 24 7.74E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 7.74E+04 5.82E+00 result X:1.4k Y:84.075935db
+###626: mv_meter -id 79 -plotindex 24 6.35E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 6.35E+04 5.82E+00 result X:1.4k Y:84.075935db
+###627: mv_meter -id 79 -plotindex 24 5.69E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 5.69E+04 5.82E+00 result X:1.4k Y:84.075935db
+###628: mv_meter -id 79 -plotindex 24 4.99E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 4.99E+04 5.82E+00 result X:1.4k Y:84.075935db
+###629: mv_meter -id 79 -plotindex 24 4.77E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 4.77E+04 5.82E+00 result X:1.4k Y:84.075935db
+###630: mv_meter -id 79 -plotindex 24 4.67E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 4.67E+04 5.82E+00 result X:1.4k Y:84.075935db
+###631: mv_meter -id 79 -plotindex 24 4.57E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 4.57E+04 5.82E+00 result X:1.4k Y:84.075935db
+###632: mv_meter -id 79 -plotindex 24 4.37E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 4.37E+04 5.82E+00 result X:1.4k Y:84.075935db
+###633: mv_meter -id 79 -plotindex 24 4.28E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 4.28E+04 5.82E+00 result X:1.4k Y:84.075935db
+###634: mv_meter -id 79 -plotindex 24 4.18E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 4.18E+04 5.82E+00 result X:1.4k Y:84.075935db
+###635: mv_meter -id 79 -plotindex 24 4.09E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 4.09E+04 5.82E+00 result X:1.4k Y:84.075935db
+###636: mv_meter -id 79 -plotindex 24 3.83E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 3.83E+04 5.82E+00 result X:1.4k Y:84.075935db
+###637: mv_meter -id 79 -plotindex 24 3.51E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 3.51E+04 5.82E+00 result X:1.4k Y:84.075935db
+###638: mv_meter -id 79 -plotindex 24 3.36E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 3.36E+04 5.82E+00 result X:1.4k Y:84.075935db
+###639: mv_meter -id 79 -plotindex 24 3.14E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 3.14E+04 5.82E+00 result X:1.4k Y:84.075935db
+###640: mv_meter -id 79 -plotindex 24 3.08E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 3.08E+04 5.82E+00 result X:1.4k Y:84.075935db
+###641: mv_meter -id 79 -plotindex 24 2.88E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 2.88E+04 5.82E+00 result X:1.4k Y:84.075935db
+###642: mv_meter -id 79 -plotindex 24 2.64E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 2.64E+04 5.82E+00 result X:1.4k Y:84.075935db
+###643: mv_meter -id 79 -plotindex 24 2.36E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 2.36E+04 5.82E+00 result X:1.4k Y:84.075935db
+###644: mv_meter -id 79 -plotindex 24 2.12E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 2.12E+04 5.82E+00 result X:1.4k Y:84.075935db
+###645: mv_meter -id 79 -plotindex 24 1.82E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 1.82E+04 5.82E+00 result X:1.4k Y:84.075935db
+###646: mv_meter -id 79 -plotindex 24 1.70E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 1.70E+04 5.82E+00 result X:1.4k Y:84.075935db
+###647: mv_meter -id 79 -plotindex 24 1.59E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 1.59E+04 5.82E+00 result X:1.4k Y:84.075935db
+###648: mv_meter -id 79 -plotindex 24 1.56E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 1.56E+04 5.82E+00 result X:1.4k Y:84.075935db
+###649: mv_meter -id 79 -plotindex 24 1.49E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 1.49E+04 5.82E+00 result X:1.4k Y:84.075935db
+###650: mv_meter -id 79 -plotindex 24 1.43E+04 5.82E+00
+mv_meter -id 79 -plotindex 24 1.43E+04 5.82E+00 result X:1.4k Y:84.075935db
+###651: move_cursor -id 0 nan 1
+###652: move_cursor -id 1 6.7e+07 nan
+###653: cross_probe -file /tmp/plotBCH8zP
+cross_probe -file /tmp/plotBCH8zP OK
+###654: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###655: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###656: open_wave -group Doc_Not_Found,0,_calc_wfs_\(104\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###657: chaxis -plot 27 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###658: chaxis -plot 27 -axis 0 DB20
+###659: select_plot 26
+select_plot :1
+###660: add_meter -DataXY
+add_meter -DataXY, new ID: 142, meter num: 10 -> 11
+###661: set_meter -id 142 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###662: mv_mark -id 144 -plotindex 26 5.006371E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 5.006371E+05 9.276981E+01 result X:0.51M Y:41.845306db
+###663: mv_mark -id 144 -plotindex 26 4.687121E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 4.687121E+05 9.276981E+01 result X:0.48M Y:42.393675db
+###664: mv_mark -id 144 -plotindex 26 4.108398E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 4.108398E+05 9.276981E+01 result X:0.42M Y:43.490399db
+###665: mv_mark -id 144 -plotindex 26 3.846411E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 3.846411E+05 9.276981E+01 result X:0.39M Y:44.038756db
+###666: mv_mark -id 144 -plotindex 26 3.601130E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 3.601130E+05 9.276981E+01 result X:0.37M Y:44.587099db
+###667: mv_mark -id 144 -plotindex 26 3.156495E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 3.156495E+05 9.276981E+01 result X:0.33M Y:45.683771db
+###668: mv_mark -id 144 -plotindex 26 2.766759E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 2.766759E+05 9.276981E+01 result X:0.29M Y:46.780409db
+###669: mv_mark -id 144 -plotindex 26 2.372459E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 2.372459E+05 9.276981E+01 result X:0.25M Y:48.059782db
+###670: mv_mark -id 144 -plotindex 26 2.079529E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 2.079529E+05 9.276981E+01 result X:0.22M Y:49.156318db
+###671: mv_mark -id 144 -plotindex 26 1.744429E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 1.744429E+05 9.276981E+01 result X:0.18M Y:50.618242db
+###672: mv_mark -id 144 -plotindex 26 1.597709E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 1.597709E+05 9.276981E+01 result X:0.17M Y:51.349167db
+###673: mv_mark -id 144 -plotindex 26 1.495825E+05 9.276981E+01
+mv_mark -id 144 -plotindex 26 1.495825E+05 9.276981E+01 result X:0.16M Y:51.897299db
+###674: mv_mark -id 144 -plotindex 26 1.311134E+05 1.144711E+02
+mv_mark -id 144 -plotindex 26 1.311134E+05 1.144711E+02 result X:0.14M Y:53.069875db
+###675: mv_mark -id 144 -plotindex 26 1.200857E+05 1.144711E+02
+mv_mark -id 144 -plotindex 26 1.200857E+05 1.144711E+02 result X:0.13M Y:53.800517db
+###676: mv_mark -id 144 -plotindex 26 1.075961E+05 1.144711E+02
+mv_mark -id 144 -plotindex 26 1.075961E+05 1.144711E+02 result X:0.12M Y:54.713782db
+###677: mv_mark -id 144 -plotindex 26 9.431110E+04 1.412488E+02
+mv_mark -id 144 -plotindex 26 9.431110E+04 1.412488E+02 result X:0.1M Y:55.88569db
+###678: mv_mark -id 144 -plotindex 26 7.245951E+04 1.412488E+02
+mv_mark -id 144 -plotindex 26 7.245951E+04 1.412488E+02 result X:78k Y:58.076258db
+###679: mv_mark -id 144 -plotindex 26 5.327827E+04 1.936059E+02
+mv_mark -id 144 -plotindex 26 5.327827E+04 1.936059E+02 result X:57k Y:60.742587db
+###680: mv_mark -id 144 -plotindex 26 3.917462E+04 2.388953E+02
+mv_mark -id 144 -plotindex 26 3.917462E+04 2.388953E+02 result X:42k Y:63.365695db
+###681: mv_mark -id 144 -plotindex 26 2.880444E+04 3.274473E+02
+mv_mark -id 144 -plotindex 26 2.880444E+04 3.274473E+02 result X:31k Y:66.016521db
+###682: mv_mark -id 144 -plotindex 26 2.213054E+04 4.040457E+02
+mv_mark -id 144 -plotindex 26 2.213054E+04 4.040457E+02 result X:24k Y:68.250703db
+###683: mv_mark -id 144 -plotindex 26 1.663358E+04 4.985625E+02
+mv_mark -id 144 -plotindex 26 1.663358E+04 4.985625E+02 result X:18k Y:70.637012db
+###684: mv_mark -id 144 -plotindex 26 1.306343E+04 4.985625E+02
+mv_mark -id 144 -plotindex 26 1.306343E+04 4.985625E+02 result X:14k Y:72.56358db
+###685: mv_mark -id 144 -plotindex 26 1.072029E+04 6.151892E+02
+mv_mark -id 144 -plotindex 26 1.072029E+04 6.151892E+02 result X:12k Y:74.173545db
+###686: mv_mark -id 144 -plotindex 26 8.992803E+03 6.151892E+02
+mv_mark -id 144 -plotindex 26 8.992803E+03 6.151892E+02 result X:9.8k Y:75.517152db
+###687: mv_mark -id 144 -plotindex 26 7.711208E+03 8.432229E+02
+mv_mark -id 144 -plotindex 26 7.711208E+03 8.432229E+02 result X:8.3k Y:76.719342db
+###688: mv_mark -id 144 -plotindex 26 6.612258E+03 8.432229E+02
+mv_mark -id 144 -plotindex 26 6.612258E+03 8.432229E+02 result X:7.1k Y:77.789203db
+###689: mv_mark -id 144 -plotindex 26 5.669922E+03 8.432229E+02
+mv_mark -id 144 -plotindex 26 5.669922E+03 8.432229E+02 result X:6.1k Y:78.818858db
+###690: mv_mark -id 144 -plotindex 26 4.652930E+03 1.040475E+03
+mv_mark -id 144 -plotindex 26 4.652930E+03 1.040475E+03 result X:4.9k Y:80.054781db
+###691: mv_mark -id 144 -plotindex 26 3.818352E+03 1.283869E+03
+mv_mark -id 144 -plotindex 26 3.818352E+03 1.283869E+03 result X:4k Y:81.090779db
+###692: mv_mark -id 144 -plotindex 26 3.065395E+03 1.283869E+03
+mv_mark -id 144 -plotindex 26 3.065395E+03 1.283869E+03 result X:3.2k Y:82.029174db
+###693: mv_mark -id 144 -plotindex 26 2.407454E+03 1.584199E+03
+mv_mark -id 144 -plotindex 26 2.407454E+03 1.584199E+03 result X:2.5k Y:82.829421db
+###694: mv_mark -id 144 -plotindex 26 2.019512E+03 1.954784E+03
+mv_mark -id 144 -plotindex 26 2.019512E+03 1.954784E+03 result X:2.1k Y:83.241914db
+###695: mv_mark -id 144 -plotindex 26 1.770161E+03 1.954784E+03
+mv_mark -id 144 -plotindex 26 1.770161E+03 1.954784E+03 result X:1.8k Y:83.485538db
+###696: mv_mark -id 144 -plotindex 26 1.621276E+03 2.412059E+03
+mv_mark -id 144 -plotindex 26 1.621276E+03 2.412059E+03 result X:1.6k Y:83.62102db
+###697: mv_mark -id 144 -plotindex 26 1.517889E+03 2.412059E+03
+mv_mark -id 144 -plotindex 26 1.517889E+03 2.412059E+03 result X:1.5k Y:83.710078db
+###698: mv_mark -id 144 -plotindex 26 1.330474E+03 2.976303E+03
+mv_mark -id 144 -plotindex 26 1.330474E+03 2.976303E+03 result X:1.3k Y:83.856935db
+###699: mv_mark -id 144 -plotindex 26 1.301570E+03 2.976303E+03
+mv_mark -id 144 -plotindex 26 1.301570E+03 2.976303E+03 result X:1.3k Y:83.877971db
+###700: mv_mark -id 144 -plotindex 26 1.245631E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.245631E+03 3.672537E+03 result X:1.3k Y:83.921386db
+###701: mv_mark -id 144 -plotindex 26 1.218570E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.218570E+03 3.672537E+03 result X:1.2k Y:83.938488db
+###702: mv_mark -id 144 -plotindex 26 1.192097E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.192097E+03 3.672537E+03 result X:1.2k Y:83.95559db
+###703: mv_mark -id 144 -plotindex 26 1.140864E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.140864E+03 3.672537E+03 result X:1.1k Y:83.989795db
+###704: mv_mark -id 144 -plotindex 26 1.166199E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.166199E+03 3.672537E+03 result X:1.2k Y:83.972692db
+###705: mv_mark -id 144 -plotindex 26 1.245631E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.245631E+03 3.672537E+03 result X:1.3k Y:83.921386db
+###706: mv_mark -id 144 -plotindex 26 1.330474E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.330474E+03 3.672537E+03 result X:1.3k Y:83.857905db
+###707: mv_mark -id 144 -plotindex 26 1.452654E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.452654E+03 3.672537E+03 result X:1.5k Y:83.764459db
+###708: mv_mark -id 144 -plotindex 26 1.484913E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.484913E+03 3.672537E+03 result X:1.5k Y:83.738721db
+###709: mv_mark -id 144 -plotindex 26 1.517889E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.517889E+03 3.672537E+03 result X:1.5k Y:83.712983db
+###710: mv_mark -id 144 -plotindex 26 1.586054E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.586054E+03 3.672537E+03 result X:1.6k Y:83.656609db
+###711: mv_mark -id 144 -plotindex 26 1.621276E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.621276E+03 3.672537E+03 result X:1.6k Y:83.625316db
+###712: mv_mark -id 144 -plotindex 26 1.657280E+03 3.672537E+03
+mv_mark -id 144 -plotindex 26 1.657280E+03 3.672537E+03 result X:1.7k Y:83.594023db
+###713: mv_meter -id 142 -plotindex 26 6.66E+05 5.43E+00
+mv_meter -id 142 -plotindex 26 6.66E+05 5.43E+00 result X:1.7k Y:83.594023db
+###714: mv_meter -id 142 -plotindex 26 5.97E+05 5.43E+00
+mv_meter -id 142 -plotindex 26 5.97E+05 5.43E+00 result X:1.7k Y:83.594023db
+###715: mv_meter -id 142 -plotindex 26 5.23E+05 5.43E+00
+mv_meter -id 142 -plotindex 26 5.23E+05 5.43E+00 result X:1.7k Y:83.594023db
+###716: mv_meter -id 142 -plotindex 26 4.29E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 4.29E+05 4.89E+00 result X:1.7k Y:83.594023db
+###717: mv_meter -id 142 -plotindex 26 3.52E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 3.52E+05 4.89E+00 result X:1.7k Y:83.594023db
+###718: mv_meter -id 142 -plotindex 26 3.16E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 3.16E+05 4.89E+00 result X:1.7k Y:83.594023db
+###719: mv_meter -id 142 -plotindex 26 2.77E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 2.77E+05 4.89E+00 result X:1.7k Y:83.594023db
+###720: mv_meter -id 142 -plotindex 26 2.43E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 2.43E+05 4.89E+00 result X:1.7k Y:83.594023db
+###721: mv_meter -id 142 -plotindex 26 2.13E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 2.13E+05 4.89E+00 result X:1.7k Y:83.594023db
+###722: mv_meter -id 142 -plotindex 26 1.86E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 1.86E+05 4.89E+00 result X:1.7k Y:83.594023db
+###723: mv_meter -id 142 -plotindex 26 1.63E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 1.63E+05 4.89E+00 result X:1.7k Y:83.594023db
+###724: mv_meter -id 142 -plotindex 26 1.43E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 1.43E+05 4.89E+00 result X:1.7k Y:83.594023db
+###725: mv_meter -id 142 -plotindex 26 1.28E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 1.28E+05 4.89E+00 result X:1.7k Y:83.594023db
+###726: mv_meter -id 142 -plotindex 26 1.12E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 1.12E+05 4.89E+00 result X:1.7k Y:83.594023db
+###727: mv_meter -id 142 -plotindex 26 1.05E+05 4.89E+00
+mv_meter -id 142 -plotindex 26 1.05E+05 4.89E+00 result X:1.7k Y:83.594023db
+###728: mv_meter -id 142 -plotindex 26 8.64E+04 4.89E+00
+mv_meter -id 142 -plotindex 26 8.64E+04 4.89E+00 result X:1.7k Y:83.594023db
+###729: mv_meter -id 142 -plotindex 26 7.74E+04 4.89E+00
+mv_meter -id 142 -plotindex 26 7.74E+04 4.89E+00 result X:1.7k Y:83.594023db
+###730: mv_meter -id 142 -plotindex 26 7.25E+04 4.89E+00
+mv_meter -id 142 -plotindex 26 7.25E+04 4.89E+00 result X:1.7k Y:83.594023db
+###731: mv_meter -id 142 -plotindex 26 6.35E+04 4.89E+00
+mv_meter -id 142 -plotindex 26 6.35E+04 4.89E+00 result X:1.7k Y:83.594023db
+###732: mv_meter -id 142 -plotindex 26 5.95E+04 4.89E+00
+mv_meter -id 142 -plotindex 26 5.95E+04 4.89E+00 result X:1.7k Y:83.594023db
+###733: mv_meter -id 142 -plotindex 26 5.57E+04 4.89E+00
+mv_meter -id 142 -plotindex 26 5.57E+04 4.89E+00 result X:1.7k Y:83.594023db
+###734: mv_meter -id 142 -plotindex 26 5.45E+04 4.89E+00
+mv_meter -id 142 -plotindex 26 5.45E+04 4.89E+00 result X:1.7k Y:83.594023db
+###735: mv_meter -id 142 -plotindex 26 5.21E+04 4.89E+00
+mv_meter -id 142 -plotindex 26 5.21E+04 4.89E+00 result X:1.7k Y:83.594023db
+###736: mv_meter -id 142 -plotindex 26 4.99E+04 4.89E+00
+mv_meter -id 142 -plotindex 26 4.99E+04 4.89E+00 result X:1.7k Y:83.594023db
+###737: mv_meter -id 142 -plotindex 26 4.88E+04 5.43E+00
+mv_meter -id 142 -plotindex 26 4.88E+04 5.43E+00 result X:1.7k Y:83.594023db
+###738: mv_meter -id 142 -plotindex 26 4.67E+04 5.43E+00
+mv_meter -id 142 -plotindex 26 4.67E+04 5.43E+00 result X:1.7k Y:83.594023db
+###739: mv_meter -id 142 -plotindex 26 4.57E+04 5.43E+00
+mv_meter -id 142 -plotindex 26 4.57E+04 5.43E+00 result X:1.7k Y:83.594023db
+###740: mv_meter -id 142 -plotindex 26 4.28E+04 5.43E+00
+mv_meter -id 142 -plotindex 26 4.28E+04 5.43E+00 result X:1.7k Y:83.594023db
+###741: mv_meter -id 142 -plotindex 26 4.18E+04 5.43E+00
+mv_meter -id 142 -plotindex 26 4.18E+04 5.43E+00 result X:1.7k Y:83.594023db
+###742: mv_meter -id 142 -plotindex 26 4.09E+04 5.43E+00
+mv_meter -id 142 -plotindex 26 4.09E+04 5.43E+00 result X:1.7k Y:83.594023db
+###743: mv_meter -id 142 -plotindex 26 3.67E+04 6.03E+00
+mv_meter -id 142 -plotindex 26 3.67E+04 6.03E+00 result X:1.7k Y:83.594023db
+###744: mv_meter -id 142 -plotindex 26 3.59E+04 6.03E+00
+mv_meter -id 142 -plotindex 26 3.59E+04 6.03E+00 result X:1.7k Y:83.594023db
+###745: mv_meter -id 142 -plotindex 26 3.36E+04 6.03E+00
+mv_meter -id 142 -plotindex 26 3.36E+04 6.03E+00 result X:1.7k Y:83.594023db
+###746: mv_meter -id 142 -plotindex 26 3.14E+04 6.03E+00
+mv_meter -id 142 -plotindex 26 3.14E+04 6.03E+00 result X:1.7k Y:83.594023db
+###747: mv_meter -id 142 -plotindex 26 2.94E+04 6.03E+00
+mv_meter -id 142 -plotindex 26 2.94E+04 6.03E+00 result X:1.7k Y:83.594023db
+###748: mv_meter -id 142 -plotindex 26 2.88E+04 7.45E+00
+mv_meter -id 142 -plotindex 26 2.88E+04 7.45E+00 result X:1.7k Y:83.594023db
+###749: mv_meter -id 142 -plotindex 26 2.70E+04 7.45E+00
+mv_meter -id 142 -plotindex 26 2.70E+04 7.45E+00 result X:1.7k Y:83.594023db
+###750: mv_meter -id 142 -plotindex 26 2.64E+04 7.45E+00
+mv_meter -id 142 -plotindex 26 2.64E+04 7.45E+00 result X:1.7k Y:83.594023db
+###751: move_cursor -id 2 nan 1
+###752: move_cursor -id 3 5.4e+07 nan
+###753: cross_probe -file /tmp/plotRnaZQJ
+cross_probe -file /tmp/plotRnaZQJ OK
+###754: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###755: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###756: open_wave -group Doc_Not_Found,0,_calc_wfs_\(119\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###757: chaxis -plot 29 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###758: chaxis -plot 29 -axis 0 DB20
+###759: select_plot 28
+select_plot :1
+###760: add_meter -DataXY
+add_meter -DataXY, new ID: 273, meter num: 11 -> 12
+###761: set_meter -id 273 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###762: mv_meter -id 273 -plotindex 28 7.94E+05 9.33E+00
+mv_meter -id 273 -plotindex 28 7.94E+05 9.33E+00 result X:0.53M Y:41.474799db
+###763: mv_meter -id 273 -plotindex 28 6.52E+05 9.33E+00
+mv_meter -id 273 -plotindex 28 6.52E+05 9.33E+00 result X:0.53M Y:41.474799db
+###764: mv_meter -id 273 -plotindex 28 5.35E+05 1.29E+01
+mv_meter -id 273 -plotindex 28 5.35E+05 1.29E+01 result X:0.53M Y:41.474799db
+###765: mv_meter -id 273 -plotindex 28 4.11E+05 1.59E+01
+mv_meter -id 273 -plotindex 28 4.11E+05 1.59E+01 result X:0.53M Y:41.474799db
+###766: mv_meter -id 273 -plotindex 28 3.45E+05 1.59E+01
+mv_meter -id 273 -plotindex 28 3.45E+05 1.59E+01 result X:0.53M Y:41.474799db
+###767: mv_meter -id 273 -plotindex 28 2.96E+05 1.97E+01
+mv_meter -id 273 -plotindex 28 2.96E+05 1.97E+01 result X:0.53M Y:41.474799db
+###768: mv_meter -id 273 -plotindex 28 2.77E+05 1.97E+01
+mv_meter -id 273 -plotindex 28 2.77E+05 1.97E+01 result X:0.53M Y:41.474799db
+###769: mv_meter -id 273 -plotindex 28 2.59E+05 1.97E+01
+mv_meter -id 273 -plotindex 28 2.59E+05 1.97E+01 result X:0.53M Y:41.474799db
+###770: mv_meter -id 273 -plotindex 28 2.43E+05 2.20E+01
+mv_meter -id 273 -plotindex 28 2.43E+05 2.20E+01 result X:0.53M Y:41.474799db
+###771: mv_meter -id 273 -plotindex 28 2.37E+05 2.20E+01
+mv_meter -id 273 -plotindex 28 2.37E+05 2.20E+01 result X:0.53M Y:41.474799db
+###772: mv_meter -id 273 -plotindex 28 2.22E+05 2.72E+01
+mv_meter -id 273 -plotindex 28 2.22E+05 2.72E+01 result X:0.53M Y:41.474799db
+###773: mv_meter -id 273 -plotindex 28 1.99E+05 2.72E+01
+mv_meter -id 273 -plotindex 28 1.99E+05 2.72E+01 result X:0.53M Y:41.474799db
+###774: mv_meter -id 273 -plotindex 28 1.86E+05 3.03E+01
+mv_meter -id 273 -plotindex 28 1.86E+05 3.03E+01 result X:0.53M Y:41.474799db
+###775: mv_meter -id 273 -plotindex 28 1.53E+05 3.75E+01
+mv_meter -id 273 -plotindex 28 1.53E+05 3.75E+01 result X:0.53M Y:41.474799db
+###776: mv_meter -id 273 -plotindex 28 1.23E+05 4.65E+01
+mv_meter -id 273 -plotindex 28 1.23E+05 4.65E+01 result X:0.53M Y:41.474799db
+###777: mv_meter -id 273 -plotindex 28 9.64E+04 4.65E+01
+mv_meter -id 273 -plotindex 28 9.64E+04 4.65E+01 result X:0.53M Y:41.474799db
+###778: mv_meter -id 273 -plotindex 28 7.57E+04 7.13E+01
+mv_meter -id 273 -plotindex 28 7.57E+04 7.13E+01 result X:0.53M Y:41.474799db
+###779: mv_meter -id 273 -plotindex 28 6.21E+04 8.83E+01
+mv_meter -id 273 -plotindex 28 6.21E+04 8.83E+01 result X:0.53M Y:41.474799db
+###780: mv_meter -id 273 -plotindex 28 5.21E+04 8.83E+01
+mv_meter -id 273 -plotindex 28 5.21E+04 8.83E+01 result X:0.53M Y:41.474799db
+###781: mv_meter -id 273 -plotindex 28 4.67E+04 9.83E+01
+mv_meter -id 273 -plotindex 28 4.67E+04 9.83E+01 result X:0.53M Y:41.474799db
+###782: mv_meter -id 273 -plotindex 28 4.37E+04 9.83E+01
+mv_meter -id 273 -plotindex 28 4.37E+04 9.83E+01 result X:0.53M Y:41.474799db
+###783: mv_meter -id 273 -plotindex 28 4.09E+04 1.22E+02
+mv_meter -id 273 -plotindex 28 4.09E+04 1.22E+02 result X:0.53M Y:41.474799db
+###784: mv_meter -id 273 -plotindex 28 3.83E+04 1.51E+02
+mv_meter -id 273 -plotindex 28 3.83E+04 1.51E+02 result X:0.53M Y:41.474799db
+###785: mv_meter -id 273 -plotindex 28 3.67E+04 1.51E+02
+mv_meter -id 273 -plotindex 28 3.67E+04 1.51E+02 result X:0.53M Y:41.474799db
+###786: mv_meter -id 273 -plotindex 28 3.43E+04 1.51E+02
+mv_meter -id 273 -plotindex 28 3.43E+04 1.51E+02 result X:0.53M Y:41.474799db
+###787: mv_meter -id 273 -plotindex 28 3.01E+04 1.68E+02
+mv_meter -id 273 -plotindex 28 3.01E+04 1.68E+02 result X:0.53M Y:41.474799db
+###788: mv_meter -id 273 -plotindex 28 2.70E+04 1.68E+02
+mv_meter -id 273 -plotindex 28 2.70E+04 1.68E+02 result X:0.53M Y:41.474799db
+###789: mv_meter -id 273 -plotindex 28 2.31E+04 2.31E+02
+mv_meter -id 273 -plotindex 28 2.31E+04 2.31E+02 result X:0.53M Y:41.474799db
+###790: mv_meter -id 273 -plotindex 28 1.90E+04 2.31E+02
+mv_meter -id 273 -plotindex 28 1.90E+04 2.31E+02 result X:0.53M Y:41.474799db
+###791: mv_meter -id 273 -plotindex 28 1.46E+04 2.87E+02
+mv_meter -id 273 -plotindex 28 1.46E+04 2.87E+02 result X:0.53M Y:41.474799db
+###792: mv_meter -id 273 -plotindex 28 1.07E+04 3.95E+02
+mv_meter -id 273 -plotindex 28 1.07E+04 3.95E+02 result X:0.53M Y:41.474799db
+###793: mv_meter -id 273 -plotindex 28 8.61E+03 4.89E+02
+mv_meter -id 273 -plotindex 28 8.61E+03 4.89E+02 result X:0.53M Y:41.474799db
+###794: mv_meter -id 273 -plotindex 28 6.76E+03 6.06E+02
+mv_meter -id 273 -plotindex 28 6.76E+03 6.06E+02 result X:0.53M Y:41.474799db
+###795: mv_meter -id 273 -plotindex 28 5.31E+03 6.06E+02
+mv_meter -id 273 -plotindex 28 5.31E+03 6.06E+02 result X:0.53M Y:41.474799db
+###796: mv_meter -id 273 -plotindex 28 4.36E+03 7.51E+02
+mv_meter -id 273 -plotindex 28 4.36E+03 7.51E+02 result X:0.53M Y:41.474799db
+###797: mv_meter -id 273 -plotindex 28 3.65E+03 1.04E+03
+mv_meter -id 273 -plotindex 28 3.65E+03 1.04E+03 result X:0.53M Y:41.474799db
+###798: mv_meter -id 273 -plotindex 28 3.13E+03 1.28E+03
+mv_meter -id 273 -plotindex 28 3.13E+03 1.28E+03 result X:0.53M Y:41.474799db
+###799: mv_meter -id 273 -plotindex 28 2.69E+03 1.28E+03
+mv_meter -id 273 -plotindex 28 2.69E+03 1.28E+03 result X:0.53M Y:41.474799db
+###800: mv_meter -id 273 -plotindex 28 2.25E+03 1.59E+03
+mv_meter -id 273 -plotindex 28 2.25E+03 1.59E+03 result X:0.53M Y:41.474799db
+###801: mv_meter -id 273 -plotindex 28 1.89E+03 1.59E+03
+mv_meter -id 273 -plotindex 28 1.89E+03 1.59E+03 result X:0.53M Y:41.474799db
+###802: mv_meter -id 273 -plotindex 28 1.62E+03 1.97E+03
+mv_meter -id 273 -plotindex 28 1.62E+03 1.97E+03 result X:0.53M Y:41.474799db
+###803: mv_meter -id 273 -plotindex 28 1.45E+03 1.97E+03
+mv_meter -id 273 -plotindex 28 1.45E+03 1.97E+03 result X:0.53M Y:41.474799db
+###804: mv_meter -id 273 -plotindex 28 1.33E+03 1.97E+03
+mv_meter -id 273 -plotindex 28 1.33E+03 1.97E+03 result X:0.53M Y:41.474799db
+###805: mv_meter -id 273 -plotindex 28 1.27E+03 2.19E+03
+mv_meter -id 273 -plotindex 28 1.27E+03 2.19E+03 result X:0.53M Y:41.474799db
+###806: mv_meter -id 273 -plotindex 28 1.25E+03 2.19E+03
+mv_meter -id 273 -plotindex 28 1.25E+03 2.19E+03 result X:0.53M Y:41.474799db
+###807: mv_mark -id 275 -plotindex 28 4.019144E+05 2.313503E+02
+mv_mark -id 275 -plotindex 28 4.019144E+05 2.313503E+02 result X:0.4M Y:44.056886db
+###808: mv_mark -id 275 -plotindex 28 3.226592E+05 2.313503E+02
+mv_mark -id 275 -plotindex 28 3.226592E+05 2.313503E+02 result X:0.32M Y:45.88748db
+###809: mv_mark -id 275 -plotindex 28 2.479001E+05 2.313503E+02
+mv_mark -id 275 -plotindex 28 2.479001E+05 2.313503E+02 result X:0.25M Y:48.084104db
+###810: mv_mark -id 275 -plotindex 28 1.904624E+05 2.313503E+02
+mv_mark -id 275 -plotindex 28 1.904624E+05 2.313503E+02 result X:0.19M Y:50.280585db
+###811: mv_mark -id 275 -plotindex 28 1.495825E+05 2.313503E+02
+mv_mark -id 275 -plotindex 28 1.495825E+05 2.313503E+02 result X:0.15M Y:52.293838db
+###812: mv_mark -id 275 -plotindex 28 1.149247E+05 2.313503E+02
+mv_mark -id 275 -plotindex 28 1.149247E+05 2.313503E+02 result X:0.12M Y:54.48978db
+###813: mv_mark -id 275 -plotindex 28 9.640549E+04 2.313503E+02
+mv_mark -id 275 -plotindex 28 9.640549E+04 2.313503E+02 result X:0.1M Y:55.953449db
+###814: mv_mark -id 275 -plotindex 28 7.911361E+04 2.574828E+02
+mv_mark -id 275 -plotindex 28 7.911361E+04 2.574828E+02 result X:83k Y:57.637178db
+###815: mv_mark -id 275 -plotindex 28 6.492331E+04 3.189368E+02
+mv_mark -id 275 -plotindex 28 6.492331E+04 3.189368E+02 result X:68k Y:59.35772db
+###816: mv_mark -id 275 -plotindex 28 5.327827E+04 4.893477E+02
+mv_mark -id 275 -plotindex 28 5.327827E+04 4.893477E+02 result X:55k Y:61.151971db
+###817: mv_mark -id 275 -plotindex 28 4.372195E+04 4.893477E+02
+mv_mark -id 275 -plotindex 28 4.372195E+04 4.893477E+02 result X:46k Y:62.794822db
+###818: mv_mark -id 275 -plotindex 28 3.286194E+04 6.746092E+02
+mv_mark -id 275 -plotindex 28 3.286194E+04 6.746092E+02 result X:34k Y:65.275781db
+###819: mv_mark -id 275 -plotindex 28 2.469942E+04 8.356197E+02
+mv_mark -id 275 -plotindex 28 2.469942E+04 8.356197E+02 result X:26k Y:67.710345db
+###820: mv_mark -id 275 -plotindex 28 1.663358E+04 1.151976E+03
+mv_mark -id 275 -plotindex 28 1.663358E+04 1.151976E+03 result X:17k Y:71.064368db
+###821: mv_mark -id 275 -plotindex 28 1.003667E+04 1.588101E+03
+mv_mark -id 275 -plotindex 28 1.003667E+04 1.588101E+03 result X:11k Y:75.219597db
+###822: mv_mark -id 275 -plotindex 28 5.546744E+03 2.189337E+03
+mv_mark -id 275 -plotindex 28 5.546744E+03 2.189337E+03 result X:5.8k Y:79.732507db
+###823: mv_mark -id 275 -plotindex 28 3.133469E+03 3.018195E+03
+mv_mark -id 275 -plotindex 28 3.133469E+03 3.018195E+03 result X:3.3k Y:83.239031db
+###824: mv_mark -id 275 -plotindex 28 2.110203E+03 3.738555E+03
+mv_mark -id 275 -plotindex 28 2.110203E+03 3.738555E+03 result X:2.2k Y:84.877643db
+###825: mv_mark -id 275 -plotindex 28 1.390222E+03 8.800950E+03
+mv_mark -id 275 -plotindex 28 1.390222E+03 8.800950E+03 result X:1.4k Y:85.900014db
+###826: mv_mark -id 275 -plotindex 28 1.218570E+03 1.090149E+04
+mv_mark -id 275 -plotindex 28 1.218570E+03 1.090149E+04 result X:1.2k Y:86.098229db
+###827: mv_mark -id 275 -plotindex 28 1.140864E+03 1.213289E+04
+mv_mark -id 275 -plotindex 28 1.140864E+03 1.213289E+04 result X:1.1k Y:86.182484db
+###828: mv_mark -id 275 -plotindex 28 1.116079E+03 1.350338E+04
+mv_mark -id 275 -plotindex 28 1.116079E+03 1.350338E+04 result X:1.1k Y:86.21097db
+###829: mv_mark -id 275 -plotindex 28 1.166199E+03 1.350338E+04
+mv_mark -id 275 -plotindex 28 1.166199E+03 1.350338E+04 result X:1.2k Y:86.155509db
+###830: mv_mark -id 275 -plotindex 28 1.192097E+03 1.213289E+04
+mv_mark -id 275 -plotindex 28 1.192097E+03 1.213289E+04 result X:1.2k Y:86.126869db
+###831: mv_mark -id 275 -plotindex 28 1.245631E+03 1.213289E+04
+mv_mark -id 275 -plotindex 28 1.245631E+03 1.213289E+04 result X:1.2k Y:86.071255db
+###832: mv_mark -id 275 -plotindex 28 1.330474E+03 1.090149E+04
+mv_mark -id 275 -plotindex 28 1.330474E+03 1.090149E+04 result X:1.3k Y:85.969893db
+###833: mv_mark -id 275 -plotindex 28 1.390222E+03 9.795075E+03
+mv_mark -id 275 -plotindex 28 1.390222E+03 9.795075E+03 result X:1.4k Y:85.901238db
+###834: mv_mark -id 275 -plotindex 28 1.421095E+03 9.795075E+03
+mv_mark -id 275 -plotindex 28 1.421095E+03 9.795075E+03 result X:1.4k Y:85.862064db
+###835: mv_mark -id 275 -plotindex 28 1.484913E+03 9.795075E+03
+mv_mark -id 275 -plotindex 28 1.484913E+03 9.795075E+03 result X:1.5k Y:85.780952db
+###836: mv_mark -id 275 -plotindex 28 1.517889E+03 7.907721E+03
+mv_mark -id 275 -plotindex 28 1.517889E+03 7.907721E+03 result X:1.5k Y:85.73685db
+###837: mv_mark -id 275 -plotindex 28 1.551597E+03 7.907721E+03
+mv_mark -id 275 -plotindex 28 1.551597E+03 7.907721E+03 result X:1.6k Y:85.696294db
+###838: mv_mark -id 275 -plotindex 28 1.517889E+03 7.907721E+03
+mv_mark -id 275 -plotindex 28 1.517889E+03 7.907721E+03 result X:1.5k Y:85.73685db
+###839: mv_mark -id 275 -plotindex 28 1.452654E+03 7.907721E+03
+mv_mark -id 275 -plotindex 28 1.452654E+03 7.907721E+03 result X:1.5k Y:85.817963db
+###840: mv_mark -id 275 -plotindex 28 1.421095E+03 7.907721E+03
+mv_mark -id 275 -plotindex 28 1.421095E+03 7.907721E+03 result X:1.4k Y:85.858519db
+###841: mv_mark -id 275 -plotindex 28 1.390222E+03 7.907721E+03
+mv_mark -id 275 -plotindex 28 1.390222E+03 7.907721E+03 result X:1.4k Y:85.898789db
+###842: mv_mark -id 275 -plotindex 28 1.273293E+03 7.907721E+03
+mv_mark -id 275 -plotindex 28 1.273293E+03 7.907721E+03 result X:1.3k Y:86.03365db
+###843: mv_mark -id 275 -plotindex 28 1.192097E+03 6.384029E+03
+mv_mark -id 275 -plotindex 28 1.192097E+03 6.384029E+03 result X:1.2k Y:86.121874db
+###844: mv_mark -id 275 -plotindex 28 1.140864E+03 6.384029E+03
+mv_mark -id 275 -plotindex 28 1.140864E+03 6.384029E+03 result X:1.1k Y:86.177488db
+###845: mv_mark -id 275 -plotindex 28 1.116079E+03 6.384029E+03
+mv_mark -id 275 -plotindex 28 1.116079E+03 6.384029E+03 result X:1.1k Y:86.205296db
+###846: mv_mark -id 275 -plotindex 28 1.091832E+03 6.384029E+03
+mv_mark -id 275 -plotindex 28 1.091832E+03 6.384029E+03 result X:1.1k Y:86.22984db
+###847: move_cursor -id 4 nan 1
+###848: move_cursor -id 5 5.4e+07 nan
+###849: cross_probe -file /tmp/plotNVticG
+cross_probe -file /tmp/plotNVticG OK
+###850: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###851: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###852: open_wave -group Doc_Not_Found,0,_calc_wfs_\(135\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###853: chaxis -plot 31 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###854: chaxis -plot 31 -axis 0 DB20
+###855: select_plot 30
+select_plot :1
+###856: add_meter -DataXY
+add_meter -DataXY, new ID: 420, meter num: 12 -> 13
+###857: set_meter -id 420 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###858: mv_mark -id 422 -plotindex 30 4.687121E+05 2.477314E+02
+mv_mark -id 422 -plotindex 30 4.687121E+05 2.477314E+02 result X:0.45M Y:41.116485db
+###859: mv_mark -id 422 -plotindex 30 4.485680E+05 2.477314E+02
+mv_mark -id 422 -plotindex 30 4.485680E+05 2.477314E+02 result X:0.44M Y:41.483397db
+###860: mv_mark -id 422 -plotindex 30 3.931829E+05 2.477314E+02
+mv_mark -id 422 -plotindex 30 3.931829E+05 2.477314E+02 result X:0.38M Y:42.584129db
+###861: mv_mark -id 422 -plotindex 30 3.446362E+05 2.477314E+02
+mv_mark -id 422 -plotindex 30 3.446362E+05 2.477314E+02 result X:0.34M Y:43.684823db
+###862: mv_mark -id 422 -plotindex 30 3.020836E+05 2.477314E+02
+mv_mark -id 422 -plotindex 30 3.020836E+05 2.477314E+02 result X:0.3M Y:44.785482db
+###863: mv_mark -id 422 -plotindex 30 2.647851E+05 2.477314E+02
+mv_mark -id 422 -plotindex 30 2.647851E+05 2.477314E+02 result X:0.26M Y:45.886111db
+###864: mv_mark -id 422 -plotindex 30 2.372459E+05 2.477314E+02
+mv_mark -id 422 -plotindex 30 2.372459E+05 2.477314E+02 result X:0.24M Y:46.803277db
+###865: mv_mark -id 422 -plotindex 30 2.172916E+05 2.477314E+02
+mv_mark -id 422 -plotindex 30 2.172916E+05 2.477314E+02 result X:0.22M Y:47.536995db
+###866: mv_mark -id 422 -plotindex 30 2.034352E+05 2.477314E+02
+mv_mark -id 422 -plotindex 30 2.034352E+05 2.477314E+02 result X:0.2M Y:48.087274db
+###867: mv_mark -id 422 -plotindex 30 1.904624E+05 2.477314E+02
+mv_mark -id 422 -plotindex 30 1.904624E+05 2.477314E+02 result X:0.19M Y:48.637542db
+###868: mv_mark -id 422 -plotindex 30 1.744429E+05 3.085578E+02
+mv_mark -id 422 -plotindex 30 1.744429E+05 3.085578E+02 result X:0.17M Y:49.444606db
+###869: mv_mark -id 422 -plotindex 30 1.562999E+05 3.085578E+02
+mv_mark -id 422 -plotindex 30 1.562999E+05 3.085578E+02 result X:0.16M Y:50.361674db
+###870: mv_mark -id 422 -plotindex 30 1.431538E+05 3.843191E+02
+mv_mark -id 422 -plotindex 30 1.431538E+05 3.843191E+02 result X:0.14M Y:51.168676db
+###871: mv_mark -id 422 -plotindex 30 1.227525E+05 3.843191E+02
+mv_mark -id 422 -plotindex 30 1.227525E+05 3.843191E+02 result X:0.12M Y:52.452452db
+###872: mv_mark -id 422 -plotindex 30 1.007348E+05 4.289135E+02
+mv_mark -id 422 -plotindex 30 1.007348E+05 4.289135E+02 result X:0.1M Y:54.139541db
+###873: mv_mark -id 422 -plotindex 30 8.266641E+04 5.342262E+02
+mv_mark -id 422 -plotindex 30 8.266641E+04 5.342262E+02 result X:83k Y:55.863017db
+###874: mv_mark -id 422 -plotindex 30 6.783886E+04 7.426057E+02
+mv_mark -id 422 -plotindex 30 6.783886E+04 7.426057E+02 result X:68k Y:57.622708db
+###875: mv_mark -id 422 -plotindex 30 5.946273E+04 8.287738E+02
+mv_mark -id 422 -plotindex 30 5.946273E+04 8.287738E+02 result X:60k Y:58.758851db
+###876: mv_mark -id 422 -plotindex 30 4.879713E+04 1.285721E+03
+mv_mark -id 422 -plotindex 30 4.879713E+04 1.285721E+03 result X:48k Y:60.553808db
+###877: mv_mark -id 422 -plotindex 30 4.469289E+04 1.434910E+03
+mv_mark -id 422 -plotindex 30 4.469289E+04 1.434910E+03 result X:44k Y:61.322732db
+###878: mv_mark -id 422 -plotindex 30 4.372195E+04 1.434910E+03
+mv_mark -id 422 -plotindex 30 4.372195E+04 1.434910E+03 result X:43k Y:61.505753db
+###879: mv_mark -id 422 -plotindex 30 4.093386E+04 1.601409E+03
+mv_mark -id 422 -plotindex 30 4.093386E+04 1.601409E+03 result X:41k Y:62.091346db
+###880: mv_mark -id 422 -plotindex 30 4.004458E+04 1.787228E+03
+mv_mark -id 422 -plotindex 30 4.004458E+04 1.787228E+03 result X:40k Y:62.310794db
+###881: mv_mark -id 422 -plotindex 30 3.832356E+04 1.787228E+03
+mv_mark -id 422 -plotindex 30 3.832356E+04 1.787228E+03 result X:38k Y:62.676623db
+###882: mv_mark -id 422 -plotindex 30 3.510023E+04 1.994609E+03
+mv_mark -id 422 -plotindex 30 3.510023E+04 1.994609E+03 result X:35k Y:63.444537db
+###883: mv_mark -id 422 -plotindex 30 3.286194E+04 1.994609E+03
+mv_mark -id 422 -plotindex 30 3.286194E+04 1.994609E+03 result X:33k Y:63.992876db
+###884: mv_mark -id 422 -plotindex 30 2.880444E+04 1.994609E+03
+mv_mark -id 422 -plotindex 30 2.880444E+04 1.994609E+03 result X:29k Y:65.088706db
+###885: mv_mark -id 422 -plotindex 30 2.363790E+04 2.484352E+03
+mv_mark -id 422 -plotindex 30 2.363790E+04 2.484352E+03 result X:24k Y:66.802032db
+###886: mv_mark -id 422 -plotindex 30 1.939806E+04 3.094344E+03
+mv_mark -id 422 -plotindex 30 1.939806E+04 3.094344E+03 result X:19k Y:68.510132db
+###887: mv_mark -id 422 -plotindex 30 1.490359E+04 3.094344E+03
+mv_mark -id 422 -plotindex 30 1.490359E+04 3.094344E+03 result X:15k Y:70.680524db
+###888: mv_mark -id 422 -plotindex 30 1.170476E+04 4.800423E+03
+mv_mark -id 422 -plotindex 30 1.170476E+04 4.800423E+03 result X:12k Y:72.792109db
+###889: mv_mark -id 422 -plotindex 30 9.605322E+03 4.800423E+03
+mv_mark -id 422 -plotindex 30 9.605322E+03 4.800423E+03 result X:9.6k Y:74.385291db
+###890: mv_mark -id 422 -plotindex 30 7.882453E+03 5.979088E+03
+mv_mark -id 422 -plotindex 30 7.882453E+03 5.979088E+03 result X:7.9k Y:76.019885db
+###891: mv_mark -id 422 -plotindex 30 6.909198E+03 7.447154E+03
+mv_mark -id 422 -plotindex 30 6.909198E+03 7.447154E+03 result X:6.9k Y:77.106377db
+###892: mv_mark -id 422 -plotindex 30 6.759098E+03 7.447154E+03
+mv_mark -id 422 -plotindex 30 6.759098E+03 7.447154E+03 result X:6.8k Y:77.274585db
+###893: mv_mark -id 422 -plotindex 30 6.328079E+03 7.447154E+03
+mv_mark -id 422 -plotindex 30 6.328079E+03 7.447154E+03 result X:6.3k Y:77.779208db
+###894: mv_mark -id 422 -plotindex 30 5.924545E+03 7.447154E+03
+mv_mark -id 422 -plotindex 30 5.924545E+03 7.447154E+03 result X:5.9k Y:78.274165db
+###895: mv_mark -id 422 -plotindex 30 5.669922E+03 8.311283E+03
+mv_mark -id 422 -plotindex 30 5.669922E+03 8.311283E+03 result X:5.7k Y:78.63281db
+###896: mv_mark -id 422 -plotindex 30 5.426243E+03 8.311283E+03
+mv_mark -id 422 -plotindex 30 5.426243E+03 8.311283E+03 result X:5.4k Y:78.955685db
+###897: mv_mark -id 422 -plotindex 30 4.969851E+03 8.311283E+03
+mv_mark -id 422 -plotindex 30 4.969851E+03 8.311283E+03 result X:5k Y:79.597475db
+###898: mv_mark -id 422 -plotindex 30 4.261581E+03 8.311283E+03
+mv_mark -id 422 -plotindex 30 4.261581E+03 8.311283E+03 result X:4.3k Y:80.676078db
+###899: mv_mark -id 422 -plotindex 30 3.574861E+03 8.311283E+03
+mv_mark -id 422 -plotindex 30 3.574861E+03 8.311283E+03 result X:3.6k Y:81.843514db
+###900: mv_mark -id 422 -plotindex 30 2.933652E+03 8.311283E+03
+mv_mark -id 422 -plotindex 30 2.933652E+03 8.311283E+03 result X:3k Y:83.047713db
+###901: mv_mark -id 422 -plotindex 30 2.407454E+03 8.311283E+03
+mv_mark -id 422 -plotindex 30 2.407454E+03 8.311283E+03 result X:2.4k Y:84.119441db
+###902: mv_mark -id 422 -plotindex 30 2.157065E+03 8.311283E+03
+mv_mark -id 422 -plotindex 30 2.157065E+03 8.311283E+03 result X:2.2k Y:84.646987db
+###903: mv_mark -id 422 -plotindex 30 1.770161E+03 8.311283E+03
+mv_mark -id 422 -plotindex 30 1.770161E+03 8.311283E+03 result X:1.8k Y:85.463665db
+###904: mv_mark -id 422 -plotindex 30 1.551597E+03 8.311283E+03
+mv_mark -id 422 -plotindex 30 1.551597E+03 8.311283E+03 result X:1.6k Y:85.923605db
+###905: mv_mark -id 422 -plotindex 30 1.330474E+03 1.035198E+04
+mv_mark -id 422 -plotindex 30 1.330474E+03 1.035198E+04 result X:1.3k Y:86.365662db
+###906: mv_mark -id 422 -plotindex 30 1.245631E+03 1.035198E+04
+mv_mark -id 422 -plotindex 30 1.245631E+03 1.035198E+04 result X:1.3k Y:86.53295db
+###907: mv_mark -id 422 -plotindex 30 1.166199E+03 1.289374E+04
+mv_mark -id 422 -plotindex 30 1.166199E+03 1.289374E+04 result X:1.2k Y:86.677424db
+###908: mv_mark -id 422 -plotindex 30 1.140864E+03 1.289374E+04
+mv_mark -id 422 -plotindex 30 1.140864E+03 1.289374E+04 result X:1.1k Y:86.724058db
+###909: mv_mark -id 422 -plotindex 30 1.068112E+03 1.289374E+04
+mv_mark -id 422 -plotindex 30 1.068112E+03 1.289374E+04 result X:1.1k Y:86.850218db
+###910: mv_mark -id 422 -plotindex 30 1.044908E+03 1.289374E+04
+mv_mark -id 422 -plotindex 30 1.044908E+03 1.289374E+04 result X:1k Y:86.88926db
+###911: mv_mark -id 422 -plotindex 30 9.782752E+02 1.289374E+04
+mv_mark -id 422 -plotindex 30 9.782752E+02 1.289374E+04 result X:1k Y:86.97535db
+###912: mv_mark -id 422 -plotindex 30 9.570224E+02 1.289374E+04
+mv_mark -id 422 -plotindex 30 9.570224E+02 1.289374E+04 result X:1k Y:86.97535db
+###913: move_cursor -id 6 nan 1
+###914: cross_probe -file /tmp/plotZaf0Lv
+cross_probe -file /tmp/plotZaf0Lv OK
+###915: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###916: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###917: open_wave -group Doc_Not_Found,0,_calc_wfs_\(152\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###918: chaxis -plot 33 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###919: chaxis -plot 33 -axis 0 DB20
+###920: select_plot 32
+select_plot :1
+###921: add_meter -DataXY
+add_meter -DataXY, new ID: 515, meter num: 13 -> 14
+###922: set_meter -id 515 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###923: mv_mark -id 517 -plotindex 32 4.687121E+05 2.313503E+02
+mv_mark -id 517 -plotindex 32 4.687121E+05 2.313503E+02 result X:0.46M Y:42.775441db
+###924: mv_mark -id 517 -plotindex 32 4.388230E+05 2.313503E+02
+mv_mark -id 517 -plotindex 32 4.388230E+05 2.313503E+02 result X:0.43M Y:43.324634db
+###925: mv_mark -id 517 -plotindex 32 3.681101E+05 2.313503E+02
+mv_mark -id 517 -plotindex 32 3.681101E+05 2.313503E+02 result X:0.36M Y:44.789131db
+###926: mv_mark -id 517 -plotindex 32 2.828201E+05 2.313503E+02
+mv_mark -id 517 -plotindex 32 2.828201E+05 2.313503E+02 result X:0.28M Y:46.985807db
+###927: mv_mark -id 517 -plotindex 32 1.904624E+05 3.950582E+02
+mv_mark -id 517 -plotindex 32 1.904624E+05 3.950582E+02 result X:0.19M Y:50.468362db
+###928: mv_mark -id 517 -plotindex 32 1.227525E+05 4.893477E+02
+mv_mark -id 517 -plotindex 32 1.227525E+05 4.893477E+02 result X:0.12M Y:54.20358db
+###929: mv_mark -id 517 -plotindex 32 8.087050E+04 6.746092E+02
+mv_mark -id 517 -plotindex 32 8.087050E+04 6.746092E+02 result X:81k Y:57.791695db
+###930: mv_mark -id 517 -plotindex 32 5.327827E+04 8.356197E+02
+mv_mark -id 517 -plotindex 32 5.327827E+04 8.356197E+02 result X:54k Y:61.338774db
+###931: mv_mark -id 517 -plotindex 32 3.667650E+04 1.282099E+03
+mv_mark -id 517 -plotindex 32 3.667650E+04 1.282099E+03 result X:37k Y:64.588182db
+###932: mv_mark -id 517 -plotindex 32 2.756650E+04 1.588101E+03
+mv_mark -id 517 -plotindex 32 2.756650E+04 1.588101E+03 result X:28k Y:67.025212db
+###933: mv_mark -id 517 -plotindex 32 2.164976E+04 1.588101E+03
+mv_mark -id 517 -plotindex 32 2.164976E+04 1.588101E+03 result X:22k Y:69.015429db
+###934: mv_mark -id 517 -plotindex 32 1.856438E+04 1.967136E+03
+mv_mark -id 517 -plotindex 32 1.856438E+04 1.967136E+03 result X:19k Y:70.346758db
+###935: mv_mark -id 517 -plotindex 32 1.776653E+04 2.189337E+03
+mv_mark -id 517 -plotindex 32 1.776653E+04 2.189337E+03 result X:18k Y:70.741119db
+###936: mv_mark -id 517 -plotindex 32 1.738055E+04 2.189337E+03
+mv_mark -id 517 -plotindex 32 1.738055E+04 2.189337E+03 result X:18k Y:70.921098db
+###937: mv_mark -id 517 -plotindex 32 1.700296E+04 2.189337E+03
+mv_mark -id 517 -plotindex 32 1.700296E+04 2.189337E+03 result X:17k Y:71.099335db
+###938: mv_mark -id 517 -plotindex 32 1.627222E+04 2.436637E+03
+mv_mark -id 517 -plotindex 32 1.627222E+04 2.436637E+03 result X:17k Y:71.491343db
+###939: mv_mark -id 517 -plotindex 32 1.557288E+04 2.711872E+03
+mv_mark -id 517 -plotindex 32 1.557288E+04 2.711872E+03 result X:16k Y:71.884106db
+###940: mv_mark -id 517 -plotindex 32 1.395321E+04 3.018195E+03
+mv_mark -id 517 -plotindex 32 1.395321E+04 3.018195E+03 result X:14k Y:72.804269db
+###941: mv_mark -id 517 -plotindex 32 1.250200E+04 3.359120E+03
+mv_mark -id 517 -plotindex 32 1.250200E+04 3.359120E+03 result X:13k Y:73.717606db
+###942: mv_mark -id 517 -plotindex 32 1.048740E+04 3.738555E+03
+mv_mark -id 517 -plotindex 32 1.048740E+04 3.738555E+03 result X:11k Y:75.138843db
+###943: mv_mark -id 517 -plotindex 32 8.606314E+03 5.153929E+03
+mv_mark -id 517 -plotindex 32 8.606314E+03 5.153929E+03 result X:8.7k Y:76.759974db
+###944: mv_mark -id 517 -plotindex 32 6.612258E+03 7.105148E+03
+mv_mark -id 517 -plotindex 32 6.612258E+03 7.105148E+03 result X:6.7k Y:78.787175db
+###945: mv_mark -id 517 -plotindex 32 5.080218E+03 7.105148E+03
+mv_mark -id 517 -plotindex 32 5.080218E+03 7.105148E+03 result X:5.1k Y:80.585929db
+###946: mv_mark -id 517 -plotindex 32 3.989825E+03 8.800950E+03
+mv_mark -id 517 -plotindex 32 3.989825E+03 8.800950E+03 result X:4k Y:82.102067db
+###947: mv_mark -id 517 -plotindex 32 3.203055E+03 1.090149E+04
+mv_mark -id 517 -plotindex 32 3.203055E+03 1.090149E+04 result X:3.2k Y:83.284129db
+###948: mv_mark -id 517 -plotindex 32 2.686908E+03 1.090149E+04
+mv_mark -id 517 -plotindex 32 2.686908E+03 1.090149E+04 result X:2.7k Y:84.063349db
+###949: mv_mark -id 517 -plotindex 32 2.460917E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 2.460917E+03 1.213289E+04 result X:2.5k Y:84.415799db
+###950: mv_mark -id 517 -plotindex 32 2.407454E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 2.407454E+03 1.213289E+04 result X:2.4k Y:84.492438db
+###951: mv_mark -id 517 -plotindex 32 2.303988E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 2.303988E+03 1.213289E+04 result X:2.3k Y:84.645716db
+###952: mv_mark -id 517 -plotindex 32 2.253934E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 2.253934E+03 1.213289E+04 result X:2.3k Y:84.722354db
+###953: mv_mark -id 517 -plotindex 32 2.204968E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 2.204968E+03 1.213289E+04 result X:2.2k Y:84.797235db
+###954: mv_mark -id 517 -plotindex 32 2.157065E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 2.157065E+03 1.213289E+04 result X:2.2k Y:84.863759db
+###955: mv_mark -id 517 -plotindex 32 2.019512E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 2.019512E+03 1.213289E+04 result X:2k Y:85.06333db
+###956: mv_mark -id 517 -plotindex 32 1.932718E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.932718E+03 1.213289E+04 result X:1.9k Y:85.187326db
+###957: mv_mark -id 517 -plotindex 32 1.890730E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.890730E+03 1.213289E+04 result X:1.9k Y:85.24436db
+###958: mv_mark -id 517 -plotindex 32 1.809471E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.809471E+03 1.213289E+04 result X:1.8k Y:85.358429db
+###959: mv_mark -id 517 -plotindex 32 1.731704E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.731704E+03 1.213289E+04 result X:1.7k Y:85.465984db
+###960: mv_mark -id 517 -plotindex 32 1.694084E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.694084E+03 1.213289E+04 result X:1.7k Y:85.514327db
+###961: mv_mark -id 517 -plotindex 32 1.586054E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.586054E+03 1.213289E+04 result X:1.6k Y:85.659356db
+###962: mv_mark -id 517 -plotindex 32 1.551597E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.551597E+03 1.213289E+04 result X:1.6k Y:85.703385db
+###963: mv_mark -id 517 -plotindex 32 1.452654E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.452654E+03 1.213289E+04 result X:1.5k Y:85.825054db
+###964: mv_mark -id 517 -plotindex 32 1.390222E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.390222E+03 1.213289E+04 result X:1.4k Y:85.903687db
+###965: mv_mark -id 517 -plotindex 32 1.330474E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.330474E+03 1.213289E+04 result X:1.3k Y:85.971117db
+###966: mv_mark -id 517 -plotindex 32 1.301570E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.301570E+03 1.213289E+04 result X:1.3k Y:86.004832db
+###967: mv_mark -id 517 -plotindex 32 1.273293E+03 1.213289E+04
+mv_mark -id 517 -plotindex 32 1.273293E+03 1.213289E+04 result X:1.3k Y:86.038548db
+###968: move_cursor -id 6 nan 1
+###969: cross_probe -file /tmp/plotRmlacY
+cross_probe -file /tmp/plotRmlacY OK
+###970: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###971: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###972: open_wave -group Doc_Not_Found,0,_calc_wfs_\(170\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###973: chaxis -plot 35 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###974: chaxis -plot 35 -axis 0 DB20
+###975: select_plot 34
+select_plot :1
+###976: add_meter -DataXY
+add_meter -DataXY, new ID: 546, meter num: 14 -> 15
+###977: set_meter -id 546 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###978: mv_mark -id 548 -plotindex 34 4.791209E+05 2.745014E+02
+mv_mark -id 548 -plotindex 34 4.791209E+05 2.745014E+02 result X:0.47M Y:42.654946db
+###979: mv_mark -id 548 -plotindex 34 4.485680E+05 2.745014E+02
+mv_mark -id 548 -plotindex 34 4.485680E+05 2.745014E+02 result X:0.44M Y:43.20479db
+###980: mv_mark -id 548 -plotindex 34 4.388230E+05 2.745014E+02
+mv_mark -id 548 -plotindex 34 4.388230E+05 2.745014E+02 result X:0.43M Y:43.388071db
+###981: mv_mark -id 548 -plotindex 34 3.846411E+05 2.745014E+02
+mv_mark -id 548 -plotindex 34 3.846411E+05 2.745014E+02 result X:0.38M Y:44.487747db
+###982: mv_mark -id 548 -plotindex 34 3.156495E+05 3.059920E+02
+mv_mark -id 548 -plotindex 34 3.156495E+05 3.059920E+02 result X:0.31M Y:46.174294db
+###983: mv_mark -id 548 -plotindex 34 2.590327E+05 3.802253E+02
+mv_mark -id 548 -plotindex 34 2.590327E+05 3.802253E+02 result X:0.25M Y:47.897856db
+###984: mv_mark -id 548 -plotindex 34 2.034352E+05 3.802253E+02
+mv_mark -id 548 -plotindex 34 2.034352E+05 3.802253E+02 result X:0.2M Y:49.913742db
+###985: mv_mark -id 548 -plotindex 34 1.562999E+05 4.724675E+02
+mv_mark -id 548 -plotindex 34 1.562999E+05 4.724675E+02 result X:0.16M Y:52.186831db
+###986: mv_mark -id 548 -plotindex 34 1.200857E+05 4.724675E+02
+mv_mark -id 548 -plotindex 34 1.200857E+05 4.724675E+02 result X:0.12M Y:54.385541db
+###987: mv_mark -id 548 -plotindex 34 8.829700E+04 5.870875E+02
+mv_mark -id 548 -plotindex 34 8.829700E+04 5.870875E+02 result X:89k Y:57.024199db
+###988: mv_mark -id 548 -plotindex 34 6.783886E+04 7.295143E+02
+mv_mark -id 548 -plotindex 34 6.783886E+04 7.295143E+02 result X:68k Y:59.295507db
+###989: mv_mark -id 548 -plotindex 34 4.879713E+04 1.126408E+03
+mv_mark -id 548 -plotindex 34 4.879713E+04 1.126408E+03 result X:49k Y:62.1878db
+###990: mv_mark -id 548 -plotindex 34 3.917462E+04 1.399673E+03
+mv_mark -id 548 -plotindex 34 3.917462E+04 1.399673E+03 result X:39k Y:64.088943db
+###991: mv_mark -id 548 -plotindex 34 3.009798E+04 1.399673E+03
+mv_mark -id 548 -plotindex 34 3.009798E+04 1.399673E+03 result X:31k Y:66.278001db
+###992: mv_mark -id 548 -plotindex 34 2.312437E+04 1.739232E+03
+mv_mark -id 548 -plotindex 34 2.312437E+04 1.739232E+03 result X:24k Y:68.533216db
+###993: mv_mark -id 548 -plotindex 34 1.776653E+04 2.161167E+03
+mv_mark -id 548 -plotindex 34 1.776653E+04 2.161167E+03 result X:18k Y:70.776278db
+###994: mv_mark -id 548 -plotindex 34 1.457981E+04 2.161167E+03
+mv_mark -id 548 -plotindex 34 1.457981E+04 2.161167E+03 result X:15k Y:72.39293db
+###995: mv_mark -id 548 -plotindex 34 1.223039E+04 2.685464E+03
+mv_mark -id 548 -plotindex 34 1.223039E+04 2.685464E+03 result X:13k Y:73.888934db
+###996: mv_mark -id 548 -plotindex 34 1.048740E+04 3.336954E+03
+mv_mark -id 548 -plotindex 34 1.048740E+04 3.336954E+03 result X:11k Y:75.188009db
+###997: mv_mark -id 548 -plotindex 34 8.797436E+03 3.336954E+03
+mv_mark -id 548 -plotindex 34 8.797436E+03 3.336954E+03 result X:9k Y:76.575195db
+###998: mv_mark -id 548 -plotindex 34 7.062633E+03 4.146495E+03
+mv_mark -id 548 -plotindex 34 7.062633E+03 4.146495E+03 result X:7.2k Y:78.328545db
+###999: mv_mark -id 548 -plotindex 34 5.924545E+03 4.146495E+03
+mv_mark -id 548 -plotindex 34 5.924545E+03 4.146495E+03 result X:6.1k Y:79.635998db
+###1000: mv_mark -id 548 -plotindex 34 4.969851E+03 5.743512E+03
+mv_mark -id 548 -plotindex 34 4.969851E+03 5.743512E+03 result X:5.1k Y:80.958491db
+###1001: mv_mark -id 548 -plotindex 34 3.989825E+03 7.136881E+03
+mv_mark -id 548 -plotindex 34 3.989825E+03 7.136881E+03 result X:4.1k Y:82.446924db
+###1002: mv_mark -id 548 -plotindex 34 3.735399E+03 7.136881E+03
+mv_mark -id 548 -plotindex 34 3.735399E+03 7.136881E+03 result X:3.8k Y:82.852321db
+###1003: mv_mark -id 548 -plotindex 34 3.274186E+03 7.136881E+03
+mv_mark -id 548 -plotindex 34 3.274186E+03 7.136881E+03 result X:3.3k Y:83.615676db
+###1004: mv_mark -id 548 -plotindex 34 3.203055E+03 8.868279E+03
+mv_mark -id 548 -plotindex 34 3.203055E+03 8.868279E+03 result X:3.3k Y:83.768044db
+###1005: mv_mark -id 548 -plotindex 34 2.998800E+03 8.868279E+03
+mv_mark -id 548 -plotindex 34 2.998800E+03 8.868279E+03 result X:3k Y:84.119955db
+###1006: mv_mark -id 548 -plotindex 34 2.933652E+03 8.868279E+03
+mv_mark -id 548 -plotindex 34 2.933652E+03 8.868279E+03 result X:3k Y:84.23094db
+###1007: mv_mark -id 548 -plotindex 34 2.807571E+03 9.885641E+03
+mv_mark -id 548 -plotindex 34 2.807571E+03 9.885641E+03 result X:2.8k Y:84.466155db
+###1008: mv_mark -id 548 -plotindex 34 2.628535E+03 9.885641E+03
+mv_mark -id 548 -plotindex 34 2.628535E+03 9.885641E+03 result X:2.7k Y:84.777832db
+###1009: mv_mark -id 548 -plotindex 34 2.407454E+03 1.228388E+04
+mv_mark -id 548 -plotindex 34 2.407454E+03 1.228388E+04 result X:2.4k Y:85.188993db
+###1010: mv_mark -id 548 -plotindex 34 2.253934E+03 1.228388E+04
+mv_mark -id 548 -plotindex 34 2.253934E+03 1.228388E+04 result X:2.3k Y:85.458946db
+###1011: mv_mark -id 548 -plotindex 34 2.064360E+03 1.526394E+04
+mv_mark -id 548 -plotindex 34 2.064360E+03 1.526394E+04 result X:2.1k Y:85.800954db
+###1012: mv_mark -id 548 -plotindex 34 1.975638E+03 1.526394E+04
+mv_mark -id 548 -plotindex 34 1.975638E+03 1.526394E+04 result X:2k Y:85.95909db
+###1013: mv_mark -id 548 -plotindex 34 1.770161E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.770161E+03 1.701501E+04 result X:1.8k Y:86.31036db
+###1014: mv_mark -id 548 -plotindex 34 1.731704E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.731704E+03 1.701501E+04 result X:1.7k Y:86.369842db
+###1015: mv_mark -id 548 -plotindex 34 1.694084E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.694084E+03 1.701501E+04 result X:1.7k Y:86.429324db
+###1016: mv_mark -id 548 -plotindex 34 1.657280E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.657280E+03 1.701501E+04 result X:1.7k Y:86.488806db
+###1017: mv_mark -id 548 -plotindex 34 1.621276E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.621276E+03 1.701501E+04 result X:1.6k Y:86.548288db
+###1018: mv_mark -id 548 -plotindex 34 1.551597E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.551597E+03 1.701501E+04 result X:1.6k Y:86.660853db
+###1019: mv_mark -id 548 -plotindex 34 1.517889E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.517889E+03 1.701501E+04 result X:1.5k Y:86.711417db
+###1020: mv_mark -id 548 -plotindex 34 1.484913E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.484913E+03 1.701501E+04 result X:1.5k Y:86.76198db
+###1021: mv_mark -id 548 -plotindex 34 1.421095E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.421095E+03 1.701501E+04 result X:1.4k Y:86.863107db
+###1022: mv_mark -id 548 -plotindex 34 1.390222E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.390222E+03 1.701501E+04 result X:1.4k Y:86.909761db
+###1023: mv_mark -id 548 -plotindex 34 1.330474E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.330474E+03 1.701501E+04 result X:1.3k Y:86.994818db
+###1024: mv_mark -id 548 -plotindex 34 1.301570E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.301570E+03 1.701501E+04 result X:1.3k Y:87.037347db
+###1025: mv_mark -id 548 -plotindex 34 1.245631E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.245631E+03 1.701501E+04 result X:1.2k Y:87.12053db
+###1026: mv_mark -id 548 -plotindex 34 1.218570E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.218570E+03 1.701501E+04 result X:1.2k Y:87.155965db
+###1027: mv_mark -id 548 -plotindex 34 1.091832E+03 1.701501E+04
+mv_mark -id 548 -plotindex 34 1.091832E+03 1.701501E+04 result X:1.1k Y:87.326705db
+###1028: mv_mark -id 548 -plotindex 34 9.570224E+02 1.701501E+04
+mv_mark -id 548 -plotindex 34 9.570224E+02 1.701501E+04 result X:1k Y:87.44657db
+###1029: mv_mark -id 548 -plotindex 34 8.388579E+02 1.701501E+04
+mv_mark -id 548 -plotindex 34 8.388579E+02 1.701501E+04 result X:1k Y:87.44657db
+###1030: mv_mark -id 548 -plotindex 34 7.352833E+02 1.701501E+04
+mv_mark -id 548 -plotindex 34 7.352833E+02 1.701501E+04 result X:1k Y:87.44657db
+###1031: mv_mark -id 548 -plotindex 34 6.883952E+02 1.701501E+04
+mv_mark -id 548 -plotindex 34 6.883952E+02 1.701501E+04 result X:1k Y:87.44657db
+###1032: mv_mark -id 548 -plotindex 34 6.588096E+02 1.701501E+04
+mv_mark -id 548 -plotindex 34 6.588096E+02 1.701501E+04 result X:1k Y:87.44657db
+###1033: move_cursor -id 6 nan 1
+###1034: move_cursor -id 7 5.2e+07 nan
+###1035: cross_probe -file /tmp/plotJRssQJ
+cross_probe -file /tmp/plotJRssQJ OK
+###1036: reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/qinhaiyan_exam/simulation/qinhaiyan_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###1037: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###1038: open_wave -group Doc_Not_Found,0,_calc_wfs_\(189\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###1039: chaxis -plot 37 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###1040: chaxis -plot 37 -axis 0 DB20
+###1041: select_plot 36
+select_plot :1
+###1042: add_meter -DataXY
+add_meter -DataXY, new ID: 653, meter num: 15 -> 16
+###1043: set_meter -id 653 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###1044: mv_mark -id 655 -plotindex 36 4.485680E+05 1.217309E+02
+mv_mark -id 655 -plotindex 36 4.485680E+05 1.217309E+02 result X:0.45M Y:42.916146db
+###1045: mv_mark -id 655 -plotindex 36 3.298246E+05 1.217309E+02
+mv_mark -id 655 -plotindex 36 3.298246E+05 1.217309E+02 result X:0.34M Y:45.479017db
+###1046: mv_mark -id 655 -plotindex 36 2.590327E+05 1.678168E+02
+mv_mark -id 655 -plotindex 36 2.590327E+05 1.678168E+02 result X:0.26M Y:47.605314db
+###1047: mv_mark -id 655 -plotindex 36 1.822768E+05 2.078700E+02
+mv_mark -id 655 -plotindex 36 1.822768E+05 2.078700E+02 result X:0.19M Y:50.609089db
+###1048: mv_mark -id 655 -plotindex 36 1.431538E+05 2.574828E+02
+mv_mark -id 655 -plotindex 36 1.431538E+05 2.574828E+02 result X:0.15M Y:52.697396db
+###1049: mv_mark -id 655 -plotindex 36 1.124280E+05 2.574828E+02
+mv_mark -id 655 -plotindex 36 1.124280E+05 2.574828E+02 result X:0.12M Y:54.710279db
+###1050: mv_mark -id 655 -plotindex 36 9.431110E+04 3.189368E+02
+mv_mark -id 655 -plotindex 36 9.431110E+04 3.189368E+02 result X:97k Y:56.248951db
+###1051: mv_mark -id 655 -plotindex 36 7.911361E+04 3.950582E+02
+mv_mark -id 655 -plotindex 36 7.911361E+04 3.950582E+02 result X:81k Y:57.787128db
+###1052: mv_mark -id 655 -plotindex 36 6.934537E+04 4.396827E+02
+mv_mark -id 655 -plotindex 36 6.934537E+04 4.396827E+02 result X:71k Y:58.921647db
+###1053: mv_mark -id 655 -plotindex 36 6.492331E+04 4.396827E+02
+mv_mark -id 655 -plotindex 36 6.492331E+04 4.396827E+02 result X:67k Y:59.470035db
+###1054: mv_mark -id 655 -plotindex 36 6.078323E+04 5.446228E+02
+mv_mark -id 655 -plotindex 36 6.078323E+04 5.446228E+02 result X:62k Y:60.093238db
+###1055: mv_mark -id 655 -plotindex 36 5.690716E+04 5.446228E+02
+mv_mark -id 655 -plotindex 36 5.690716E+04 5.446228E+02 result X:59k Y:60.641263db
+###1056: mv_mark -id 655 -plotindex 36 5.212081E+04 6.061415E+02
+mv_mark -id 655 -plotindex 36 5.212081E+04 6.061415E+02 result X:54k Y:61.409266db
+###1057: mv_mark -id 655 -plotindex 36 4.773702E+04 7.508107E+02
+mv_mark -id 655 -plotindex 36 4.773702E+04 7.508107E+02 result X:49k Y:62.214261db
+###1058: mv_mark -id 655 -plotindex 36 4.184289E+04 7.508107E+02
+mv_mark -id 655 -plotindex 36 4.184289E+04 7.508107E+02 result X:43k Y:63.308863db
+###1059: mv_mark -id 655 -plotindex 36 3.510023E+04 7.508107E+02
+mv_mark -id 655 -plotindex 36 3.510023E+04 7.508107E+02 result X:36k Y:64.766591db
+###1060: mv_mark -id 655 -plotindex 36 2.880444E+04 7.508107E+02
+mv_mark -id 655 -plotindex 36 2.880444E+04 7.508107E+02 result X:30k Y:66.403689db
+###1061: mv_mark -id 655 -plotindex 36 2.071931E+04 1.151976E+03
+mv_mark -id 655 -plotindex 36 2.071931E+04 1.151976E+03 result X:22k Y:69.266612db
+###1062: mv_mark -id 655 -plotindex 36 1.523456E+04 1.151976E+03
+mv_mark -id 655 -plotindex 36 1.523456E+04 1.151976E+03 result X:16k Y:71.777317db
+###1063: mv_mark -id 655 -plotindex 36 1.120172E+04 1.151976E+03
+mv_mark -id 655 -plotindex 36 1.120172E+04 1.151976E+03 result X:12k Y:74.251344db
+###1064: mv_mark -id 655 -plotindex 36 8.057500E+03 1.767487E+03
+mv_mark -id 655 -plotindex 36 8.057500E+03 1.767487E+03 result X:8.5k Y:76.952084db
+###1065: mv_mark -id 655 -plotindex 36 7.062633E+03 2.189337E+03
+mv_mark -id 655 -plotindex 36 7.062633E+03 2.189337E+03 result X:7.4k Y:77.99962db
+###1066: mv_mark -id 655 -plotindex 36 6.612258E+03 2.189337E+03
+mv_mark -id 655 -plotindex 36 6.612258E+03 2.189337E+03 result X:6.9k Y:78.489737db
+###1067: mv_mark -id 655 -plotindex 36 6.190602E+03 2.189337E+03
+mv_mark -id 655 -plotindex 36 6.190602E+03 2.189337E+03 result X:6.5k Y:78.958391db
+###1068: mv_mark -id 655 -plotindex 36 5.924545E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 5.924545E+03 2.436637E+03 result X:6.2k Y:79.306132db
+###1069: mv_mark -id 655 -plotindex 36 5.795836E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 5.795836E+03 2.436637E+03 result X:6.1k Y:79.4566db
+###1070: mv_mark -id 655 -plotindex 36 5.669922E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 5.669922E+03 2.436637E+03 result X:5.9k Y:79.607069db
+###1071: mv_mark -id 655 -plotindex 36 5.080218E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 5.080218E+03 2.436637E+03 result X:5.3k Y:80.357912db
+###1072: mv_mark -id 655 -plotindex 36 4.551846E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 4.551846E+03 2.436637E+03 result X:4.8k Y:81.077202db
+###1073: mv_mark -id 655 -plotindex 36 4.078428E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 4.078428E+03 2.436637E+03 result X:4.3k Y:81.760068db
+###1074: mv_mark -id 655 -plotindex 36 3.421222E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 3.421222E+03 2.436637E+03 result X:3.6k Y:82.756333db
+###1075: mv_mark -id 655 -plotindex 36 2.746577E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 2.746577E+03 2.436637E+03 result X:2.9k Y:83.835772db
+###1076: mv_mark -id 655 -plotindex 36 2.064360E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 2.064360E+03 2.436637E+03 result X:2.1k Y:84.925026db
+###1077: mv_mark -id 655 -plotindex 36 1.551597E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 1.551597E+03 2.436637E+03 result X:1.6k Y:85.676793db
+###1078: mv_mark -id 655 -plotindex 36 1.245631E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 1.245631E+03 2.436637E+03 result X:1.3k Y:86.053896db
+###1079: mv_mark -id 655 -plotindex 36 1.044908E+03 2.711872E+03
+mv_mark -id 655 -plotindex 36 1.044908E+03 2.711872E+03 result X:1.1k Y:86.270932db
+###1080: mv_mark -id 655 -plotindex 36 9.782752E+02 3.018195E+03
+mv_mark -id 655 -plotindex 36 9.782752E+02 3.018195E+03 result X:1k Y:86.327106db
+###1081: mv_mark -id 655 -plotindex 36 1.000000E+03 3.018195E+03
+mv_mark -id 655 -plotindex 36 1.000000E+03 3.018195E+03 result X:1k Y:86.317051db
+###1082: mv_mark -id 655 -plotindex 36 1.068112E+03 2.711872E+03
+mv_mark -id 655 -plotindex 36 1.068112E+03 2.711872E+03 result X:1.1k Y:86.248152db
+###1083: mv_mark -id 655 -plotindex 36 1.091832E+03 2.711872E+03
+mv_mark -id 655 -plotindex 36 1.091832E+03 2.711872E+03 result X:1.1k Y:86.225371db
+###1084: mv_mark -id 655 -plotindex 36 1.140864E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 1.140864E+03 2.436637E+03 result X:1.2k Y:86.169995db
+###1085: mv_mark -id 655 -plotindex 36 1.245631E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 1.245631E+03 2.436637E+03 result X:1.3k Y:86.053896db
+###1086: mv_mark -id 655 -plotindex 36 1.330474E+03 2.436637E+03
+mv_mark -id 655 -plotindex 36 1.330474E+03 2.436637E+03 result X:1.4k Y:85.952751db
+###1087: mv_mark -id 655 -plotindex 36 1.390222E+03 2.189337E+03
+mv_mark -id 655 -plotindex 36 1.390222E+03 2.189337E+03 result X:1.4k Y:85.877801db
+###1088: mv_mark -id 655 -plotindex 36 1.390222E+03 1.967136E+03
+mv_mark -id 655 -plotindex 36 1.390222E+03 1.967136E+03 result X:1.4k Y:85.876028db
+###1089: mv_meter -id 653 -plotindex 36 9.47E+05 1.16E+01
+mv_meter -id 653 -plotindex 36 9.47E+05 1.16E+01 result X:1.4k Y:85.876028db
+###1090: mv_meter -id 653 -plotindex 36 8.12E+05 1.16E+01
+mv_meter -id 653 -plotindex 36 8.12E+05 1.16E+01 result X:1.4k Y:85.876028db
+###1091: mv_meter -id 653 -plotindex 36 6.10E+05 1.16E+01
+mv_meter -id 653 -plotindex 36 6.10E+05 1.16E+01 result X:1.4k Y:85.876028db
+###1092: mv_meter -id 653 -plotindex 36 4.59E+05 1.16E+01
+mv_meter -id 653 -plotindex 36 4.59E+05 1.16E+01 result X:1.4k Y:85.876028db
+###1093: mv_meter -id 653 -plotindex 36 3.37E+05 1.16E+01
+mv_meter -id 653 -plotindex 36 3.37E+05 1.16E+01 result X:1.4k Y:85.876028db
+###1094: mv_meter -id 653 -plotindex 36 2.43E+05 1.16E+01
+mv_meter -id 653 -plotindex 36 2.43E+05 1.16E+01 result X:1.4k Y:85.876028db
+###1095: mv_meter -id 653 -plotindex 36 1.74E+05 1.16E+01
+mv_meter -id 653 -plotindex 36 1.74E+05 1.16E+01 result X:1.4k Y:85.876028db
+###1096: mv_meter -id 653 -plotindex 36 1.34E+05 1.16E+01
+mv_meter -id 653 -plotindex 36 1.34E+05 1.16E+01 result X:1.4k Y:85.876028db
+###1097: mv_meter -id 653 -plotindex 36 1.15E+05 1.16E+01
+mv_meter -id 653 -plotindex 36 1.15E+05 1.16E+01 result X:1.4k Y:85.876028db
+###1098: mv_meter -id 653 -plotindex 36 9.64E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 9.64E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1099: mv_meter -id 653 -plotindex 36 9.03E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 9.03E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1100: mv_meter -id 653 -plotindex 36 8.83E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 8.83E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1101: mv_meter -id 653 -plotindex 36 8.27E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 8.27E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1102: mv_meter -id 653 -plotindex 36 8.09E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 8.09E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1103: mv_meter -id 653 -plotindex 36 7.41E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 7.41E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1104: mv_meter -id 653 -plotindex 36 6.93E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 6.93E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1105: mv_meter -id 653 -plotindex 36 6.35E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 6.35E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1106: mv_meter -id 653 -plotindex 36 5.57E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 5.57E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1107: mv_meter -id 653 -plotindex 36 4.77E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 4.77E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1108: mv_meter -id 653 -plotindex 36 4.09E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 4.09E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1109: mv_meter -id 653 -plotindex 36 3.83E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 3.83E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1110: mv_meter -id 653 -plotindex 36 3.59E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 3.59E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1111: mv_meter -id 653 -plotindex 36 3.43E+04 1.16E+01
+mv_meter -id 653 -plotindex 36 3.43E+04 1.16E+01 result X:1.4k Y:85.876028db
+###1112: move_cursor -id 8 nan 1
+###1113: move_cursor -id 9 5.4e+07 nan
+###1114: mv_mark -id 655 -plotindex 35 1.301570E+03 -1.975189E+02
+mv_mark -id 655 -plotindex 35 1.301570E+03 -1.975189E+02 result X:2.5k Y:1.4e+02
+###1115: mv_mark -id 655 -plotindex 35 1.273293E+03 -1.975189E+02
+mv_mark -id 655 -plotindex 35 1.273293E+03 -1.975189E+02 result X:2.4k Y:1.4e+02
+###1116: mv_mark -id 655 -plotindex 35 1.245631E+03 -1.975189E+02
+mv_mark -id 655 -plotindex 35 1.245631E+03 -1.975189E+02 result X:2.4k Y:1.4e+02
+###1117: mv_mark -id 655 -plotindex 35 1.140864E+03 -1.975189E+02
+mv_mark -id 655 -plotindex 35 1.140864E+03 -1.975189E+02 result X:2.1k Y:1.4e+02
+###1118: mv_mark -id 655 -plotindex 35 1.091832E+03 -1.975189E+02
+mv_mark -id 655 -plotindex 35 1.091832E+03 -1.975189E+02 result X:2.1k Y:1.4e+02
+###1119: mv_mark -id 655 -plotindex 35 1.068112E+03 -2.001932E+02
+mv_mark -id 655 -plotindex 35 1.068112E+03 -2.001932E+02 result X:2k Y:1.5e+02
+###1120: mv_mark -id 655 -plotindex 35 1.044908E+03 -2.001932E+02
+mv_mark -id 655 -plotindex 35 1.044908E+03 -2.001932E+02 result X:1.9k Y:1.5e+02
+###1121: mv_mark -id 655 -plotindex 35 1.022207E+03 -2.082162E+02
+mv_mark -id 655 -plotindex 35 1.022207E+03 -2.082162E+02 result X:1.9k Y:1.5e+02
+###1122: mv_mark -id 655 -plotindex 35 1.022207E+03 -2.108905E+02
+mv_mark -id 655 -plotindex 35 1.022207E+03 -2.108905E+02 result X:1.9k Y:1.5e+02
+###1123: mv_mark -id 655 -plotindex 35 1.022207E+03 -2.162391E+02
+mv_mark -id 655 -plotindex 35 1.022207E+03 -2.162391E+02 result X:1.9k Y:1.5e+02
+###1124: mv_mark -id 655 -plotindex 36 1.022207E+03 7.907721E+03
+mv_mark -id 655 -plotindex 36 1.022207E+03 7.907721E+03 result X:1k Y:86.299298db
+###1125: mv_mark -id 655 -plotindex 36 1.022207E+03 5.736099E+03
+mv_mark -id 655 -plotindex 36 1.022207E+03 5.736099E+03 result X:1k Y:86.297623db
+###1126: mv_mark -id 655 -plotindex 36 1.022207E+03 5.153929E+03
+mv_mark -id 655 -plotindex 36 1.022207E+03 5.153929E+03 result X:1k Y:86.297064db
+###1127: mv_mark -id 655 -plotindex 36 1.022207E+03 4.630845E+03
+mv_mark -id 655 -plotindex 36 1.022207E+03 4.630845E+03 result X:1k Y:86.296505db
+###1128: mv_mark -id 655 -plotindex 36 1.022207E+03 3.359120E+03
+mv_mark -id 655 -plotindex 36 1.022207E+03 3.359120E+03 result X:1k Y:86.29483db
+###1129: mv_mark -id 655 -plotindex 36 1.022207E+03 2.711872E+03
+mv_mark -id 655 -plotindex 36 1.022207E+03 2.711872E+03 result X:1k Y:86.293712db
+###1130: mv_mark -id 655 -plotindex 36 1.022207E+03 1.967136E+03
+mv_mark -id 655 -plotindex 36 1.022207E+03 1.967136E+03 result X:1k Y:86.292037db
+###1131: mv_mark -id 655 -plotindex 36 1.022207E+03 1.767487E+03
+mv_mark -id 655 -plotindex 36 1.022207E+03 1.767487E+03 result X:1k Y:86.291478db
+###1132: mv_mark -id 655 -plotindex 36 1.022207E+03 1.588101E+03
+mv_mark -id 655 -plotindex 36 1.022207E+03 1.588101E+03 result X:1k Y:86.290919db
+###1133: mv_mark -id 655 -plotindex 36 1.022207E+03 1.035059E+03
+mv_mark -id 655 -plotindex 36 1.022207E+03 1.035059E+03 result X:1k Y:86.288685db
+###1134: mv_mark -id 655 -plotindex 36 1.022207E+03 9.300085E+02
+mv_mark -id 655 -plotindex 36 1.022207E+03 9.300085E+02 result X:1k Y:86.288126db
+###1135: mv_mark -id 655 -plotindex 36 1.022207E+03 7.508107E+02
+mv_mark -id 655 -plotindex 36 1.022207E+03 7.508107E+02 result X:1k Y:86.287009db
+###1136: mv_mark -id 655 -plotindex 36 1.022207E+03 6.746092E+02
+mv_mark -id 655 -plotindex 36 1.022207E+03 6.746092E+02 result X:1k Y:86.286451db
+###1137: mv_mark -id 655 -plotindex 36 1.022207E+03 6.061415E+02
+mv_mark -id 655 -plotindex 36 1.022207E+03 6.061415E+02 result X:1k Y:86.285892db
+###1138: mv_mark -id 655 -plotindex 36 1.022207E+03 4.893477E+02
+mv_mark -id 655 -plotindex 36 1.022207E+03 4.893477E+02 result X:1k Y:86.284775db
+###1139: mv_mark -id 655 -plotindex 36 1.022207E+03 4.396827E+02
+mv_mark -id 655 -plotindex 36 1.022207E+03 4.396827E+02 result X:1k Y:86.284216db
+###1140: mv_mark -id 655 -plotindex 36 1.068112E+03 3.950582E+02
+mv_mark -id 655 -plotindex 36 1.068112E+03 3.950582E+02 result X:1.1k Y:86.238097db
+###1141: mv_mark -id 655 -plotindex 36 1.068112E+03 2.865672E+02
+mv_mark -id 655 -plotindex 36 1.068112E+03 2.865672E+02 result X:1.1k Y:86.236421db
+###1142: mv_mark -id 655 -plotindex 36 1.068112E+03 2.574828E+02
+mv_mark -id 655 -plotindex 36 1.068112E+03 2.574828E+02 result X:1.1k Y:86.235862db
+###1143: mv_mark -id 655 -plotindex 36 1.068112E+03 2.313503E+02
+mv_mark -id 655 -plotindex 36 1.068112E+03 2.313503E+02 result X:1.1k Y:86.235304db
+###1144: mv_mark -id 655 -plotindex 36 1.044908E+03 2.313503E+02
+mv_mark -id 655 -plotindex 36 1.044908E+03 2.313503E+02 result X:1.1k Y:86.258084db
+###1145: mv_mark -id 655 -plotindex 36 1.022207E+03 2.313503E+02
+mv_mark -id 655 -plotindex 36 1.022207E+03 2.313503E+02 result X:1k Y:86.280864db
+###1146: mv_mark -id 655 -plotindex 36 1.000000E+03 2.313503E+02
+mv_mark -id 655 -plotindex 36 1.000000E+03 2.313503E+02 result X:1k Y:86.303645db
+###1147: mv_mark -id 655 -plotindex 36 9.570224E+02 2.313503E+02
+mv_mark -id 655 -plotindex 36 9.570224E+02 2.313503E+02 result X:1k Y:86.327106db
+###1148: mv_mark -id 655 -plotindex 36 9.362313E+02 2.078700E+02
+mv_mark -id 655 -plotindex 36 9.362313E+02 2.078700E+02 result X:1k Y:86.327106db
+###1149: mv_mark -id 655 -plotindex 36 8.959943E+02 2.078700E+02
+mv_mark -id 655 -plotindex 36 8.959943E+02 2.078700E+02 result X:1k Y:86.327106db
+###1150: mv_mark -id 655 -plotindex 36 8.574866E+02 2.078700E+02
+mv_mark -id 655 -plotindex 36 8.574866E+02 2.078700E+02 result X:1k Y:86.327106db
+###1151: mv_mark -id 655 -plotindex 36 8.388579E+02 1.867728E+02
+mv_mark -id 655 -plotindex 36 8.388579E+02 1.867728E+02 result X:1k Y:86.327106db
+###1152: mv_mark -id 655 -plotindex 36 8.206339E+02 1.867728E+02
+mv_mark -id 655 -plotindex 36 8.206339E+02 1.867728E+02 result X:1k Y:86.327106db
+###1153: exit
+exit

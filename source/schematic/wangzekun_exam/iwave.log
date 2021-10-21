@@ -1,0 +1,97 @@
+###1: exit
+exit
+e -file /tmp/plotlQEJ4a
+cross_probe -file /tmp/plotlQEJ4a OK
+###2: open_file /home/undergrad19_exam/wangzekun_exam/simulation/wangzekun_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+open_file competition_testbench_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :181
+###4: add_panel -1
+add_panel :0
+###5: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+###6: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###7: chaxis -plot 1 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###8: chaxis -plot 1 -axis 0 DB20
+###9: add_cursor -x
+add_cursor -x result: 1
+###10: move_cursor -id 0 1712.79 282.812
+###11: move_cursor -id 0 1273.29 282.135
+###12: move_cursor -id 0 915.892 281.458
+###13: move_cursor -id 0 637.458 278.751
+###14: move_cursor -id 0 388.889 276.72
+###15: move_cursor -id 0 270.665 276.72
+###16: move_cursor -id 0 165.122 275.366
+###17: move_cursor -id 0 111.2 272.659
+###18: move_cursor -id 0 91.2545 272.659
+###19: move_cursor -id 0 70.1111 272.659
+###20: move_cursor -id 0 61.4544 271.305
+###21: move_cursor -id 0 55.6709 271.305
+###22: move_cursor -id 0 52.1208 271.305
+###23: move_cursor -id 0 50.4316 271.305
+###24: move_cursor -id 0 44.2048 271.305
+###25: move_cursor -id 0 41.3859 269.952
+###26: move_cursor -id 0 38.7468 269.952
+###27: move_cursor -id 0 33.9627 269.952
+###28: move_cursor -id 0 29.7692 269.952
+###29: move_cursor -id 0 26.0936 269.952
+###30: move_cursor -id 0 22.8718 268.598
+###31: move_cursor -id 0 17.5725 268.598
+###32: move_cursor -id 0 15.4028 268.598
+###33: move_cursor -id 0 11.834 267.245
+###34: move_cursor -id 0 9.71139 267.245
+###35: move_cursor -id 0 7.46129 267.245
+###36: move_cursor -id 0 5.73253 265.214
+###37: move_cursor -id 0 4.12347 263.184
+###38: move_cursor -id 0 2.96605 263.184
+###39: move_cursor -id 0 2.68691 263.184
+###40: move_cursor -id 0 2.27882 262.507
+###41: move_cursor -id 0 1.99745 261.83
+###42: move_cursor -id 0 1.75083 261.83
+###43: move_cursor -id 0 1.69408 261.83
+###44: move_cursor -id 0 1.58605 261.83
+###45: move_cursor -id 0 1.43679 261.83
+###46: move_cursor -id 0 1.39022 261.83
+###47: move_cursor -id 0 1.30157 261.83
+###48: move_cursor -id 0 1.34517 261.83
+###49: move_cursor -id 0 1.39022 261.83
+###50: move_cursor -id 0 1.53465 261.83
+###51: move_cursor -id 0 1.63918 261.83
+###52: move_cursor -id 0 1.69408 261.83
+###53: move_cursor -id 0 1.80947 261.83
+###54: move_cursor -id 0 1.87008 261.83
+###55: move_cursor -id 0 1.99745 261.83
+###56: move_cursor -id 0 2.20497 261.83
+###57: move_cursor -id 0 2.27882 261.83
+###58: move_cursor -id 0 2.43404 261.83
+###59: move_cursor -id 0 2.51557 261.83
+###60: move_cursor -id 0 2.86992 261.83
+###61: move_cursor -id 0 3.16807 261.83
+###62: move_cursor -id 0 3.27419 261.83
+###63: move_cursor -id 0 3.7354 261.83
+###64: move_cursor -id 0 4.26158 261.83
+###65: move_cursor -id 0 4.86188 261.83
+###66: move_cursor -id 0 5.19304 262.507
+###67: move_cursor -id 0 5.36698 262.507
+###68: move_cursor -id 0 5.73253 262.507
+###69: move_cursor -id 0 6.32808 263.184
+###70: move_cursor -id 0 6.7591 263.86
+###71: move_cursor -id 0 6.98549 263.86
+###72: move_cursor -id 0 7.9695 265.214
+###73: move_cursor -id 0 8.51232 266.568
+###74: move_cursor -id 0 10.0367 267.921
+###75: move_cursor -id 0 10.7203 267.921
+###76: move_cursor -id 0 11.0794 267.921
+###77: move_cursor -id 0 11.834 267.921
+###78: move_cursor -id 0 12.2304 267.921
+###79: move_cursor -id 0 13.0634 267.921
+###80: move_cursor -id 0 14.4206 267.921
+###81: move_cursor -id 0 14.9036 267.921
+###82: move_cursor -id 0 15.9187 267.921
+###83: move_cursor -id 0 16.4519 267.921
+###84: move_cursor -id 0 17.003 267.245
+###85: move_cursor -id 0 17.003 266.568
+###86: move_cursor -id 0 17.003 264.537
+###87: exit
+exit

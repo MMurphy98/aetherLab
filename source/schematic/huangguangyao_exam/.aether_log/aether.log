@@ -1,0 +1,73 @@
+LC_Check out license DM version 1.0...
+
+                          Empyrean Aether
+            Version 2019.12(optNAT), Build on 01/15/2020
+                        For [linux26-x86_64]
+                      Copyright (c) 2009-2020
+                  Huada Empyrean Software Co.,Ltd.
+                        ALL RIGHTS RESERVED
+
+OpenAccess 2.2 is loaded from /opt/EDA/empyrean/openaccess/lib/linux_rhel50_gcc48x_64/opt
+Load OA TCL shared library (1) successfully.
+
+Load setting file '/opt/EDA/empyrean/tools/aether/data/aether.ini'.
+Load initialize file 'emyLibInit.tcl' for library 'analog'.
+	#######################################
+	PDK Library Name	: 018um_PDK
+	PDK Version		: 2.0 (ePDK)
+	PDK Release Date	: 9-Jan 2012 
+	#######################################
+
+Load initialize file 'emyLibInit.tcl' for library '018um_PDK'.
+Load '/opt/EDA/empyrean/tools/aether/data/display.drf'.
+Load 'display.drf'.
+
+************************  **************************
+WARNING 00043> "Finger Width" 835u > Max value 100u
+              Resetting "Finger Width" to Def value
+
+
+************************  **************************
+WARNING 00043> "Finger Width" 167u > Max value 100u
+              Resetting "Finger Width" to Def value
+
+
+************************  **************************
+WARNING 00043> "Finger Width" 139.166666667u > Max value 100u
+              Resetting "Finger Width" to Def value
+
+
+************************  **************************
+WARNING 00043> "Finger Width" 119.285714286u > Max value 100u
+              Resetting "Finger Width" to Def value
+
+
+************************  **************************
+WARNING 00043> "Finger Width" 104.375u > Max value 100u
+              Resetting "Finger Width" to Def value
+
+
+************************  **************************
+WARNING 00043> "Total Width" 5 > Max value 10m
+              Resetting "Total Width" to Def value
+
+
+************************  **************************
+WARNING 00041> "Finger Width" 24.4444444444n < Min value 220n
+              Resetting "Finger Width" to Def value
+
+
+************************  **************************
+WARNING 00043> "Finger Width" 101.898u > Max value 100u
+              Resetting "Finger Width" to Def value
+
+
+************************  **************************
+WARNING 00043> "Total Width" 3.22 > Max value 10m
+              Resetting "Total Width" to Def value
+
+
+************************  **************************
+WARNING 00043> "Total Width" 30.55 > Max value 10m
+              Resetting "Total Width" to Def value
+

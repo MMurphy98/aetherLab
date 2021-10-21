@@ -1,0 +1,10 @@
+###1: cross_probe -file /tmp/plot0S5GTq
+cross_probe -file /tmp/plot0S5GTq OK
+###2: open_file /home/undergrad19_exam/gejinming_exam/simulation/gejinming_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+open_file competition_testbench_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :181
+###4: add_panel -1
+add_panel :0
+###5: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+###6: chaxis Log10

@@ -1,0 +1,185 @@
+###1: cross_probe -file /tmp/plotNZ3aGs
+cross_probe -file /tmp/plotNZ3aGs OK
+###2: open_file /home/undergrad19_exam/yujianrui_exam/simulation/yujianrui_exam/competition_testbench_schematic_ALPS/competition_testbench_schematic_Nominal.sp.sim/competition_testbench_schematic_Nominal.sp.ac0
+open_file competition_testbench_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :901
+###4: add_panel -1
+add_panel :0
+###5: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+###6: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###7: chaxis -plot 1 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###8: add_cursor -x
+add_cursor -x result: 1
+###9: move_cursor -id 0 2266.99 465.084
+###10: move_cursor -id 0 1988.74 465.084
+###11: move_cursor -id 0 1802.7 466.924
+###12: move_cursor -id 0 1634.07 466.924
+###13: move_cursor -id 0 1481.21 466.924
+###14: move_cursor -id 0 1257.55 466.924
+###15: move_cursor -id 0 1067.67 466.924
+###16: move_cursor -id 0 936.621 466.924
+###17: move_cursor -id 0 769.584 466.924
+###18: move_cursor -id 0 632.336 466.924
+###19: move_cursor -id 0 536.856 466.924
+###20: move_cursor -id 0 441.113 466.924
+###21: move_cursor -id 0 362.445 466.924
+###22: move_cursor -id 0 297.806 466.924
+###23: move_cursor -id 0 269.948 466.924
+###24: move_cursor -id 0 236.814 468.763
+###25: move_cursor -id 0 236.814 470.603
+###26: move_cursor -id 0 214.661 470.603
+###27: move_cursor -id 0 207.747 470.603
+###28: move_cursor -id 0 201.056 470.603
+###29: move_cursor -id 0 207.747 470.603
+###30: move_cursor -id 0 236.814 470.603
+###31: move_cursor -id 0 269.948 470.603
+###32: move_cursor -id 0 339.473 466.924
+###33: move_cursor -id 0 470.962 461.405
+###34: move_cursor -id 0 720.809 452.208
+###35: move_cursor -id 0 1067.67 446.689
+###36: move_cursor -id 0 1530.5 433.812
+###37: move_cursor -id 0 2266.99 430.133
+###38: move_cursor -id 0 3249.74 422.775
+###39: move_cursor -id 0 4363.25 415.417
+###40: move_cursor -id 0 5858.31 409.899
+###41: move_cursor -id 0 7865.65 400.701
+###42: move_cursor -id 0 9572.88 397.022
+###43: move_cursor -id 0 12038.4 389.664
+###44: move_cursor -id 0 14651.3 385.985
+###45: move_cursor -id 0 16163.3 384.145
+###46: move_cursor -id 0 17831.4 378.627
+###47: move_cursor -id 0 21002.7 374.948
+###48: move_cursor -id 0 23170.2 373.108
+###49: move_cursor -id 0 28199.2 365.75
+###50: move_cursor -id 0 30107.4 363.911
+###51: move_cursor -id 0 32144.7 362.071
+###52: move_cursor -id 0 34319.8 360.231
+###53: move_cursor -id 0 40423.6 358.392
+###54: move_cursor -id 0 44595.3 354.713
+###55: move_cursor -id 0 50834.8 351.034
+###56: move_cursor -id 0 57947.3 351.034
+###57: move_cursor -id 0 70524.7 343.676
+###58: move_cursor -id 0 77802.8 343.676
+###59: move_cursor -id 0 85832 339.997
+###60: move_cursor -id 0 94689.8 338.157
+###61: move_cursor -id 0 115242 332.639
+###62: move_cursor -id 0 135738 328.96
+###63: move_cursor -id 0 159879 327.12
+###64: move_cursor -id 0 176378 323.441
+###65: move_cursor -id 0 201056 321.601
+###66: move_cursor -id 0 214661 316.083
+###67: move_cursor -id 0 236814 316.083
+###68: move_cursor -id 0 244695 314.243
+###69: move_cursor -id 0 261253 312.404
+###70: move_cursor -id 0 278932 312.404
+###71: move_cursor -id 0 288214 310.564
+###72: move_cursor -id 0 307717 308.725
+###73: move_cursor -id 0 317958 306.885
+###74: move_cursor -id 0 328540 306.885
+###75: move_cursor -id 0 362445 306.885
+###76: move_cursor -id 0 374507 305.046
+###77: move_cursor -id 0 386970 301.367
+###78: move_cursor -id 0 413156 301.367
+###79: move_cursor -id 0 426906 301.367
+###80: move_cursor -id 0 441113 301.367
+###81: move_cursor -id 0 441113 299.527
+###82: move_cursor -id 0 455793 299.527
+###83: move_cursor -id 0 486636 299.527
+###84: move_cursor -id 0 502831 297.688
+###85: move_cursor -id 0 519565 297.688
+###86: move_cursor -id 0 554723 297.688
+###87: move_cursor -id 0 611970 295.848
+###88: move_cursor -id 0 611970 294.009
+###89: move_cursor -id 0 653380 294.009
+###90: move_cursor -id 0 720809 294.009
+###91: move_cursor -id 0 744797 294.009
+###92: move_cursor -id 0 769584 292.169
+###93: move_cursor -id 0 821660 292.169
+###94: move_cursor -id 0 849004 292.169
+###95: move_cursor -id 0 877259 292.169
+###96: move_cursor -id 0 906454 292.169
+###97: move_cursor -id 0 967792 292.169
+###98: move_cursor -id 0 1e+06 292.169
+###99: move_cursor -id 0 1.06767e+06 292.169
+###100: move_cursor -id 0 1.1032e+06 290.33
+###101: move_cursor -id 0 1.17785e+06 290.33
+###102: move_cursor -id 0 1.21705e+06 290.33
+###103: move_cursor -id 0 1.25755e+06 290.33
+###104: move_cursor -id 0 1.2994e+06 290.33
+###105: move_cursor -id 0 1.38733e+06 290.33
+###106: move_cursor -id 0 1.48121e+06 288.49
+###107: move_cursor -id 0 1.5305e+06 288.49
+###108: move_cursor -id 0 1.58144e+06 288.49
+###109: move_cursor -id 0 1.63407e+06 288.49
+###110: move_cursor -id 0 1.68845e+06 288.49
+###111: move_cursor -id 0 1.8627e+06 288.49
+###112: move_cursor -id 0 1.92469e+06 288.49
+###113: move_cursor -id 0 1.98874e+06 288.49
+###114: move_cursor -id 0 2.05493e+06 284.811
+###115: move_cursor -id 0 2.05493e+06 282.971
+###116: move_cursor -id 0 2.12331e+06 282.971
+###117: move_cursor -id 0 2.26699e+06 282.971
+###118: move_cursor -id 0 2.34244e+06 282.971
+###119: move_cursor -id 0 2.4204e+06 282.971
+###120: move_cursor -id 0 2.58418e+06 282.971
+###121: move_cursor -id 0 2.67018e+06 282.971
+###122: move_cursor -id 0 2.75904e+06 282.971
+###123: move_cursor -id 0 2.94574e+06 281.132
+###124: move_cursor -id 0 3.04377e+06 281.132
+###125: move_cursor -id 0 3.24974e+06 281.132
+###126: move_cursor -id 0 3.35789e+06 281.132
+###127: move_cursor -id 0 3.58511e+06 281.132
+###128: move_cursor -id 0 3.70442e+06 281.132
+###129: move_cursor -id 0 3.8277e+06 281.132
+###130: move_cursor -id 0 4.08672e+06 281.132
+###131: move_cursor -id 0 4.22272e+06 281.132
+###132: move_cursor -id 0 4.36325e+06 281.132
+###133: move_cursor -id 0 4.50846e+06 281.132
+###134: move_cursor -id 0 4.81354e+06 281.132
+###135: move_cursor -id 0 4.97373e+06 281.132
+###136: move_cursor -id 0 5.13926e+06 281.132
+###137: move_cursor -id 0 5.31029e+06 281.132
+###138: move_cursor -id 0 5.85831e+06 281.132
+###139: move_cursor -id 0 6.05328e+06 281.132
+###140: move_cursor -id 0 6.25473e+06 279.292
+###141: move_cursor -id 0 6.46289e+06 279.292
+###142: move_cursor -id 0 6.90021e+06 279.292
+###143: move_cursor -id 0 7.12985e+06 279.292
+###144: move_cursor -id 0 7.36713e+06 279.292
+###145: move_cursor -id 0 7.86565e+06 279.292
+###146: move_cursor -id 0 8.12742e+06 279.292
+###147: move_cursor -id 0 8.3979e+06 279.292
+###148: move_cursor -id 0 8.67738e+06 279.292
+###149: move_cursor -id 0 9.26456e+06 279.292
+###150: move_cursor -id 0 9.57288e+06 279.292
+###151: move_cursor -id 0 1.02207e+07 279.292
+###152: move_cursor -id 0 1.05608e+07 279.292
+###153: move_cursor -id 0 1.12754e+07 279.292
+###154: move_cursor -id 0 1.16507e+07 279.292
+###155: move_cursor -id 0 1.20384e+07 279.292
+###156: move_cursor -id 0 1.2853e+07 279.292
+###157: move_cursor -id 0 1.32808e+07 279.292
+###158: move_cursor -id 0 1.37227e+07 279.292
+###159: move_cursor -id 0 1.41794e+07 279.292
+###160: move_cursor -id 0 1.51389e+07 279.292
+###161: move_cursor -id 0 1.56427e+07 279.292
+###162: move_cursor -id 0 1.61633e+07 279.292
+###163: move_cursor -id 0 1.78314e+07 279.292
+###164: move_cursor -id 0 1.84248e+07 279.292
+###165: move_cursor -id 0 1.9038e+07 279.292
+###166: move_cursor -id 0 1.96716e+07 279.292
+###167: move_cursor -id 0 2.10027e+07 279.292
+###168: move_cursor -id 0 2.17017e+07 279.292
+###169: move_cursor -id 0 2.24239e+07 279.292
+###170: move_cursor -id 0 2.39413e+07 279.292
+###171: move_cursor -id 0 2.4738e+07 279.292
+###172: move_cursor -id 0 2.55613e+07 279.292
+###173: move_cursor -id 0 2.7291e+07 279.292
+###174: move_cursor -id 0 2.6412e+07 279.292
+###175: move_cursor -id 0 2.55613e+07 279.292
+###176: move_cursor -id 0 2.4738e+07 279.292
+###177: exit
+exit

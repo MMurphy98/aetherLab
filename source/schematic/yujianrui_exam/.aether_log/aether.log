@@ -1,0 +1,470 @@
+LC_Check out license DM version 1.0...
+
+                          Empyrean Aether
+            Version 2019.12(optNAT), Build on 01/15/2020
+                        For [linux26-x86_64]
+                      Copyright (c) 2009-2020
+                  Huada Empyrean Software Co.,Ltd.
+                        ALL RIGHTS RESERVED
+
+OpenAccess 2.2 is loaded from /opt/EDA/empyrean/openaccess/lib/linux_rhel50_gcc48x_64/opt
+Load OA TCL shared library (1) successfully.
+
+Load setting file '/opt/EDA/empyrean/tools/aether/data/aether.ini'.
+Load initialize file 'emyLibInit.tcl' for library 'analog'.
+	#######################################
+	PDK Library Name	: 018um_PDK
+	PDK Version		: 2.0 (ePDK)
+	PDK Release Date	: 9-Jan 2012 
+	#######################################
+
+Load initialize file 'emyLibInit.tcl' for library '018um_PDK'.
+Load '/opt/EDA/empyrean/tools/aether/data/display.drf'.
+Load 'display.drf'.
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+
+************************  **************************
+WARNING 00043> "Finger Width" 320u > Max value 100u
+              Resetting "Finger Width" to Def value
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+
+************************  **************************
+WARNING 00043> "Finger Width" 160u > Max value 100u
+              Resetting "Finger Width" to Def value
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+
+************************  **************************
+WARNING 00043> "Length" 15u > Max value 10u
+              Resetting "Length" to Def value
+
+
+************************  **************************
+WARNING 00043> "Length" 15u > Max value 10u
+              Resetting "Length" to Def value
+
+
+************************  **************************
+WARNING 00043> "Length" 12u > Max value 10u
+              Resetting "Length" to Def value
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
+linux26-x86_64
+execute cmd : /opt/EDA/empyrean/tools/iwave/platform/linux26-x86_64/bin/iwave
+
+                  Empyrean iWave                  
+     Version 2019.12.sp1, Build on 04/16/2020     
+               For [linux26-x86_64]               
+              Copyright (c) 2009-2020            
+         Huada Empyrean Software Co.,Ltd.         
+                ALL RIGHTS RESERVED              
+
