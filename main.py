@@ -50,6 +50,6 @@ if __name__ == '__main__':
     # doc = os.listdir()
     # for i in doc:
     #     print(i)
-    # getschematic('./source/schematic', './source/schematic/Miller#2dOTA')
-    get_namelist('./source/schematic')
+    getschematic('./source/results_under19/', './source/schematic/Answer1')
+    # get_namelist('./source/results_under19')
     print("hello world")

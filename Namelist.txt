@@ -11,14 +11,12 @@ laixunqin
 lihaoran
 linshuheng
 liujilong
-liumuyang
 lixinyuan
 liyulong
 luoshiliang
 maojingyuan
 qiaoyan
 qinhaiyan
-schematic
 shiwen
 shiyunjiao
 wangshiqi
@@ -29,10 +27,7 @@ wulianliang
 xuyisheng
 yangwenshuo
 yehongjie
-yuanhao
 yujianrui
 zhanghongrui
-zhaoyu
-zhengpengfei
 zhouchangheng
 zuoshiyu
