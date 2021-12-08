@@ -1,0 +1,89 @@
+###1: exit
+exit
+e -file /tmp/plotXZLqIq
+cross_probe -file /tmp/plotXZLqIq OK
+###2: open_file /home/undergrad19_exam/lixinyuan_exam/simulation/lixinyuan_exam/final_Question1_schematic_ALPS/final_Question1_schematic_Nominal.sp.sim/final_Question1_schematic_Nominal.sp.ac0
+open_file final_Question1_schematic_Nominal.sp.ac0: OK
+###3: add_panel 0
+add_panel :0
+###4: open_wave -group /home/undergrad19_exam/lixinyuan_exam/simulation/lixinyuan_exam/final_Question1_schematic_ALPS/final_Question1_schematic_Nominal.sp.sim/final_Question1_schematic_Nominal.sp.ac0,0,isub\(xi1.iout\)
+###5: chaxis Log10
+final_Question1_schematic_Nominal.sp.ac0     isub(xi1.iout)   Nominal datas:
+###6: chaxis -plot 1 -axis 0 Linear
+final_Question1_schematic_Nominal.sp.ac0     isub(xi1.iout)   Nominal datas:
+###7: chaxis -plot 1 -axis 0 DB20
+###8: add_cursor -x
+add_cursor -x result: 1
+###9: select_plot 0
+select_plot :1
+###10: move_cursor -id 0 2123.31 96.4107
+###11: move_cursor -id 0 2193.98 96.4107
+###12: move_cursor -id 0 2500.95 94.5203
+###13: move_cursor -id 0 2670.18 94.5203
+###14: move_cursor -id 0 3357.89 93.2601
+###15: move_cursor -id 0 4658.5 93.2601
+###16: move_cursor -id 0 7129.85 91.9998
+###17: move_cursor -id 0 16163.3 88.8491
+###18: move_cursor -id 0 47613 81.9176
+###19: move_cursor -id 0 149746 76.8765
+###20: move_cursor -id 0 519565 69.3149
+###21: move_cursor -id 0 1.8027e+06 63.0135
+###22: move_cursor -id 0 5.85831e+06 55.4519
+###23: move_cursor -id 0 1.67012e+07 51.041
+###24: move_cursor -id 0 3.66422e+07 44.7396
+###25: move_cursor -id 0 5.25266e+07 44.7396
+###26: move_cursor -id 0 6.18684e+07 43.4793
+###27: move_cursor -id 0 7.05247e+07 42.2191
+###28: move_cursor -id 0 8.03921e+07 42.2191
+###29: move_cursor -id 0 8.5832e+07 41.5889
+###30: move_cursor -id 0 8.86885e+07 41.5889
+###31: move_cursor -id 0 9.164e+07 40.9588
+###32: move_cursor -id 0 9.46898e+07 40.9588
+###33: move_cursor -id 0 9.78411e+07 40.9588
+###34: move_cursor -id 0 1.01097e+08 40.9588
+###35: move_cursor -id 0 1.07938e+08 40.9588
+###36: move_cursor -id 0 1.19077e+08 40.3287
+###37: move_cursor -id 0 1.27135e+08 39.6985
+###38: move_cursor -id 0 1.35738e+08 39.0684
+###39: move_cursor -id 0 1.44923e+08 39.0684
+###40: move_cursor -id 0 1.5473e+08 39.0684
+###41: move_cursor -id 0 1.59879e+08 39.0684
+###42: move_cursor -id 0 1.652e+08 39.0684
+###43: move_cursor -id 0 1.70698e+08 39.0684
+###44: move_cursor -id 0 1.88314e+08 39.0684
+###45: move_cursor -id 0 1.94581e+08 39.0684
+###46: move_cursor -id 0 2.01056e+08 39.0684
+###47: move_cursor -id 0 2.14661e+08 39.0684
+###48: move_cursor -id 0 2.21805e+08 39.0684
+###49: move_cursor -id 0 2.29187e+08 39.0684
+###50: move_cursor -id 0 2.36814e+08 39.0684
+###51: move_cursor -id 0 2.52839e+08 39.0684
+###52: move_cursor -id 0 2.61253e+08 39.0684
+###53: move_cursor -id 0 2.78932e+08 39.0684
+###54: move_cursor -id 0 2.88214e+08 39.0684
+###55: move_cursor -id 0 3.07717e+08 39.0684
+###56: move_cursor -id 0 3.17958e+08 39.0684
+###57: move_cursor -id 0 3.2854e+08 39.0684
+###58: move_cursor -id 0 3.39473e+08 39.0684
+###59: move_cursor -id 0 3.50771e+08 38.4383
+###60: move_cursor -id 0 3.62445e+08 37.8081
+###61: move_cursor -id 0 3.74507e+08 36.5479
+###62: move_cursor -id 0 3.8697e+08 36.5479
+###63: move_cursor -id 0 3.99849e+08 36.5479
+###64: move_cursor -id 0 3.99849e+08 37.8081
+###65: move_cursor -id 0 3.8697e+08 38.4383
+###66: move_cursor -id 0 3.62445e+08 39.0684
+###67: move_cursor -id 0 3.50771e+08 39.0684
+###68: move_cursor -id 0 3.39473e+08 39.6985
+###69: move_cursor -id 0 2.88214e+08 48.5204
+###70: move_cursor -id 0 3.17958e+08 69.3149
+###71: move_cursor -id 0 3.2854e+08 69.3149
+###72: move_cursor -id 0 3.50771e+08 69.3149
+###73: move_cursor -id 0 3.62445e+08 69.3149
+###74: move_cursor -id 0 3.74507e+08 69.3149
+###75: move_cursor -id 0 3.99849e+08 68.6848
+###76: move_cursor -id 0 3.8697e+08 68.6848
+###77: move_cursor -id 0 3.74507e+08 68.6848
+###78: move_cursor -id 0 3.62445e+08 68.6848
+###79: exit
+exit

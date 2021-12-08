@@ -1,0 +1,116 @@
+###1: cross_probe -file /tmp/plotTGCW0X
+cross_probe -file /tmp/plotTGCW0X OK
+###2: open_file /home/undergrad19_exam/yangwenshuo_exam/simulation/yangwenshuo_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+open_file final_Question2_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###4: add_panel -1
+add_panel :0
+###5: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###6: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+###7: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###8: chaxis -plot 1 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###9: open_wave -group Doc_Not_Found,0,_calc_wfs_\(4\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###10: add_cursor -x
+add_cursor -x result: 1
+###11: move_cursor -id 0 146692 -195.808
+###12: move_cursor -id 0 137451 -195.808
+###13: move_cursor -id 0 128792 -195.808
+###14: move_cursor -id 0 118090 -195.808
+###15: move_cursor -id 0 108277 -195.808
+###16: move_cursor -id 0 99279.7 -195.808
+###17: move_cursor -id 0 89076.8 -195.808
+###18: move_cursor -id 0 81674.8 -195.808
+###19: move_cursor -id 0 73281.1 -195.808
+###20: move_cursor -id 0 62959 -195.808
+###21: move_cursor -id 0 54090.9 -195.808
+###22: move_cursor -id 0 47490.8 -195.808
+###23: move_cursor -id 0 40801.4 -195.808
+###24: move_cursor -id 0 32846.1 -195.808
+###25: move_cursor -id 0 26441.9 -195.808
+###26: move_cursor -id 0 22717.4 -195.808
+###27: move_cursor -id 0 18689 -195.808
+###28: move_cursor -id 0 15045.1 -195.808
+###29: move_cursor -id 0 12111.6 -195.808
+###30: move_cursor -id 0 10633.8 -195.808
+###31: move_cursor -id 0 8748.13 -195.808
+###32: move_cursor -id 0 7680.69 -195.808
+###33: move_cursor -id 0 6743.5 -195.808
+###34: move_cursor -id 0 6183.14 -195.808
+###35: move_cursor -id 0 5547.7 -199.728
+###36: move_cursor -id 0 5198.23 -199.728
+###37: move_cursor -id 0 4766.27 -199.728
+###38: move_cursor -id 0 4370.21 -199.728
+###39: move_cursor -id 0 4094.92 -199.728
+###40: move_cursor -id 0 3754.64 -201.688
+###41: move_cursor -id 0 3674.08 -201.688
+###42: move_cursor -id 0 3595.26 -201.688
+###43: move_cursor -id 0 3442.64 -201.688
+###44: move_cursor -id 0 3225.78 -201.688
+###45: move_cursor -id 0 3088.84 -203.648
+###46: move_cursor -id 0 2894.27 -203.648
+###47: move_cursor -id 0 2771.41 -205.608
+###48: move_cursor -id 0 2486.59 -205.608
+###49: move_cursor -id 0 2279.96 -207.569
+###50: move_cursor -id 0 2136.34 -207.569
+###51: move_cursor -id 0 2001.76 -207.569
+###52: move_cursor -id 0 1916.79 -207.569
+###53: move_cursor -id 0 1875.67 -207.569
+###54: move_cursor -id 0 1796.04 -207.569
+###55: move_cursor -id 0 1757.51 -207.569
+###56: move_cursor -id 0 1719.8 -207.569
+###57: move_cursor -id 0 1682.91 -207.569
+###58: move_cursor -id 0 1646.8 -207.569
+###59: move_cursor -id 0 1611.47 -207.569
+###60: move_cursor -id 0 1576.89 -207.569
+###61: move_cursor -id 0 1509.95 -207.569
+###62: move_cursor -id 0 1477.56 -207.569
+###63: move_cursor -id 0 1445.86 -207.569
+###64: move_cursor -id 0 1384.48 -207.569
+###65: move_cursor -id 0 1354.78 -207.569
+###66: move_cursor -id 0 1269.44 -207.569
+###67: move_cursor -id 0 1215.55 -207.569
+###68: move_cursor -id 0 1163.95 -207.569
+###69: move_cursor -id 0 1138.98 -207.569
+###70: move_cursor -id 0 1090.63 -207.569
+###71: move_cursor -id 0 1067.23 -207.569
+###72: move_cursor -id 0 1044.33 -207.569
+###73: move_cursor -id 0 1067.23 -207.569
+###74: move_cursor -id 0 1114.54 -207.569
+###75: move_cursor -id 0 1163.95 -207.569
+###76: move_cursor -id 0 1269.44 -205.608
+###77: move_cursor -id 0 1354.78 -201.688
+###78: move_cursor -id 0 1543.06 -201.688
+###79: move_cursor -id 0 1796.04 -199.728
+###80: move_cursor -id 0 2231.05 -199.728
+###81: move_cursor -id 0 2957.72 -199.728
+###82: move_cursor -id 0 4094.92 -199.728
+###83: move_cursor -id 0 5547.7 -199.728
+###84: move_cursor -id 0 8021.19 -199.728
+###85: move_cursor -id 0 12111.6 -199.728
+###86: move_cursor -id 0 19517.5 -205.608
+###87: move_cursor -id 0 30116.7 -211.489
+###88: move_cursor -id 0 54090.9 -217.369
+###89: move_cursor -id 0 97149.6 -227.17
+###90: move_cursor -id 0 153195 -233.05
+###91: move_cursor -id 0 257812 -242.85
+###92: move_cursor -id 0 406542 -252.651
+###93: move_cursor -id 0 600689 -258.531
+###94: move_cursor -id 0 796341 -266.372
+###95: move_cursor -id 0 989214 -270.292
+###96: move_cursor -id 0 1.1514e+06 -272.252
+###97: move_cursor -id 0 1.31141e+06 -276.172
+###98: move_cursor -id 0 1.55989e+06 -282.052
+###99: move_cursor -id 0 1.77667e+06 -284.012
+###100: move_cursor -id 0 2.20698e+06 -289.893
+###101: move_cursor -id 0 2.6827e+06 -293.813
+###102: move_cursor -id 0 3.19098e+06 -301.653
+###103: move_cursor -id 0 3.71414e+06 -307.534
+###104: move_cursor -id 0 4.05075e+06 -309.494
+###105: move_cursor -id 0 4.41786e+06 -309.494
+###106: move_cursor -id 0 4.81824e+06 -311.454
+###107: move_cursor -id 0 5.25491e+06 -313.414

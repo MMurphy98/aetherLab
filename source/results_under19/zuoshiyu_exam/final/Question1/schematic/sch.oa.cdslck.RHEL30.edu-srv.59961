@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      zuoshiyu_exam
+HostName                       edu-srv
+ProcessIdentifier              59961
+ProcessCreationTime_UTC        1638842055
+ProcessCreationTime_Readable   Tue 07 Dec 2021 09:54:15 AM CST CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/undergrad19_exam/zuoshiyu_exam/Aether/final/Question1/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue 07 Dec 2021 09:54:43 AM CST CST

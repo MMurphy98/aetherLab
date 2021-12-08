@@ -1,0 +1,13 @@
+###1: cross_probe -file /tmp/plotgEe60h
+cross_probe -file /tmp/plotgEe60h OK
+###2: open_file /home/undergrad19_exam/linshuheng_exam/simulation/linshuheng_exam/final_Question1_schematic_ALPS/final_Question1_schematic_Nominal.sp.sim/final_Question1_schematic_Nominal.sp.ac0
+open_file final_Question1_schematic_Nominal.sp.ac0: OK
+###3: add_panel 0
+add_panel :0
+###4: open_wave -group /home/undergrad19_exam/linshuheng_exam/simulation/linshuheng_exam/final_Question1_schematic_ALPS/final_Question1_schematic_Nominal.sp.sim/final_Question1_schematic_Nominal.sp.ac0,0,isub\(xi1.iout\)
+###5: chaxis Log10
+final_Question1_schematic_Nominal.sp.ac0     isub(xi1.iout)   Nominal datas:
+###6: chaxis -plot 1 -axis 0 Linear
+final_Question1_schematic_Nominal.sp.ac0     isub(xi1.iout)   Nominal datas:
+###7: exit
+exit

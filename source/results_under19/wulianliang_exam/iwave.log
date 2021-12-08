@@ -1,0 +1,1350 @@
+###1: cross_probe -file /tmp/plotQvAHH4
+cross_probe -file /tmp/plotQvAHH4 OK
+###2: open_file /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+open_file final_Question2_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###4: add_panel -1
+add_panel :0
+###5: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###6: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+###7: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###8: chaxis -plot 1 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###9: open_wave -group Doc_Not_Found,0,_calc_wfs_\(4\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###10: add_meter -DataXY
+add_meter -DataXY, new ID: 0, meter num: 0 -> 1
+###11: set_meter -id 0 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###12: mv_mark -id 2 -plotindex 2 5.028307E+05 3.738555E+01
+mv_mark -id 2 -plotindex 2 5.028307E+05 3.738555E+01 result X:0.51M Y:42
+###13: mv_mark -id 2 -plotindex 2 3.869704E+05 4.669515E+01
+mv_mark -id 2 -plotindex 2 3.869704E+05 4.669515E+01 result X:0.38M Y:45
+###14: mv_mark -id 2 -plotindex 2 2.729097E+05 5.879764E+01
+mv_mark -id 2 -plotindex 2 2.729097E+05 5.879764E+01 result X:0.26M Y:48
+###15: mv_mark -id 2 -plotindex 1 1.044618E+05 -1.533262E+02
+mv_mark -id 2 -plotindex 1 1.044618E+05 -1.533262E+02 result X:0.11M Y:93
+###16: mv_mark -id 2 -plotindex 1 4.269055E+04 -6.160516E+01
+mv_mark -id 2 -plotindex 1 4.269055E+04 -6.160516E+01 result X:46k Y:97
+###17: mv_mark -id 2 -plotindex 1 2.528387E+04 -3.005608E+00
+mv_mark -id 2 -plotindex 1 2.528387E+04 -3.005608E+00 result X:28k Y:1e+02
+###18: mv_mark -id 2 -plotindex 1 1.945806E+04 2.502027E+01
+mv_mark -id 2 -plotindex 1 1.945806E+04 2.502027E+01 result X:21k Y:1.1e+02
+###19: mv_mark -id 2 -plotindex 1 1.783138E+04 3.775930E+01
+mv_mark -id 2 -plotindex 1 1.783138E+04 3.775930E+01 result X:19k Y:1.1e+02
+###20: mv_mark -id 2 -plotindex 1 1.706976E+04 4.030711E+01
+mv_mark -id 2 -plotindex 1 1.706976E+04 4.030711E+01 result X:18k Y:1.1e+02
+###21: mv_mark -id 2 -plotindex 1 1.634068E+04 4.030711E+01
+mv_mark -id 2 -plotindex 1 1.634068E+04 4.030711E+01 result X:18k Y:1.1e+02
+###22: mv_mark -id 2 -plotindex 1 1.598790E+04 4.030711E+01
+mv_mark -id 2 -plotindex 1 1.598790E+04 4.030711E+01 result X:17k Y:1.1e+02
+###23: mv_mark -id 2 -plotindex 1 1.465132E+04 4.540272E+01
+mv_mark -id 2 -plotindex 1 1.465132E+04 4.540272E+01 result X:16k Y:1.1e+02
+###24: mv_mark -id 2 -plotindex 1 1.402553E+04 4.540272E+01
+mv_mark -id 2 -plotindex 1 1.402553E+04 4.540272E+01 result X:15k Y:1.1e+02
+###25: mv_mark -id 2 -plotindex 1 1.313661E+04 4.540272E+01
+mv_mark -id 2 -plotindex 1 1.313661E+04 4.540272E+01 result X:14k Y:1.1e+02
+###26: mv_mark -id 2 -plotindex 1 1.203840E+04 4.540272E+01
+mv_mark -id 2 -plotindex 1 1.203840E+04 4.540272E+01 result X:13k Y:1.1e+02
+###27: mv_mark -id 2 -plotindex 1 1.152422E+04 4.540272E+01
+mv_mark -id 2 -plotindex 1 1.152422E+04 4.540272E+01 result X:13k Y:1.1e+02
+###28: mv_mark -id 2 -plotindex 1 1.127542E+04 4.795053E+01
+mv_mark -id 2 -plotindex 1 1.127542E+04 4.795053E+01 result X:13k Y:1.1e+02
+###29: mv_mark -id 2 -plotindex 1 1.033280E+04 4.795053E+01
+mv_mark -id 2 -plotindex 1 1.033280E+04 4.795053E+01 result X:12k Y:1.2e+02
+###30: mv_mark -id 2 -plotindex 1 9.064544E+03 4.795053E+01
+mv_mark -id 2 -plotindex 1 9.064544E+03 4.795053E+01 result X:10k Y:1.2e+02
+###31: mv_mark -id 2 -plotindex 1 6.825323E+03 4.795053E+01
+mv_mark -id 2 -plotindex 1 6.825323E+03 4.795053E+01 result X:8k Y:1.3e+02
+###32: mv_mark -id 2 -plotindex 1 4.813539E+03 4.795053E+01
+mv_mark -id 2 -plotindex 1 4.813539E+03 4.795053E+01 result X:5.8k Y:1.4e+02
+###33: mv_mark -id 2 -plotindex 1 3.955090E+03 4.795053E+01
+mv_mark -id 2 -plotindex 1 3.955090E+03 4.795053E+01 result X:4.8k Y:1.4e+02
+###34: mv_mark -id 2 -plotindex 1 3.179579E+03 5.559395E+01
+mv_mark -id 2 -plotindex 1 3.179579E+03 5.559395E+01 result X:3.8k Y:1.5e+02
+###35: mv_mark -id 2 -plotindex 1 2.729097E+03 5.559395E+01
+mv_mark -id 2 -plotindex 1 2.729097E+03 5.559395E+01 result X:3.2k Y:1.5e+02
+###36: mv_mark -id 2 -plotindex 1 2.556130E+03 6.068956E+01
+mv_mark -id 2 -plotindex 1 2.556130E+03 6.068956E+01 result X:3k Y:1.5e+02
+###37: mv_mark -id 2 -plotindex 1 2.446953E+03 6.068956E+01
+mv_mark -id 2 -plotindex 1 2.446953E+03 6.068956E+01 result X:2.9k Y:1.5e+02
+###38: mv_mark -id 2 -plotindex 1 2.291868E+03 6.068956E+01
+mv_mark -id 2 -plotindex 1 2.291868E+03 6.068956E+01 result X:2.7k Y:1.6e+02
+###39: mv_mark -id 2 -plotindex 1 2.100269E+03 6.068956E+01
+mv_mark -id 2 -plotindex 1 2.100269E+03 6.068956E+01 result X:2.4k Y:1.6e+02
+###40: mv_mark -id 2 -plotindex 1 1.924687E+03 6.068956E+01
+mv_mark -id 2 -plotindex 1 1.924687E+03 6.068956E+01 result X:2.2k Y:1.6e+02
+###41: mv_mark -id 2 -plotindex 1 1.763784E+03 6.068956E+01
+mv_mark -id 2 -plotindex 1 1.763784E+03 6.068956E+01 result X:2k Y:1.6e+02
+###42: mv_mark -id 2 -plotindex 1 1.651998E+03 6.068956E+01
+mv_mark -id 2 -plotindex 1 1.651998E+03 6.068956E+01 result X:1.9k Y:1.6e+02
+###43: mv_mark -id 2 -plotindex 1 1.616333E+03 6.068956E+01
+mv_mark -id 2 -plotindex 1 1.616333E+03 6.068956E+01 result X:1.8k Y:1.6e+02
+###44: mv_mark -id 2 -plotindex 1 1.547296E+03 6.068956E+01
+mv_mark -id 2 -plotindex 1 1.547296E+03 6.068956E+01 result X:1.7k Y:1.6e+02
+###45: mv_mark -id 2 -plotindex 1 1.481208E+03 6.068956E+01
+mv_mark -id 2 -plotindex 1 1.481208E+03 6.068956E+01 result X:1.7k Y:1.6e+02
+###46: mv_mark -id 2 -plotindex 1 1.357380E+03 6.578517E+01
+mv_mark -id 2 -plotindex 1 1.357380E+03 6.578517E+01 result X:1.5k Y:1.7e+02
+###47: mv_mark -id 2 -plotindex 1 1.328075E+03 6.578517E+01
+mv_mark -id 2 -plotindex 1 1.328075E+03 6.578517E+01 result X:1.5k Y:1.7e+02
+###48: mv_mark -id 2 -plotindex 1 1.243904E+03 6.578517E+01
+mv_mark -id 2 -plotindex 1 1.243904E+03 6.578517E+01 result X:1.4k Y:1.7e+02
+###49: mv_mark -id 2 -plotindex 1 1.139914E+03 6.833298E+01
+mv_mark -id 2 -plotindex 1 1.139914E+03 6.833298E+01 result X:1.2k Y:1.7e+02
+###50: mv_mark -id 2 -plotindex 1 1.115304E+03 6.833298E+01
+mv_mark -id 2 -plotindex 1 1.115304E+03 6.833298E+01 result X:1.2k Y:1.7e+02
+###51: mv_mark -id 2 -plotindex 1 1.067667E+03 6.833298E+01
+mv_mark -id 2 -plotindex 1 1.067667E+03 6.833298E+01 result X:1.2k Y:1.7e+02
+###52: mv_mark -id 2 -plotindex 1 1.044618E+03 6.833298E+01
+mv_mark -id 2 -plotindex 1 1.044618E+03 6.833298E+01 result X:1.1k Y:1.7e+02
+###53: mv_mark -id 2 -plotindex 1 8.966163E+02 6.833298E+01
+mv_mark -id 2 -plotindex 1 8.966163E+02 6.833298E+01 result X:1k Y:1.7e+02
+###54: mv_mark -id 2 -plotindex 1 8.397898E+02 6.833298E+01
+mv_mark -id 2 -plotindex 1 8.397898E+02 6.833298E+01 result X:1k Y:1.7e+02
+###55: mv_mark -id 2 -plotindex 1 7.695838E+02 6.833298E+01
+mv_mark -id 2 -plotindex 1 7.695838E+02 6.833298E+01 result X:1k Y:1.7e+02
+###56: mv_mark -id 2 -plotindex 1 7.052470E+02 7.342859E+01
+mv_mark -id 2 -plotindex 1 7.052470E+02 7.342859E+01 result X:1k Y:1.7e+02
+###57: mv_mark -id 2 -plotindex 1 6.900214E+02 7.342859E+01
+mv_mark -id 2 -plotindex 1 6.900214E+02 7.342859E+01 result X:1k Y:1.7e+02
+###58: mv_mark -id 2 -plotindex 1 7.367134E+02 7.852421E+01
+mv_mark -id 2 -plotindex 1 7.367134E+02 7.852421E+01 result X:1k Y:1.7e+02
+###59: mv_mark -id 2 -plotindex 1 7.695838E+02 7.852421E+01
+mv_mark -id 2 -plotindex 1 7.695838E+02 7.852421E+01 result X:1k Y:1.7e+02
+###60: mv_mark -id 2 -plotindex 1 8.039208E+02 7.852421E+01
+mv_mark -id 2 -plotindex 1 8.039208E+02 7.852421E+01 result X:1k Y:1.7e+02
+###61: mv_mark -id 2 -plotindex 1 8.397898E+02 7.852421E+01
+mv_mark -id 2 -plotindex 1 8.397898E+02 7.852421E+01 result X:1k Y:1.7e+02
+###62: mv_mark -id 2 -plotindex 1 8.772593E+02 7.852421E+01
+mv_mark -id 2 -plotindex 1 8.772593E+02 7.852421E+01 result X:1k Y:1.7e+02
+###63: mv_mark -id 2 -plotindex 1 8.966163E+02 7.852421E+01
+mv_mark -id 2 -plotindex 1 8.966163E+02 7.852421E+01 result X:1k Y:1.7e+02
+###64: mv_mark -id 2 -plotindex 1 9.784110E+02 8.361982E+01
+mv_mark -id 2 -plotindex 1 9.784110E+02 8.361982E+01 result X:1k Y:1.7e+02
+###65: mv_mark -id 2 -plotindex 1 1.000000E+03 8.361982E+01
+mv_mark -id 2 -plotindex 1 1.000000E+03 8.361982E+01 result X:1.1k Y:1.7e+02
+###66: mv_mark -id 2 -plotindex 1 1.044618E+03 8.361982E+01
+mv_mark -id 2 -plotindex 1 1.044618E+03 8.361982E+01 result X:1.1k Y:1.7e+02
+###67: mv_mark -id 2 -plotindex 1 1.067667E+03 8.871543E+01
+mv_mark -id 2 -plotindex 1 1.067667E+03 8.871543E+01 result X:1.1k Y:1.7e+02
+###68: mv_mark -id 2 -plotindex 1 1.115304E+03 8.871543E+01
+mv_mark -id 2 -plotindex 1 1.115304E+03 8.871543E+01 result X:1.2k Y:1.7e+02
+###69: mv_mark -id 2 -plotindex 1 1.139914E+03 8.871543E+01
+mv_mark -id 2 -plotindex 1 1.139914E+03 8.871543E+01 result X:1.2k Y:1.7e+02
+###70: mv_mark -id 2 -plotindex 1 1.190774E+03 8.871543E+01
+mv_mark -id 2 -plotindex 1 1.190774E+03 8.871543E+01 result X:1.3k Y:1.7e+02
+###71: mv_mark -id 2 -plotindex 1 1.243904E+03 8.871543E+01
+mv_mark -id 2 -plotindex 1 1.243904E+03 8.871543E+01 result X:1.3k Y:1.7e+02
+###72: mv_mark -id 2 -plotindex 1 1.271351E+03 9.126324E+01
+mv_mark -id 2 -plotindex 1 1.271351E+03 9.126324E+01 result X:1.4k Y:1.7e+02
+###73: mv_mark -id 2 -plotindex 1 1.513892E+03 9.126324E+01
+mv_mark -id 2 -plotindex 1 1.513892E+03 9.126324E+01 result X:1.6k Y:1.6e+02
+###74: mv_mark -id 2 -plotindex 1 1.688450E+03 9.126324E+01
+mv_mark -id 2 -plotindex 1 1.688450E+03 9.126324E+01 result X:1.8k Y:1.6e+02
+###75: mv_mark -id 2 -plotindex 1 1.763784E+03 9.126324E+01
+mv_mark -id 2 -plotindex 1 1.763784E+03 9.126324E+01 result X:1.9k Y:1.6e+02
+###76: mv_mark -id 2 -plotindex 1 1.883135E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 1.883135E+03 9.890666E+01 result X:2k Y:1.6e+02
+###77: mv_mark -id 2 -plotindex 1 2.054926E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.054926E+03 9.890666E+01 result X:2.2k Y:1.6e+02
+###78: mv_mark -id 2 -plotindex 1 2.100269E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.100269E+03 9.890666E+01 result X:2.3k Y:1.6e+02
+###79: mv_mark -id 2 -plotindex 1 2.193978E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.193978E+03 9.890666E+01 result X:2.4k Y:1.6e+02
+###80: mv_mark -id 2 -plotindex 1 2.291868E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.291868E+03 9.890666E+01 result X:2.5k Y:1.6e+02
+###81: mv_mark -id 2 -plotindex 1 2.342439E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.342439E+03 9.890666E+01 result X:2.6k Y:1.6e+02
+###82: mv_mark -id 2 -plotindex 1 2.500946E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.500946E+03 9.890666E+01 result X:2.7k Y:1.5e+02
+###83: mv_mark -id 2 -plotindex 1 2.612532E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.612532E+03 9.890666E+01 result X:2.9k Y:1.5e+02
+###84: mv_mark -id 2 -plotindex 1 2.729097E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.729097E+03 9.890666E+01 result X:3k Y:1.5e+02
+###85: mv_mark -id 2 -plotindex 1 2.789315E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.789315E+03 9.890666E+01 result X:3.1k Y:1.5e+02
+###86: mv_mark -id 2 -plotindex 1 2.913768E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.913768E+03 9.890666E+01 result X:3.2k Y:1.5e+02
+###87: mv_mark -id 2 -plotindex 1 3.043773E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 3.043773E+03 9.890666E+01 result X:3.3k Y:1.5e+02
+###88: mv_mark -id 2 -plotindex 1 3.179579E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 3.179579E+03 9.890666E+01 result X:3.5k Y:1.5e+02
+###89: mv_mark -id 2 -plotindex 1 3.321445E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 3.321445E+03 9.890666E+01 result X:3.6k Y:1.5e+02
+###90: mv_mark -id 2 -plotindex 1 3.624447E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 3.624447E+03 9.890666E+01 result X:4k Y:1.5e+02
+###91: mv_mark -id 2 -plotindex 1 3.869704E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 3.869704E+03 9.890666E+01 result X:4.2k Y:1.4e+02
+###92: mv_mark -id 2 -plotindex 1 4.222721E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 4.222721E+03 9.890666E+01 result X:4.6k Y:1.4e+02
+###93: mv_mark -id 2 -plotindex 1 4.508462E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 4.508462E+03 9.890666E+01 result X:4.9k Y:1.4e+02
+###94: mv_mark -id 2 -plotindex 1 4.709619E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 4.709619E+03 9.890666E+01 result X:5.1k Y:1.4e+02
+###95: mv_mark -id 2 -plotindex 1 4.813539E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 4.813539E+03 9.890666E+01 result X:5.2k Y:1.4e+02
+###96: mv_mark -id 2 -plotindex 1 5.028307E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 5.028307E+03 9.890666E+01 result X:5.4k Y:1.4e+02
+###97: mv_mark -id 2 -plotindex 1 5.139259E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 5.139259E+03 9.890666E+01 result X:5.6k Y:1.4e+02
+###98: mv_mark -id 2 -plotindex 1 5.608092E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 5.608092E+03 9.890666E+01 result X:6k Y:1.3e+02
+###99: mv_mark -id 2 -plotindex 1 6.119696E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 6.119696E+03 9.890666E+01 result X:6.6k Y:1.3e+02
+###100: mv_mark -id 2 -plotindex 1 7.287176E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 7.287176E+03 9.890666E+01 result X:7.7k Y:1.3e+02
+###101: mv_mark -id 2 -plotindex 1 7.951955E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 7.951955E+03 9.890666E+01 result X:8.4k Y:1.2e+02
+###102: mv_mark -id 2 -plotindex 1 8.677380E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 8.677380E+03 9.890666E+01 result X:9.1k Y:1.2e+02
+###103: mv_mark -id 2 -plotindex 1 8.868850E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 8.868850E+03 9.890666E+01 result X:9.3k Y:1.2e+02
+###104: mv_mark -id 2 -plotindex 1 9.264557E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 9.264557E+03 9.890666E+01 result X:9.7k Y:1.2e+02
+###105: mv_mark -id 2 -plotindex 1 9.468983E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 9.468983E+03 9.890666E+01 result X:9.9k Y:1.2e+02
+###106: mv_mark -id 2 -plotindex 1 9.891466E+03 9.890666E+01
+mv_mark -id 2 -plotindex 1 9.891466E+03 9.890666E+01 result X:10k Y:1.2e+02
+###107: mv_mark -id 2 -plotindex 1 1.033280E+04 9.890666E+01
+mv_mark -id 2 -plotindex 1 1.033280E+04 9.890666E+01 result X:11k Y:1.2e+02
+###108: mv_mark -id 2 -plotindex 1 1.152422E+04 9.890666E+01
+mv_mark -id 2 -plotindex 1 1.152422E+04 9.890666E+01 result X:12k Y:1.2e+02
+###109: mv_mark -id 2 -plotindex 1 1.372274E+04 9.890666E+01
+mv_mark -id 2 -plotindex 1 1.372274E+04 9.890666E+01 result X:14k Y:1.1e+02
+###110: mv_mark -id 2 -plotindex 1 1.564274E+04 9.890666E+01
+mv_mark -id 2 -plotindex 1 1.564274E+04 9.890666E+01 result X:16k Y:1.1e+02
+###111: mv_mark -id 2 -plotindex 1 1.783138E+04 9.890666E+01
+mv_mark -id 2 -plotindex 1 1.783138E+04 9.890666E+01 result X:18k Y:1.1e+02
+###112: mv_mark -id 2 -plotindex 1 1.945806E+04 9.890666E+01
+mv_mark -id 2 -plotindex 1 1.945806E+04 9.890666E+01 result X:20k Y:1.1e+02
+###113: mv_mark -id 2 -plotindex 1 1.988741E+04 9.890666E+01
+mv_mark -id 2 -plotindex 1 1.988741E+04 9.890666E+01 result X:20k Y:1.1e+02
+###114: mv_mark -id 2 -plotindex 1 2.077474E+04 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.077474E+04 9.890666E+01 result X:21k Y:1.1e+02
+###115: mv_mark -id 2 -plotindex 1 2.123314E+04 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.123314E+04 9.890666E+01 result X:21k Y:1.1e+02
+###116: mv_mark -id 2 -plotindex 1 2.317015E+04 9.890666E+01
+mv_mark -id 2 -plotindex 1 2.317015E+04 9.890666E+01 result X:23k Y:1e+02
+###117: mv_mark -id 2 -plotindex 1 2.528387E+04 9.381105E+01
+mv_mark -id 2 -plotindex 1 2.528387E+04 9.381105E+01 result X:25k Y:1e+02
+###118: mv_mark -id 2 -plotindex 1 2.584177E+04 9.381105E+01
+mv_mark -id 2 -plotindex 1 2.584177E+04 9.381105E+01 result X:26k Y:1e+02
+###119: mv_mark -id 2 -plotindex 1 2.699477E+04 9.381105E+01
+mv_mark -id 2 -plotindex 1 2.699477E+04 9.381105E+01 result X:27k Y:1e+02
+###120: mv_mark -id 2 -plotindex 1 2.584177E+04 9.381105E+01
+mv_mark -id 2 -plotindex 1 2.584177E+04 9.381105E+01 result X:26k Y:1e+02
+###121: mv_mark -id 2 -plotindex 1 2.317015E+04 1.014545E+02
+mv_mark -id 2 -plotindex 1 2.317015E+04 1.014545E+02 result X:23k Y:1e+02
+###122: mv_mark -id 2 -plotindex 1 2.123314E+04 1.141935E+02
+mv_mark -id 2 -plotindex 1 2.123314E+04 1.141935E+02 result X:21k Y:1.1e+02
+###123: mv_mark -id 2 -plotindex 1 1.945806E+04 1.192891E+02
+mv_mark -id 2 -plotindex 1 1.945806E+04 1.192891E+02 result X:19k Y:1.1e+02
+###124: mv_mark -id 2 -plotindex 1 1.783138E+04 1.243847E+02
+mv_mark -id 2 -plotindex 1 1.783138E+04 1.243847E+02 result X:17k Y:1.1e+02
+###125: mv_mark -id 2 -plotindex 1 1.670124E+04 1.294803E+02
+mv_mark -id 2 -plotindex 1 1.670124E+04 1.294803E+02 result X:16k Y:1.1e+02
+###126: mv_mark -id 2 -plotindex 1 1.497461E+04 1.345760E+02
+mv_mark -id 2 -plotindex 1 1.497461E+04 1.345760E+02 result X:14k Y:1.1e+02
+###127: mv_mark -id 2 -plotindex 0 1.203840E+04 -1.719542E+03
+mv_mark -id 2 -plotindex 0 1.203840E+04 -1.719542E+03 result X:24k Y:2.8k
+###128: mv_mark -id 2 -plotindex 0 9.468983E+03 -1.538536E+03
+mv_mark -id 2 -plotindex 0 9.468983E+03 -1.538536E+03 result X:21k Y:3.1k
+###129: mv_mark -id 2 -plotindex 0 7.780281E+03 -1.267027E+03
+mv_mark -id 2 -plotindex 0 7.780281E+03 -1.267027E+03 result X:18k Y:3.5k
+###130: mv_mark -id 2 -plotindex 0 6.677971E+03 -1.267027E+03
+mv_mark -id 2 -plotindex 0 6.677971E+03 -1.267027E+03 result X:18k Y:3.6k
+###131: mv_mark -id 2 -plotindex 0 5.139259E+03 -1.176524E+03
+mv_mark -id 2 -plotindex 0 5.139259E+03 -1.176524E+03 result X:16k Y:4.1k
+###132: mv_mark -id 2 -plotindex 0 4.042361E+03 -8.145118E+02
+mv_mark -id 2 -plotindex 0 4.042361E+03 -8.145118E+02 result X:14k Y:4.6k
+###133: mv_mark -id 2 -plotindex 0 3.321445E+03 -8.145118E+02
+mv_mark -id 2 -plotindex 0 3.321445E+03 -8.145118E+02 result X:13k Y:4.9k
+###134: mv_mark -id 2 -plotindex 0 2.394126E+03 -5.430027E+02
+mv_mark -id 2 -plotindex 0 2.394126E+03 -5.430027E+02 result X:11k Y:5.5k
+###135: mv_mark -id 2 -plotindex 0 1.763784E+03 -9.048748E+01
+mv_mark -id 2 -plotindex 0 1.763784E+03 -9.048748E+01 result X:9k Y:6.3k
+###136: mv_mark -id 2 -plotindex 0 1.616333E+03 -9.048748E+01
+mv_mark -id 2 -plotindex 0 1.616333E+03 -9.048748E+01 result X:8.7k Y:6.4k
+###137: mv_mark -id 2 -plotindex 0 1.547296E+03 -9.048748E+01
+mv_mark -id 2 -plotindex 0 1.547296E+03 -9.048748E+01 result X:8.5k Y:6.5k
+###138: mv_mark -id 2 -plotindex 0 1.481208E+03 -9.048748E+01
+mv_mark -id 2 -plotindex 0 1.481208E+03 -9.048748E+01 result X:8.4k Y:6.6k
+###139: mv_mark -id 2 -plotindex 0 1.449230E+03 -9.048748E+01
+mv_mark -id 2 -plotindex 0 1.449230E+03 -9.048748E+01 result X:8.3k Y:6.6k
+###140: mv_mark -id 2 -plotindex 0 1.417943E+03 -9.048748E+01
+mv_mark -id 2 -plotindex 0 1.417943E+03 -9.048748E+01 result X:8.2k Y:6.7k
+###141: mv_mark -id 2 -plotindex 0 1.357380E+03 9.051860E+01
+mv_mark -id 2 -plotindex 0 1.357380E+03 9.051860E+01 result X:7.8k Y:6.9k
+###142: mv_mark -id 2 -plotindex 0 1.243904E+03 4.525307E+02
+mv_mark -id 2 -plotindex 0 1.243904E+03 4.525307E+02 result X:7.2k Y:7.3k
+###143: mv_mark -id 2 -plotindex 0 1.165066E+03 9.955490E+02
+mv_mark -id 2 -plotindex 0 1.165066E+03 9.955490E+02 result X:6.2k Y:7.9k
+###144: add_cursor -x
+add_cursor -x result: 1
+###145: move_cursor -id 0 168845 361.331
+###146: move_cursor -id 0 180270 361.331
+###147: move_cursor -id 0 196716 361.331
+###148: move_cursor -id 0 224239 361.331
+###149: move_cursor -id 0 261253 356.235
+###150: move_cursor -id 0 304377 356.235
+###151: move_cursor -id 0 324974 356.235
+###152: move_cursor -id 0 354620 351.14
+###153: move_cursor -id 0 386970 351.14
+###154: move_cursor -id 0 441113 346.044
+###155: move_cursor -id 0 513926 346.044
+###156: move_cursor -id 0 560809 340.948
+###157: move_cursor -id 0 598758 340.948
+###158: move_cursor -id 0 653380 340.948
+###159: move_cursor -id 0 667797 340.948
+###160: move_cursor -id 0 728718 340.948
+###161: move_cursor -id 0 795196 335.853
+###162: move_cursor -id 0 967792 330.757
+###163: move_cursor -id 0 1.15242e+06 325.661
+###164: move_cursor -id 0 1.40255e+06 325.661
+###165: move_cursor -id 0 1.63407e+06 318.018
+###166: move_cursor -id 0 1.78314e+06 318.018
+###167: move_cursor -id 0 1.82248e+06 318.018
+###168: move_cursor -id 0 1.9038e+06 318.018
+###169: move_cursor -id 0 2.12331e+06 315.47
+###170: move_cursor -id 0 2.21805e+06 315.47
+###171: move_cursor -id 0 2.52839e+06 315.47
+###172: move_cursor -id 0 2.58418e+06 315.47
+###173: move_cursor -id 0 2.69948e+06 315.47
+###174: move_cursor -id 0 2.88214e+06 310.375
+###175: move_cursor -id 0 3.01074e+06 310.375
+###176: move_cursor -id 0 3.07717e+06 310.375
+###177: move_cursor -id 0 3.21447e+06 310.375
+###178: move_cursor -id 0 3.35789e+06 305.279
+###179: move_cursor -id 0 3.58511e+06 305.279
+###180: move_cursor -id 0 3.91216e+06 305.279
+###181: move_cursor -id 0 4.26906e+06 305.279
+###182: move_cursor -id 0 4.36325e+06 305.279
+###183: move_cursor -id 0 4.55793e+06 305.279
+###184: move_cursor -id 0 4.6585e+06 305.279
+###185: move_cursor -id 0 4.7613e+06 305.279
+###186: move_cursor -id 0 4.97373e+06 305.279
+###187: move_cursor -id 0 5.19565e+06 305.279
+###188: move_cursor -id 0 5.54723e+06 305.279
+###189: move_cursor -id 0 6.75125e+06 300.183
+###190: move_cursor -id 0 9.36621e+06 292.54
+###191: move_cursor -id 0 1.27135e+07 284.897
+###192: move_cursor -id 0 1.61633e+07 284.897
+###193: move_cursor -id 0 1.92469e+07 279.801
+###194: move_cursor -id 0 2.24239e+07 279.801
+###195: move_cursor -id 0 2.61253e+07 274.705
+###196: move_cursor -id 0 2.7291e+07 274.705
+###197: move_cursor -id 0 2.78932e+07 274.705
+###198: move_cursor -id 0 2.91377e+07 274.705
+###199: move_cursor -id 0 3.11094e+07 274.705
+###200: move_cursor -id 0 3.24974e+07 274.705
+###201: move_cursor -id 0 3.32144e+07 274.705
+###202: move_cursor -id 0 3.62445e+07 274.705
+###203: move_cursor -id 0 3.95509e+07 274.705
+###204: move_cursor -id 0 4.3159e+07 274.705
+###205: move_cursor -id 0 5.02831e+07 269.61
+###206: move_cursor -id 0 5.98758e+07 269.61
+###207: move_cursor -id 0 6.97593e+07 264.514
+###208: move_cursor -id 0 7.44797e+07 264.514
+###209: move_cursor -id 0 8.12742e+07 264.514
+###210: move_cursor -id 0 8.49004e+07 264.514
+###211: move_cursor -id 0 8.67738e+07 264.514
+###212: move_cursor -id 0 8.86885e+07 261.966
+###213: move_cursor -id 0 8.86885e+07 259.418
+###214: move_cursor -id 0 9.26456e+07 259.418
+###215: move_cursor -id 0 9.46898e+07 259.418
+###216: move_cursor -id 0 9.89147e+07 259.418
+###217: move_cursor -id 0 1.05608e+08 256.871
+###218: move_cursor -id 0 1.05608e+08 254.323
+###219: move_cursor -id 0 1.1032e+08 254.323
+###220: move_cursor -id 0 1.15242e+08 254.323
+###221: move_cursor -id 0 1.17785e+08 254.323
+###222: move_cursor -id 0 1.15242e+08 254.323
+###223: move_cursor -id 0 1.12754e+08 254.323
+###224: move_cursor -id 0 1.05608e+08 254.323
+###225: move_cursor -id 0 1.01097e+08 254.323
+###226: move_cursor -id 0 9.26456e+07 254.323
+###227: move_cursor -id 0 8.86885e+07 254.323
+###228: move_cursor -id 0 8.67738e+07 251.775
+###229: move_cursor -id 0 8.30675e+07 251.775
+###230: move_cursor -id 0 7.95196e+07 251.775
+###231: move_cursor -id 0 7.78028e+07 251.775
+###232: move_cursor -id 0 7.44797e+07 251.775
+###233: move_cursor -id 0 7.28718e+07 251.775
+###234: move_cursor -id 0 6.67797e+07 251.775
+###235: move_cursor -id 0 6.5338e+07 251.775
+###236: move_cursor -id 0 6.25473e+07 251.775
+###237: move_cursor -id 0 6.1197e+07 251.775
+###238: move_cursor -id 0 5.85831e+07 251.775
+###239: move_cursor -id 0 5.73184e+07 251.775
+###240: move_cursor -id 0 5.60809e+07 249.227
+###241: move_cursor -id 0 5.60809e+07 246.679
+###242: move_cursor -id 0 5.60809e+07 244.132
+###243: move_cursor -id 0 5.73184e+07 244.132
+###244: move_cursor -id 0 5.98758e+07 244.132
+###245: move_cursor -id 0 6.1197e+07 244.132
+###246: cross_probe -file /tmp/plotSy1it6
+cross_probe -file /tmp/plotSy1it6 OK
+###247: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###248: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###249: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###250: open_wave -group Doc_Not_Found,0,_calc_wfs_\(10\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###251: chaxis -plot 4 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###252: open_wave -group Doc_Not_Found,0,_calc_wfs_\(14\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###253: cross_probe -file /tmp/plotwf5ohs
+cross_probe -file /tmp/plotwf5ohs OK
+###254: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###255: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###256: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###257: open_wave -group Doc_Not_Found,0,_calc_wfs_\(25\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###258: chaxis -plot 7 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###259: open_wave -group Doc_Not_Found,0,_calc_wfs_\(29\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###260: cross_probe -file /tmp/plotc3gLPr
+cross_probe -file /tmp/plotc3gLPr OK
+###261: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###262: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###263: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###264: open_wave -group Doc_Not_Found,0,_calc_wfs_\(45\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###265: chaxis -plot 10 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###266: open_wave -group Doc_Not_Found,0,_calc_wfs_\(49\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###267: move_cursor -id 0 5.48702e+07 -194.076
+###268: move_cursor -id 0 5.85831e+07 -194.076
+###269: move_cursor -id 0 5.98758e+07 -196.745
+###270: move_cursor -id 0 6.1197e+07 -196.745
+###271: move_cursor -id 0 6.25473e+07 -196.745
+###272: move_cursor -id 0 6.5338e+07 -196.745
+###273: move_cursor -id 0 6.67797e+07 -196.745
+###274: move_cursor -id 0 6.97593e+07 -196.745
+###275: move_cursor -id 0 7.28718e+07 -196.745
+###276: move_cursor -id 0 7.12985e+07 -194.076
+###277: move_cursor -id 0 6.82532e+07 -194.076
+###278: move_cursor -id 0 6.67797e+07 -191.407
+###279: move_cursor -id 0 6.5338e+07 -191.407
+###280: move_cursor -id 0 6.1197e+07 -188.738
+###281: move_cursor -id 0 5.85831e+07 -183.401
+###282: move_cursor -id 0 5.60809e+07 -178.063
+###283: cross_probe -file /tmp/plot8ohxIC
+cross_probe -file /tmp/plot8ohxIC OK
+###284: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###285: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###286: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###287: open_wave -group Doc_Not_Found,0,_calc_wfs_\(70\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###288: chaxis -plot 13 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###289: open_wave -group Doc_Not_Found,0,_calc_wfs_\(74\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###290: cross_probe -file /tmp/plot81vAQ2
+cross_probe -file /tmp/plot81vAQ2 OK
+###291: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###292: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###293: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###294: open_wave -group Doc_Not_Found,0,_calc_wfs_\(100\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###295: chaxis -plot 16 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###296: open_wave -group Doc_Not_Found,0,_calc_wfs_\(104\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###297: cross_probe -file /tmp/plotIQKv6K
+cross_probe -file /tmp/plotIQKv6K OK
+###298: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###299: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###300: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###301: open_wave -group Doc_Not_Found,0,_calc_wfs_\(135\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###302: chaxis -plot 19 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###303: open_wave -group Doc_Not_Found,0,_calc_wfs_\(139\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###304: cross_probe -file /tmp/plotKPFNDg
+cross_probe -file /tmp/plotKPFNDg OK
+###305: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###306: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###307: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###308: open_wave -group Doc_Not_Found,0,_calc_wfs_\(175\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###309: chaxis -plot 22 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###310: open_wave -group Doc_Not_Found,0,_calc_wfs_\(179\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###311: cross_probe -file /tmp/plotIIbexe
+cross_probe -file /tmp/plotIIbexe OK
+###312: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###313: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###314: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###315: open_wave -group Doc_Not_Found,0,_calc_wfs_\(220\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###316: chaxis -plot 25 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###317: open_wave -group Doc_Not_Found,0,_calc_wfs_\(224\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###318: move_cursor -id 0 5.73184e+07 140.089
+###319: move_cursor -id 0 5.73184e+07 142.821
+###320: move_cursor -id 0 5.85831e+07 142.821
+###321: move_cursor -id 0 5.98758e+07 142.821
+###322: move_cursor -id 0 6.1197e+07 142.821
+###323: move_cursor -id 0 6.25473e+07 142.821
+###324: move_cursor -id 0 6.39274e+07 145.553
+###325: move_cursor -id 0 6.5338e+07 148.286
+###326: cross_probe -file /tmp/plotonXeCx
+cross_probe -file /tmp/plotonXeCx OK
+###327: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###328: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###329: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###330: open_wave -group Doc_Not_Found,0,_calc_wfs_\(270\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###331: chaxis -plot 28 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###332: open_wave -group Doc_Not_Found,0,_calc_wfs_\(274\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###333: cross_probe -file /tmp/plotOI2YdH
+cross_probe -file /tmp/plotOI2YdH OK
+###334: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###335: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###336: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###337: open_wave -group Doc_Not_Found,0,_calc_wfs_\(325\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###338: chaxis -plot 31 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###339: open_wave -group Doc_Not_Found,0,_calc_wfs_\(329\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###340: cross_probe -file /tmp/plotcltdTS
+cross_probe -file /tmp/plotcltdTS OK
+###341: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###342: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###343: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###344: open_wave -group Doc_Not_Found,0,_calc_wfs_\(385\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###345: chaxis -plot 34 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###346: open_wave -group Doc_Not_Found,0,_calc_wfs_\(389\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###347: move_cursor -id 0 5.98758e+07 -60.7523
+###348: move_cursor -id 0 5.98758e+07 -63.5562
+###349: move_cursor -id 0 5.73184e+07 -63.5562
+###350: move_cursor -id 0 5.60809e+07 -63.5562
+###351: move_cursor -id 0 5.36856e+07 -66.3602
+###352: move_cursor -id 0 5.13926e+07 -66.3602
+###353: move_cursor -id 0 5.25266e+07 -66.3602
+###354: move_cursor -id 0 5.60809e+07 -66.3602
+###355: move_cursor -id 0 5.73184e+07 -66.3602
+###356: move_cursor -id 0 5.60809e+07 -66.3602
+###357: move_cursor -id 0 5.48702e+07 -66.3602
+###358: move_cursor -id 0 5.13926e+07 -63.5562
+###359: move_cursor -id 0 5.02831e+07 -63.5562
+###360: move_cursor -id 0 5.25266e+07 -63.5562
+###361: cross_probe -file /tmp/plotYEIKli
+cross_probe -file /tmp/plotYEIKli OK
+###362: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###363: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###364: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###365: open_wave -group Doc_Not_Found,0,_calc_wfs_\(450\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###366: chaxis -plot 37 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###367: open_wave -group Doc_Not_Found,0,_calc_wfs_\(454\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###368: move_cursor -id 0 5.73184e+07 -46.596
+###369: move_cursor -id 0 5.98758e+07 -46.596
+###370: move_cursor -id 0 6.1197e+07 -46.596
+###371: move_cursor -id 0 5.98758e+07 -46.596
+###372: move_cursor -id 0 5.73184e+07 -40.9775
+###373: move_cursor -id 0 5.60809e+07 -40.9775
+###374: move_cursor -id 0 5.48702e+07 -40.9775
+###375: cross_probe -file /tmp/plotQOSG5W
+cross_probe -file /tmp/plotQOSG5W OK
+###376: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###377: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###378: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###379: open_wave -group Doc_Not_Found,0,_calc_wfs_\(520\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###380: chaxis -plot 40 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###381: open_wave -group Doc_Not_Found,0,_calc_wfs_\(524\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###382: cross_probe -file /tmp/plotwiO9ur
+cross_probe -file /tmp/plotwiO9ur OK
+###383: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###384: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###385: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###386: open_wave -group Doc_Not_Found,0,_calc_wfs_\(595\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###387: chaxis -plot 43 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###388: open_wave -group Doc_Not_Found,0,_calc_wfs_\(599\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###389: cross_probe -file /tmp/plotGNAGfS
+cross_probe -file /tmp/plotGNAGfS OK
+###390: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###391: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###392: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###393: open_wave -group Doc_Not_Found,0,_calc_wfs_\(675\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###394: chaxis -plot 46 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###395: open_wave -group Doc_Not_Found,0,_calc_wfs_\(679\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###396: cross_probe -file /tmp/plotgwiP2G
+cross_probe -file /tmp/plotgwiP2G OK
+###397: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###398: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###399: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###400: open_wave -group Doc_Not_Found,0,_calc_wfs_\(760\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###401: chaxis -plot 49 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###402: open_wave -group Doc_Not_Found,0,_calc_wfs_\(764\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###403: cross_probe -file /tmp/plotKoOOWr
+cross_probe -file /tmp/plotKoOOWr OK
+###404: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###405: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###406: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###407: open_wave -group Doc_Not_Found,0,_calc_wfs_\(850\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###408: chaxis -plot 52 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###409: open_wave -group Doc_Not_Found,0,_calc_wfs_\(854\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###410: cross_probe -file /tmp/plotqlXe9O
+cross_probe -file /tmp/plotqlXe9O OK
+###411: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###412: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###413: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###414: open_wave -group Doc_Not_Found,0,_calc_wfs_\(945\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###415: chaxis -plot 55 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###416: open_wave -group Doc_Not_Found,0,_calc_wfs_\(949\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###417: cross_probe -file /tmp/plotWdPPhX
+cross_probe -file /tmp/plotWdPPhX OK
+###418: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###419: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###420: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###421: open_wave -group Doc_Not_Found,0,_calc_wfs_\(1045\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###422: chaxis -plot 58 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###423: open_wave -group Doc_Not_Found,0,_calc_wfs_\(1049\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###424: cross_probe -file /tmp/plot4QdSHM
+cross_probe -file /tmp/plot4QdSHM OK
+###425: reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/undergrad19_exam/wulianliang_exam/simulation/wulianliang_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###426: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###427: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###428: open_wave -group Doc_Not_Found,0,_calc_wfs_\(1150\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###429: chaxis -plot 61 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###430: open_wave -group Doc_Not_Found,0,_calc_wfs_\(1154\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###431: move_cursor -id 0 6.1197e+07 -116.198
+###432: move_cursor -id 0 5.85831e+07 -116.198
+###433: move_cursor -id 0 5.60809e+07 -116.198
+###434: move_cursor -id 0 5.48702e+07 -113.336
+###435: move_cursor -id 0 5.36856e+07 -113.336
+###436: move_cursor -id 0 5.13926e+07 -113.336
+###437: move_cursor -id 0 5.25266e+07 -113.336
+###438: move_cursor -id 0 5.36856e+07 -113.336

@@ -1,0 +1,16 @@
+LC_Check out license DM version 1.0...
+
+                          Empyrean Aether
+            Version 2019.12(optNAT), Build on 01/15/2020
+                        For [linux26-x86_64]
+                      Copyright (c) 2009-2020
+                  Huada Empyrean Software Co.,Ltd.
+                        ALL RIGHTS RESERVED
+
+OpenAccess 2.2 is loaded from /opt/EDA/empyrean/openaccess/lib/linux_rhel50_gcc48x_64/opt
+Load OA TCL shared library (1) successfully.
+
+Load setting file '/opt/EDA/empyrean/tools/aether/data/aether.ini'.
+Load initialize file 'emyLibInit.tcl' for library 'analog'.
+Load '/opt/EDA/empyrean/tools/aether/data/display.drf'.
+Load 'display.drf'.

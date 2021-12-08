@@ -1,0 +1,48 @@
+###1: exit
+exit
+e -file /tmp/plot4ECagY
+cross_probe -file /tmp/plot4ECagY OK
+###2: open_file /home/undergrad19_exam/huyingchun_exam/simulation/huyingchun_exam/final_Question1_schematic_ALPS/final_Question1_schematic_Nominal.sp.sim/final_Question1_schematic_Nominal.sp.ac0
+open_file final_Question1_schematic_Nominal.sp.ac0: OK
+###3: calc 1/abs(&f<0>::s<isub(xi1.iout)>@0#&)
+calc 1/abs("f<0>::s<isub(xi1.iout)>[0]") :3
+###4: add_panel -1
+add_panel :0
+###5: open_wave -group Doc_Not_Found,0,_calc_wfs_\(1\)
+###6: chaxis Log10
+1/abs("f<0>::s<isub(xi1.iout)>[0]")     output_impendence   Nominal datas:
+###7: add_cursor -x
+add_cursor -x result: 1
+###8: move_cursor -id 0 2.29351 61353.4
+###9: move_cursor -id 0 2.28525 61353.4
+###10: move_cursor -id 0 2.26882 61224.1
+###11: move_cursor -id 0 2.2363 61224.1
+###12: move_cursor -id 0 2.21222 61224.1
+###13: move_cursor -id 0 2.18051 61224.1
+###14: move_cursor -id 0 2.12611 60965.5
+###15: move_cursor -id 0 2.07307 60706.9
+###16: move_cursor -id 0 2.01407 60319
+###17: move_cursor -id 0 1.9497 60060.4
+###18: move_cursor -id 0 1.90794 59801.8
+###19: move_cursor -id 0 1.86034 59543.2
+###20: move_cursor -id 0 1.84031 59543.2
+###21: move_cursor -id 0 1.8074 59284.6
+###22: move_cursor -id 0 1.80088 59284.6
+###23: move_cursor -id 0 1.78149 59155.3
+###24: move_cursor -id 0 1.76231 59155.3
+###25: move_cursor -id 0 1.72456 59155.3
+###26: move_cursor -id 0 1.69371 59155.3
+###27: move_cursor -id 0 1.64551 58896.7
+###28: move_cursor -id 0 1.61608 58896.7
+###29: move_cursor -id 0 1.59868 58638.1
+###30: move_cursor -id 0 1.58146 58638.1
+###31: move_cursor -id 0 1.56443 58638.1
+###32: move_cursor -id 0 1.5588 58638.1
+###33: move_cursor -id 0 1.5588 58508.8
+###34: move_cursor -id 0 1.54201 58508.8
+###35: move_cursor -id 0 1.53646 58508.8
+###36: move_cursor -id 0 1.53092 58508.8
+###37: move_cursor -id 0 1.51991 58508.8
+###38: move_cursor -id 0 1.51444 58508.8
+###39: exit
+exit

@@ -1,0 +1,384 @@
+###1: cross_probe -file /tmp/plotssXhkl
+cross_probe -file /tmp/plotssXhkl OK
+###2: open_file /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+open_file final_Question2_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###4: add_panel -1
+add_panel :0
+###5: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+###6: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###7: chaxis -plot 1 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###8: chaxis -plot 1 -axis 0 DB20
+###9: add_meter -DataXY
+add_meter -DataXY, new ID: 0, meter num: 0 -> 1
+###10: set_meter -id 0 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###11: mv_mark -id 2 -plotindex 0 3.548783E+07 1.158699E+00
+mv_mark -id 2 -plotindex 0 3.548783E+07 1.158699E+00 result X:35M Y:-0.30709368db
+###12: mv_mark -id 2 -plotindex 0 3.790499E+07 1.020542E+00
+mv_mark -id 2 -plotindex 0 3.790499E+07 1.020542E+00 result X:37M Y:-1.1057024db
+###13: mv_mark -id 2 -plotindex 0 3.874675E+07 9.577689E-01
+mv_mark -id 2 -plotindex 0 3.874675E+07 9.577689E-01 result X:38M Y:-1.4089449db
+###14: mv_mark -id 2 -plotindex 0 4.048678E+07 7.429862E-01
+mv_mark -id 2 -plotindex 0 4.048678E+07 7.429862E-01 result X:41M Y:-2.2144603db
+###15: mv_meter -id 0 -plotindex 0 7.17E+07 6.66E-02
+mv_meter -id 0 -plotindex 0 7.17E+07 6.66E-02 result X:41M Y:-2.2144603db
+###16: mv_meter -id 0 -plotindex 0 9.54E+07 9.30E-03
+mv_meter -id 0 -plotindex 0 9.54E+07 9.30E-03 result X:41M Y:-2.2144603db
+###17: select_plot 1
+select_plot :1
+###18: mv_meter -id 0 -plotindex 1 1.11E+08 1.55E+02
+mv_meter -id 0 -plotindex 1 1.11E+08 1.55E+02 result X:41M Y:-2.2144603db
+###19: mv_meter -id 0 -plotindex 1 1.16E+08 1.51E+02
+mv_meter -id 0 -plotindex 1 1.16E+08 1.51E+02 result X:41M Y:-2.2144603db
+###20: select_plot 0
+select_plot :1
+###21: mv_meter -id 0 -plotindex 0 1.34E+10 2.32E+04
+mv_meter -id 0 -plotindex 0 1.34E+10 2.32E+04 result X:41M Y:-2.2144603db
+###22: cross_probe -file /tmp/plotCeThqp
+cross_probe -file /tmp/plotCeThqp OK
+###23: reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###24: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###25: open_wave -group Doc_Not_Found,0,_calc_wfs_\(2\)
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###26: chaxis -plot 3 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###27: chaxis -plot 3 -axis 0 DB10
+###28: add_meter -DataXY
+add_meter -DataXY, new ID: 3, meter num: 1 -> 2
+###29: set_meter -id 3 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###30: mv_meter -id 3 -plotindex 2 4.93E+07 1.03E+00
+mv_meter -id 3 -plotindex 2 4.93E+07 1.03E+00 result X:49M Y:0.66365111db
+###31: mv_meter -id 3 -plotindex 2 5.16E+07 8.31E-01
+mv_meter -id 3 -plotindex 2 5.16E+07 8.31E-01 result X:49M Y:0.66365111db
+###32: mv_meter -id 3 -plotindex 2 5.39E+07 7.47E-01
+mv_meter -id 3 -plotindex 2 5.39E+07 7.47E-01 result X:49M Y:0.66365111db
+###33: mv_meter -id 3 -plotindex 2 5.63E+07 6.71E-01
+mv_meter -id 3 -plotindex 2 5.63E+07 6.71E-01 result X:49M Y:0.66365111db
+###34: mv_mark -id 5 -plotindex 2 5.881327E+07 1.416187E+00
+mv_mark -id 5 -plotindex 2 5.881327E+07 1.416187E+00 result X:58M Y:68.178573mdb
+###35: mv_mark -id 5 -plotindex 2 6.145444E+07 1.416187E+00
+mv_mark -id 5 -plotindex 2 6.145444E+07 1.416187E+00 result X:61M Y:-82.309141mdb
+###36: mv_mark -id 5 -plotindex 2 6.145444E+07 1.272928E+00
+mv_mark -id 5 -plotindex 2 6.145444E+07 1.272928E+00 result X:61M Y:-94.873719mdb
+###37: mv_mark -id 5 -plotindex 2 6.281917E+07 1.272928E+00
+mv_mark -id 5 -plotindex 2 6.281917E+07 1.272928E+00 result X:62M Y:-0.17011758db
+###38: mv_mark -id 5 -plotindex 2 6.281917E+07 1.144161E+00
+mv_mark -id 5 -plotindex 2 6.281917E+07 1.144161E+00 result X:62M Y:-0.18268215db
+###39: mv_mark -id 5 -plotindex 2 6.564023E+07 8.308770E-01
+mv_mark -id 5 -plotindex 2 6.564023E+07 8.308770E-01 result X:66M Y:-0.3642796db
+###40: mv_mark -id 5 -plotindex 2 7.011113E+07 6.712792E-01
+mv_mark -id 5 -plotindex 2 7.011113E+07 6.712792E-01 result X:71M Y:-0.60427178db
+###41: mv_mark -id 5 -plotindex 2 7.166810E+07 6.033738E-01
+mv_mark -id 5 -plotindex 2 7.166810E+07 6.033738E-01 result X:72M Y:-0.68294459db
+###42: mv_mark -id 5 -plotindex 2 7.166810E+07 6.712792E-01
+mv_mark -id 5 -plotindex 2 7.166810E+07 6.712792E-01 result X:72M Y:-0.6723777db
+###43: mv_mark -id 5 -plotindex 2 7.011113E+07 6.712792E-01
+mv_mark -id 5 -plotindex 2 7.011113E+07 6.712792E-01 result X:71M Y:-0.60427178db
+###44: mv_mark -id 5 -plotindex 2 6.709792E+07 7.468269E-01
+mv_mark -id 5 -plotindex 2 6.709792E+07 7.468269E-01 result X:68M Y:-0.44813366db
+###45: mv_mark -id 5 -plotindex 2 6.564023E+07 7.468269E-01
+mv_mark -id 5 -plotindex 2 6.564023E+07 7.468269E-01 result X:66M Y:-0.3758496db
+###46: mv_mark -id 5 -plotindex 2 6.281917E+07 7.468269E-01
+mv_mark -id 5 -plotindex 2 6.281917E+07 7.468269E-01 result X:63M Y:-0.23128148db
+###47: mv_mark -id 5 -plotindex 2 6.011935E+07 7.468269E-01
+mv_mark -id 5 -plotindex 2 6.011935E+07 7.468269E-01 result X:61M Y:-82.452755mdb
+###48: mv_mark -id 5 -plotindex 2 5.881327E+07 7.468269E-01
+mv_mark -id 5 -plotindex 2 5.881327E+07 7.468269E-01 result X:59M Y:-7.2088978mdb
+###49: mv_mark -id 5 -plotindex 2 5.269636E+07 7.468269E-01
+mv_mark -id 5 -plotindex 2 5.269636E+07 7.468269E-01 result X:53M Y:0.3740448db
+###50: add_meter -DataXY
+add_meter -DataXY, new ID: 6, meter num: 2 -> 3
+###51: set_meter -id 6 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###52: mv_meter -id 6 -plotindex 2 3.42E+03 4.04E+02
+mv_meter -id 6 -plotindex 2 3.42E+03 4.04E+02 result X:1.5k Y:37.150807db
+###53: mv_meter -id 6 -plotindex 2 4.26E+03 9.07E+01
+mv_meter -id 6 -plotindex 2 4.26E+03 9.07E+01 result X:1.5k Y:37.150807db
+###54: mv_meter -id 6 -plotindex 2 4.45E+03 7.33E+01
+mv_meter -id 6 -plotindex 2 4.45E+03 7.33E+01 result X:1.5k Y:37.150807db
+###55: mv_meter -id 6 -plotindex 2 4.45E+03 1.12E+02
+mv_meter -id 6 -plotindex 2 4.45E+03 1.12E+02 result X:1.5k Y:37.150807db
+###56: mv_meter -id 6 -plotindex 2 4.45E+03 1.25E+02
+mv_meter -id 6 -plotindex 2 4.45E+03 1.25E+02 result X:1.5k Y:37.150807db
+###57: cross_probe -file /tmp/plotcOJtiL
+cross_probe -file /tmp/plotcOJtiL OK
+###58: reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+###59: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###60: add_panel -1
+add_panel :0
+###61: open_wave -group Doc_Not_Found,0,_calc_wfs_\(5\)
+###62: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###63: chaxis -plot 5 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###64: chaxis -plot 5 -axis 0 DB20
+###65: add_meter -DataXY
+add_meter -DataXY, new ID: 9, meter num: 0 -> 1
+###66: set_meter -id 9 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###67: mv_meter -id 9 -plotindex 0 5.88E+07 8.50E-01
+mv_meter -id 9 -plotindex 0 5.88E+07 8.50E-01 result X:54M Y:6.6294387mdb
+###68: mv_meter -id 9 -plotindex 0 6.01E+07 8.50E-01
+mv_meter -id 9 -plotindex 0 6.01E+07 8.50E-01 result X:54M Y:6.6294387mdb
+###69: mv_meter -id 9 -plotindex 0 4.05E+07 1.42E+00
+mv_meter -id 9 -plotindex 0 4.05E+07 1.42E+00 result X:54M Y:6.6294387mdb
+###70: mv_meter -id 9 -plotindex 0 2.14E+07 2.05E+00
+mv_meter -id 9 -plotindex 0 2.14E+07 2.05E+00 result X:54M Y:6.6294387mdb
+###71: mv_meter -id 9 -plotindex 0 1.35E+07 2.37E+00
+mv_meter -id 9 -plotindex 0 1.35E+07 2.37E+00 result X:54M Y:6.6294387mdb
+###72: mv_meter -id 9 -plotindex 0 6.26E+06 3.18E+00
+mv_meter -id 9 -plotindex 0 6.26E+06 3.18E+00 result X:54M Y:6.6294387mdb
+###73: mv_meter -id 9 -plotindex 0 2.78E+06 4.27E+00
+mv_meter -id 9 -plotindex 0 2.78E+06 4.27E+00 result X:54M Y:6.6294387mdb
+###74: mv_meter -id 9 -plotindex 0 1.47E+06 7.67E+00
+mv_meter -id 9 -plotindex 0 1.47E+06 7.67E+00 result X:54M Y:6.6294387mdb
+###75: mv_meter -id 9 -plotindex 0 4.79E+05 1.72E+01
+mv_meter -id 9 -plotindex 0 4.79E+05 1.72E+01 result X:54M Y:6.6294387mdb
+###76: mv_meter -id 9 -plotindex 0 3.76E+05 1.99E+01
+mv_meter -id 9 -plotindex 0 3.76E+05 1.99E+01 result X:54M Y:6.6294387mdb
+###77: mv_meter -id 9 -plotindex 0 3.60E+05 1.99E+01
+mv_meter -id 9 -plotindex 0 3.60E+05 1.99E+01 result X:54M Y:6.6294387mdb
+###78: mv_meter -id 9 -plotindex 0 9.43E+04 6.92E+01
+mv_meter -id 9 -plotindex 0 9.43E+04 6.92E+01 result X:54M Y:6.6294387mdb
+###79: mv_meter -id 9 -plotindex 0 3.42E+03 7.23E+02
+mv_meter -id 9 -plotindex 0 3.42E+03 7.23E+02 result X:54M Y:6.6294387mdb
+###80: mv_meter -id 9 -plotindex 0 9.78E+02 2.02E+03
+mv_meter -id 9 -plotindex 0 9.78E+02 2.02E+03 result X:54M Y:6.6294387mdb
+###81: mv_meter -id 9 -plotindex 0 7.19E+02 2.70E+03
+mv_meter -id 9 -plotindex 0 7.19E+02 2.70E+03 result X:54M Y:6.6294387mdb
+###82: mv_meter -id 9 -plotindex 0 6.44E+02 2.70E+03
+mv_meter -id 9 -plotindex 0 6.44E+02 2.70E+03 result X:54M Y:6.6294387mdb
+###83: mv_meter -id 9 -plotindex 0 4.84E+02 2.91E+03
+mv_meter -id 9 -plotindex 0 4.84E+02 2.91E+03 result X:54M Y:6.6294387mdb
+###84: mv_meter -id 9 -plotindex 0 5.90E+02 5.63E+03
+mv_meter -id 9 -plotindex 0 5.90E+02 5.63E+03 result X:54M Y:6.6294387mdb
+###85: mv_meter -id 9 -plotindex 0 1.02E+03 1.01E+04
+mv_meter -id 9 -plotindex 0 1.02E+03 1.01E+04 result X:54M Y:6.6294387mdb
+###86: mv_meter -id 9 -plotindex 0 1.42E+03 1.36E+04
+mv_meter -id 9 -plotindex 0 1.42E+03 1.36E+04 result X:54M Y:6.6294387mdb
+###87: mv_meter -id 9 -plotindex 0 1.48E+03 1.57E+04
+mv_meter -id 9 -plotindex 0 1.48E+03 1.57E+04 result X:54M Y:6.6294387mdb
+###88: mv_meter -id 9 -plotindex 0 1.48E+03 1.69E+04
+mv_meter -id 9 -plotindex 0 1.48E+03 1.69E+04 result X:54M Y:6.6294387mdb
+###89: mv_meter -id 9 -plotindex 0 1.52E+03 9.41E+03
+mv_meter -id 9 -plotindex 0 1.52E+03 9.41E+03 result X:54M Y:6.6294387mdb
+###90: mv_meter -id 9 -plotindex 0 1.77E+03 3.37E+03
+mv_meter -id 9 -plotindex 0 1.77E+03 3.37E+03 result X:54M Y:6.6294387mdb
+###91: mv_meter -id 9 -plotindex 0 2.06E+03 1.87E+03
+mv_meter -id 9 -plotindex 0 2.06E+03 1.87E+03 result X:54M Y:6.6294387mdb
+###92: mv_meter -id 9 -plotindex 0 2.11E+03 8.37E+02
+mv_meter -id 9 -plotindex 0 2.11E+03 8.37E+02 result X:54M Y:6.6294387mdb
+###93: mv_meter -id 9 -plotindex 0 2.16E+03 3.47E+02
+mv_meter -id 9 -plotindex 0 2.16E+03 3.47E+02 result X:54M Y:6.6294387mdb
+###94: mv_meter -id 9 -plotindex 0 2.93E+03 5.55E+01
+mv_meter -id 9 -plotindex 0 2.93E+03 5.55E+01 result X:54M Y:6.6294387mdb
+###95: mv_meter -id 9 -plotindex 0 4.17E+03 1.28E+01
+mv_meter -id 9 -plotindex 0 4.17E+03 1.28E+01 result X:54M Y:6.6294387mdb
+###96: mv_meter -id 9 -plotindex 0 5.55E+03 3.68E+00
+mv_meter -id 9 -plotindex 0 5.55E+03 3.68E+00 result X:54M Y:6.6294387mdb
+###97: mv_meter -id 9 -plotindex 0 7.88E+03 7.90E-01
+mv_meter -id 9 -plotindex 0 7.88E+03 7.90E-01 result X:54M Y:6.6294387mdb
+###98: mv_meter -id 9 -plotindex 0 8.42E+03 5.89E-01
+mv_meter -id 9 -plotindex 0 8.42E+03 5.89E-01 result X:54M Y:6.6294387mdb
+###99: mv_meter -id 9 -plotindex 0 8.61E+03 7.34E-01
+mv_meter -id 9 -plotindex 0 8.61E+03 7.34E-01 result X:54M Y:6.6294387mdb
+###100: add_meter -DataXY
+add_meter -DataXY, new ID: 12, meter num: 1 -> 2
+###101: set_meter -id 12 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###102: mv_meter -id 12 -plotindex 0 4.86E+03 4.65E+02
+mv_meter -id 12 -plotindex 0 4.86E+03 4.65E+02 result X:2k Y:75.505785db
+###103: mv_meter -id 12 -plotindex 0 6.33E+03 2.41E+02
+mv_meter -id 12 -plotindex 0 6.33E+03 2.41E+02 result X:2k Y:75.505785db
+###104: mv_meter -id 12 -plotindex 0 6.76E+03 1.79E+02
+mv_meter -id 12 -plotindex 0 6.76E+03 1.79E+02 result X:2k Y:75.505785db
+###105: mv_meter -id 12 -plotindex 0 6.91E+03 1.67E+02
+mv_meter -id 12 -plotindex 0 6.91E+03 1.67E+02 result X:2k Y:75.505785db
+###106: mv_meter -id 12 -plotindex 0 6.91E+03 2.08E+02
+mv_meter -id 12 -plotindex 0 6.91E+03 2.08E+02 result X:2k Y:75.505785db
+###107: mv_meter -id 12 -plotindex 0 6.91E+03 2.41E+02
+mv_meter -id 12 -plotindex 0 6.91E+03 2.41E+02 result X:2k Y:75.505785db
+###108: mv_mark -id 14 -plotindex 0 2.019512E+03 7.548967E+03
+mv_mark -id 14 -plotindex 0 2.019512E+03 7.548967E+03 result X:2k Y:75.49788db
+###109: mv_mark -id 14 -plotindex 0 1.770161E+03 7.548967E+03
+mv_mark -id 14 -plotindex 0 1.770161E+03 7.548967E+03 result X:1.8k Y:75.543264db
+###110: mv_mark -id 14 -plotindex 0 1.731704E+03 7.548967E+03
+mv_mark -id 14 -plotindex 0 1.731704E+03 7.548967E+03 result X:1.7k Y:75.549262db
+###111: mv_mark -id 14 -plotindex 0 1.586054E+03 7.015297E+03
+mv_mark -id 14 -plotindex 0 1.586054E+03 7.015297E+03 result X:1.6k Y:75.573199db
+###112: mv_mark -id 14 -plotindex 0 1.551597E+03 7.015297E+03
+mv_mark -id 14 -plotindex 0 1.551597E+03 7.015297E+03 result X:1.6k Y:75.577992db
+###113: mv_mark -id 14 -plotindex 0 1.517889E+03 7.015297E+03
+mv_mark -id 14 -plotindex 0 1.517889E+03 7.015297E+03 result X:1.5k Y:75.582787db
+###114: mv_mark -id 14 -plotindex 0 1.484913E+03 7.548967E+03
+mv_mark -id 14 -plotindex 0 1.484913E+03 7.548967E+03 result X:1.5k Y:75.587619db
+###115: mv_mark -id 14 -plotindex 0 1.731704E+03 8.123234E+03
+mv_mark -id 14 -plotindex 0 1.731704E+03 8.123234E+03 result X:1.7k Y:75.549319db
+###116: mv_mark -id 14 -plotindex 0 1.770161E+03 8.123234E+03
+mv_mark -id 14 -plotindex 0 1.770161E+03 8.123234E+03 result X:1.8k Y:75.54332db
+###117: mv_mark -id 14 -plotindex 0 1.849655E+03 8.123234E+03
+mv_mark -id 14 -plotindex 0 1.849655E+03 8.123234E+03 result X:1.8k Y:75.528783db
+###118: cross_probe -file /tmp/ploteSh4As
+cross_probe -file /tmp/ploteSh4As OK
+###119: reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+###120: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###121: add_panel -1
+add_panel :0
+###122: open_wave -group Doc_Not_Found,0,_calc_wfs_\(9\)
+###123: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###124: chaxis -plot 7 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###125: chaxis -plot 7 -axis 0 DB20
+###126: add_meter -DataXY
+add_meter -DataXY, new ID: 15, meter num: 0 -> 1
+###127: set_meter -id 15 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###128: cross_probe -file /tmp/plotGY4e6H
+cross_probe -file /tmp/plotGY4e6H OK
+###129: reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+###130: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###131: add_panel -1
+add_panel :0
+###132: open_wave -group Doc_Not_Found,0,_calc_wfs_\(14\)
+###133: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###134: chaxis -plot 9 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###135: chaxis -plot 9 -axis 0 DB20
+###136: add_meter -DataXY
+add_meter -DataXY, new ID: 18, meter num: 0 -> 1
+###137: set_meter -id 18 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###138: zoom_in 8 1000 1e+09 0.841792 1.77423
+yLeft range: 0.841792~1.77423
+Panel uniform X-axis range: 1000~ 1e+09
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###139: add_meter -DataXY
+add_meter -DataXY, new ID: 21, meter num: 1 -> 2
+###140: set_meter -id 21 ValueType=0++RangeTarget=0++UserMax=0++UserMin=0++LockedLevel=0
+###141: mv_mark -id 23 -plotindex 0 5.858312E+07 1.026958E+00
+mv_mark -id 23 -plotindex 0 5.858312E+07 1.026958E+00 result X:56M Y:0.21958522db
+###142: mv_mark -id 23 -plotindex 0 6.119696E+07 1.019135E+00
+mv_mark -id 23 -plotindex 0 6.119696E+07 1.019135E+00 result X:56M Y:0.14442573db
+###143: mv_mark -id 23 -plotindex 0 6.392742E+07 1.007512E+00
+mv_mark -id 23 -plotindex 0 6.392742E+07 1.007512E+00 result X:57M Y:36.786272mdb
+###144: mv_mark -id 23 -plotindex 0 6.392742E+07 1.003667E+00
+mv_mark -id 23 -plotindex 0 6.392742E+07 1.003667E+00 result X:57M Y:4.4482545mdb
+###145: mv_mark -id 23 -plotindex 0 6.392742E+07 1.007512E+00
+mv_mark -id 23 -plotindex 0 6.392742E+07 1.007512E+00 result X:57M Y:36.786272mdb
+###146: cross_probe -file /tmp/plotCTJKtZ
+cross_probe -file /tmp/plotCTJKtZ OK
+###147: reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+###148: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###149: add_panel -1
+add_panel :0
+###150: open_wave -group Doc_Not_Found,0,_calc_wfs_\(20\)
+###151: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###152: chaxis -plot 11 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###153: chaxis -plot 11 -axis 0 DB20
+###154: add_cursor -x
+add_cursor -x result: 1
+###155: move_cursor -id 0 2.38989e+07 248.371
+###156: move_cursor -id 0 4.9336e+07 248.371
+###157: move_cursor -id 0 7.48865e+07 246.675
+###158: move_cursor -id 0 8.54353e+07 246.675
+###159: move_cursor -id 0 9.12545e+07 246.675
+###160: move_cursor -id 0 9.96346e+07 244.979
+###161: move_cursor -id 0 1.04109e+08 244.979
+###162: move_cursor -id 0 1.13669e+08 244.979
+###163: move_cursor -id 0 1.16194e+08 244.979
+###164: move_cursor -id 0 1.112e+08 244.979
+###165: move_cursor -id 0 1.01847e+08 244.979
+###166: move_cursor -id 0 9.96346e+07 244.979
+###167: move_cursor -id 0 9.3281e+07 244.979
+###168: move_cursor -id 0 9.12545e+07 244.979
+###169: move_cursor -id 0 8.9272e+07 244.979
+###170: move_cursor -id 0 7.99872e+07 244.979
+###171: move_cursor -id 0 7.82495e+07 244.979
+###172: move_cursor -id 0 7.65496e+07 244.979
+###173: move_cursor -id 0 7.48865e+07 244.979
+###174: move_cursor -id 0 7.32597e+07 244.979
+###175: move_cursor -id 0 7.01111e+07 244.979
+###176: move_cursor -id 0 6.70979e+07 244.979
+###177: move_cursor -id 0 6.56402e+07 244.979
+###178: move_cursor -id 0 6.28192e+07 244.979
+###179: move_cursor -id 0 6.14544e+07 244.979
+###180: cross_probe -file /tmp/plotcRXQmA
+cross_probe -file /tmp/plotcRXQmA OK
+###181: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###182: add_panel -1
+add_panel :0
+###183: calc 2*log10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*log10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :syntax error
+###184: open_wave -group Doc_Not_Found,0,_calc_wfs_\(21\)
+###185: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###186: chaxis -plot 13 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###187: cross_probe -file /tmp/ploti9TNtN
+cross_probe -file /tmp/ploti9TNtN OK
+###188: reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+reload /home/admin1/simulation/admin1/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0 : 1
+###189: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###190: add_panel -1
+add_panel :0
+###191: calc 2*log10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*log10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :syntax error
+###192: open_wave -group Doc_Not_Found,0,_calc_wfs_\(29\)
+###193: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###194: chaxis -plot 15 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###195: cross_probe -file /tmp/plotQUgu8V
+cross_probe -file /tmp/plotQUgu8V OK
+###196: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###197: add_panel -1
+add_panel :0
+###198: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###199: open_wave -group Doc_Not_Found,0,_calc_wfs_\(30\)
+###200: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###201: chaxis -plot 17 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###202: open_wave -group Doc_Not_Found,0,_calc_wfs_\(34\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###203: chaxis -plot 17 -axis 0 DB20
+###204: set_zoom_type -y on
+set_zoom_type -y :0
+###205: add_cursor -x
+add_cursor -x result: 1
+###206: move_cursor -id 1 2746.58 -286.406
+###207: move_cursor -id 1 5308.36 -286.406
+###208: move_cursor -id 1 9605.32 -288.997
+###209: move_cursor -id 1 24699.4 -288.997
+###210: move_cursor -id 1 46699.9 -286.406
+###211: move_cursor -id 1 63512.9 -286.406
+###212: move_cursor -id 1 217292 -299.361
+###213: move_cursor -id 1 3.6946e+06 -307.135
+###214: move_cursor -id 1 5.608e+06 -307.135
+###215: move_cursor -id 1 6.12299e+06 -309.726
+###216: move_cursor -id 1 1.29208e+07 -320.09
+###217: move_cursor -id 1 1.64519e+07 -327.864
+###218: move_cursor -id 1 1.87694e+07 -333.046
+###219: move_cursor -id 1 1.96123e+07 -333.046
+###220: move_cursor -id 1 2.0493e+07 -333.046
+###221: exit
+exit

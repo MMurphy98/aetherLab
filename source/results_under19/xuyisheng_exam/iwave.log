@@ -1,0 +1,21 @@
+###1: exit
+exit
+e -file /tmp/plotypL7B1
+cross_probe -file /tmp/plotypL7B1 OK
+###2: open_file /home/undergrad19_exam/xuyisheng_exam/simulation/xuyisheng_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+open_file final_Question2_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :121
+###4: add_panel -1
+add_panel :0
+###5: calc 2*db10(abs(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))
+calc 2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")) :121
+###6: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+###7: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###8: chaxis -plot 1 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###9: open_wave -group Doc_Not_Found,0,_calc_wfs_\(4\)
+2*db10(abs("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))     Loop_Gain_dB   Nominal datas:
+###10: exit
+exit

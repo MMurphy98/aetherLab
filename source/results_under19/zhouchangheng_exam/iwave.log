@@ -1,0 +1,33 @@
+###1: exit
+exit
+e -file /tmp/plotysmTeZ
+cross_probe -file /tmp/plotysmTeZ OK
+###2: open_file /home/undergrad19_exam/zhouchangheng_exam/simulation/zhouchangheng_exam/final_Question2_schematic_ALPS/final_Question2_schematic_Nominal.sp.sim/final_Question2_schematic_Nominal.sp.ac0
+open_file final_Question2_schematic_Nominal.sp.ac0: OK
+###3: calc &f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&
+calc "f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]" :181
+###4: add_panel -1
+add_panel :0
+###5: open_wave -group Doc_Not_Found,0,_calc_wfs_\(0\)
+###6: chaxis Log10
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###7: chaxis -plot 1 -axis 0 Linear
+"f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"     Loop_Gain   Nominal datas:
+###8: select_plot 0
+select_plot :1
+###9: select_plot 1
+select_plot :1
+###10: select_plot 0
+select_plot :1
+###11: select_plot 1
+select_plot :1
+###12: select_plot 0
+select_plot :1
+###13: select_plot 1
+select_plot :1
+###14: select_plot 0
+select_plot :1
+###15: move_cursor -id 0 nan 1
+###16: move_cursor -id 1 5.5e+07 nan
+###17: exit
+exit
