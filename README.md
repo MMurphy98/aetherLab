@@ -34,17 +34,17 @@
 ### Q1 - Current Mirror
 
 - Please design a current mirror to satisfy the following requirements:
-    - Output current is 200 uA (error small than +/- 4 uA)
-    - Bandwidth is larger than 100 MHz
-    - DC output resistance is larger than 50k ohm
+    - Output current is **200 uA** (error small than +/- **4 uA**)
+    - Bandwidth is larger than **100 MHz**
+    - DC output resistance is larger than **50k ohm**
 - **NOTE1:** you are not expected to edit the testbench, and could use the MDE setup directly.
 - **NOTE2:** you are allowed to use maximum one ideal voltage source in your design.
 
 ### Q2 - Miller OTA
 - Modify the dimension of the transistors inside Miller-OTA 'I0' to satisfy the following requirements:
-    - PM larger than 60 degrees
-    - the DC gain is larger than 60 dB
-    - the GBW is larger than 50 MHz
-    - Power consumption is less than 5 mW.
-    - Total output noise is less than 50 uV.
+    - PM larger than **60 degrees**
+    - the DC gain is larger than **60 dB**
+    - the GBW is larger than **50 MHz**
+    - Power consumption is less than **5 mW**
+    - Total output noise is less than **50 uV**
 - **NOTE**: You are not expected to edit the testbench, and you could use the MDE setup directly.
