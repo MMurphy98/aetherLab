@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="127a5734-9d64-43d8-bc55-a7bde1c85874" name="Changes" comment="add Final schematic" />
+    <list default="true" id="127a5734-9d64-43d8-bc55-a7bde1c85874" name="Changes" comment="add Final schematic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1zlCawym7gBUApEdiTcPZM9nbYE" />
   <component name="ProjectViewState">
@@ -71,6 +82,7 @@
       <workItem from="1634722816167" duration="2247000" />
       <workItem from="1637839216076" duration="1000" />
       <workItem from="1638944469693" duration="1322000" />
+      <workItem from="1638947687044" duration="797000" />
     </task>
     <task id="LOCAL-00001" summary="Add the schematics of all students.">
       <created>1634714170011</created>
@@ -117,13 +129,28 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="TA202101" />
+                        <option value="TA2021-Final" />
                       </list>
                     </value>
                   </entry>
                 </map>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="TA2021-Final" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
