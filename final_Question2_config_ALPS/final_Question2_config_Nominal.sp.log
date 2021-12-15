@@ -1,0 +1,2383 @@
+
+                         Empyrean ALPS SPICE Simulator                          
+               Version 2019.12.test, Build on 20:03:24 06/05/2020               
+                              For [linux26-x86_64]                              
+                            Copyright (c) 2009-2020                             
+                        Huada Empyrean Software Co.,Ltd                         
+                              ALL RIGHTS RESERVED                               
+
+
+Note: User       = wangyining
+      Host       = edu-srv
+      PID        = 290208
+      CPU        = Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz
+      Processors = 64
+      RealCores  = 32
+      Loadavg    = 1.77%(1 minutes)  1.70%(5 minutes)  1.70%(15 minutes)
+      Memory     = 0.79/315.06 GB(Available/Physical)
+      Exe        = /opt/EDA/empyrean_202005/tools/alps/platform/linux26-x86_64/bin/alps
+      Pwd        = /home/undergrad18/wangyining/Under19/final/Simulation/final_Question2_config_ALPS
+      Cmd        = -mde /home/undergrad18/wangyining/Under19/final/Simulation/final_Question2_config_ALPS/final_Question2_config_Nominal.sp 
+
+Note: Input netlist `/home/undergrad18/wangyining/Under19/final/Simulation/final_Question2_config_ALPS/final_Question2_config_Nominal.sp'.
+
+Note: Output directory `final_Question2_config_Nominal.sp.sim'.
+
+
+================================================================================
+2021-12-08 17:10 : Parser Started
+================================================================================
+
+Note: Simulation starts at 17:10:29, Wed Dec 08, 2021.
+
+Note: Start to load input file, memory usage 0 KB.
+Note: Total thread number = 1.
+
+Note: Using license file `59001@edu-srv'.
+Checkout 1 ALPS_AS_EDU.
+
+Note: Using license file `59001@edu-srv'.
+Checkout 1 ALPS_SMS.
+
+
+================================================================================
+2021-12-08 17:10 : Parser Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 93000 KB
+================================================================================
+
+
+================================================================================
+2021-12-08 17:10 : DB Elaboration Started
+================================================================================
+
+############################## circuit statistics ##############################
+vsource   : 3          isource   : 1          resistor  : 2          
+capacitor : 2          mosfet    : 8          
+
+############################ model type statistics #############################
+Category        Total Quantity  Model Type                    Quantity        
+vsource         3               vsourceDc                     3               
+isource         1               isourceDc                     1               
+resistor        2               resistorLevel0                2               
+capacitor       2               capacitorLevel1               2               
+mosfet          8               mosfetLevel49                 8               
+
+
+############################ model card statistics #############################
+Category        Total Quantity  Model Name                    Quantity        
+mosfet          8               n18                           3               
+                                p18                           5               
+
+
+================================================================================
+2021-12-08 17:10 : DB Elaboration Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 129292 KB
+================================================================================
+
+
+================================================================================
+2021-12-08 17:10 : DB Partition Started
+================================================================================
+
+########################## matching output summary #############################
+Type                quantity  
+voltage             2         
+
+
+================================================================================
+2021-12-08 17:10 : DB Partition Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 129616 KB
+================================================================================
+
+
+================================================================================
+2021-12-08 17:10 : Simulation Engine Started
+================================================================================
+
+Note: Start to setup equation, memory usage 129624 KB.
+Note: Threads number can be reset in file '/home/undergrad18/wangyining/Under19/final/Simulation/final_Question2_config_ALPS/final_Question2_config_Nominal.sp.sim/290208.thread'
+
+########################### global option statistics ###########################
+reltol    = 0.001      absi      = 1e-09      absv      = 5e-06      
+itl1      = 200        itl4      = 8          gmin      = 1e-12      
+runlvl    = 3          rabsshort = 0          scale     = 1          
+scalm     = 1          
+
+######################## user specified option statistics ######################
+reltol    = 0.001      absv      = 5e-06      absi      = 1e-09      
+scale     = 1          scalm     = 1          search    = /home/undergrad18/wangyining/Under19
+tnom      = 27         gmin      = 1e-12      itl1      = 200        
+itl4      = 8          post      = 1          posttop   = 0          
+postlvl   = 0          probe     = 1          ingold    = 1          
+
+
+Note: op iterated 19 steps.
+
+###################### operating point information begin #######################
+format: all
+   time         = 0.0000         temp         = 27.0000        tnom         = 27.0000     
+
+
+
+#### vsourceDc:
+hierarchy                                                           
+device           0:vv0            0:vv2            0:vv1            
+i                -1.5383e-03      -1.7059e-24      0.0000e+00       
+v                1.8000           0.0000e+00       0.9000           
+pwr              2.7690e-03       0.0000e+00       -0.0000e+00      
+
+
+
+#### isourceDc:
+hierarchy                         
+device           0:ii1            
+v                1.1682           
+i                1.0000e-04       
+pwr              -1.1682e-04      
+
+
+
+#### resistorLevel0:
+hierarchy        xi0              xi0              
+device           1:rr0            1:rr1            
+i                -1.0000e-04      0.0000e+00       
+pwr              -0.0000e+00      0.0000e+00       
+res              0.0000e+00       150.0000         
+v                0.0000e+00       0.0000e+00       
+
+
+
+#### capacitorLevel1:
+hierarchy                         xi0              
+device           0:cc0            1:cc0            
+cap              1.0000e-11       3.0000e-12       
+v                0.9001           -0.3998          
+
+
+
+#### mosfetLevel49:
+hierarchy        xi0              xi0              xi0              xi0              xi0              
+device           1:mpm0           1:mpm2           1:mpm3           1:mpm1           1:mnm1           
+region           Saturati         Saturati         Saturati         Saturati         Saturati         
+id               -1.5228e-04      -1.0000e-04      -3.0470e-04      -1.5242e-04      1.5242e-04       
+ibs              6.7990e-20       9.9828e-20       6.2627e-20       6.8053e-20       -8.2437e-19      
+ibd              9.9832e-16       1.8011e-17       2.9312e-17       6.9108e-16       -9.7495e-17      
+vgs              -0.5237          -0.6318          -0.6318          -0.5238          0.4889           
+vds              -0.9349          -0.6318          -0.3762          -0.9236          0.5003           
+vbs              0.0000e+00       0.0000e+00       0.0000e+00       0.0000e+00       0.0000e+00       
+vth              -0.4343          -0.4437          -0.4436          -0.4343          0.4227           
+vdsat            -0.1124          -0.1878          -0.1877          -0.1125          9.8698e-02       
+vod              -8.9411e-02      -0.1881          -0.1882          -8.9506e-02      6.6184e-02       
+gm               2.3291e-03       9.3400e-04       2.8388e-03       2.3304e-03       2.5229e-03       
+gds              7.1249e-06       5.7986e-06       2.9294e-05       7.1428e-06       1.2433e-05       
+gmb              7.3990e-04       2.9747e-04       9.0270e-04       7.4029e-04       7.5503e-04       
+cdtot            2.7976e-13       5.0962e-14       1.3535e-13       2.8022e-13       9.2751e-14       
+cgtot            1.2866e-12       1.5019e-13       4.6626e-13       1.2869e-12       3.6622e-13       
+cstot            1.4559e-12       1.8651e-13       5.4606e-13       1.4563e-12       4.2155e-13       
+cbtot            8.2080e-13       1.1878e-13       3.1345e-13       8.2127e-13       2.6794e-13       
+cgs              1.0189e-12       1.2376e-13       3.8348e-13       1.0192e-12       2.8395e-13       
+cgd              1.1750e-13       1.6394e-14       5.1367e-14       1.1750e-13       2.9629e-14       
+i1               -1.5228e-04      -1.0000e-04      -3.0470e-04      -1.5242e-04      1.5242e-04       
+i2               -0.0000e+00      -0.0000e+00      -0.0000e+00      -0.0000e+00      -0.0000e+00      
+i3               1.5228e-04       1.0000e-04       3.0470e-04       1.5242e-04       -1.5242e-04      
+i4               9.3500e-12       6.3182e-13       3.7617e-12       9.2364e-12       -5.0035e-13      
+
+hierarchy        xi0              xi0              xi0              
+device           1:mpm4           1:mnm2           1:mnm0           
+region           Saturati         Saturati         Saturati         
+id               -1.1336e-03      1.1336e-03       1.5228e-04       
+ibs              7.7209e-19       -1.3505e-18      -8.2361e-19      
+ibd              1.9566e-16       -3.1545e-10      -9.0505e-17      
+vgs              -0.6318          0.5003           0.4889           
+vds              -0.8999          0.9001           0.4889           
+vbs              0.0000e+00       0.0000e+00       0.0000e+00       
+vth              -0.4437          0.4664           0.4227           
+vdsat            -0.1878          8.2743e-02       9.8697e-02       
+vod              -0.1881          3.3852e-02       6.6183e-02       
+gm               1.0573e-02       1.9791e-02       2.5208e-03       
+gds              5.5358e-05       2.5174e-04       1.2643e-05       
+gmb              3.3684e-03       5.4597e-03       7.5441e-04       
+cdtot            4.3790e-13       2.4160e-13       9.2999e-14       
+cgtot            1.6786e-12       5.4301e-13       3.6624e-13       
+cstot            1.9722e-12       6.1620e-13       4.2154e-13       
+cbtot            1.0833e-12       4.9376e-13       2.6818e-13       
+cgs              1.3833e-12       3.6058e-13       2.8396e-13       
+cgd              1.8296e-13       1.0205e-13       2.9635e-14       
+i1               -1.1336e-03      1.1336e-03       1.5228e-04       
+i2               -0.0000e+00      -0.0000e+00      -0.0000e+00      
+i3               1.1336e-03       -1.1336e-03      -1.5228e-04      
+i4               8.9992e-12       -3.2446e-10      -4.8902e-13      
+
+
+####################### operating point information end ########################
+
+
+2021-12-08 17:10 : AC OP Started
+
+Note: op iterated 19 steps.
+
+###################### operating point information begin #######################
+format: all
+   time         = 0.0000         temp         = 27.0000        tnom         = 27.0000     
+
+
+
+#### vsourceDc:
+hierarchy                                                           
+device           0:vv0            0:vv2            0:vv1            
+i                -1.5383e-03      -1.7059e-24      0.0000e+00       
+v                1.8000           0.0000e+00       0.9000           
+pwr              2.7690e-03       0.0000e+00       -0.0000e+00      
+
+
+
+#### isourceDc:
+hierarchy                         
+device           0:ii1            
+v                1.1682           
+i                1.0000e-04       
+pwr              -1.1682e-04      
+
+
+
+#### resistorLevel0:
+hierarchy        xi0              xi0              
+device           1:rr0            1:rr1            
+i                -1.0000e-04      0.0000e+00       
+pwr              -0.0000e+00      0.0000e+00       
+res              0.0000e+00       150.0000         
+v                0.0000e+00       0.0000e+00       
+
+
+
+#### capacitorLevel1:
+hierarchy                         xi0              
+device           0:cc0            1:cc0            
+cap              1.0000e-11       3.0000e-12       
+v                0.9001           -0.3998          
+
+
+
+#### mosfetLevel49:
+hierarchy        xi0              xi0              xi0              xi0              xi0              
+device           1:mpm0           1:mpm2           1:mpm3           1:mpm1           1:mnm1           
+region           Saturati         Saturati         Saturati         Saturati         Saturati         
+id               -1.5228e-04      -1.0000e-04      -3.0470e-04      -1.5242e-04      1.5242e-04       
+ibs              6.7990e-20       9.9828e-20       6.2627e-20       6.8053e-20       -8.2437e-19      
+ibd              9.9832e-16       1.8011e-17       2.9312e-17       6.9108e-16       -9.7495e-17      
+vgs              -0.5237          -0.6318          -0.6318          -0.5238          0.4889           
+vds              -0.9349          -0.6318          -0.3762          -0.9236          0.5003           
+vbs              0.0000e+00       0.0000e+00       0.0000e+00       0.0000e+00       0.0000e+00       
+vth              -0.4343          -0.4437          -0.4436          -0.4343          0.4227           
+vdsat            -0.1124          -0.1878          -0.1877          -0.1125          9.8698e-02       
+vod              -8.9411e-02      -0.1881          -0.1882          -8.9506e-02      6.6184e-02       
+gm               2.3291e-03       9.3400e-04       2.8388e-03       2.3304e-03       2.5229e-03       
+gds              7.1249e-06       5.7986e-06       2.9294e-05       7.1428e-06       1.2433e-05       
+gmb              7.3990e-04       2.9747e-04       9.0270e-04       7.4029e-04       7.5503e-04       
+cdtot            2.7976e-13       5.0962e-14       1.3535e-13       2.8022e-13       9.2751e-14       
+cgtot            1.2866e-12       1.5019e-13       4.6626e-13       1.2869e-12       3.6622e-13       
+cstot            1.4559e-12       1.8651e-13       5.4606e-13       1.4563e-12       4.2155e-13       
+cbtot            8.2080e-13       1.1878e-13       3.1345e-13       8.2127e-13       2.6794e-13       
+cgs              1.0189e-12       1.2376e-13       3.8348e-13       1.0192e-12       2.8395e-13       
+cgd              1.1750e-13       1.6394e-14       5.1367e-14       1.1750e-13       2.9629e-14       
+i1               -1.5228e-04      -1.0000e-04      -3.0470e-04      -1.5242e-04      1.5242e-04       
+i2               -0.0000e+00      -0.0000e+00      -0.0000e+00      -0.0000e+00      -0.0000e+00      
+i3               1.5228e-04       1.0000e-04       3.0470e-04       1.5242e-04       -1.5242e-04      
+i4               9.3500e-12       6.3182e-13       3.7617e-12       9.2364e-12       -5.0035e-13      
+
+hierarchy        xi0              xi0              xi0              
+device           1:mpm4           1:mnm2           1:mnm0           
+region           Saturati         Saturati         Saturati         
+id               -1.1336e-03      1.1336e-03       1.5228e-04       
+ibs              7.7209e-19       -1.3505e-18      -8.2361e-19      
+ibd              1.9566e-16       -3.1545e-10      -9.0505e-17      
+vgs              -0.6318          0.5003           0.4889           
+vds              -0.8999          0.9001           0.4889           
+vbs              0.0000e+00       0.0000e+00       0.0000e+00       
+vth              -0.4437          0.4664           0.4227           
+vdsat            -0.1878          8.2743e-02       9.8697e-02       
+vod              -0.1881          3.3852e-02       6.6183e-02       
+gm               1.0573e-02       1.9791e-02       2.5208e-03       
+gds              5.5358e-05       2.5174e-04       1.2643e-05       
+gmb              3.3684e-03       5.4597e-03       7.5441e-04       
+cdtot            4.3790e-13       2.4160e-13       9.2999e-14       
+cgtot            1.6786e-12       5.4301e-13       3.6624e-13       
+cstot            1.9722e-12       6.1620e-13       4.2154e-13       
+cbtot            1.0833e-12       4.9376e-13       2.6818e-13       
+cgs              1.3833e-12       3.6058e-13       2.8396e-13       
+cgd              1.8296e-13       1.0205e-13       2.9635e-14       
+i1               -1.1336e-03      1.1336e-03       1.5228e-04       
+i2               -0.0000e+00      -0.0000e+00      -0.0000e+00      
+i3               1.1336e-03       -1.1336e-03      -1.5228e-04      
+i4               8.9992e-12       -3.2446e-10      -4.8902e-13      
+
+
+####################### operating point information end ########################
+
+
+2021-12-08 17:10 : AC OP Completed
+
+Note: Noise analysis 1.0000hz -> 10.0000ghz at temperature = 27C.
+
+########## noise analysis result at frequency 1.0000 ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0803e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              427.8957         
+fn              1.3403e-12       
+total           1.3403e-12       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2384e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              424.9036         
+fn              1.3022e-12       
+total           1.3022e-12       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4225e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              395.7274         
+fn              2.2332e-13       
+total           2.2332e-13       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4128e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              395.8716         
+fn              2.2316e-13       
+total           2.2316e-13       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.3067e-29       
+rs              3.3933e-25       
+id              3.6311e-23       
+rx              0.4240           
+fn              1.4818e-16       
+total           1.4818e-16       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              5.9868e-30       
+rs              9.9197e-26       
+id              7.9521e-23       
+rx              1.5948           
+fn              3.3797e-17       
+total           3.3797e-17       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.4094e-30       
+rs              9.0103e-26       
+id              1.9990e-23       
+rx              0.4242           
+fn              1.0156e-17       
+total           1.0156e-17       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              4.5721e-33       
+rs              2.0816e-28       
+id              5.2747e-26       
+rx              7.2816e-02       
+fn              2.5121e-20       
+total           2.5121e-20       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-34       
+1/f             0.0000e+00       
+total           1.6435e-34       
+rx              1.2195e-06       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 3.0892e-12 volt^2/hz
+#### output rms noise                            = 1.7576e-06 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 1.7578e-06 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 1.0000hz
+#### total output noise voltage                  = 0.0000e+00 volt
+#### total input noise at vv1                    = 0.0000e+00 volt
+
+
+########## noise analysis result at frequency 3.1623 ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0803e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              427.0160         
+fn              5.2265e-13       
+total           5.2265e-13       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2384e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              424.0171         
+fn              5.0778e-13       
+total           5.0779e-13       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4225e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              334.4798         
+fn              6.0753e-14       
+total           6.0758e-14       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4128e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              334.5335         
+fn              6.0711e-14       
+total           6.0715e-14       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.3067e-29       
+rs              3.3933e-25       
+id              3.6311e-23       
+rx              0.4239           
+fn              5.7780e-17       
+total           5.7780e-17       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              5.9868e-30       
+rs              9.9197e-26       
+id              7.9521e-23       
+rx              1.5631           
+fn              9.1945e-18       
+total           9.1946e-18       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.4094e-30       
+rs              9.0103e-26       
+id              1.9990e-23       
+rx              0.4221           
+fn              2.7629e-18       
+total           2.7629e-18       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              4.5721e-33       
+rs              2.0816e-28       
+id              5.2747e-26       
+rx              7.2378e-02       
+fn              6.8343e-21       
+total           6.8343e-21       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-33       
+1/f             0.0000e+00       
+total           1.6435e-33       
+rx              3.8565e-06       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 1.1520e-12 volt^2/hz
+#### output rms noise                            = 1.0733e-06 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 1.0734e-06 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 3.1623hz
+#### total output noise voltage                  = 1.9669e-06 volt
+#### total input noise at vv1                    = 1.9671e-06 volt
+
+
+########## noise analysis result at frequency 10.0000 ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0803e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              424.7846         
+fn              2.0380e-13       
+total           2.0381e-13       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2384e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              421.7686         
+fn              1.9800e-13       
+total           1.9801e-13       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4225e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              233.6391         
+fn              1.6528e-14       
+total           1.6532e-14       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4128e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              233.6157         
+fn              1.6516e-14       
+total           1.6521e-14       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.3067e-29       
+rs              3.3933e-25       
+id              3.6311e-23       
+rx              0.4237           
+fn              2.2531e-17       
+total           2.2531e-17       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              5.9868e-30       
+rs              9.9197e-26       
+id              7.9521e-23       
+rx              1.4610           
+fn              2.5014e-18       
+total           2.5015e-18       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.4094e-30       
+rs              9.0103e-26       
+id              1.9990e-23       
+rx              0.4144           
+fn              7.5165e-19       
+total           7.5167e-19       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              4.5721e-33       
+rs              2.0816e-28       
+id              5.2747e-26       
+rx              7.0831e-02       
+fn              1.8593e-21       
+total           1.8593e-21       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-32       
+1/f             0.0000e+00       
+total           1.6435e-32       
+rx              1.2195e-05       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 4.3490e-13 volt^2/hz
+#### output rms noise                            = 6.5947e-07 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 6.5953e-07 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 10.0000hz
+#### total output noise voltage                  = 2.9088e-06 volt
+#### total input noise at vv1                    = 2.9091e-06 volt
+
+
+########## noise analysis result at frequency 31.6228 ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0803e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              419.2186         
+fn              7.9471e-14       
+total           7.9476e-14       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2384e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              416.1624         
+fn              7.7210e-14       
+total           7.7215e-14       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4225e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              137.6601         
+fn              4.4964e-15       
+total           4.5009e-15       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4128e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              137.6240         
+fn              4.4933e-15       
+total           4.4978e-15       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.3067e-29       
+rs              3.3933e-25       
+id              3.6311e-23       
+rx              0.4232           
+fn              8.7857e-18       
+total           8.7857e-18       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              5.9868e-30       
+rs              9.9197e-26       
+id              7.9521e-23       
+rx              1.2073           
+fn              6.8050e-19       
+total           6.8058e-19       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.4094e-30       
+rs              9.0103e-26       
+id              1.9990e-23       
+rx              0.3895           
+fn              2.0449e-19       
+total           2.0451e-19       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              4.5721e-33       
+rs              2.0816e-28       
+id              5.2747e-26       
+rx              6.5896e-02       
+fn              5.0582e-22       
+total           5.0587e-22       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-31       
+1/f             0.0000e+00       
+total           1.6435e-31       
+rx              3.8565e-05       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 1.6570e-13 volt^2/hz
+#### output rms noise                            = 4.0706e-07 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 4.0710e-07 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 31.6228hz
+#### total output noise voltage                  = 3.7378e-06 volt
+#### total input noise at vv1                    = 3.7381e-06 volt
+
+
+########## noise analysis result at frequency 100.0000 ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0803e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              405.8896         
+fn              3.0989e-14       
+total           3.0994e-14       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2384e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              402.7501         
+fn              3.0108e-14       
+total           3.0113e-14       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4225e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              74.7492          
+fn              1.2233e-15       
+total           1.2278e-15       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4128e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              74.7251          
+fn              1.2224e-15       
+total           1.2269e-15       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.3067e-29       
+rs              3.3933e-25       
+id              3.6311e-23       
+rx              0.4219           
+fn              3.4259e-18       
+total           3.4259e-18       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              5.9868e-30       
+rs              9.9197e-26       
+id              7.9521e-23       
+rx              0.8204           
+fn              1.8513e-19       
+total           1.8521e-19       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.4094e-30       
+rs              9.0103e-26       
+id              1.9990e-23       
+rx              0.3259           
+fn              5.5630e-20       
+total           5.5651e-20       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              4.5723e-33       
+rs              2.0817e-28       
+id              5.2749e-26       
+rx              5.3909e-02       
+fn              1.3761e-22       
+total           1.3767e-22       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-30       
+1/f             0.0000e+00       
+total           1.6435e-30       
+rx              1.2195e-04       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 6.3565e-14 volt^2/hz
+#### output rms noise                            = 2.5212e-07 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 2.5214e-07 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 100.0000hz
+#### total output noise voltage                  = 4.5424e-06 volt
+#### total input noise at vv1                    = 4.5428e-06 volt
+
+
+########## noise analysis result at frequency 316.2278 ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0803e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              376.7903         
+fn              1.2084e-14       
+total           1.2089e-14       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2384e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              373.5297         
+fn              1.1740e-14       
+total           1.1745e-14       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4225e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              39.6167          
+fn              3.3279e-16       
+total           3.3728e-16       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4128e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              39.6034          
+fn              3.3256e-16       
+total           3.3705e-16       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.3067e-29       
+rs              3.3933e-25       
+id              3.6311e-23       
+rx              0.4187           
+fn              1.3359e-18       
+total           1.3359e-18       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              5.9868e-30       
+rs              9.9197e-26       
+id              7.9521e-23       
+rx              0.4756           
+fn              5.0365e-20       
+total           5.0445e-20       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.4094e-30       
+rs              9.0103e-26       
+id              1.9990e-23       
+rx              0.2249           
+fn              1.5134e-20       
+total           1.5154e-20       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              4.5738e-33       
+rs              2.0823e-28       
+id              5.2766e-26       
+rx              3.6235e-02       
+fn              3.7450e-23       
+total           3.7503e-23       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-29       
+1/f             0.0000e+00       
+total           1.6435e-29       
+rx              3.8565e-04       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 2.4510e-14 volt^2/hz
+#### output rms noise                            = 1.5656e-07 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 1.5657e-07 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 316.2278hz
+#### total output noise voltage                  = 5.3608e-06 volt
+#### total input noise at vv1                    = 5.3613e-06 volt
+
+
+########## noise analysis result at frequency 1000.0000 ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0803e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              323.7861         
+fn              4.7121e-15       
+total           4.7172e-15       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2384e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              320.5015         
+fn              4.5780e-15       
+total           4.5831e-15       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4225e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              21.0928          
+fn              9.0536e-17       
+total           9.5024e-17       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4128e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              21.0859          
+fn              9.0473e-17       
+total           9.4961e-17       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.3067e-29       
+rs              3.3933e-25       
+id              3.6311e-23       
+rx              0.4108           
+fn              5.2093e-19       
+total           5.2096e-19       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              5.9868e-30       
+rs              9.9197e-26       
+id              7.9521e-23       
+rx              0.2569           
+fn              1.3702e-20       
+total           1.3781e-20       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.4094e-30       
+rs              9.0103e-26       
+id              1.9990e-23       
+rx              0.1316           
+fn              4.1173e-21       
+total           4.1374e-21       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              4.5886e-33       
+rs              2.0891e-28       
+id              5.2937e-26       
+rx              2.0933e-02       
+fn              1.0221e-23       
+total           1.0275e-23       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-28       
+1/f             0.0000e+00       
+total           1.6435e-28       
+rx              1.2195e-03       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 9.4908e-15 volt^2/hz
+#### output rms noise                            = 9.7421e-08 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 9.7429e-08 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 1000.0000hz
+#### total output noise voltage                  = 6.2163e-06 volt
+#### total input noise at vv1                    = 6.2169e-06 volt
+
+
+########## noise analysis result at frequency 3.1623k ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0803e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              250.6154         
+fn              1.8374e-15       
+total           1.8426e-15       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2384e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              247.6541         
+fn              1.7852e-15       
+total           1.7902e-15       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4225e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              11.6860          
+fn              2.4630e-17       
+total           2.9118e-17       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4128e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              11.6827          
+fn              2.4613e-17       
+total           2.9102e-17       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.3072e-29       
+rs              3.3934e-25       
+id              3.6312e-23       
+rx              0.3924           
+fn              2.0313e-19       
+total           2.0317e-19       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              5.9869e-30       
+rs              9.9197e-26       
+id              7.9521e-23       
+rx              0.1363           
+fn              3.7276e-21       
+total           3.8072e-21       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.4095e-30       
+rs              9.0104e-26       
+id              1.9990e-23       
+rx              7.1642e-02       
+fn              1.1201e-21       
+total           1.1402e-21       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              4.7373e-33       
+rs              2.1568e-28       
+id              5.4653e-26       
+rx              1.1518e-02       
+fn              2.8709e-24       
+total           2.9257e-24       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-27       
+1/f             0.0000e+00       
+total           1.6435e-27       
+rx              3.8565e-03       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 3.6912e-15 volt^2/hz
+#### output rms noise                            = 6.0755e-08 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 6.0761e-08 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 3.1623e+03hz
+#### total output noise voltage                  = 7.1272e-06 volt
+#### total input noise at vv1                    = 7.1279e-06 volt
+
+
+########## noise analysis result at frequency 10.0000k ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0803e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              176.2500         
+fn              7.1649e-16       
+total           7.2163e-16       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2384e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              173.9498         
+fn              6.9611e-16       
+total           7.0118e-16       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4225e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              7.2456           
+fn              6.7007e-18       
+total           1.1189e-17       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4128e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              7.2442           
+fn              6.6960e-18       
+total           1.1185e-17       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.3116e-29       
+rs              3.3938e-25       
+id              3.6317e-23       
+rx              0.3547           
+fn              7.9222e-20       
+total           7.9259e-20       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              5.9870e-30       
+rs              9.9198e-26       
+id              7.9522e-23       
+rx              7.3244e-02       
+fn              1.0141e-21       
+total           1.0937e-21       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.4096e-30       
+rs              9.0117e-26       
+id              1.9993e-23       
+rx              3.8635e-02       
+fn              3.0478e-22       
+total           3.2486e-22       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              6.2246e-33       
+rs              2.8339e-28       
+id              7.1811e-26       
+rx              7.1182e-03       
+fn              1.0262e-24       
+total           1.0983e-24       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-26       
+1/f             0.0000e+00       
+total           1.6435e-26       
+rx              1.2195e-02       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 1.4453e-15 volt^2/hz
+#### output rms noise                            = 3.8017e-08 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 3.8020e-08 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 1.0000e+04hz
+#### total output noise voltage                  = 8.1113e-06 volt
+#### total input noise at vv1                    = 8.1120e-06 volt
+
+
+########## noise analysis result at frequency 31.6228k ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0804e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              116.8203         
+fn              2.7939e-16       
+total           2.8453e-16       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2384e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              115.2243         
+fn              2.7144e-16       
+total           2.7651e-16       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4227e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              5.4420           
+fn              1.8229e-18       
+total           6.3111e-18       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4130e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              5.4416           
+fn              1.8217e-18       
+total           6.3102e-18       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.3561e-29       
+rs              3.3981e-25       
+id              3.6370e-23       
+rx              0.2928           
+fn              3.0937e-20       
+total           3.0974e-20       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              5.9880e-30       
+rs              9.9209e-26       
+id              7.9531e-23       
+rx              4.1790e-02       
+fn              2.7592e-22       
+total           3.5555e-22       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.4111e-30       
+rs              9.0250e-26       
+id              2.0022e-23       
+rx              2.1832e-02       
+fn              8.3036e-23       
+total           1.0315e-22       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              2.1097e-32       
+rs              9.6049e-28       
+id              2.4338e-25       
+rx              7.4288e-03       
+fn              9.4622e-25       
+total           1.1906e-24       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-25       
+1/f             0.0000e+00       
+total           1.6435e-25       
+rx              3.8565e-02       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 5.7370e-16 volt^2/hz
+#### output rms noise                            = 2.3952e-08 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 2.3954e-08 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 3.1623e+04hz
+#### total output noise voltage                  = 9.1910e-06 volt
+#### total input noise at vv1                    = 9.1918e-06 volt
+
+
+########## noise analysis result at frequency 100.0000k ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0806e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              75.6774          
+fn              1.0895e-16       
+total           1.1409e-16       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2385e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              74.6347          
+fn              1.0585e-16       
+total           1.1092e-16       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4240e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              4.8363           
+fn              4.9593e-19       
+total           4.9841e-18       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4143e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              4.8363           
+fn              4.9558e-19       
+total           4.9841e-18       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.8009e-29       
+rs              3.4409e-25       
+id              3.6901e-23       
+rx              0.2188           
+fn              1.2240e-20       
+total           1.2277e-20       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              5.9981e-30       
+rs              9.9320e-26       
+id              7.9622e-23       
+rx              2.7586e-02       
+fn              7.5150e-23       
+total           1.5487e-22       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.4262e-30       
+rs              9.1577e-26       
+id              2.0314e-23       
+rx              1.4160e-02       
+fn              2.2920e-23       
+total           4.3325e-23       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              1.6982e-31       
+rs              7.7314e-27       
+id              1.9591e-24       
+rx              1.3692e-02       
+fn              2.0721e-24       
+total           4.0389e-24       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-24       
+1/f             0.0000e+00       
+total           1.6435e-24       
+rx              0.1220           
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 2.3499e-16 volt^2/hz
+#### output rms noise                            = 1.5329e-08 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 1.5331e-08 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 1.0000e+05hz
+#### total output noise voltage                  = 1.0405e-05 volt
+#### total input noise at vv1                    = 1.0406e-05 volt
+
+
+########## noise analysis result at frequency 316.2278k ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.0835e-25       
+rs              5.6590e-20       
+id              5.0868e-18       
+rx              49.3456          
+fn              4.2483e-17       
+total           4.7626e-17       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2392e-25       
+rs              5.5717e-20       
+id              5.0164e-18       
+rx              48.6823          
+fn              4.1274e-17       
+total           4.6346e-17       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.4276e-26       
+rs              4.4976e-21       
+id              4.4840e-18       
+rx              4.6580           
+fn              1.3482e-19       
+total           4.6233e-18       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.4372e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              4.6578           
+fn              1.3492e-19       
+total           4.6231e-18       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              8.2484e-29       
+rs              3.8692e-25       
+id              4.2208e-23       
+rx              0.1597           
+fn              5.4593e-21       
+total           5.5019e-21       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              6.0999e-30       
+rs              1.0042e-25       
+id              8.0533e-23       
+rx              2.2313e-02       
+fn              2.0679e-23       
+total           1.0131e-22       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.5779e-30       
+rs              1.0485e-25       
+id              2.3234e-23       
+rx              1.1878e-02       
+fn              7.1317e-24       
+total           3.0471e-23       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              1.6572e-30       
+rs              7.5440e-26       
+id              1.9116e-23       
+rx              3.3860e-02       
+fn              5.5004e-24       
+total           2.4692e-23       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-23       
+1/f             0.0000e+00       
+total           1.6435e-23       
+rx              0.3856           
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 1.0322e-16 volt^2/hz
+#### output rms noise                            = 1.0160e-08 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 1.0161e-08 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 3.1623e+05hz
+#### total output noise voltage                  = 1.1835e-05 volt
+#### total input noise at vv1                    = 1.1836e-05 volt
+
+
+########## noise analysis result at frequency 1000.0000k ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.1123e-25       
+rs              5.6591e-20       
+id              5.0869e-18       
+rx              33.4369          
+fn              1.6566e-17       
+total           2.1710e-17       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2468e-25       
+rs              5.5718e-20       
+id              5.0165e-18       
+rx              33.0174          
+fn              1.6095e-17       
+total           2.1167e-17       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              2.5606e-26       
+rs              4.4976e-21       
+id              4.4841e-18       
+rx              4.6083           
+fn              3.6680e-20       
+total           4.5253e-18       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              2.5697e-26       
+rs              4.4980e-21       
+id              4.4837e-18       
+rx              4.6081           
+fn              3.6705e-20       
+total           4.5249e-18       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              5.2726e-28       
+rs              8.1520e-25       
+id              9.5284e-23       
+rx              0.1566           
+fn              4.8057e-21       
+total           4.9018e-21       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              1.6549e-29       
+rs              7.5238e-25       
+id              1.9065e-22       
+rx              9.7882e-02       
+fn              1.4924e-23       
+total           2.0633e-22       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6435e-22       
+1/f             0.0000e+00       
+total           1.6435e-22       
+rx              1.2195           
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              7.1183e-30       
+rs              1.1148e-25       
+id              8.9643e-23       
+rx              2.1722e-02       
+fn              6.2620e-24       
+total           9.6017e-23       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              3.2020e-30       
+rs              2.3754e-25       
+id              5.2439e-23       
+rx              1.6254e-02       
+fn              4.3789e-24       
+total           5.7056e-23       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 5.1932e-17 volt^2/hz
+#### output rms noise                            = 7.2064e-09 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 7.2070e-09 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9999
+
+#### integral value of noise from 1.0000hz to 1.0000e+06hz
+#### total output noise voltage                  = 1.3685e-05 volt
+#### total input noise at vv1                    = 1.3686e-05 volt
+
+
+########## noise analysis result at frequency 3.1623x ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              8.4002e-25       
+rs              5.6601e-20       
+id              5.0880e-18       
+rx              24.4823          
+fn              6.4612e-18       
+total           1.1606e-17       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.3224e-25       
+rs              5.5727e-20       
+id              5.0173e-18       
+rx              24.2113          
+fn              6.2769e-18       
+total           1.1350e-17       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              3.8909e-26       
+rs              4.4984e-21       
+id              4.4853e-18       
+rx              4.5953           
+fn              9.9815e-21       
+total           4.4998e-18       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              3.8943e-26       
+rs              4.4985e-21       
+id              4.4840e-18       
+rx              4.5946           
+fn              9.9862e-21       
+total           4.4985e-18       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              4.9762e-27       
+rs              5.0988e-24       
+id              6.2614e-22       
+rx              0.2586           
+fn              1.2314e-20       
+total           1.2946e-20       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              1.6724e-28       
+rs              7.5082e-24       
+id              1.9025e-21       
+rx              0.3010           
+fn              4.0517e-23       
+total           1.9506e-21       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6438e-21       
+1/f             0.0000e+00       
+total           1.6438e-21       
+rx              3.8568           
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              3.0117e-29       
+rs              1.5632e-24       
+id              3.4454e-22       
+rx              4.0484e-02       
+fn              7.8272e-24       
+total           3.5394e-22       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              1.7411e-29       
+rs              2.2213e-25       
+id              1.8076e-22       
+rx              3.0105e-02       
+fn              3.4352e-24       
+total           1.8442e-22       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 3.1971e-17 volt^2/hz
+#### output rms noise                            = 5.6543e-09 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 5.6543e-09 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 1.0000
+
+#### integral value of noise from 1.0000hz to 3.1623e+06hz
+#### total output noise voltage                  = 1.6455e-05 volt
+#### total input noise at vv1                    = 1.6457e-05 volt
+
+
+########## noise analysis result at frequency 10.0000x ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              1.1285e-24       
+rs              5.6703e-20       
+id              5.0983e-18       
+rx              19.9263          
+fn              2.5246e-18       
+total           7.6796e-18       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              9.0791e-25       
+rs              5.5809e-20       
+id              5.0245e-18       
+rx              19.7333          
+fn              2.4512e-18       
+total           7.5315e-18       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              1.7226e-25       
+rs              4.5057e-21       
+id              4.4969e-18       
+rx              4.5975           
+fn              2.7225e-21       
+total           4.5042e-18       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              1.7157e-25       
+rs              4.5033e-21       
+id              4.4865e-18       
+rx              4.5922           
+fn              2.7183e-21       
+total           4.4938e-18       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              4.9591e-26       
+rs              4.8015e-23       
+id              5.9446e-21       
+rx              0.5195           
+fn              4.5589e-20       
+total           5.1582e-20       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              1.8475e-27       
+rs              7.3734e-23       
+id              1.8683e-20       
+rx              0.9360           
+fn              1.0824e-22       
+total           1.8865e-20       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6466e-20       
+1/f             0.0000e+00       
+total           1.6466e-20       
+rx              12.2070          
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.3471e-27       
+rs              1.4703e-23       
+id              3.2711e-21       
+rx              0.1237           
+fn              2.0217e-23       
+total           3.3061e-21       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              1.3084e-28       
+rs              1.3425e-24       
+id              1.0939e-21       
+rx              7.3553e-02       
+fn              5.6554e-24       
+total           1.1009e-21       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 2.4300e-17 volt^2/hz
+#### output rms noise                            = 4.9295e-09 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 4.9261e-09 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 1.0007
+
+#### integral value of noise from 1.0000hz to 1.0000e+07hz
+#### total output noise voltage                  = 2.1313e-05 volt
+#### total input noise at vv1                    = 2.1312e-05 volt
+
+
+########## noise analysis result at frequency 31.6228x ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              4.0531e-24       
+rs              5.7499e-20       
+id              5.1820e-18       
+rx              17.9658          
+fn              1.0006e-18       
+total           6.2401e-18       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              1.6700e-24       
+rs              5.6411e-20       
+id              5.0774e-18       
+rx              17.7626          
+fn              9.6589e-19       
+total           6.0997e-18       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              1.5316e-24       
+rs              4.5617e-21       
+id              4.5966e-18       
+rx              4.6472           
+fn              7.5707e-22       
+total           4.6019e-18       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              1.5086e-24       
+rs              4.5324e-21       
+id              4.4936e-18       
+rx              4.5949           
+fn              7.4068e-22       
+total           4.4989e-18       
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              5.0633e-25       
+rs              4.8327e-22       
+id              5.9894e-20       
+rx              1.1222           
+fn              1.7911e-19       
+total           2.3949e-19       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6687e-19       
+1/f             0.0000e+00       
+total           1.6687e-19       
+rx              38.8592          
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              3.3146e-26       
+rs              6.2687e-22       
+id              1.5878e-19       
+rx              2.7229           
+fn              2.5027e-22       
+total           1.5966e-19       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.0327e-25       
+rs              1.3637e-22       
+id              3.2963e-20       
+rx              0.3918           
+fn              5.5423e-23       
+total           3.3155e-20       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              2.0751e-27       
+rs              1.3617e-23       
+id              1.0355e-20       
+rx              0.2259           
+fn              1.4565e-23       
+total           1.0383e-20       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 2.2050e-17 volt^2/hz
+#### output rms noise                            = 4.6958e-09 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 4.6696e-09 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 1.0056
+
+#### integral value of noise from 1.0000hz to 3.1623e+07hz
+#### total output noise voltage                  = 3.0717e-05 volt
+#### total input noise at vv1                    = 3.0669e-05 volt
+
+
+########## noise analysis result at frequency 100.0000x ##########
+hierarchy        xi0              
+device           1:mnm1           
+rd              3.0667e-23       
+rs              5.3382e-20       
+id              4.9198e-18       
+rx              16.6268          
+fn              3.7044e-19       
+total           5.3437e-18       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              8.2345e-24       
+rs              5.0652e-20       
+id              4.5471e-18       
+rx              15.9784          
+fn              3.3730e-19       
+total           4.9351e-18       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              1.4466e-23       
+rs              4.1622e-21       
+id              4.5691e-18       
+rx              4.6328           
+fn              2.0473e-22       
+total           4.5735e-18       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              1.3017e-23       
+rs              3.9012e-21       
+id              3.7109e-18       
+rx              4.1754           
+fn              1.6640e-22       
+total           3.7149e-18       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.5378e-18       
+1/f             0.0000e+00       
+total           1.5378e-18       
+rx              117.9675         
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              5.0433e-24       
+rs              4.4348e-21       
+id              5.5042e-19       
+rx              2.5109           
+fn              6.4185e-19       
+total           1.1967e-18       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              8.1338e-25       
+rs              2.4649e-21       
+id              6.2215e-19       
+rx              5.3868           
+fn              2.6678e-22       
+total           6.2489e-19       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              4.4415e-24       
+rs              8.9663e-22       
+id              3.0312e-19       
+rx              1.1868           
+fn              1.3865e-22       
+total           3.0416e-19       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              2.9791e-26       
+rs              1.3632e-22       
+id              8.9423e-20       
+rx              0.6635           
+fn              3.4217e-23       
+total           8.9594e-20       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 2.2320e-17 volt^2/hz
+#### output rms noise                            = 4.7244e-09 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 4.9891e-09 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.9470
+
+#### integral value of noise from 1.0000hz to 1.0000e+08hz
+#### total output noise voltage                  = 4.9825e-05 volt
+#### total input noise at vv1                    = 5.0035e-05 volt
+
+
+########## noise analysis result at frequency 316.2278x ##########
+hierarchy        xi0              
+device           1:rr1            
+rs              1.0612e-18       
+1/f             0.0000e+00       
+total           1.0612e-18       
+rx              97.9952          
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              6.1139e-24       
+rs              3.0515e-21       
+id              3.8354e-19       
+rx              1.7198           
+fn              1.7440e-19       
+total           5.6099e-19       
+
+hierarchy        xi0              
+device           1:mnm1           
+rd              2.2348e-23       
+rs              4.1660e-21       
+id              4.4304e-19       
+rx              4.8797           
+fn              1.3008e-20       
+total           4.6024e-19       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              1.1448e-23       
+rs              2.0491e-22       
+id              3.8619e-19       
+rx              1.3466           
+fn              4.7076e-24       
+total           3.8641e-19       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              4.0090e-24       
+rs              2.7556e-21       
+id              2.4105e-19       
+rx              3.6021           
+fn              6.9725e-21       
+total           2.5078e-19       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              9.2778e-24       
+rs              1.8988e-22       
+id              2.1427e-19       
+rx              1.0032           
+fn              2.6139e-24       
+total           2.1447e-19       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              1.0081e-23       
+rs              3.5108e-22       
+id              2.1136e-19       
+rx              0.9902           
+fn              2.6302e-23       
+total           2.1175e-19       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              1.2071e-24       
+rs              4.0272e-22       
+id              9.8186e-20       
+rx              2.1398           
+fn              1.1454e-23       
+total           9.8602e-20       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              4.9737e-26       
+rs              4.5198e-23       
+id              3.7671e-20       
+rx              0.4305           
+fn              3.9215e-24       
+total           3.7720e-20       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 3.2822e-18 volt^2/hz
+#### output rms noise                            = 1.8117e-09 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 8.4613e-09 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 0.2141
+
+#### integral value of noise from 1.0000hz to 3.1623e+08hz
+#### total output noise voltage                  = 6.9625e-05 volt
+#### total input noise at vv1                    = 1.0846e-04 volt
+
+
+########## noise analysis result at frequency 1000.0000x ##########
+hierarchy        xi0              
+device           1:rr1            
+rs              9.1130e-20       
+1/f             0.0000e+00       
+total           9.1130e-20       
+rx              28.7171          
+
+hierarchy        xi0              
+device           1:mnm2           
+rd              3.0042e-24       
+rs              3.1127e-22       
+id              4.2721e-20       
+rx              0.5166           
+fn              7.5750e-21       
+total           5.0610e-20       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              4.7247e-24       
+rs              2.5756e-23       
+id              2.3545e-20       
+rx              0.3304           
+fn              7.9709e-25       
+total           2.3576e-20       
+
+hierarchy        xi0              
+device           1:mnm1           
+rd              4.6720e-24       
+rs              1.0708e-22       
+id              1.2506e-20       
+rx              0.8125           
+fn              1.4318e-22       
+total           1.2761e-20       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              3.5166e-24       
+rs              8.9940e-25       
+id              1.1012e-20       
+rx              0.2274           
+fn              3.6545e-26       
+total           1.1016e-20       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              1.7554e-24       
+rs              2.1215e-24       
+id              4.0041e-21       
+rx              0.1371           
+fn              1.3279e-26       
+total           4.0080e-21       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              8.4213e-26       
+rs              7.6456e-25       
+id              1.8350e-21       
+rx              9.4987e-02       
+fn              5.1969e-26       
+total           1.8359e-21       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              1.7146e-25       
+rs              7.7181e-24       
+id              1.4036e-21       
+rx              0.2560           
+fn              4.4544e-26       
+total           1.4115e-21       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              1.1911e-25       
+rs              1.0371e-23       
+id              7.2261e-22       
+rx              0.1958           
+fn              8.1505e-24       
+total           7.4125e-22       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 1.9709e-19 volt^2/hz
+#### output rms noise                            = 4.4395e-10 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 3.4065e-08 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 1.3032e-02
+
+#### integral value of noise from 1.0000hz to 1.0000e+09hz
+#### total output noise voltage                  = 7.3663e-05 volt
+#### total input noise at vv1                    = 7.3653e-04 volt
+
+
+########## noise analysis result at frequency 3.1623g ##########
+hierarchy        xi0              
+device           1:mnm2           
+rd              1.5247e-24       
+rs              2.4171e-23       
+id              4.0230e-21       
+rx              0.1511           
+fn              2.7816e-22       
+total           4.3269e-21       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              3.3462e-21       
+1/f             0.0000e+00       
+total           3.3462e-21       
+rx              5.5028           
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              3.6654e-24       
+rs              2.6041e-24       
+id              2.2161e-21       
+rx              0.1014           
+fn              2.0411e-26       
+total           2.2224e-21       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              8.1160e-25       
+rs              2.6540e-24       
+id              2.9414e-22       
+rx              3.7371e-02       
+fn              2.6557e-28       
+total           2.9760e-22       
+
+hierarchy        xi0              
+device           1:mnm1           
+rd              9.2433e-25       
+rs              4.5688e-24       
+id              2.7116e-22       
+rx              0.1199           
+fn              1.2106e-24       
+total           2.7787e-22       
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              6.8863e-26       
+rs              4.9591e-26       
+id              1.2832e-22       
+rx              2.5123e-02       
+fn              9.8864e-28       
+total           1.2844e-22       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              5.5403e-25       
+rs              6.3449e-24       
+id              6.2937e-23       
+rx              1.8103e-02       
+fn              5.6782e-29       
+total           6.9836e-23       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              1.8052e-26       
+rs              2.8792e-25       
+id              1.4787e-23       
+rx              2.6474e-02       
+fn              1.2767e-28       
+total           1.5093e-23       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              9.3313e-27       
+rs              2.4680e-25       
+id              5.6653e-24       
+rx              1.7540e-02       
+fn              2.4918e-26       
+total           5.9464e-24       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 1.0690e-20 volt^2/hz
+#### output rms noise                            = 1.0339e-10 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 2.4931e-09 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 4.1472e-02
+
+#### integral value of noise from 1.0000hz to 3.1623e+09hz
+#### total output noise voltage                  = 7.4393e-05 volt
+#### total input noise at vv1                    = 8.8442e-04 volt
+
+
+########## noise analysis result at frequency 10.0000g ##########
+hierarchy        xi0              
+device           1:mnm2           
+rd              1.1446e-24       
+rs              2.2930e-24       
+id              3.9262e-22       
+rx              4.6314e-02       
+fn              1.0586e-23       
+total           4.0665e-22       
+
+hierarchy        xi0              
+device           1:mpm4           
+rd              3.5029e-24       
+rs              5.2107e-25       
+id              2.1624e-22       
+rx              3.1937e-02       
+fn              5.4181e-28       
+total           2.2026e-22       
+
+hierarchy        xi0              
+device           1:rr1            
+rs              1.6136e-22       
+1/f             0.0000e+00       
+total           1.6136e-22       
+rx              1.2084           
+
+hierarchy        xi0              
+device           1:mpm3           
+rd              6.3989e-26       
+rs              2.6319e-26       
+id              1.1861e-23       
+rx              7.6636e-03       
+fn              2.4860e-29       
+total           1.1951e-23       
+
+hierarchy        xi0              
+device           1:mpm0           
+rd              3.9137e-25       
+rs              6.4334e-24       
+id              3.3893e-24       
+rx              6.9234e-03       
+fn              8.3188e-31       
+total           1.0214e-23       
+
+hierarchy        xi0              
+device           1:mpm1           
+rd              9.8948e-26       
+rs              3.8597e-24       
+id              5.9956e-24       
+rx              6.8348e-03       
+fn              1.4727e-30       
+total           9.9543e-24       
+
+hierarchy        xi0              
+device           1:mnm1           
+rd              1.3718e-25       
+rs              8.6372e-25       
+id              4.8810e-24       
+rx              1.7458e-02       
+fn              8.4972e-27       
+total           5.8904e-24       
+
+hierarchy        xi0              
+device           1:mnm0           
+rd              2.8133e-26       
+rs              5.7238e-25       
+id              1.7061e-24       
+rx              1.0931e-02       
+fn              2.9260e-27       
+total           2.3095e-24       
+
+hierarchy        xi0              
+device           1:mpm2           
+rd              3.5174e-27       
+rs              4.5857e-26       
+id              2.8809e-25       
+rx              3.9586e-03       
+fn              6.7667e-31       
+total           3.3747e-25       
+
+hierarchy        xi0              
+device           1:rr0            
+rs              0.0000e+00       
+1/f             0.0000e+00       
+total           0.0000e+00       
+rx              0.0000e+00       
+
+#### output noise voltage                        = 8.2893e-22 volt^2/hz
+#### output rms noise                            = 2.8791e-11 volt/hz^(1/2)
+#### equivalent input noise at vv1               = 6.1606e-10 /hz^(1/2)
+#### transfer function v(vout,0)/vv1             = 4.6734e-02
+
+#### integral value of noise from 1.0000hz to 1.0000e+10hz
+#### total output noise voltage                  = 7.4529e-05 volt
+#### total input noise at vv1                    = 8.9027e-04 volt
+
+
+================================================================================
+2021-12-08 17:10 : Simulation Engine Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 131944 KB
+================================================================================
+
+Note: Average threads: 1.
+
+############################### time statistics ################################
+
+       scope       wall time        cpu time            step
+       parse            0.02            0.28
+        elab            0.07            0.08
+          op            0.01               0              38
+       noise            0.02            0.01             201
+       total           10.32            0.45
+
+Note: peak memory = 131948 KB
+
+Note: Simulation starts at 17:10:19, Wed Dec 08, 2021.
+
+Note: Simulation finishes at 17:10:29, Wed Dec 08, 2021.
+
+Note: Total elapsed time 10s.
+
+Simulation completes with 0 error(s), 0 warning(s), and 12 notice(s).

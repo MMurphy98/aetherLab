@@ -1,0 +1,52 @@
+*Question2
+****************************************
+* Tool     : AETHER-SE
+* Date     : Wed Dec  8 16:44:11 2021
+* User     : wangyining
+* Top Design : final/Question2/schematic
+****************************************
+
+.GLOBAL
+
+****************************************
+* Library : final
+* Cell    : Answer2
+* View    : schematic_qiaoyan_exam
+****************************************
+
+.SUBCKT Answer2 ibp vinn vinp vout gnda vdda
+MNM1 net2 net4 gnda gnda n18 L=700n W=80u AD=38.4p AS=38.4p PD=160.96u 
++PS=160.96u M=1
+MNM2 vout net2 gnda gnda n18 L=250n W=28u AD=7.56p AS=8.736p PD=28.54u 
++PS=34.224u M=10
+MNM0 net4 net4 gnda gnda n18 L=700n W=80u AD=38.4p AS=38.4p PD=160.96u 
++PS=160.96u M=1
+MPM4 vout vbp1 vdda vdda p18 L=500n W=43.6u AD=11.772p AS=13.6032p PD=44.14u 
++PS=52.944u M=10
+MPM3 net7 vbp1 vdda vdda p18 L=500n W=12.1u AD=3.267p AS=3.7752p PD=12.64u 
++PS=15.144u M=10
+MPM2 vbp1 vbp1 vdda vdda p18 L=500n W=39u AD=18.72p AS=18.72p PD=78.96u 
++PS=78.96u M=1
+MPM1 net2 vinp net7 net7 p18 L=700n W=28u AD=7.56p AS=8.736p PD=28.54u 
++PS=34.224u M=10
+MPM0 net4 vinn net7 net7 p18 L=700n W=28u AD=7.56p AS=8.736p PD=28.54u 
++PS=34.224u M=10
+CC0 net3 vout 3p
+RR0 ibp vbp1 0
+RR1 net2 net3 150
+.ENDS Answer2
+
+****************************************
+* Library : final
+* Cell    : Question2
+* View    : schematic
+****************************************
+
+**TopDesStart
+XI0 net9 vinn vin vout 0 vdda Answer2
+VV2 vout vinn DC 0 AC 1
+VV1 vin 0 DC 0.9
+VV0 vdda 0 DC 1.8
+II1 net9 0 DC 100u
+CC0 vout 0 10p
+**TopDesEnd

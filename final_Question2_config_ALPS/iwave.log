@@ -1,0 +1,11 @@
+###1: open_file /home/undergrad18/wangyining/Under19/final/Simulation/final_Question2_config_ALPS/final_Question2_config_Nominal.sp.sim/final_Question2_config_Nominal.sp.ac0
+open_file final_Question2_config_Nominal.sp.ac0: OK
+dialog_status -calc {visible: 1}
+###2: calc max(db(mag(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&)))
+calc max(db(mag("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))) :7.770e+01
+###3: calc phase_m(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&)
+calc phase_m("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]") :6.521e+01
+###4: calc max(mag(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&))*cross(db(mag(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&)),max(db(mag(&f<0>::s<v(vout)>@0#&/&f<0>::s<v(vinn)>@0#&)))-3,1)
+calc max(mag("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]"))*cross(db(mag("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")),max(db(mag("f<0>::s<v(vout)>[0]"/"f<0>::s<v(vinn)>[0]")))-3,1) :1.160e+08
+###5: exit
+exit
