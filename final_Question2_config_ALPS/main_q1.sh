@@ -6,7 +6,7 @@ LIBNAME="final"
 CELLNAME="Question1"
 CELLVIEWNAME="config"
 
-pwd="/home/undergrad18/wangyining/Desktop/Test"
+pwd="/home/undergrad19/Jinge/Under19"
 
 IWAVE_FILE="iwave.log"
 TCL_FILE="calculated.tcl"

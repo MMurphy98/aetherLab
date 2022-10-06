@@ -1,7 +1,7 @@
 #!/bin/bash
   
 #### PATH DEDINITION ####
-pwd="/home/undergrad18/wangyining/Under19/"
+pwd="/home/undergrad19/Jinge/Under19/"
 LIBNAME="final"
 CELLNAME="Question2"
 CELLVIEWNAME="config"
